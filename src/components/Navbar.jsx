@@ -118,15 +118,25 @@ const Navbar = () => {
               );
             })}
             {user ? (
-                <Button onClick={handleSignOut} variant="outline" size="sm">
-                  <LogOut className="mr-2 h-4 w-4" />
-                  Sign Out
-                </Button>
+                <>
+                  <Button onClick={handleSignOut} variant="outline" size="sm">
+                    <LogOut className="mr-2 h-4 w-4" />
+                    Sign Out
+                  </Button>
+                </>
             ) : (
-                <Button onClick={handleAOGSupportClick} className="rounded-md bg-blue-600 hover:bg-red-600 text-white font-semibold transition-colors duration-300 flex items-center gap-2">
-                    <AlertCircle className="w-4 h-4" />
-                    AOG Support
-                </Button>
+                <>
+                  <Link to="/login">
+                    <Button variant="outline" size="sm" className="border-blue-600 text-blue-600 hover:bg-blue-50">
+                      <LogOut className="mr-2 h-4 w-4 rotate-180" />
+                      Employee Login
+                    </Button>
+                  </Link>
+                  <Button onClick={handleAOGSupportClick} className="rounded-md bg-blue-600 hover:bg-red-600 text-white font-semibold transition-colors duration-300 flex items-center gap-2">
+                      <AlertCircle className="w-4 h-4" />
+                      AOG Support
+                  </Button>
+                </>
             )}
             <LanguageSwitcher />
           </div>
@@ -204,13 +214,24 @@ const Navbar = () => {
                     Sign Out
                   </Button>
                 ) : (
-                  <Button 
-                    onClick={handleAOGSupportClick} 
-                    className="w-full py-3 bg-red-600 hover:bg-red-500 text-white font-semibold flex items-center gap-2 justify-center"
-                  >
-                    <AlertCircle className="w-5 h-5" />
-                    AOG Support
-                  </Button>
+                  <>
+                    <Link to="/login" onClick={() => setIsOpen(false)}>
+                      <Button 
+                        variant="outline"
+                        className="w-full py-3 border-blue-600 text-blue-600 hover:bg-blue-50"
+                      >
+                        <LogOut className="mr-2 h-5 w-5 rotate-180" />
+                        Employee Login
+                      </Button>
+                    </Link>
+                    <Button 
+                      onClick={handleAOGSupportClick} 
+                      className="w-full py-3 bg-red-600 hover:bg-red-500 text-white font-semibold flex items-center gap-2 justify-center"
+                    >
+                      <AlertCircle className="w-5 h-5" />
+                      AOG Support
+                    </Button>
+                  </>
                 )}
                 <div className="flex justify-center">
                   <LanguageSwitcher />

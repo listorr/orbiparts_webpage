@@ -18,6 +18,7 @@ import GlobalReach from '@/pages/GlobalReach';
 import AssetLibrary from '@/pages/AssetLibrary';
 import ComponentsAdmin from '@/pages/ComponentsAdmin';
 import AdminLogin from '@/pages/AdminLogin';
+import EmployeeLogin from '@/pages/EmployeeLogin';
 import Blog from '@/pages/Blog';
 import Top10AircraftPartsSuppliers2025 from '@/pages/blog/Top10AircraftPartsSuppliers2025';
 // New blog post components (to be created)
@@ -80,6 +81,7 @@ function AppContent() {
           <Route path="/blog/global-aircraft-parts-supply-chains" element={<GlobalAircraftPartsSupplyChains />} />
           <Route path="/blog/technology-trends-aircraft-component-management" element={<TechnologyTrendsComponentManagement />} />
           
+          <Route path="/login" element={user ? <Navigate to="/" /> : <EmployeeLogin />} />
           <Route path="/admin/login" element={user ? <Navigate to="/admin/asset-library" /> : <AdminLogin />} />
           <Route 
             path="/admin/asset-library" 
