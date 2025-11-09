@@ -36,12 +36,7 @@ jobs:
           name: site-dist
           path: dist
 
-      - name: Remove sync state to force fresh deployment
-        run: |
-          echo "🗑️ Removing local sync state to force fresh upload"
-          rm -f dist/.ftp-deploy-sync-state.json
-
-      - name: Deploy via FTP to Hostinger
+      - name: Deploy via FTP to Hostinger (Clean Slate)
         if: success()
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
@@ -52,10 +47,8 @@ jobs:
           port: 21
           local-dir: dist/
           server-dir: /domains/orbiparts.com/public_html/
-          log-level: verbose
-          dangerous-clean-slate: false
-          exclude: |
-            **/.ftp-deploy-sync-state.json
+          log-level: standard
+          dangerous-clean-slate: true
 
       - name: Purge cache (optional curl call)
         if: success() && env.CACHE_PURGE_URL != ''
