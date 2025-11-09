@@ -8,6 +8,7 @@ import BrandLogo from '@/components/BrandLogo';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import { useAuth } from '@/contexts/SupabaseAuthContext';
 
+// Updated: Nov 9, 2025 - Employee Login button styling
 const Navbar = () => {
   const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
