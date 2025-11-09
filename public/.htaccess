@@ -3,6 +3,13 @@
   DirectoryIndex index.html index.php
   RewriteEngine On
   RewriteBase /
+  
+  # Don't rewrite requests for assets folder
+  RewriteCond %{REQUEST_URI} ^/assets/ [OR]
+  RewriteCond %{REQUEST_URI} \.(js|css|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot)$ [NC]
+  RewriteRule ^ - [L]
+  
+  # For all other requests, serve index.html if file/directory doesn't exist
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule ^ index.html [L]
