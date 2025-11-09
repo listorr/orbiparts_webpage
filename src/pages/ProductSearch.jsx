@@ -146,6 +146,10 @@ const ProductSearch = () => {
         let partsToShow = [];
 
         if (error || !supabaseData || supabaseData.length === 0) {
+          // Silently handle missing table - use fallback data
+          if (error && !error.message?.includes('does not exist')) {
+            console.warn('Wanted parts fetch warning:', error.message);
+          }
           // Si no hay datos en Supabase, usar datos de ejemplo
           // Fallback to mock data when Supabase returns empty or errors in local dev
           partsToShow = [
