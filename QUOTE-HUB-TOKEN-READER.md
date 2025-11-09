@@ -1,12 +1,24 @@
 # Quote Hub - Automatic Token Reading Implementation
 
+## ⚠️ PROBLEMA ACTUAL
+
+**Síntoma**: Después de hacer login en orbiparts.com, te redirige a quote.orbiparts.com pero **tienes que volver a hacer login**.
+
+**Causa**: Quote Hub NO está leyendo los tokens que orbiparts.com pasa en el URL hash.
+
 ## 📋 Objetivo
 Configurar el Quote Hub para leer automáticamente los tokens de autenticación que se pasan desde orbiparts.com/login en el URL hash.
 
 ## 🔧 Implementación
 
+### Repositorio
+```bash
+git clone https://github.com/listorr/aero-quote-hub.git
+cd aero-quote-hub
+```
+
 ### Archivo a Modificar
-**Ruta**: `src/hooks/useAuth/AuthProvider.tsx` (en el repo aero-quote-hub)
+**Ruta**: `src/hooks/useAuth/AuthProvider.tsx`
 
 ### Código a Agregar
 
