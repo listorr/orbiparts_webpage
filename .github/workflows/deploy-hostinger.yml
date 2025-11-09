@@ -53,7 +53,7 @@ jobs:
           local-dir: dist/
           server-dir: /domains/orbiparts.com/public_html/
           log-level: verbose
-          dangerous-clean-slate: false
+          dangerous-clean-slate: true
 
       - name: Purge cache (optional curl call)
         if: success() && env.CACHE_PURGE_URL != ''
