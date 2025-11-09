@@ -53,7 +53,9 @@ jobs:
           local-dir: dist/
           server-dir: /domains/orbiparts.com/public_html/
           log-level: verbose
-          dangerous-clean-slate: true
+          dangerous-clean-slate: false
+          exclude: |
+            **/.ftp-deploy-sync-state.json
 
       - name: Purge cache (optional curl call)
         if: success() && env.CACHE_PURGE_URL != ''
