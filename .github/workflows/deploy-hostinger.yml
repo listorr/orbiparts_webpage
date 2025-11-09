@@ -36,6 +36,11 @@ jobs:
           name: site-dist
           path: dist
 
+      - name: Remove sync state to force fresh deployment
+        run: |
+          echo "🗑️ Removing local sync state to force fresh upload"
+          rm -f dist/.ftp-deploy-sync-state.json
+
       - name: Deploy via FTP to Hostinger
         if: success()
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
