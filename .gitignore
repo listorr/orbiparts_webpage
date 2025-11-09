@@ -22,6 +22,12 @@ dist-ssr
 # Dependencies
 node_modules
 
+# Nested exported repo folder (prevent accidental submodule commit)
+orbiparts_webpage/
+
+# GitHub Actions artifacts
+.github/*.log
+
 # Logs
 logs
 *.log
