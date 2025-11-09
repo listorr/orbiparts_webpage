@@ -1,0 +1,689 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ORBIPARTS - Imágenes Curadas</title>
+	<style>
+		* { margin: 0; padding: 0; box-sizing: border-box; }
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+			background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+			padding: 20px;
+			min-height: 100vh;
+		}
+		.container {
+			max-width: 1400px;
+			margin: 0 auto;
+		}
+		.header {
+			background: white;
+			padding: 40px;
+			border-radius: 16px;
+			margin-bottom: 30px;
+			box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+		}
+		.header h1 {
+			font-size: 36px;
+			background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			margin-bottom: 15px;
+		}
+		.header p {
+			color: #64748b;
+			font-size: 18px;
+			line-height: 1.6;
+		}
+		.stats {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+			gap: 15px;
+			margin-top: 20px;
+		}
+		.stat-card {
+			background: #f8fafc;
+			padding: 20px;
+			border-radius: 12px;
+			text-align: center;
+			border: 2px solid #e2e8f0;
+		}
+		.stat-number {
+			font-size: 32px;
+			font-weight: 700;
+			color: #667eea;
+		}
+		.stat-label {
+			font-size: 14px;
+			color: #64748b;
+			margin-top: 5px;
+		}
+		.blog-section {
+			background: white;
+			padding: 30px;
+			border-radius: 16px;
+			margin-bottom: 25px;
+			box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+		}
+		.blog-title {
+			font-size: 26px;
+			color: #1e293b;
+			margin-bottom: 25px;
+			padding-bottom: 15px;
+			border-bottom: 3px solid #667eea;
+		}
+		.images-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+			gap: 25px;
+		}
+		.image-card {
+			background: #f8fafc;
+			border-radius: 12px;
+			overflow: hidden;
+			box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+			transition: all 0.3s ease;
+		}
+		.image-card:hover {
+			transform: translateY(-8px);
+			box-shadow: 0 12px 24px rgba(102, 126, 234, 0.3);
+		}
+		.image-wrapper {
+			position: relative;
+			width: 100%;
+			height: 250px;
+			overflow: hidden;
+			background: #e2e8f0;
+		}
+		.image-wrapper img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		.image-info {
+			padding: 20px;
+		}
+		.image-name {
+			font-size: 16px;
+			font-weight: 600;
+			color: #1e293b;
+			margin-bottom: 8px;
+		}
+		.image-desc {
+			font-size: 14px;
+			color: #64748b;
+			margin-bottom: 10px;
+			line-height: 1.5;
+		}
+		.image-context {
+			font-size: 13px;
+			color: #10b981;
+			background: #d1fae5;
+			padding: 8px 12px;
+			border-radius: 8px;
+			margin-bottom: 15px;
+		}
+		.download-btn {
+			width: 100%;
+			background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+			color: white;
+			border: none;
+			padding: 12px 20px;
+			border-radius: 8px;
+			font-size: 14px;
+			font-weight: 600;
+			cursor: pointer;
+			transition: all 0.3s ease;
+		}
+		.download-btn:hover {
+			transform: scale(1.05);
+			box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+		}
+		.download-all {
+			position: fixed;
+			bottom: 30px;
+			right: 30px;
+			background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+			color: white;
+			border: none;
+			padding: 18px 36px;
+			border-radius: 50px;
+			font-size: 18px;
+			font-weight: 700;
+			cursor: pointer;
+			box-shadow: 0 10px 30px rgba(16, 185, 129, 0.4);
+			z-index: 1000;
+			transition: all 0.3s ease;
+		}
+		.download-all:hover {
+			transform: scale(1.1);
+			box-shadow: 0 15px 40px rgba(16, 185, 129, 0.5);
+		}
+		.instructions {
+			background: #fef3c7;
+			border: 2px solid #fbbf24;
+			padding: 20px;
+			border-radius: 12px;
+			margin-bottom: 25px;
+		}
+		.instructions h3 {
+			color: #92400e;
+			margin-bottom: 10px;
+		}
+		.instructions ol {
+			margin-left: 20px;
+			color: #78350f;
+		}
+		.instructions li {
+			margin: 8px 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>🛫 ORBIPARTS - Imágenes Curadas</h1>
+			<p>
+				Estas imágenes han sido <strong>seleccionadas manualmente</strong> considerando el contexto 
+				de ORBIPARTS como distribuidor de partes de aeronaves, motores, servicios MRO y logística.
+			</p>
+			<div class="stats">
+				<div class="stat-card">
+					<div class="stat-number">27</div>
+					<div class="stat-label">Imágenes Curadas</div>
+				</div>
+				<div class="stat-card">
+					<div class="stat-number">100%</div>
+					<div class="stat-label">Sin Watermarks</div>
+				</div>
+				<div class="stat-card">
+					<div class="stat-number">7</div>
+					<div class="stat-label">Blogs Cubiertos</div>
+				</div>
+				<div class="stat-card">
+					<div class="stat-number">✅</div>
+					<div class="stat-label">Uso Comercial</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="instructions">
+			<h3>📋 Instrucciones de Descarga</h3>
+			<ol>
+				<li><strong>Opción 1:</strong> Haz clic en "Descargar" en cada imagen individual</li>
+				<li><strong>Opción 2:</strong> Haz clic en "⬇️ Descargar Todas" (botón verde abajo a la derecha)</li>
+				<li>Las imágenes se descargarán con el nombre correcto: <code>blog-slug-imageName.jpg</code></li>
+				<li>Guárdalas en la carpeta <code>media-staging/</code> de tu proyecto</li>
+				<li>Luego súbelas a Supabase siguiendo <code>docs/supabase-media.md</code></li>
+			</ol>
+		</div>
+
+		<div class="blog-section">
+			<h2 class="blog-title">Top 10 Aircraft Parts Suppliers 2025</h2>
+			<div class="images-grid">
+		
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/15497208/pexels-photo-15497208.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Almacén de partes de aviones con componentes organizados" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 hero</div>
+					<div class="image-desc">Almacén de partes de aviones con componentes organizados</div>
+					<div class="image-context">✅ Relevante para ORBIPARTS: inventario de partes aeronáuticas</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/15497208/pexels-photo-15497208.jpeg?auto=compress&cs=tinysrgb&w=1920', 'top-10-aircraft-parts-suppliers-2025-hero.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			</div>
+		</div>
+		
+		<div class="blog-section">
+			<h2 class="blog-title">Future Of Legacy Aircraft</h2>
+			<div class="images-grid">
+		
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Avión comercial Boeing en aeropuerto" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 hero</div>
+					<div class="image-desc">Avión comercial Boeing en aeropuerto</div>
+					<div class="image-context">✅ Ideal para legacy aircraft: Boeing 737 classic</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&w=1920', 'future-of-legacy-aircraft-hero.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/3862135/pexels-photo-3862135.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Hangar de mantenimiento de aeronaves" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 hangar</div>
+					<div class="image-desc">Hangar de mantenimiento de aeronaves</div>
+					<div class="image-context">✅ Instalaciones MRO profesionales</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/3862135/pexels-photo-3862135.jpeg?auto=compress&cs=tinysrgb&w=1920', 'future-of-legacy-aircraft-hangar.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/46148/aircraft-cockpit-cockpit-instruments-46148.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Instrumentos de cabina de avión comercial" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 cockpit</div>
+					<div class="image-desc">Instrumentos de cabina de avión comercial</div>
+					<div class="image-context">✅ Cockpit de aviación comercial</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/46148/aircraft-cockpit-cockpit-instruments-46148.jpeg?auto=compress&cs=tinysrgb&w=1920', 'future-of-legacy-aircraft-cockpit.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/163810/cockpit-aircraft-f-16-jet-163810.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Vista de motor de aeronave" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 engineModule</div>
+					<div class="image-desc">Vista de motor de aeronave</div>
+					<div class="image-context">✅ Componentes de motor jet</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/163810/cockpit-aircraft-f-16-jet-163810.jpeg?auto=compress&cs=tinysrgb&w=1920', 'future-of-legacy-aircraft-engineModule.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/163852/jet-engine-engine-aircraft-turbine-163852.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Álabes de turbina de motor jet" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 turbine</div>
+					<div class="image-desc">Álabes de turbina de motor jet</div>
+					<div class="image-context">✅ Componentes internos de motor CFM56/PW/GE</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/163852/jet-engine-engine-aircraft-turbine-163852.jpeg?auto=compress&cs=tinysrgb&w=1920', 'future-of-legacy-aircraft-turbine.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Documentos técnicos y papeleo de aviación" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 documentation</div>
+					<div class="image-desc">Documentos técnicos y papeleo de aviación</div>
+					<div class="image-context">✅ Certificaciones y logbooks</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1920', 'future-of-legacy-aircraft-documentation.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			</div>
+		</div>
+		
+		<div class="blog-section">
+			<h2 class="blog-title">Miami Aviation Logistics</h2>
+			<div class="images-grid">
+		
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/3862635/pexels-photo-3862635.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Operaciones de carga en aeropuerto" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 hero</div>
+					<div class="image-desc">Operaciones de carga en aeropuerto</div>
+					<div class="image-context">✅ Logística aeroportuaria Miami</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/3862635/pexels-photo-3862635.jpeg?auto=compress&cs=tinysrgb&w=1920', 'miami-aviation-logistics-hero.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/62623/wing-plane-flying-airplane-62623.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Avión en rampa de aeropuerto" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 ramp</div>
+					<div class="image-desc">Avión en rampa de aeropuerto</div>
+					<div class="image-context">✅ Operaciones de rampa</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/62623/wing-plane-flying-airplane-62623.jpeg?auto=compress&cs=tinysrgb&w=1920', 'miami-aviation-logistics-ramp.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/4440642/pexels-photo-4440642.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Operaciones de carga aérea" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 port</div>
+					<div class="image-desc">Operaciones de carga aérea</div>
+					<div class="image-context">✅ Freight y cargo aéreo</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/4440642/pexels-photo-4440642.jpeg?auto=compress&cs=tinysrgb&w=1920', 'miami-aviation-logistics-port.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/4481942/pexels-photo-4481942.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Almacén logístico" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 warehouse</div>
+					<div class="image-desc">Almacén logístico</div>
+					<div class="image-context">✅ Warehouse para partes de aviación</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/4481942/pexels-photo-4481942.jpeg?auto=compress&cs=tinysrgb&w=1920', 'miami-aviation-logistics-warehouse.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Sistemas de tecnología digital" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 it</div>
+					<div class="image-desc">Sistemas de tecnología digital</div>
+					<div class="image-context">✅ IT para logística de aviación</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=1920', 'miami-aviation-logistics-it.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			</div>
+		</div>
+		
+		<div class="blog-section">
+			<h2 class="blog-title">Aog Response Strategies</h2>
+			<div class="images-grid">
+		
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Mecánico de aeronaves en mantenimiento" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 hero</div>
+					<div class="image-desc">Mecánico de aeronaves en mantenimiento</div>
+					<div class="image-context">✅ Respuesta de emergencia AOG</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1920', 'aog-response-strategies-hero.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/912050/pexels-photo-912050.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Técnico de aviación trabajando" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 nightShift</div>
+					<div class="image-desc">Técnico de aviación trabajando</div>
+					<div class="image-context">✅ Turno nocturno mantenimiento urgente</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/912050/pexels-photo-912050.jpeg?auto=compress&cs=tinysrgb&w=1920', 'aog-response-strategies-nightShift.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/3184435/pexels-photo-3184435.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Centro de control de operaciones" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 opsControl</div>
+					<div class="image-desc">Centro de control de operaciones</div>
+					<div class="image-context">✅ Operations control center</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/3184435/pexels-photo-3184435.jpeg?auto=compress&cs=tinysrgb&w=1920', 'aog-response-strategies-opsControl.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Carga aérea y freight" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 freight</div>
+					<div class="image-desc">Carga aérea y freight</div>
+					<div class="image-context">✅ Envío urgente de partes AOG</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&w=1920', 'aog-response-strategies-freight.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			</div>
+		</div>
+		
+		<div class="blog-section">
+			<h2 class="blog-title">Sustainable Aviation Component Trading</h2>
+			<div class="images-grid">
+		
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/46148/aircraft-airliner-airplane-aviation-46148.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Aviación moderna sostenible" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 hero</div>
+					<div class="image-desc">Aviación moderna sostenible</div>
+					<div class="image-context">✅ Green aviation</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/46148/aircraft-airliner-airplane-aviation-46148.jpeg?auto=compress&cs=tinysrgb&w=1920', 'sustainable-aviation-component-trading-hero.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/2159228/pexels-photo-2159228.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Inspección de control de calidad" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 inspection</div>
+					<div class="image-desc">Inspección de control de calidad</div>
+					<div class="image-context">✅ QC de componentes</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/2159228/pexels-photo-2159228.jpeg?auto=compress&cs=tinysrgb&w=1920', 'sustainable-aviation-component-trading-inspection.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/3862135/pexels-photo-3862135.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Instalación de mantenimiento" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 facility</div>
+					<div class="image-desc">Instalación de mantenimiento</div>
+					<div class="image-context">✅ MRO facility</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/3862135/pexels-photo-3862135.jpeg?auto=compress&cs=tinysrgb&w=1920', 'sustainable-aviation-component-trading-facility.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/2026324/pexels-photo-2026324.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Desmontaje y reciclaje de aeronaves" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 teardown</div>
+					<div class="image-desc">Desmontaje y reciclaje de aeronaves</div>
+					<div class="image-context">✅ Aircraft teardown para reciclaje</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/2026324/pexels-photo-2026324.jpeg?auto=compress&cs=tinysrgb&w=1920', 'sustainable-aviation-component-trading-teardown.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			</div>
+		</div>
+		
+		<div class="blog-section">
+			<h2 class="blog-title">Global Aircraft Parts Supply Chains</h2>
+			<div class="images-grid">
+		
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Red logística global" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 hero</div>
+					<div class="image-desc">Red logística global</div>
+					<div class="image-context">✅ Supply chain mundial</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1920', 'global-aircraft-parts-supply-chains-hero.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/4246120/pexels-photo-4246120.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Pallets de carga" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 cargoPallets</div>
+					<div class="image-desc">Pallets de carga</div>
+					<div class="image-context">✅ Freight pallets</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/4246120/pexels-photo-4246120.jpeg?auto=compress&cs=tinysrgb&w=1920', 'global-aircraft-parts-supply-chains-cargoPallets.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Dashboard de análisis de negocio" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 analytics</div>
+					<div class="image-desc">Dashboard de análisis de negocio</div>
+					<div class="image-context">✅ Business analytics</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1920', 'global-aircraft-parts-supply-chains-analytics.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			</div>
+		</div>
+		
+		<div class="blog-section">
+			<h2 class="blog-title">Technology Trends Component Management</h2>
+			<div class="images-grid">
+		
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/442152/pexels-photo-442152.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Tecnología de cabina moderna" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 hero</div>
+					<div class="image-desc">Tecnología de cabina moderna</div>
+					<div class="image-context">✅ Aviónica digital</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/442152/pexels-photo-442152.jpeg?auto=compress&cs=tinysrgb&w=1920', 'technology-trends-component-management-hero.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Inteligencia artificial y ML" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 machineLearning</div>
+					<div class="image-desc">Inteligencia artificial y ML</div>
+					<div class="image-context">✅ AI para aviación</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1920', 'technology-trends-component-management-machineLearning.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Robótica industrial" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 robotics</div>
+					<div class="image-desc">Robótica industrial</div>
+					<div class="image-context">✅ Automatización en MRO</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=1920', 'technology-trends-component-management-robotics.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			<div class="image-card">
+				<div class="image-wrapper">
+					<img src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Dashboard de gestión de stock" loading="lazy">
+				</div>
+				<div class="image-info">
+					<div class="image-name">📸 stockDashboard</div>
+					<div class="image-desc">Dashboard de gestión de stock</div>
+					<div class="image-context">✅ Inventory management</div>
+					<button class="download-btn" onclick="downloadImage('https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?auto=compress&cs=tinysrgb&w=1920', 'technology-trends-component-management-stockDashboard.jpg')">
+						⬇️ Descargar
+					</button>
+				</div>
+			</div>
+			
+			</div>
+		</div>
+		
+		<button class="download-all" onclick="downloadAll()">
+			⬇️ Descargar Todas (27)
+		</button>
+
+		<script>
+			async function downloadImage(url, filename) {
+				try {
+					const response = await fetch(url);
+					const blob = await response.blob();
+					const blobUrl = URL.createObjectURL(blob);
+					
+					const a = document.createElement('a');
+					a.href = blobUrl;
+					a.download = filename;
+					document.body.appendChild(a);
+					a.click();
+					document.body.removeChild(a);
+					URL.revokeObjectURL(blobUrl);
+				} catch (error) {
+					console.error('Error downloading:', error);
+					// Fallback: abrir en nueva pestaña
+					window.open(url, '_blank');
+				}
+			}
+
+			async function downloadAll() {
+				const images = [{"url":"https://images.pexels.com/photos/15497208/pexels-photo-15497208.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"top-10-aircraft-parts-suppliers-2025-hero.jpg"},{"url":"https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"future-of-legacy-aircraft-hero.jpg"},{"url":"https://images.pexels.com/photos/3862135/pexels-photo-3862135.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"future-of-legacy-aircraft-hangar.jpg"},{"url":"https://images.pexels.com/photos/46148/aircraft-cockpit-cockpit-instruments-46148.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"future-of-legacy-aircraft-cockpit.jpg"},{"url":"https://images.pexels.com/photos/163810/cockpit-aircraft-f-16-jet-163810.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"future-of-legacy-aircraft-engineModule.jpg"},{"url":"https://images.pexels.com/photos/163852/jet-engine-engine-aircraft-turbine-163852.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"future-of-legacy-aircraft-turbine.jpg"},{"url":"https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"future-of-legacy-aircraft-documentation.jpg"},{"url":"https://images.pexels.com/photos/3862635/pexels-photo-3862635.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"miami-aviation-logistics-hero.jpg"},{"url":"https://images.pexels.com/photos/62623/wing-plane-flying-airplane-62623.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"miami-aviation-logistics-ramp.jpg"},{"url":"https://images.pexels.com/photos/4440642/pexels-photo-4440642.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"miami-aviation-logistics-port.jpg"},{"url":"https://images.pexels.com/photos/4481942/pexels-photo-4481942.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"miami-aviation-logistics-warehouse.jpg"},{"url":"https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"miami-aviation-logistics-it.jpg"},{"url":"https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"aog-response-strategies-hero.jpg"},{"url":"https://images.pexels.com/photos/912050/pexels-photo-912050.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"aog-response-strategies-nightShift.jpg"},{"url":"https://images.pexels.com/photos/3184435/pexels-photo-3184435.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"aog-response-strategies-opsControl.jpg"},{"url":"https://images.pexels.com/photos/3862140/pexels-photo-3862140.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"aog-response-strategies-freight.jpg"},{"url":"https://images.pexels.com/photos/46148/aircraft-airliner-airplane-aviation-46148.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"sustainable-aviation-component-trading-hero.jpg"},{"url":"https://images.pexels.com/photos/2159228/pexels-photo-2159228.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"sustainable-aviation-component-trading-inspection.jpg"},{"url":"https://images.pexels.com/photos/3862135/pexels-photo-3862135.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"sustainable-aviation-component-trading-facility.jpg"},{"url":"https://images.pexels.com/photos/2026324/pexels-photo-2026324.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"sustainable-aviation-component-trading-teardown.jpg"},{"url":"https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"global-aircraft-parts-supply-chains-hero.jpg"},{"url":"https://images.pexels.com/photos/4246120/pexels-photo-4246120.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"global-aircraft-parts-supply-chains-cargoPallets.jpg"},{"url":"https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"global-aircraft-parts-supply-chains-analytics.jpg"},{"url":"https://images.pexels.com/photos/442152/pexels-photo-442152.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"technology-trends-component-management-hero.jpg"},{"url":"https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"technology-trends-component-management-machineLearning.jpg"},{"url":"https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"technology-trends-component-management-robotics.jpg"},{"url":"https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?auto=compress&cs=tinysrgb&w=1920","filename":"technology-trends-component-management-stockDashboard.jpg"}];
+				
+				for (let i = 0; i < images.length; i++) {
+					await downloadImage(images[i].url, images[i].filename);
+					// Esperar 1 segundo entre descargas
+					await new Promise(resolve => setTimeout(resolve, 1000));
+				}
+				
+				alert('✅ Descarga de ' + images.length + ' imágenes iniciada! Revisa tu carpeta de descargas.');
+			}
+		</script>
+	</div>
+</body>
+</html>
+	

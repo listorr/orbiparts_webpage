@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- Sitemap English -->
+  <sitemap>
+    <loc>https://orbiparts.com/sitemap-en.xml</loc>
+    <lastmod>2025-11-08</lastmod>
+  </sitemap>
+
+  <!-- Sitemap Spanish -->
+  <sitemap>
+    <loc>https://orbiparts.com/sitemap-es.xml</loc>
+    <lastmod>2025-11-08</lastmod>
+  </sitemap>
+
+  <!-- Sitemap German -->
+  <sitemap>
+    <loc>https://orbiparts.com/sitemap-de.xml</loc>
+    <lastmod>2025-11-08</lastmod>
+  </sitemap>
+
+  <!-- Sitemap French -->
+  <sitemap>
+    <loc>https://orbiparts.com/sitemap-fr.xml</loc>
+    <lastmod>2025-11-08</lastmod>
+  </sitemap>
+
+  <!-- Sitemap Blog Posts -->
+  <sitemap>
+    <loc>https://orbiparts.com/sitemap-blog.xml</loc>
+    <lastmod>2025-11-08</lastmod>
+  </sitemap>
+
+</sitemapindex>

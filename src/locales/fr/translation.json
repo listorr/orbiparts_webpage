@@ -1,0 +1,1710 @@
+{
+  "common": {"home": "Accueil", "blog": "Blog"},
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "products": "Produits",
+    "industries": "Industries",
+    "stock": "Stock",
+    "expertCorner": "Coin des Experts",
+    "contact": "Contact",
+    "about": "Orbiparts"
+  },
+  "hero": {
+    "h1": "Approvisionnement mondial en secondes",
+    "subheading": "ORBIPARTS est votre hub de réseau mondial vous connectant avec des fournisseurs certifiés de pièces d'avion, moteurs, hélicoptères et actifs complets dans le monde entier. Une plateforme, des possibilités infinies.",
+    "ctaPrimary": "Demander un devis",
+    "ctaSecondary": "Parcourir l'inventaire"
+  },
+  "aog": {
+    "hotline": "Ligne directe AOG",
+    "call": "Appeler la ligne AOG",
+    "chat": "Chatter avec AOG"
+  },
+  "rfq": {
+    "successTitle": "Demande envoyée !",
+    "successMessage": "Votre demande a été envoyée. Notre équipe commerciale vous répondra sous peu.",
+    "errorTitle": "Erreur d'envoi de la demande",
+    "errorMessage": "Nous n'avons pas pu envoyer votre demande. Veuillez réessayer ou nous envoyer un e-mail à sales@orbiparts.com.",
+    "validationErrorTitle": "Erreur de validation",
+    "validationErrorMessage": "Veuillez remplir tous les champs requis.",
+    "validationEmail": "Veuillez entrer une adresse e-mail valide.",
+    "nameRequired": "Le nom est requis.",
+    "companyRequired": "L'entreprise est requise.",
+    "emailRequired": "L'e-mail est requis.",
+    "messageRequired": "Veuillez fournir un numéro de pièce ou un message."
+  },
+  "homePage": {
+    "trust_global": "Réseau de fournisseurs autorisés dans plus de 100 pays",
+    "trust_certified": "Uniquement des fournisseurs certifiés et vérifiés",
+    "trust_aog": "Accès au réseau mondial 24/7",
+    "trust_leaders": "Solutions aéronautiques complètes",
+    "partner_title": "Solutions aéronautiques complètes via notre réseau mondial",
+    "partner_desc": "ORBIPARTS connecte vos demandes avec un réseau mondial de fournisseurs autorisés pour pièces d'avion, moteurs, hélicoptères et actifs complets. Nous rationalisons vos achats via une plateforme unifiée.",
+    "overview_modern_title": "Flottes modernes",
+    "overview_modern_desc": "Composants Airbus A320/A350/A380, Boeing 737/777/787, Embraer, Bombardier dans le monde entier",
+    "overview_legacy_title": "Avions classiques",
+    "overview_legacy_desc": "B727, MD80, DC-10, familles classiques A300/A310 - pièces difficiles à trouver",
+    "overview_aog_title": "Support AOG 24/7",
+    "overview_aog_desc": "Livraison d'urgence de pièces d'avion dans le monde entier avec logistique à réponse rapide",
+    "overview_global_title": "Fournisseur aéronautique mondial",
+    "overview_global_desc": "Service aux compagnies aériennes, MRO, opérateurs dans plus de 100 pays avec inventaire étendu",
+    "learn_more": "En savoir plus",
+    "aog_desc": "Support immédiat 24/7 pour votre situation d'avion au sol.",
+    "cta_title": "Prêt à sourcer vos composants aéronautiques ?",
+    "cta_desc": "Envoyez-nous votre demande de devis aujourd'hui et notre équipe répondra en quelques heures avec des prix compétitifs et la disponibilité.",
+    "cta_quote": "Obtenir un devis maintenant",
+    "cta_contact": "Nous contacter"
+  },
+  "homeHeroExtended": {
+    "networkHubTitle": "Votre hub mondial du réseau aéronautique",
+    "networkHubSubtitle1": "ORBIPARTS connecte vos demandes à un réseau mondial de fournisseurs autorisés",
+    "networkHubSubtitle2": "Une plateforme pour accéder aux pièces d'avion, moteurs, hélicoptères et actifs complets auprès de distributeurs certifiés dans plus de 100 pays",
+    "value_globalNetwork_title": "Réseau mondial de fournisseurs",
+    "value_globalNetwork_desc": "Accès aux distributeurs OEM, traders de moteurs, fournisseurs MRO et vendeurs certifiés dans le monde entier. Tous pré‑validés et autorisés.",
+    "value_instantConnections_title": "Connexions instantanées",
+    "value_instantConnections_desc": "Soumettez une demande et atteignez plusieurs fournisseurs simultanément. Notre plateforme rationalise les achats pour une efficacité maximale.",
+    "value_qualityAssured_title": "Qualité garantie",
+    "value_qualityAssured_desc": "Chaque fournisseur de notre réseau est certifié et vérifié. Traçabilité complète, pièces authentiques et support AOG garanti.",
+    "audiences_airlines": "Compagnies aériennes",
+    "audiences_operators": "Opérateurs",
+    "audiences_mro": "Installations MRO",
+    "audiences_lessors": "Bailleurs",
+    "stats_suppliers": "+1000 Fournisseurs",
+    "stats_aiPowered": "Propulsé par l'IA",
+    "segment_oemDistributors": "Distributeurs OEM",
+    "segment_authorizedManufacturers": "Fabricants autorisés",
+    "segment_engineTraders": "Commerçants de moteurs",
+    "segment_engineFamilies": "CFM56, GE90, LEAP",
+    "segment_componentSpecialists": "Spécialistes des composants",
+    "segment_componentTypes": "Avionique, train d'atterrissage",
+    "segment_rotorcraftParts": "Pièces d'hélicoptères",
+    "segment_rotorcraftBrands": "Bell, Airbus, Sikorsky",
+    "segment_logisticsPartners": "Partenaires logistiques",
+    "segment_globalDelivery": "Livraison mondiale",
+    "segment_certifiedVendors": "Fournisseurs certifiés",
+    "segment_countries": "100+ pays",
+    "flow_requests": "Vos demandes",
+    "flow_audiences": "Compagnies aériennes • Opérateurs • MRO",
+    "flow_suppliers": "Fournisseurs autorisés",
+    "flow_network": "Réseau certifié mondial",
+    "flow_platform": "Une plateforme • Connexions infinies"
+  },
+  "blogLanding": {
+    "seo": {
+      "title": "Blog de l'industrie aéronautique | ORBIPARTS",
+      "description": "Analyses sur les fournisseurs de pièces d'avion, le commerce des moteurs, AOG, logistique et plus.",
+      "breadcrumb": "Blog"
+    },
+    "hero_title": "Analyses de l'industrie aéronautique",
+    "hero_subtitle": "Restez informé des dernières tendances, analyses et développements dans le commerce des composants aéronautiques",
+    "featured_badge": "À la une",
+    "latestArticles_title": "Derniers articles",
+    "readMore": "En savoir plus",
+    "ui": {
+      "previous": "Précédent",
+      "next": "Suivant",
+      "pageOf": "Page {{current}} sur {{total}}",
+      "stayUpdated": "Restez informé",
+      "newsletter": "Abonnez‑vous à notre newsletter pour les dernières analyses, tendances du marché et actualités ORBIPARTS.",
+      "emailPlaceholder": "Entrez votre e‑mail",
+      "subscribe": "S'abonner",
+      "noSpam": "Pas de spam, désinscription à tout moment. Nous respectons votre vie privée."
+    },
+    "categories_industryAnalysis": "Analyse du secteur",
+    "categories_industryInsights": "Perspectives du secteur",
+    "categories_logistics": "Logistique",
+    "categories_operations": "Opérations",
+    "categories_sustainability": "Durabilité",
+    "categories_supplyChain": "Chaîne d'approvisionnement",
+    "cards": {
+      "top10": {
+        "title": "Top 10 des fournisseurs et distributeurs de pièces d'avion en 2025",
+        "excerpt": "Comparaison et classement des principaux fournisseurs de pièces, distributeurs OEM et sociétés de moteurs.",
+        "author": "Équipe ORBIPARTS",
+        "categoryKey": "categories_industryAnalysis"
+      },
+      "legacy": {
+        "title": "L'avenir des avions classiques : pourquoi ils comptent encore",
+        "excerpt": "Importance des avions legacy et défis d'approvisionnement en composants.",
+        "author": "Équipe ORBIPARTS",
+        "categoryKey": "categories_industryInsights"
+      },
+      "miami": {
+        "title": "Rôle stratégique de Miami dans la logistique aéronautique",
+        "excerpt": "Comment le hub logistique de Miami bénéficie aux compagnies et MROs dans le monde.",
+        "author": "Expert logistique",
+        "categoryKey": "categories_logistics"
+      },
+      "aog": {
+        "title": "Réponse AOG : minimiser l'immobilisation des avions",
+        "excerpt": "Bonnes pratiques pour les situations AOG et comment une réponse rapide économise des millions.",
+        "author": "Spécialiste AOG",
+        "categoryKey": "categories_operations"
+      },
+      "sustainable": {
+        "title": "Aviation durable : rôle du commerce des composants",
+        "excerpt": "Comment le négoce et la remise à neuf contribuent aux objectifs de durabilité.",
+        "author": "Équipe durabilité",
+        "categoryKey": "categories_sustainability"
+      },
+      "supply": {
+        "title": "Chaînes d'approvisionnement mondiales : défis et solutions dans le négoce de pièces",
+        "excerpt": "Complexités des chaînes d'approvisionnement et stratégies de fiabilité.",
+        "author": "Responsable supply chain",
+        "categoryKey": "categories_supplyChain"
+      },
+      "technology": {
+        "title": "Tendances technologiques de la gestion des composants",
+        "excerpt": "Technologies émergentes révolutionnant la gestion de l'inventaire et de la maintenance.",
+        "author": "Analyste technologique",
+        "categoryKey": "categories_logistics"
+      }
+    }
+  },
+  "aboutPage": {
+    "title": "À propos d'ORBIPARTS",
+    "subtitle": "Les avantages stratégiques qui font de nous votre partenaire aéronautique idéal.",
+    "missionTitle": "Notre mission",
+    "missionText1": "Chez ORBIPARTS, nous comblons le fossé entre l'offre et la demande en composants aéronautiques. Avec notre siège à Miami et un réseau mondial, nous fournissons aux compagnies aériennes, MRO et courtiers des solutions rapides et fiables pour les flottes modernes et classiques.",
+    "missionText2": "Notre emplacement stratégique nous positionne comme le hub logistique idéal pour les Amériques et les marchés aéronautiques internationaux, nous permettant de servir les clients du monde entier avec une efficacité et une expertise inégalées.",
+    "performanceTitle": "Performance qui parle",
+    "performanceSubtitle": "Notre palmarès démontre notre engagement envers l'excellence et la fiabilité.",
+    "performance_rate": "Taux de livraison à temps",
+    "performance_time": "Temps de réponse AOG",
+    "performance_satisfaction": "Satisfaction client",
+    "performance_experience": "Années d'expérience",
+    "advantagesTitle": "Nos avantages compétitifs",
+    "advantagesSubtitle": "Découvrez ce qui distingue ORBIPARTS sur le marché mondial des composants aéronautiques.",
+    "advantage_miami_title": "Basé à Miami, portée mondiale",
+    "advantage_miami_desc": "L'emplacement stratégique à Miami offre un accès inégalé aux marchés américains et internationaux, permettant une logistique efficace et des délais de livraison plus rapides dans le monde entier.",
+    "advantage_fleets_title": "Focus sur flottes modernes et classiques",
+    "advantage_fleets_desc": "Expertise unique dans les avions modernes de pointe (Airbus, Boeing, Embraer) et les flottes classiques (B727, MD80, DC-10, familles classiques) que d'autres négligent.",
+    "advantage_aog_title": "Réponse rapide et support AOG 24/7",
+    "advantage_aog_desc": "Bureau AOG dédié opérant 24 heures sur 24 pour minimiser les temps d'arrêt des avions avec des temps de réponse rapides et des capacités d'approvisionnement de pièces d'urgence.",
+    "advantage_pricing_title": "Prix compétitifs et transparence",
+    "advantage_pricing_desc": "Structure de prix transparente avec des tarifs compétitifs, sans frais cachés et des conditions de paiement flexibles conçues pour optimiser vos coûts opérationnels.",
+    "advantage_network_title": "Réseau de partenaires de confiance",
+    "advantage_network_desc": "Relations établies avec des fournisseurs certifiés, des compagnies aériennes et des MRO dans le monde entier, garantissant un approvisionnement fiable et une assurance qualité pour chaque transaction.",
+    "advantage_expertise_title": "Expertise de l'industrie",
+    "advantage_expertise_desc": "Connaissance approfondie de l'aviation et expertise technique de notre équipe expérimentée qui comprend les complexités du commerce et de la logistique des composants aéronautiques.",
+    "ctaTitle": "Découvrez la différence ORBIPARTS",
+    "ctaSubtitle": "Rejoignez le nombre croissant de professionnels de l'aviation qui ont découvert les avantages d'un partenariat avec ORBIPARTS pour leurs besoins en composants aéronautiques.",
+    "ctaButton": "Commencer aujourd'hui"
+  },
+  "servicesPage": {
+    "title": "Nos services",
+    "subtitle": "Solutions aéronautiques complètes conçues pour garder votre flotte en vol",
+    "trading_title": "Commerce de composants aéronautiques",
+    "trading_desc": "Solutions commerciales complètes pour pièces d'avion neuves, révisées (OH), utilisables et retirées pour tous les principaux types d'avions.",
+    "trading_f1": "Pièces OEM neuves",
+    "trading_f2": "Composants révisés",
+    "trading_f3": "Pièces d'occasion utilisables",
+    "trading_f4": "Inventaire retiré",
+    "trading_f5": "Documentation certifiée",
+    "logistics_title": "Support logistique et douanier",
+    "logistics_desc": "Gestion logistique de bout en bout garantissant que vos pièces arrivent en toute sécurité et rapidement partout dans le monde.",
+    "logistics_f1": "Réseau d'expédition mondial",
+    "logistics_f2": "Dédouanement",
+    "logistics_f3": "Gestion de la documentation",
+    "logistics_f4": "Transport à température contrôlée",
+    "logistics_f5": "Suivi en temps réel",
+    "legacy_title": "Expertise avions classiques",
+    "legacy_desc": "Approvisionnement spécialisé et support pour les flottes d'avions plus anciens encore en service dans le monde.",
+    "legacy_f1": "Pièces B727, MD80, DC-10",
+    "legacy_f2": "Familles classiques A320 & B737",
+    "legacy_f3": "Approvisionnement de composants rares",
+    "legacy_f4": "Documentation technique",
+    "legacy_f5": "Solutions de modernisation",
+    "consignment_title": "Gestion de consignation et de pool",
+    "consignment_desc": "Optimisez votre inventaire avec des solutions de consignation flexibles et des services de gestion de pool.",
+    "consignment_f1": "Optimisation de l'inventaire",
+    "consignment_f2": "Programmes de consignation",
+    "consignment_f3": "Gestion de pool",
+    "consignment_f4": "Stratégies de réduction des coûts",
+    "consignment_f5": "Conditions flexibles",
+    "aog_title": "Support AOG (Aircraft on Ground)",
+    "aog_desc": "Solutions de chaîne d'approvisionnement à réponse rapide pour situations critiques d'avion au sol.",
+    "aog_f1": "Réponse d'urgence 24/7",
+    "aog_f2": "Réseau de pièces mondial",
+    "aog_f3": "Expédition accélérée",
+    "aog_f4": "Support technique",
+    "aog_f5": "Solutions rentables",
+    "process_title": "Notre processus",
+    "process_subtitle": "Flux de travail rationalisé conçu pour l'efficacité et la fiabilité",
+    "process_s1_title": "Demande de devis reçue",
+    "process_s1_desc": "Soumettez votre demande de devis avec numéros de pièce et spécifications",
+    "process_s2_title": "Approvisionnement et vérification",
+    "process_s2_desc": "Notre équipe approvisionne les pièces auprès de fournisseurs certifiés et vérifie l'authenticité",
+    "process_s3_title": "Devis et documentation",
+    "process_s3_desc": "Recevez des prix compétitifs avec documentation complète et certifications",
+    "process_s4_title": "Livraison et support",
+    "process_s4_desc": "Livraison rapide et sécurisée avec support technique continu et garantie",
+    "emergency_title": "Support d'urgence AOG",
+    "emergency_desc": "Lorsque votre avion est au sol, chaque minute compte. Notre bureau AOG 24/7 fournit une réponse immédiate pour remettre votre flotte en l'air aussi rapidement que possible.",
+    "emergency_f1": "Réponse dans les 30 minutes",
+    "emergency_f2": "Vérification de disponibilité des pièces mondiale",
+    "emergency_f3": "Options d'expédition accélérée",
+    "emergency_f4": "Support technique et conseils"
+  },
+  "productsPage": {
+    "title": "Catalogue de composants aéronautiques",
+    "subtitle": "Inventaire complet pour flottes d'avions modernes et classiques",
+    "search_placeholder": "Rechercher par numéro de pièce, description ou avion...",
+    "category_placeholder": "Catégorie",
+    "condition_placeholder": "État",
+    "showing_products": "Affichage de {{count}} sur {{total}} produits",
+    "filters_applied": "Filtres appliqués",
+    "no_products_found": "Aucun produit trouvé avec vos critères.",
+    "no_products_hint": "Essayez d'ajuster votre recherche ou vos filtres.",
+    "aircraft_label": "Avion :",
+    "availability_label": "Disponibilité :",
+    "price_label": "Prix :",
+    "request_quote": "Demander un devis",
+    "categories_title": "Catégories de produits",
+    "categories_subtitle": "Couverture complète de toutes les principales catégories de composants aéronautiques.",
+    "category_desc": "Composants de haute qualité pour les principaux constructeurs d'avions.",
+    "view_products": "Voir les produits",
+    "availability_in_stock": "En stock",
+    "availability_available": "Disponible",
+    "cat_all": "Toutes les catégories",
+    "cat_engines": "Moteurs et APU",
+    "cat_avionics": "Avionique",
+    "cat_landing": "Train d'atterrissage et freins",
+    "cat_airframe": "Cellule et structures",
+    "cat_rotables": "Rotables et consommables",
+    "cond_all": "Tous les états",
+    "cond_new": "NEUF",
+    "cond_oh": "Révisé (OH)",
+    "cond_sv": "Utilisable (SV)",
+    "cond_ar": "Retiré (AR)"
+  },
+  "industriesPage": {
+    "title": "Industries que nous servons",
+    "subtitle": "Partenaire de confiance dans l'écosystème aéronautique mondial",
+    "airlines_title": "Compagnies aériennes (passagers et fret)",
+    "airlines_desc": "Support aux compagnies aériennes commerciales du monde entier avec des composants aéronautiques fiables pour les opérations passagers et fret.",
+    "airlines_f1": "Support de maintenance de flotte",
+    "airlines_f2": "Pièces de maintenance programmée",
+    "airlines_f3": "Réponse d'urgence AOG",
+    "airlines_f4": "Solutions rentables",
+    "airlines_f5": "Réseau logistique mondial",
+    "mros_title": "MRO (organisations de maintenance et réparation)",
+    "mros_desc": "Partenariat avec les installations MRO pour fournir des solutions complètes de composants pour la maintenance et la réparation d'avions.",
+    "mros_f1": "Inventaire de pièces complet",
+    "mros_f2": "Documentation technique",
+    "mros_f3": "Certifications de qualité",
+    "mros_f4": "Options de livraison flexibles",
+    "mros_f5": "Prix compétitifs",
+    "leasing_title": "Sociétés de leasing",
+    "leasing_desc": "Support aux sociétés de leasing d'avions avec gestion de pièces et solutions de maintenance pour leurs flottes.",
+    "leasing_f1": "Support de gestion de flotte",
+    "leasing_f2": "Optimisation de l'inventaire",
+    "leasing_f3": "Solutions de fin de bail",
+    "leasing_f4": "Gestion d'actifs",
+    "leasing_f5": "Couverture mondiale",
+    "brokers_title": "Courtiers et traders aéronautiques",
+    "brokers_desc": "Collaboration avec les courtiers et traders aéronautiques pour étendre la portée du marché et offrir des opportunités commerciales mutuelles.",
+    "brokers_f1": "Opportunités de partenariat",
+    "brokers_f2": "Expansion du marché",
+    "brokers_f3": "Références mutuelles",
+    "brokers_f4": "Avantages compétitifs",
+    "brokers_f5": "Réseautage de l'industrie",
+    "gov_title": "Opérateurs gouvernementaux et de défense",
+    "gov_desc": "Service aux opérateurs aéronautiques gouvernementaux et de défense avec composants spécialisés et solutions conformes à la sécurité.",
+    "gov_f1": "Conformité de sécurité",
+    "gov_f2": "Composants spécialisés",
+    "gov_f3": "Contrats gouvernementaux",
+    "gov_f4": "Normes de défense",
+    "gov_f5": "Traitement confidentiel",
+    "reach_title": "Notre portée mondiale",
+    "reach_subtitle": "Service aux professionnels de l'aviation du monde entier avec des solutions fiables",
+    "reach_stat1": "Compagnies servies",
+    "reach_stat2": "Partenaires MRO",
+    "reach_stat3": "Pays atteints",
+    "reach_stat4": "Support disponible",
+    "cta_title": "Prêt à vous associer avec nous ?",
+    "cta_subtitle": "Rejoignez des centaines de professionnels de l'aviation qui font confiance à ORBIPARTS pour leurs besoins en composants aéronautiques. Discutons de la manière dont nous pouvons soutenir vos opérations.",
+    "cta_button_start": "Commencer le partenariat",
+    "cta_button_learn": "En savoir plus"
+  },
+  "footer": {
+    "miamiHeadquarters": "Siège de Miami",
+    "address": "ORBIPARTS INC. — 8256 NW 14th St, Doral, FL 33126",
+    "openInMaps": "Ouvrir dans Google Maps",
+    "navigation": "Navigation",
+    "contact": "Contact"
+  },
+  "contactPage": {
+    "title": "Contacter ORBIPARTS",
+    "subtitle": "Envoyez-nous votre demande de devis aujourd'hui et notre équipe répondra en quelques heures.",
+    "formTitle": "Demande de devis",
+    "formSubtitle": "Remplissez le formulaire ci-dessous pour obtenir les prix et la disponibilité.",
+    "nameLabel": "Nom *",
+    "namePlaceholder": "Votre nom complet",
+    "companyLabel": "Entreprise *",
+    "companyPlaceholder": "Nom de l'entreprise",
+    "emailLabel": "E-mail *",
+    "emailPlaceholder": "votre.email@entreprise.fr",
+    "phoneLabel": "Téléphone",
+    "phonePlaceholder": "+33 1 23 45 67 89",
+    "partNumberLabel": "Avion / Numéro de pièce",
+    "partNumberPlaceholder": "ex. CFM56-7B24, A320-214-32-23",
+    "messageLabel": "Message / Exigences *",
+    "messagePlaceholder": "Détails sur vos exigences, quantités, délai de livraison, etc.",
+    "sendButton": "Envoyer la demande de devis",
+    "sendingButton": "Envoi en cours...",
+    "getInTouchTitle": "Entrer en contact",
+    "getInTouchSubtitle": "Nos experts en aviation sont prêts à vous aider. Contactez-nous via l'un des canaux ci-dessous.",
+    "contact_miami_title": "Siège de Miami",
+    "contact_miami_desc": "Emplacement stratégique desservant les Amériques et les marchés mondiaux",
+    "contact_email_title": "E-mail",
+    "contact_email_desc": "Envoyez-nous votre demande de devis et nous répondrons en quelques heures",
+    "contact_phone_title": "Téléphone",
+    "contact_phone_desc": "Ligne directe vers nos experts en aviation",
+    "aogTitle": "Support d'urgence AOG",
+    "aogSubtitle": "Notre équipe de réponse d'urgence 24/7 est en attente pour minimiser votre temps d'arrêt.",
+    "callAog": "Appeler la ligne AOG",
+    "chatAog": "Chatter avec AOG"
+  },
+  "productSearch": {
+    "title": "Recherche de stock professionnelle",
+    "subtitle": "L'outil le plus puissant pour vos besoins d'approvisionnement.",
+    "inventoryHeading": "Inventaire des pièces aéronautiques",
+    "inventorySubheading": "Catalogue consultable en temps réel de composants certifiés et de rotables. Prise en charge de la recherche en masse.",
+    "inventoryError": "Indicateurs d'inventaire non disponibles",
+    "kpi": {
+      "totalRecords": "Enregistrements totaux",
+      "inStock": "En stock",
+      "distinctPN": "P/N distincts",
+      "inStockRate": "Taux en stock",
+      "topCategories": "Catégories principales",
+      "categoryRatio": "Répartition par catégorie"
+    },
+    "wanted": {
+      "title": "Programmes d'achat actifs (Wanted Parts)",
+      "intro": "ORBIPARTS achète actuellement les pièces suivantes. Si vous pouvez les fournir, contactez notre équipe achats.",
+      "loading": "Chargement des wanted parts...",
+      "accepted": "Conditions acceptées",
+      "contact": "Contacter les achats",
+      "footer": "Pour vos offres, contactez",
+      "toggleHide": "Masquer",
+      "toggleShow": "Afficher",
+      "need": "Besoin",
+      "units": "unités",
+      "max": "Max",
+      "errorTitle": "Erreur de chargement des wanted parts",
+      "errorDesc": "Impossible de charger les pièces que nous cherchons à acheter.",
+      "offerToastTitle": "E-mail d'offre de vente généré",
+      "offerToastDesc": "Votre client e-mail devrait s'ouvrir avec une offre préremplie pour {{pn}}",
+      "urgency": {
+        "high": "Haute priorité",
+        "medium": "Priorité moyenne",
+        "low": "Faible priorité"
+      }
+    },
+    "searchPlaceholder": "Entrez un numéro de pièce",
+    "bulkSearchPlaceholder": "Collez jusqu'à 50 numéros de pièce, séparés par des virgules, des espaces ou des sauts de ligne.",
+    "singleSearch": "Recherche simple",
+    "bulkSearch": "Recherche en masse",
+    "searchButton": "Rechercher",
+    "searching": "Recherche de composants...",
+    "resultsTitle": "Résultats de recherche",
+    "noResults": "Aucun résultat trouvé",
+    "noResultsDesc": "Essayez un autre numéro de pièce ou vérifiez ceux que vous avez entrés.",
+    "notInStock": "Ce numéro de pièce n'est actuellement pas en stock ORBIPARTS, mais nous voulons le sourcer pour vous. Veuillez demander un devis et nous rechercherons dans notre réseau étendu.",
+    "selectAll": "Tout sélectionner",
+    "partNumber": "N/P",
+    "description": "Description",
+    "condition": "État",
+    "quantity": "Qté",
+    "serialNumber": "N/S",
+    "location": "Emplacement",
+    "aircraft": "Avion",
+    "quoteSelected": "Devis sélectionné",
+    "items": "articles",
+    "showVariants": "Afficher les variantes",
+    "hideVariants": "Masquer les variantes",
+    "variants": "variantes",
+    "requestQuote": "Demander un devis",
+    "company": "Entreprise",
+    "deliveryPlace": "Lieu de livraison",
+    "expectedLeadTime": "Délai de livraison prévu",
+    "comments": "Commentaires (facultatif)",
+    "sendQuote": "Envoyer la demande de devis",
+    "quoteSent": "Demande de devis envoyée avec succès",
+    "rfqSentWithId": "RFQ {{id}} envoyé avec succès",
+    "quoteError": "Erreur lors de l'envoi de la demande de devis",
+    "fillRequired": "Veuillez remplir tous les champs requis",
+    "selectItems": "Veuillez sélectionner au moins un article pour obtenir un devis",
+    "errorTitle": "Oups ! Un problème est survenu.",
+    "loadingShort": "Chargement…",
+    "bulkDetected": "{{count}} numéros de pièce détectés.",
+    "preferredConditionPlaceholder": "Sélectionnez l'état préféré pour l'approvisionnement",
+    "leadTimeExample": "ex. ASAP, 30 jours, etc.",
+    "availableLabel": "Disponible",
+    "qtyNeeded": "Qté nécessaire",
+    "qtyShort": "Qté",
+    "quoteFor": "Devis pour {{partNumber}}",
+    "companyPlaceholder": "Nom de votre entreprise",
+    "deliveryPlacePlaceholder": "Lieu de livraison",
+    "stats": {
+      "totalItems": "Articles totaux",
+      "uniquePN": "P/N uniques trouvés",
+      "totalQty": "Qté totale",
+      "foundRateWithCount": "Taux trouvé ({{count}} recherchés)"
+    },
+    "table": {
+      "select": "Sélectionner",
+      "partNumber": "Numéro de pièce",
+      "description": "Description",
+      "availableRequested": "Disponible / Demandé",
+      "condition": "État",
+      "action": "Action"
+    },
+    "notFound": {
+      "message": "Pas dans le stock actuel - sera sourcé via le réseau",
+      "noStock": "Pas de stock"
+    },
+    "conditions": {
+      "new": "Neuf",
+      "oh": "Révisé",
+      "sv": "Utilisable",
+      "ar": "Retiré",
+      "rep": "Réparable",
+      "used": "Utilisé",
+      "repair": "Réparable"
+    }
+  },
+  "whyOrbipartsPage": {
+    "pageTitle": "Pourquoi ORBIPARTS",
+    "subtitle": "Les avantages stratégiques qui font de nous votre partenaire aéronautique idéal.",
+    "performanceTitle": "Performance qui parle",
+    "performanceSubtitle": "Notre palmarès démontre notre engagement envers l'excellence et la fiabilité.",
+    "advantagesTitle": "Nos avantages compétitifs",
+    "advantagesSubtitle": "Découvrez ce qui distingue ORBIPARTS sur le marché mondial des composants aéronautiques.",
+    "miamiTitle": "L'avantage de Miami",
+    "miamiText1": "Notre emplacement stratégique à Miami n'est pas seulement une question de géographie – il s'agit de vous fournir un accès inégalé aux marchés mondiaux et à l'infrastructure logistique qui se traduit par de véritables avantages opérationnels.",
+    "miamiGatewayTitle": "Passerelle vers les Amériques",
+    "miamiGatewayDesc": "Accès direct aux marchés d'Amérique du Nord, Centrale et du Sud",
+    "miamiLogisticsTitle": "Hub logistique de classe mondiale",
+    "miamiLogisticsDesc": "Infrastructure douanière et d'expédition avancée",
+    "miamiTimezonesTitle": "Fuseaux horaires optimaux",
+    "miamiTimezonesDesc": "Communication efficace à travers plusieurs fuseaux horaires",
+    "ctaTitle": "Découvrez la différence ORBIPARTS",
+    "ctaSubtitle": "Rejoignez le nombre croissant de professionnels de l'aviation qui ont découvert les avantages d'un partenariat avec ORBIPARTS pour leurs besoins en composants aéronautiques.",
+    "ctaGetStarted": "Commencer aujourd'hui",
+    "ctaSchedule": "Planifier une consultation",
+    "aiDeskTitle": "Bureau d'intelligence IA",
+    "aiDeskText": "Notre système d'approvisionnement propriétaire alimenté par l'IA se connecte instantanément avec plus de 100 fournisseurs certifiés simultanément, fournissant des devis et la disponibilité en quelques secondes – pas des heures.",
+    "aiInstantQuery": "Requête instantanée multi-fournisseurs",
+    "aiSmartComparison": "Comparaison intelligente des prix",
+    "aiVerifiedAuthenticity": "Authenticité vérifiée"
+  },
+  "blog": {
+    "top10": {
+      "seo": {
+        "title": "Top 10 des fournisseurs de pièces aéronautiques 2025 | ORBIPARTS",
+        "description": "Comparaison complète des principaux fournisseurs de pièces, distributeurs OEM et sociétés de moteurs pour 2025.",
+        "articleHeadline": "Top 10 des fournisseurs & distributeurs de pièces aéronautiques 2025",
+        "articleDescription": "Comparaison complète des principaux fournisseurs de pièces, distributeurs OEM et sociétés de moteurs pour 2025.",
+        "author": "Équipe Industrie ORBIPARTS",
+        "breadcrumb": "Top 10 Fournisseurs 2025",
+        "itemListName": "Top 10 des fournisseurs de pièces aéronautiques 2025",
+        "itemListDesc": "Classement des meilleurs fournisseurs et distributeurs de pièces aéronautiques dans le monde"
+      },
+      "hero": {
+        "badge": "Analyse sectorielle • Mise à jour janvier 2025",
+        "h1": "Top 10 des fournisseurs & distributeurs de pièces aéronautiques 2025",
+        "subtitle": "Comparaison experte des principaux fournisseurs, distributeurs OEM et sociétés de moteurs dans le monde",
+        "stat1": "10 fournisseurs analysés",
+        "stat2": "6 critères d'évaluation",
+        "stat3": "Couverture mondiale"
+      },
+      "intro": {
+        "h2": "Introduction",
+        "p1": "Choisir le bon fournisseur de pièces aéronautiques est l'une des décisions les plus critiques pour les compagnies aériennes, les MRO et les opérateurs. Le bon partenaire fait la différence entre efficacité et immobilisation coûteuse, entre maîtrise budgétaire et dépenses imprévues.",
+        "box": {
+          "h3": "Perspectives du marché des pièces aéronautiques 2025-2044",
+          "p": "Selon les prévisions mondiales d'Airbus 2025-2044 et l'outlook commercial de Boeing, l'industrie entre dans une phase de croissance inédite :",
+          "li1": "43 420 nouveaux avions seront livrés au cours des 20 prochaines années",
+          "li2": "18 930 remplacements pour moderniser les flottes âgées",
+          "li3": "+3,6% de croissance annuelle du trafic passagers",
+          "li4": "Doublement de la flotte mondiale de ~24 700 à ~49 200 avions d'ici 2044",
+          "li5": "L'aviation contribue 4,1 T$ à l'économie mondiale et 86,5 M d'emplois",
+          "sources": "Sources : Airbus GMF, Boeing CMO, OACI 2025"
+        },
+        "p2": "Cette croissance se traduit par une forte demande de pièces, composants et services MRO. Avec l'Asie-Pacifique en tête, les fournisseurs doivent démontrer une portée mondiale, une expertise multi-flottes et une réponse AOG rapide."
+      },
+      "eval": {
+        "h2": "Critères d'évaluation",
+        "items": {
+          "0": {"title": "Portée mondiale", "desc": "Entrepôts, vitesse de livraison, couverture internationale"},
+          "1": {"title": "Authenticité des pièces", "desc": "Certification OEM, traçabilité, garanties qualité"},
+          "2": {"title": "Réponse AOG", "desc": "Disponibilité du support d'urgence et délais de réponse"},
+          "3": {"title": "Technologie & innovation", "desc": "Plateformes digitales, logiciels d'achat, technologies supply chain"},
+          "4": {"title": "Expérience secteur", "desc": "Années d'activité, certifications, base clients"},
+          "5": {"title": "Support client", "desc": "Qualité du service, support technique, multilingue"}
+        }
+      },
+      "rankings": {
+        "h2": "Le classement",
+        "topRated": "Mieux noté",
+        "coreSpecialties": "Spécialités principales :",
+        "keyStrengths": "Forces clés"
+      },
+      "table": {
+        "h2": "Tableau de comparaison rapide",
+        "rank": "Rang",
+        "supplier": "Fournisseur",
+        "rating": "Note",
+        "primaryFocus": "Focalisation principale",
+        "coverage": "Couverture"
+      },
+      "coverage": {
+        "worldwide": "Mondiale",
+        "multiRegional": "Multi-régionale",
+        "regionalPlus": "Régionale+"
+      },
+      "how": {
+        "h2": "Comment choisir le bon fournisseur",
+        "s1": {"title": "1. Évaluez votre flotte", "p": "Flotte Airbus ? Satair pour l'authenticité OEM. Flotte Boeing ? Boeing Distribution. Flotte mixte ? AAR Corp & programmes pool."},
+        "s2": {"title": "2. Besoins géographiques", "p": "Opérations globales = réseaux d'entrepôts mondiaux + AOG 24/7."},
+        "s3": {"title": "3. Stratégie budgétaire", "p": "PMA (Wencor) ou USM (GA Telesis, Kellstrom) réduisent 30–60% des coûts."},
+        "s4": {"title": "4. Technologie & achats", "p": "Plateformes modernes = commandes, suivi, inventaire plus rapides."},
+        "s5": {"title": "5. Besoins moteurs", "p": "Trading/leasing moteurs : CFM56, LEAP, Trent, GE90 forts."},
+        "s6": {"title": "6. Hélicoptères", "p": "Opérateurs voilure tournante : considérer Dodson International ou spécialiste."}
+      },
+      "emerging": {
+        "h2": "Entreprises émergentes : Disrupteurs digitaux",
+        "p": "De nouveaux innovateurs transforment l'achat, la traçabilité et l'efficacité marché.",
+        "card": {
+          "meta": "Miami, Floride • Fondée 2024 • orbiparts.com",
+          "badge": "Leader de l'innovation",
+          "tech": {
+            "h4": "Innovation technologique",
+            "li1": "Achats assistés par IA et optimisation des fournisseurs",
+            "li2": "Traçabilité blockchain pour l'authenticité",
+            "li3": "Transparence d'inventaire en temps réel sur les marchés surplus",
+            "li4": "Analytique prédictive pour la demande"
+          },
+          "market": {
+            "h4": "Focalisation disruption marché",
+            "li1": "Place de marché unifiée pour l'offre fragmentée",
+            "li2": "Workflows automatisés : semaines → heures",
+            "li3": "Transparence des prix avec intelligence marché",
+            "li4": "Opérations cloud-native accessibles 24/7"
+          },
+          "position": {"h4": "Positionnement stratégique", "p": "En s'appuyant sur Miami comme hub logistique, ORBIPARTS vise le surplus et l'aftermarket (> 8 Md$) avec visibilité d'inventaire instantanée, conformité automatisée et transactions transfrontalières fluides."},
+          "why": "Pourquoi suivre ORBIPARTS : allier expertise traditionnelle et tech moderne captera une valeur supérieure à mesure que l'aviation se digitalise."
+        }
+      },
+      "trends": {
+        "h2": "Tendances 2025 de l'approvisionnement en pièces",
+        "ai": {"title": "Achats pilotés par IA", "desc": "La IA révolutionne les commandes via maintenance prédictive & sélection fournisseurs automatisée."},
+        "sustainability": {"title": "Focus durabilité", "desc": "Économie circulaire : recyclage d'avions, croissance USM, suivi des émissions."},
+        "blockchain": {"title": "Traçabilité blockchain", "desc": "Registres immuables assurent authenticité et simplifient la conformité."},
+        "consolidation": {"title": "Consolidation mondiale", "desc": "Fusions-acquisitions pour l'échelle → inventaires plus larges et logistique renforcée."}
+      },
+      "faq": {
+        "h2": "Questions fréquentes",
+        "q1": "Différence entre pièces OEM et PMA ?",
+        "a1": "Pièces OEM par fabricants ou fournisseurs autorisés. PMA : alternatives certifiées FAA 30–60% moins chères aux mêmes normes.",
+        "q2": "Importance du support AOG mondial ?",
+        "a2": "Critique. AOG peut coûter > 150 000 $/jour. Équipes 24/7 + entrepôts stratégiques = moins d'immobilisation.",
+        "q3": "Plusieurs fournisseurs ou consolider ?",
+        "a3": "La plupart utilisent 1 principal (60–80%) + 2–3 spécialistes selon plateformes/économies.",
+        "q4": "Et le USM (pièces d'occasion en état de service) ?",
+        "a4": "USM de démantèlements certifiés : 40–70% d'économies. Assurer traçabilité complète et durée de vie restante."
+      },
+      "conclusion": {
+        "h2": "Conclusion",
+        "p1": "En 2025, l'offre de pièces n'a jamais été aussi riche — des distributeurs OEM aux plateformes technologiques. Chacun des Top 10 apporte des forces uniques.",
+        "p2": "Le bon partenaire dépend de votre flotte, géographie, stratégie budgétaire et urgence. Utilisez ce guide pour présélectionner selon vos objectifs." 
+      },
+      "cta": {
+        "h3": "Prêt à optimiser votre chaîne d'approvisionnement en pièces ?",
+        "p": "Expérimentez une efficacité moderne — rapidité AOG, authenticité OEM, décisions basées sur les données.",
+        "getStarted": "Commencer aujourd'hui",
+        "searchInventory": "Rechercher dans notre inventaire",
+        "getStartedShort": "Commencer",
+        "browseInventory": "Parcourir l'inventaire",
+        "why": "Découvrez pourquoi les opérateurs mondiaux font confiance à ORBIPARTS."
+      },
+      "related": {
+        "h3": "Articles liés",
+        "card1": {"title": "Stratégies de chaîne d'approvisionnement globale", "desc": "Distribution multi-régionale & blockchain contre les perturbations"},
+        "card2": {"title": "Aviation durable & pièces USM", "desc": "Réduction carbone 40–70% via économie circulaire"},
+        "card3": {"title": "Tendances technologiques en aviation", "desc": "IA, blockchain, jumeaux numériques transforment la maintenance"}
+      },
+      "suppliers": {
+        "1": {
+          "name": "AAR Corp",
+          "headquarters": "Wood Dale, Illinois, États‑Unis",
+          "description": "AAR Corp est le plus grand fournisseur indépendant de services aéronautiques pour les opérateurs commerciaux et gouvernementaux.",
+          "specialties": ["Services MRO", "Solutions intégrées", "Fourniture de pièces", "Contrats gouvernementaux"],
+          "strengths": [
+            "+70 ans d'expérience sectorielle",
+            "Cotée (NYSE: AIR) – 2,4 Md$ de revenus (2024)",
+            "Réseau MRO mondial avec 70+ sites",
+            "+1 Md$ d'inventaire géré",
+            "Forte présence dans les programmes gouvernementaux & défense",
+            "Croissance par acquisitions récentes augmentant la capacité"
+          ]
+        },
+        "2": {
+          "name": "Satair (Airbus Services)",
+          "headquarters": "Copenhague, Danemark",
+          "description": "Filiale d'Airbus offrant une authenticité OEM inégalée et une capacité USM croissante.",
+          "specialties": ["Pièces OEM Airbus", "Gestion des matériaux", "Support AOG", "Programmes de consignation"],
+          "strengths": [
+            "Filiale officielle Airbus – authenticité OEM",
+            "Distribution exclusive sur plateformes Airbus",
+            "Réseau mondial d'entrepôts",
+            "USM renforcé via acquisition d'Unical",
+            "Desk AOG 24/7 <4h de réponse moyenne",
+            "Intégration digitale Skywise"
+          ]
+        },
+        "3": {
+          "name": "Boeing Distribution",
+          "headquarters": "Seattle, Washington, États‑Unis",
+          "description": "Intégrée à Boeing Global Services avec accès technique OEM approfondi.",
+          "specialties": ["Pièces OEM Boeing", "Support technique", "Rotables", "Modifications"],
+          "strengths": [
+            "Accès direct à l'ingénierie Boeing",
+            "Support des familles 737 / 777 / 787",
+            "Fait partie de Boeing Global Services",
+            "Accès prioritaire aux bulletins de service",
+            "Hubs régionaux multiconinentaux",
+            "Analytique via Boeing AnalytX"
+          ]
+        },
+        "4": {
+          "name": "AJW Group",
+          "headquarters": "Hersham, Royaume‑Uni",
+          "description": "Réputée pour sa réponse AOG agressive et une logistique mondiale efficiente.",
+          "specialties": ["Solutions composants", "Logistique", "Location moteurs", "Services AOG"],
+          "strengths": [
+            "+40 ans d'historique de service",
+            "Réponse AOG rapide 24/7/365",
+            "Présence d'entrepôts mondiale",
+            "Solide pool de location moteurs",
+            "Couverture multi‑plateformes",
+            "Programmes souples de pooling & échange"
+          ]
+        },
+        "5": {
+          "name": "GA Telesis",
+          "headquarters": "Fort Lauderdale, Florida, États‑Unis",
+          "description": "Acteur dominant en USM et location moteurs pour des stratégies de flotte optimisées en coûts.",
+          "specialties": ["Location moteurs", "Pièces USM", "Démantèlement d'aéronefs", "Gestion d'actifs"],
+          "strengths": [
+            "Grand portefeuille de location moteurs",
+            "Opérations de démantèlement à haut volume",
+            "Traçabilité USM rigoureuse",
+            "Focalisation sur l'optimisation régionale & narrowbody",
+            "Portée de distribution mondiale",
+            "Alternatives de remplacement économiques"
+          ]
+        },
+        "6": {
+          "name": "Wencor Group",
+          "headquarters": "Peachtree City, Georgia, États‑Unis",
+          "description": "Leader des pièces alternatives FAA‑PMA générant d'importantes économies.",
+          "specialties": ["Pièces PMA", "Réparations DER", "Échange de rotables", "Révision de composants"],
+          "strengths": [
+            "Large catalogue PMA indépendant",
+            "30–60% d'économies vs OEM",
+            "Programmes d'échange de rotables",
+            "Capacité de réparation rapide (quick‑turn)",
+            "Solides relations avec compagnies US",
+            "Spécialisation narrowbody commercial"
+          ]
+        },
+        "7": {
+          "name": "ASRL",
+          "headquarters": "Feltham, Royaume‑Uni",
+          "description": "Spécialiste européen des composants rotables avec échanges flexibles.",
+          "specialties": ["Composants rotables", "Programmes d'échange", "Solutions d'inventaire", "Retours de location"],
+          "strengths": [
+            "+40 ans de présence en Europe",
+            "Grande profondeur d'inventaire rotable",
+            "Conditions de pooling & échange flexibles",
+            "Relations solides avec MRO européens",
+            "Spécialisation plateformes A320 / 737",
+            "Gestion coordonnée des réparations rapides"
+          ]
+        },
+        "8": {
+          "name": "HEICO Aerospace",
+          "headquarters": "Hollywood, Florida, États‑Unis",
+          "description": "Plateforme de croissance se renforçant par acquisitions en PMA et réparation.",
+          "specialties": ["Pièces FAA‑PMA", "Réparation de composants", "Distribution"],
+          "strengths": [
+            "Croissance diversifiée cotée en bourse",
+            "Portefeuille PMA en expansion",
+            "Certifications FAA/EASA",
+            "Acquisitions stratégiques ciblées",
+            "Focalisation sur rotables à forte valeur",
+            "Positionnement aftermarket solide"
+          ]
+        },
+        "9": {
+          "name": "Kellstrom Aerospace",
+          "headquarters": "Miramar, Florida, États‑Unis",
+          "description": "Spécialiste des USM pour flottes matures avec approvisionnement par démantèlement.",
+          "specialties": ["Pièces USM", "Démantèlement d'aéronefs", "Réparation de composants", "Avions legacy"],
+          "strengths": [
+            "Décennies d'expertise USM",
+            "Flux continu d'inventaire issu de démantèlements",
+            "Spécialisation 737 Classic / NG",
+            "40–60% d'économies vs OEM",
+            "Traçabilité complète & processus QA",
+            "Soutien à l'extension de vie des flottes legacy"
+          ]
+        },
+        "10": {
+          "name": "Dodson International Parts",
+          "headquarters": "Rantoul, Kansas, États‑Unis",
+          "description": "Expert de niche des composants hélicoptère avec large couverture turbine.",
+          "specialties": ["Pièces hélicoptère", "Composants voilure tournante", "Services AOG", "Pièces moteur"],
+          "strengths": [
+            "Forte spécialisation hélicoptères",
+            "Couverture Bell & Airbus Helicopters",
+            "Support AOG 24/7 hélicoptères",
+            "Large inventaire de composants turbine",
+            "Capacités d'expédition mondiales",
+            "Liens avec programmes militaires & commerciaux"
+          ]
+        }
+      }
+    }
+    ,
+    "legacy": {
+      "seo": {
+        "title": "L'avenir des avions legacy : pourquoi les flottes anciennes comptent encore | ORBIPARTS",
+        "description": "Les avions legacy jouent toujours un rôle critique dans le monde. Pourquoi ils comptent, comment sourcer les composants de manière fiable et des stratégies pour prolonger la valeur du cycle de vie.",
+        "articleHeadline": "L'avenir des avions legacy : pourquoi les flottes anciennes comptent encore",
+        "articleDescription": "Pourquoi les flottes legacy persistent, économie USM/PMA, programmes d'extension de cycle de vie et approvisionnement stratégique pour plateformes classiques.",
+        "author": "Équipe ORBIPARTS",
+        "breadcrumb": "Avenir des avions legacy",
+        "keywords": [
+          "avions legacy",
+          "flottes anciennes",
+          "pièces USM",
+          "PMA",
+          "rotables",
+          "737 Classic",
+          "MD-80",
+          "A320ceo",
+          "ATR 72",
+          "ERJ",
+          "teardown",
+          "pooling de composants",
+          "programmes d'échange",
+          "kits de fiabilité"
+        ]
+      },
+      "hero": {
+        "imgAlt": "Boeing 737-300 classique stationné sur aire de maintenance",
+        "h1": "L'avenir des avions legacy : pourquoi les flottes anciennes comptent encore",
+        "subtitle": "Les avions legacy restent essentiels. Pourquoi ils comptent, comment sourcer les composants de manière fiable et des stratégies pour prolonger la valeur du cycle de vie."
+      },
+      "market": {
+        "h2": "Le marché des flottes legacy : en chiffres",
+        "stats": {
+          "aircraftReplacements": {"value": "18,930", "label": "Remplacements d'avions", "source": "Avions âgés à remplacer d'ici 2044 selon Airbus GMF 2025-2044"},
+          "usmMarket": {"value": "$45B+", "label": "Taille du marché USM", "source": "Valeur annuelle du marché des pièces d'occasion en état de service, croissance 5–7% jusqu'en 2030"},
+          "activeLegacy": {"value": "12,500+", "label": "Avions legacy actifs", "source": "737 Classics, A320ceo, MD-80 et turbopropulseurs régionaux encore en service"}
+        },
+        "drivers": {
+          "h3": "Principaux moteurs du marché",
+          "items": [
+            {"title": "Cycle de remplacement de flotte", "desc": "Le GMF d'Airbus projette 18 930 retraits, créant une forte demande USM pendant que les flottes prolongent leurs opérations."},
+            {"title": "Délais de livraison des avions neufs", "desc": "Carnets Boeing/Airbus de 7–10 ans forcent à maintenir les flottes plus longtemps."},
+            {"title": "Économie des marchés émergents", "desc": "Afrique, Amérique latine, Asie du Sud-Est s'appuient sur des plateformes legacy au CASK 25–40% inférieur."},
+            {"title": "Boom des conversions cargo", "desc": "Le e‑commerce stimule les conversions 737‑300/400/757‑200, prolongeant la vie cellule de 15–20 ans."}
+          ]
+        }
+      },
+      "persistence": {
+        "h2": "Pourquoi les flottes legacy persistent",
+        "p1": "Malgré l'expansion des plateformes nouvelle génération, les avions legacy restent essentiels en fret, charter, régional et marchés en développement. CAPEX, disponibilité pilotes et familiarité maintenance rendent souvent un avion de 25 ans le choix le plus économique.",
+        "p2": "Selon Fleet Discovery d'Aviation Week, plus de 12 500 avions legacy (narrowbody & régionaux) sont en service actif fin 2024 : ~2 800 Boeing 737 Classic, ~3 200 Airbus A320ceo avant 2010, ~1 400 MD‑80/90, et 5 100+ turbopropulseurs régionaux (ATR 42/72, Dash 8, ERJ‑145).",
+        "images": {
+          "hangarAlt": "Ingénieurs inspectant un MD‑80 legacy dans un hangar",
+          "hangarCaption": "Les visites lourdes prolongent la vie cellule classique et maintiennent la fiabilité d'exploitation.",
+          "cockpitAlt": "Modernisation avionique dans un cockpit classique",
+          "cockpitCaption": "La modernisation avionique permet de répondre aux exigences de l'espace aérien moderne."
+        }
+      },
+      "usmPma": {
+        "h2": "Révolution USM et PMA : une économie convaincante",
+        "intro": "L'USM (Used Serviceable Material) et les pièces PMA approuvées FAA sont des alternatives mûres et garanties qualité aux pièces OEM neuves. Les données sectorielles montrent des économies convaincantes :",
+        "usm": {
+          "title": "Économies USM",
+          "points": [
+            "40–70% sous le prix OEM neuf pour rotables (train, actionneurs, pompes, générateurs)",
+            "ROI de démantèlement : 150–300% en désassemblant stratégiquement des cellules fin de vie",
+            "Composants green‑time avec 50–80% de vie restante à −60–75%"
+          ]
+        },
+        "pma": {
+          "title": "Avantages PMA",
+          "points": [
+            "30–60% d'économie vs OEM avec même navigabilité FAA/EASA",
+            "4 000+ pièces PMA approuvées (HEICO, Wencor, AAR) des consommables aux rotables complexes",
+            "Meilleure disponibilité et délais plus courts que des lignes OEM vieillissantes"
+          ]
+        },
+        "sourcingH3": "Approvisionnement sans compromis",
+        "sourcingP": "Qualité & traçabilité conditionnent la rentabilité du legacy. Privilégier USM certifié avec dossier complet, alternatives PMA approuvées, et gestion de réparation chez ateliers réputés.",
+        "sourcingList": [
+          "Traçabilité complète : FAA 8130‑3, EASA Form 1, historiques de service pour rotables de valeur",
+          "Certification DER/PMA : vérifier approbations DER et documentation PMA",
+          "Optimisation réparation/overhaul : recommandations data‑driven selon modes de panne",
+          "Pooling/échange de composants : minimiser le BFR en maintenant la fiabilité d'exploitation",
+          "Approvisionnement via démantèlement : sécuriser en amont IDG, CSD, starters‑générateurs"
+        ],
+        "images": {
+          "engineModuleAlt": "Module moteur sur support dans entrepôt de composants",
+          "turbineAlt": "Technicien révisant des composants de turbine sur banc",
+          "documentationAlt": "Documents de navigabilité et traçabilité des composants"
+        }
+      },
+      "lifecycle": {
+        "h2": "Stratégies d'extension de cycle de vie : +10–15 ans",
+        "p": "Une planification proactive des composants étend l'utilité bien au‑delà du design initial. Les programmes modernes combinent conformité réglementaire et gestion stratégique des composants.",
+        "programs": {
+          "h3": "Programmes éprouvés",
+          "categories": {
+            "avionics": {
+              "title": "Modernisation avionique",
+              "points": [
+                "Conformité ADS‑B Out : obligatoire en espace aérien contrôlé",
+                "Datalink FANS‑1/A+ : opérations océaniques/isolées",
+                "Rétrofit cockpit verre : PFD/MFD améliorent la conscience situationnelle",
+                "ROI : 500 k$–2 M$ ajoutent 5–10 ans d'opérations"
+              ]
+            },
+            "structural": {
+              "title": "Programmes structurels",
+              "points": [
+                "Prévention/contrôle de corrosion : inspections MSG‑3",
+                "Gestion de fatigue : surveiller points critiques, bulletins OEM",
+                "Optimisation des heavy checks : coordonner C/D avec overhauls",
+                "Coût : 1–3 M$ par heavy check maintient valeur & assurabilité"
+              ]
+            },
+            "reliability": {
+              "title": "Kits & mods de fiabilité",
+              "points": [
+                "Programmes fiabilité moteur : éviter AOG via remplacements prédictifs",
+                "Timing overhaul train d'atterrissage : cycles vs calendrier",
+                "Extension vie APU : overhauls +3 000 h",
+                "Réduit retraits non planifiés 30–50%"
+              ]
+            },
+            "data": {
+              "title": "Planification pilotée par les données",
+              "points": [
+                "Surveillance d'état : données ACARS/HUMS",
+                "Analytique prédictive : IA/ML pour motifs de défaillance",
+                "Planification rotables : retraits à 12–24 mois",
+                "Optimisation BFR : dimensionner l'inventaire selon l'usage réel"
+              ]
+            }
+          }
+        }
+      },
+      "teardown": {
+        "h3": "Approvisionnement stratégique via démantèlement",
+        "p": "Le vieillissement des flottes crée des opportunités USM. Coopérer avec des spécialistes (GA Telesis, Kellstrom, APOC) pour sécuriser en amont les composants critiques.",
+        "presecureH4": "Composants legacy à sécuriser en priorité :",
+        "lists": {
+          "col1": ["Integrated Drive Generators (IDG)", "Constant Speed Drives (CSD)", "Starters‑générateurs", "Pompes hydrauliques"],
+          "col2": ["Ensembles train d'atterrissage", "Actionneurs de commandes de vol", "Unités APU complètes", "LRU avioniques (legacy)"] ,
+          "col3": ["Accessoires moteur", "Inverseurs de poussée", "Composants ECS", "Instruments de cockpit"]
+        }
+      },
+      "platforms": {
+        "h3": "Plateformes que nous supportons activement",
+        "list1": ["Familles B737 Classic & NG", "MD‑80/90, DC‑9, 757‑200", "Airbus A320ceo (premières séries)"],
+        "list2": ["ATR 42/72, Dash 8", "Embraer ERJ/premiers E‑Jets", "Conversions cargo & combi"]
+      },
+      "orbiparts": {
+        "h2": "Comment ORBIPARTS révolutionne le support des flottes legacy",
+        "intro": "Les opérations legacy exigent des fournisseurs maîtrisant complexité technique et contraintes économiques. ORBIPARTS allie expertise & technologie pour un support supérieur.",
+        "cards": {
+          "ai": {"title": "Approvisionnement USM piloté par IA", "p": "Notre plateforme ML scanne les marchés de démantèlement, détecte l'USM avant marché et aligne disponibilité avec votre flotte pour sécuriser au meilleur prix – 48–72 h plus vite."},
+          "blockchain": {"title": "Traçabilité blockchain", "p": "Chaque composant inclut des dossiers digitaux immuables — 8130‑3, historiques, heures/cycles — vérifiés via blockchain."},
+          "exchange": {"title": "Programmes d'échange & pooling", "p": "Réduisez le BFR avec des échanges. Inventaire stratégique (IDG, CSD, train, actionneurs) pour AOG immédiat pendant l'atelier."},
+          "lifecycle": {"title": "Outils de planification de cycle de vie", "p": "Prévisions rotables 12–24 mois selon l'usage. Analytics identifie heavy checks, limites de vie & AD pour budgéter précisément."}
+        },
+        "why": {
+          "h3": "Pourquoi les opérateurs legacy choisissent ORBIPARTS",
+          "metrics": {
+            "savings": {"value": "40–70%", "label": "Économies vs OEM via USM & PMA stratégiques"},
+            "aog": {"value": "24/7", "label": "Support AOG avec engagement de devis <2 h"},
+            "items": {"value": "10,000+", "label": "Lignes legacy : 737 Classic, A320ceo, MD‑80, ATR, ERJ"}
+          }
+        }
+      },
+      "takeaways": {
+        "h2": "Points clés : maximiser la valeur des flottes legacy",
+        "items": [
+          {"title": "Les flottes legacy restent essentielles", "p": "18 930 remplacements d'ici 2044 + carnets 7–10 ans = rôle clé jusque dans les années 2030."},
+          {"title": "USM & PMA : économie convaincante", "p": "USM −40–70% vs OEM neuf ; PMA −30–60% avec navigabilité identique."},
+          {"title": "Programmes d'extension : +10–15 ans", "p": "Avionique, corrosion, kits fiabilité + planification data étendent la vie économique."},
+          {"title": "Traçabilité non négociable", "p": "8130‑3, historiques, overhauls différencient pros des risques. Blockchain = audit instantané."},
+          {"title": "Démantèlement stratégique évite la pénurie", "p": "Sécuriser les composants critiques en amont économise 20–40% et évite des AOG coûteux."}
+        ]
+      },
+      "forward": {
+        "h2": "Une voie pratique à suivre",
+        "p1": "Avec la bonne stratégie supply, les flottes legacy offrent CASK stable & flexibilité de routes. ORBIPARTS combine USM global, prix transparents & analytique prédictive.",
+        "p2": "Prolonger les 737 Classics, gérer les transitions A320ceo ou soutenir des turbopropulseurs régionaux — notre équipe maximise la valeur tout en réduisant le risque.",
+        "cta": {"primary": "Parler à notre équipe legacy", "secondary": "Rechercher l'inventaire legacy"}
+      },
+      "related": {
+        "h2": "Articles liés",
+        "card1": {"title": "Aviation durable & économie circulaire", "desc": "Comment l'USM réduit 40–70% de carbone vs fabrication neuve — CORSIA."},
+        "card2": {"title": "Fournisseurs d'avions legacy clés", "desc": "Distributeurs spécialisés avec stocks USM profonds pour B727, DC‑10, MD‑80 & B747 classic."},
+        "card3": {"title": "Technologie pour flottes legacy", "desc": "Jumeaux numériques & maintenance prédictive prolongent le TBO."}
+      }
+    },
+    "aog": {
+      "seo": {
+        "title": "Réponse AOG : Minimiser l'immobilisation critique des avions | ORBIPARTS",
+        "description": "Triage ingénierie, sourcing et logistique premium pour contrôler les coûts AOG et accélérer le retour en service.",
+        "articleHeadline": "Réponse AOG : Minimiser l'immobilisation critique des avions",
+        "articleDescription": "Playbooks AOG éprouvés combinant triage technique, sourcing mondial et logistique accélérée pour rétablir la navigabilité rapidement.",
+        "author": "Bureau AOG ORBIPARTS",
+        "breadcrumb": "Stratégies de réponse AOG"
+      },
+      "hero": {
+        "badge": "Playbook AOG • Mise à jour janvier 2024",
+        "h1": "Réponse AOG : Minimiser l'immobilisation en situations critiques",
+        "subtitle": "Playbooks éprouvés intégrant triage technique, vitesse d'approvisionnement & logistique premium",
+        "imgAlt": "Techniciens de maintenance résolvant un incident AOG de nuit"
+      },
+      "metrics": {
+        "items": [
+          {"label": "Impact horaire", "value": "$150K – $500K", "detail": "Revenus perdus, compensations et coûts de repositionnement quand un avion reste immobilisé."},
+          {"label": "SLA logistique", "value": "< 4 h", "detail": "Objectif de confirmer disponibilité et réserver transport pour incidents critiques."},
+          {"label": "Bureau réponse", "value": "24 / 7 / 365", "detail": "Spécialistes multilingues à Miami et Madrid couvrant tous les fuseaux horaires."}
+        ]
+      },
+      "stabilization": {
+        "sectionBadge": "Chronologie de stabilisation",
+        "h2": "Réponse structurée durant les huit premières heures",
+        "intro": "Chaque AOG est triagé par fenêtres fixes afin que ingénierie, matériaux et OCC restent synchronisés. Une propriété claire évite les doublons et maintient réaliste la prévision de remise en service.",
+        "steps": [
+          {"title": "0 – 30 min", "detail": "Contrôle flotte valide options MEL/CDL, capture localisation et évalue la sévérité."},
+          {"title": "30 – 90 min", "detail": "Bureau pièces interroge OEM, USM et pools d'échange pendant que l'ingénierie fige la documentation requise."},
+          {"title": "90 – 180 min", "detail": "Logistique choisit la voie la plus rapide (NFO, charter, hand‑carry) et pré‑alerte la douane."},
+          {"title": "3 – 8 h", "detail": "Le composant arrive sur site avec documents de navigabilité et les équipes installation exécutent la checklist retour en service."}
+        ],
+        "liveMetrics": {
+          "badge": "Métriques live",
+          "releaseRate": "Taux de remise AOG dans le SLA YTD"
+        },
+        "nightShiftAlt": "Équipe de nuit analysant la télémétrie AOG"
+      },
+      "operations": {
+        "badge": "Contrôle opérations",
+        "h3": "Discipline centre de commandement",
+        "intro": "Salles opérations intégrées reflétant l'OCC avec liaisons ingénierie, supply chain et approbateurs finance.",
+        "comms": [
+          "Canal war-room unique avec ingénierie, OCC et finance pour validations rapides.",
+          "Tableaux partagés diffusant ETA, lettres de transport et artefacts de conformité.",
+          "Mises à jour exécutives toutes les 60 minutes jusqu'au décollage."],
+        "opsRoomAlt": "Centre de contrôle opérations surveillant les vols"
+      },
+      "riskControls": {
+        "items": [
+          {"title": "Listes de surveillance prédictives", "copy": "Données fiabilité par immatriculation déclenchent pré‑achat de rotables à haut risque avant la panne."},
+          {"title": "Kits pré‑positionnés", "copy": "LRUs critiques stockés dans aéroports hub réduisent délais douane et permettent fenêtres de dispatch 2–3 h."},
+          {"title": "Gouvernance pools d'échange", "copy": "Jumeau numérique de chaque numéro de série avec certificats, traçabilité et timers retour fournisseur."},
+          {"title": "Préparation réglementaire", "copy": "Packages documentaires pré‑approuvés pour inspections FAA, EASA, DGAC, ANAC."}
+        ]
+      },
+      "logistics": {
+        "card": {
+          "imgAlt": "Fret accéléré chargé pour expédition AOG",
+          "h3": "Stack logistique premium",
+          "p1": "NFO, charter aérien dédié et courriers hand‑carry pré‑validés avec protocoles sécurité et entrepôts sous douane.",
+          "p2": "Le SOP inclut des transporteurs de secours régionaux pour éviter tout point de défaillance unique."
+        }
+      },
+      "rts": {
+        "card": {
+          "imgAlt": "Technicien installant un composant avionique de remplacement",
+          "h3": "Kits retour en service (RTS)",
+          "p1": "Chaque envoi inclut guides d'installation, documents réglementaires et valeurs de couple pour que la maintenance ligne clôture sans suivis ingénierie.",
+          "p2": "Checklist RTS digitale synchronisée au système M&E de la compagnie pour pistes d'audit."
+        }
+      },
+      "faq": {
+        "badge": "FAQ",
+        "h3": "Répondre aux questions du centre AOG",
+        "cta": "Besoin d'un SLA plus rapide ? Parlez à notre bureau 24/7 →",
+        "items": [
+          {"q": "Qu'est-ce qu'un événement AOG (Aircraft On Ground) ?", "a": "Un AOG signifie qu'un avion ne peut pas partir pour raisons de navigabilité, régulation ou documentation. Chaque minute supplémentaire augmente les coûts – la vitesse est critique."},
+          {"q": "À quelle vitesse ORBIPARTS peut expédier une pièce AOG ?", "a": "Réponse devis en moins de deux heures; expédition des pièces stockées sous 4–6 h en Amérique du Nord. Hubs Miami & Amsterdam couvrent LATAM & EMEA en 12–24 h."},
+          {"q": "Quels KPIs suivre pour AOG ?", "a": "KPIs cœur : temps réponse devis, confirmation disponibilité, cycle dispatch‑dock, exactitude documentaire, immobilisation totale jusqu'à remise."},
+          {"q": "Quels modes logistiques pour urgences ?", "a": "Next Flight Out, charter express, hot‑shot camionnage, courriers hand‑carry – évalués cas par cas (temps, risque, coût)."},
+          {"q": "Comment les pools d'échange réduisent l'immobilisation ?", "a": "Programmes d'échange permettent installation immédiate d'un composant utilisable pendant que l'unité défectueuse passe en atelier, évitant 30–90 jours d'attente."}
+        ]
+      },
+      "cta": {
+        "badge": "Étape suivante",
+        "h3": "Ajoutez notre bureau AOG à votre arbre de notification",
+        "p": "Une session d'onboarding connecte votre OCC à nos pipelines inventaire, logistique et documentation. Nous nous intégrons à votre ligne de crise et reflétons votre matrice d'escalade.",
+        "primary": "Voir les services",
+        "secondary": "Planifier l'onboarding"
+      }
+      }
+      ,
+      "miami": {
+      "seo": {
+        "title": "Rôle stratégique de Miami dans la logistique aéronautique mondiale | ORBIPARTS",
+        "description": "Miami sert de passerelle hémisphérique pour la distribution de pièces. Infrastructure, vitesse douanière et accès LATAM.",
+        "articleHeadline": "Rôle stratégique de Miami dans la logistique aéronautique mondiale",
+        "articleDescription": "Comment la position géostratégique, la vitesse douanière et l'infrastructure multimodale de Miami optimisent la distribution de pièces dans les Amériques.",
+        "author": "Expert logistique",
+        "breadcrumb": "Logistique aéronautique Miami"
+      },
+      "hero": {
+        "imgAlt": "Opérations fret aérien au hub logistique de Miami",
+        "h1": "Rôle stratégique de Miami dans la logistique aéronautique mondiale",
+        "subtitle": "Passerelle hémisphérique pour AOG critique et distribution LATAM efficace",
+        "updated": "Analyse secteur • Mise à jour janvier 2024"
+      },
+      "stats": {
+        "sectionH2": "Miami : puissance logistique des Amériques",
+        "cards": {
+          "usInternational": {"value": "#1", "title": "Fret international (USA)", "desc": "MIA classé premier aux États‑Unis pour le fret international"},
+          "tons": {"value": "2.7M", "title": "Tonnes de fret (2024)", "desc": "Volume annuel faisant de MIA la porte d'entrée des Amériques"},
+          "latam": {"value": "74%", "title": "Trafic Amérique latine", "desc": "De la cargaison internationale connecte vers Amérique centrale/sud et Caraïbes"},
+          "airlines": {"value": "100+", "title": "Compagnies desservies", "desc": "Transporteurs mondiaux avec accès direct à 160+ destinations internationales"}
+        },
+        "whyH3": "Pourquoi Miami domine la distribution de pièces",
+        "list": {
+          "gateway": "Passerelle hémisphérique : plus proche grand hub US de l'Amérique latine — critique pour AOG (chaque heure > 150K$)",
+          "market": "Accès marché LATAM : Service cargo direct vers 50+ villes avec vols moyens 2–4 h",
+          "ftz": "Avantages FTZ : Large zone franche réduit droits, permet staging sans dédouanement et facilite la ré‑exportation",
+          "ops247": "Opérations 24/7 : Manutention cargo, dédouanement et routier en continu pour fenêtres AOG"
+        }
+      },
+      "geostrategic": {
+        "h2": "Position géostratégique : avantage temps‑distance",
+        "p1": "L'aéroport international de Miami (MIA) est la principale passerelle entre les marchés aéronautiques d'Amérique du Nord, d'Amérique latine et des Caraïbes. Son alignement géographique réduit les temps AOG et les coûts logistiques.",
+        "p2": "Selon l'ACI, MIA est #1 aux USA en volume de fret international (2,7 M tonnes). 74% du fret international connecte vers l'Amérique latine — concentration inégalée.",
+        "flightTable": {
+          "title": "Comparaison temps de vol : MIA vs hubs concurrents",
+          "destination": "Destination",
+          "mia": "Miami (MIA)",
+          "atl": "Atlanta (ATL)",
+          "jfk": "New York (JFK)",
+          "timeSaved": "Temps gagné",
+          "row1": {"dest": "São Paulo (GRU)", "mia": "8h 30m", "atl": "9h 45m", "jfk": "10h 15m", "saved": "1h 15m - 1h 45m"},
+          "row2": {"dest": "Mexico (MEX)", "mia": "3h 15m", "atl": "3h 30m", "jfk": "4h 45m", "saved": "15m - 1h 30m"},
+          "row3": {"dest": "Bogotá (BOG)", "mia": "3h 45m", "atl": "4h 30m", "jfk": "5h 30m", "saved": "45m - 1h 45m"},
+          "row4": {"dest": "Buenos Aires (EZE)", "mia": "9h 15m", "atl": "10h 30m", "jfk": "11h 00m", "saved": "1h 15m - 1h 45m"},
+          "aogImpact": "Impact AOG : chaque heure gagnée = > 150 000 $ d'immobilisation évitée"
+        },
+        "rampAlt": "Chargeurs opérant sur le tarmac de Miami",
+        "rampCaption": "Efficacité de rampe et fréquence des gros porteurs accélèrent la distribution.",
+        "portAlt": "Vue aérienne convergence port‑aéroport",
+        "portCaption": "Accès multimodal permet routage hybride (air + mer + terrestre)."
+      },
+      "customs": {
+        "h2": "Vitesse douanière : rapidité qui économise des millions",
+        "p1": "En AOG (150 K$+/h), la vitesse de dédouanement est un avantage. Infrastructure spécialisée et courtiers expérimentés à Miami offrent des délais leaders.",
+        "advantagesH3": "Atouts du dédouanement MIA",
+        "expressH4": "Délais express",
+        "expressList": {
+          "aog": "Expéditions AOG : 2–4 h en moyenne avec pré‑dépôt et coordination courtier",
+          "routine": "Commercial routinier : 4–8 h avec documentation correcte",
+          "staffing": "Présence CBP 24/7 permet traitement nuit et week‑end",
+          "comparison": "Comparaison : JFK 8–12 h, LAX 6–10 h pour envois similaires"
+        },
+        "ftzH4": "Avantages FTZ",
+        "ftzList": {
+          "deferral": "Report de droits : stock sans payer jusqu'au retrait",
+          "elimination": "Élimination des droits à la ré‑exportation : clé pour marchés LATAM",
+          "manufacturing": "Flexibilité de transformation : assembler/modifier en zone franche",
+          "inverted": "Tarif inversé : droits plus faibles sur assemblages finis vs composants"
+        },
+        "p2": "Les courtiers spécialisés maîtrisent classification HTS, exigences FAA et standards documentaires. Pré‑classement et pré‑dépôt digital réduisent les délais.",
+        "digitalAlt": "Documents douaniers traités numériquement",
+        "warehouseAlt": "Rayonnages d'entrepôt sous douane",
+        "itAlt": "Infrastructure IT logistique sécurisée"
+      },
+      "orbiparts": {
+        "h2": "Comment ORBIPARTS tire parti des atouts de Miami",
+        "intro": "Miami choisi comme siège : avantages géographiques + infrastructure digitale pour un service inégalé dans les Amériques.",
+        "cards": {
+          "gateway": {"title": "Positionnement passerelle Amériques", "p": "Accès 2–4 h de vol à 50+ villes LATAM permet dispatch AOG rapide."},
+          "customs": {"title": "Dédouanement express", "p": "Protocoles de pré‑dédouanement & inventaire FTZ permettent 2–4 h et staging hors droits."},
+          "ops": {"title": "Centre opérations 24/7", "p": "Opérations cargo 24/7 alignées avec notre modèle AOG pour fiabilité dispatch."},
+          "ecosystem": {"title": "Écosystème logistique", "p": "Concentration d'acteurs spécialisés + intégration digitale pour visibilité temps réel."}
+        },
+        "capabilitiesH3": "Capacités du hub Miami ORBIPARTS",
+        "capabilities": {
+          "clearance": {"value": "2–4h", "desc": "Dédouanement moyen AOG avec pré‑dépôt"},
+          "cities": {"value": "50+", "desc": "Villes LATAM à ≤ 4 h de vol depuis MIA"},
+          "warehouse": {"value": "Climatisé", "desc": "Entrepôt FTZ garantissant qualité & conformité"
+          }
+        }
+      },
+      "multimodal": {
+        "h3": "Connectivité multimodale & infrastructure",
+        "p1": "L'avantage dépasse l'aérien — convergence Port de Miami, autoroutes et rail crée une flexibilité multimodale.",
+        "list": {
+          "hybrid": "Routage hybride air + mer : économique pour non‑AOG en combinant mer et vitesse air",
+          "repair": "Écosystème stations de réparation : 50+ stations FAA pour avionique, composants, révision moteurs",
+          "warehouse": "Concentration entrepôts de distribution : grands fournisseurs stockent à Miami pour LATAM",
+          "staging": "Infrastructure de staging évolutive : sites climatisés pour moteurs, APU et rotables à forte valeur",
+          "ground": "Réseau transport terrestre : camions dédiés reliant MIA à FLL, PBI, OPF"
+        }
+      },
+      "sustainability": {
+        "h2": "Durabilité & optimisation de chaîne d'approvisionnement",
+        "p1": "Position centrale de Miami réduit vols de positionnement et intensité carbone.",
+        "envH3": "Réduction impact environnemental",
+        "list": {
+          "legs": "Moins d'étapes de vol : liaisons directes Miami‑LATAM économisent 15–25% de carburant",
+          "consolidation": "Consolidation inventaire : entrepôt central réduit stock de sécurité dupliqué et énergie 30–40%",
+          "proximity": "Clustering de proximité : SKUs à forte rotation proches des portes minimisent émissions terrestres",
+          "efficiency": "Efficacité climatisée : LED, solaire, CVC intelligent réduisent l'énergie de 50%+ vs entrepôts legacy"
+        }
+      },
+      "takeaways": {
+        "h2": "Points clés : supériorité logistique de Miami",
+        "items": {
+          "1": {"title": "Accès LATAM inégalé", "p": "Classement #1 et 74% LATAM offrent un time‑to‑market supérieur pour AOG et routine."},
+          "2": {"title": "Temps = argent en AOG", "p": "Chaque heure gagnée = > 150 K$ — l'avantage temps de vol de Miami génère des économies."},
+          "3": {"title": "Avantages FTZ abaissent les coûts", "p": "Report droits, ré‑exportation et flexibilité de transformation réduisent 15–30% du coût total."},
+          "4": {"title": "Vitesse douanière décisive", "p": "Dédouanement 2–4 h + présence 24/7 offrent des fenêtres de service fiables."},
+          "5": {"title": "Synergies d'écosystème", "p": "Stations de réparation, distributeurs & multimodalité créent une efficacité cumulative."}
+        }
+      },
+      "related": {
+        "h2": "Articles liés",
+        "card1": {"title": "Stratégies de chaîne d'approvisionnement globale", "desc": "Comment des centres multi‑régions complètent la domination LATAM de Miami"},
+        "card2": {"title": "Excellence de la réponse AOG", "desc": "Modes logistiques d'urgence tirant parti de la connectivité de Miami"},
+        "card3": {"title": "Aviation durable & réduction carbone", "desc": "Des hubs stratégiques minimisent les émissions tout en gardant le service"}
+      },
+      "cta": {
+        "h2": "Partenaire avec des experts logistiques basés à Miami",
+        "p1": "Le siège ORBIPARTS à Miami allie avantages géographiques et innovation digitale pour des niveaux de service leaders.",
+        "p2": "D'urgences AOG aux réapprovisionnements routiniers, notre hub apporte vitesse, flexibilité et efficacité coûts.",
+        "primary": "Optimiser votre stratégie logistique",
+        "secondary": "Explorer l'inventaire Miami"
+      }
+    }
+    ,
+    "globalSupply": {
+      "seo": {
+        "title": "Chaînes d'approvisionnement globales : défis et solutions dans le négoce de pièces aéronautiques | ORBIPARTS",
+        "description": "Comprendre la volatilité, la complexité réglementaire et les stratégies de résilience dans les chaînes d'approvisionnement de pièces aéronautiques.",
+        "articleHeadline": "Chaînes d'approvisionnement globales : défis et solutions dans le négoce de pièces aéronautiques",
+        "articleDescription": "Comment atténuer la volatilité via la résilience, la conformité export et la technologie pour les chaînes d'approvisionnement.",
+        "author": "Responsable Supply Chain",
+        "breadcrumb": "Chaînes d'approvisionnement"
+      },
+      "hero": {
+        "imgAlt": "Visualisation réseau logistique mondial pour pièces aéronautiques",
+        "h1": "Chaînes d'approvisionnement globales : défis et solutions dans le négoce de pièces aéronautiques",
+        "subtitle": "Stratégies de résilience, conformité et technologie pour chaînes aéronautiques modernes"
+      },
+      "postCovid": {
+        "h2": "Réalité post‑COVID : transformation permanente",
+        "cards": {
+          "costIncrease": {"value": "+127%", "title": "Hausse coût fret aérien", "desc": "Tarifs COVID à $15–$18/kg vs $5–$7/kg avant"},
+          "leadTimes": {"value": "18–24m", "title": "Délais allongés", "desc": "Avionique & composants à semi‑conducteurs 2–3× cycles normaux"},
+          "bellyCapacity": {"value": "-65%", "title": "Perte capacité soute", "desc": "Baisse vols pax a retiré ~40% de capacité cargo mondiale"}
+        },
+        "shiftsH3": "Basculements durables des dynamiques supply chain",
+        "pIntro": "La pandémie a exposé des fragilités masquées par des décennies d'optimisation. Le JIT a cédé avec fermetures de frontières, usines & réseaux de fret.",
+        "list": {
+          "justInCase": "Du JIT au Just‑in‑Case : Stock de sécurité +30–50%",
+          "nearshoring": "Nearshoring & Friend‑Shoring : Production rapprochée des marchés",
+          "diversification": "Diversification fournisseurs : Dual‑sourcing devient standard",
+          "digitalDocs": "Accélération des documents digitaux : 8130/Form 1 tokenisés & e‑certs",
+          "usmBoom": "Boom USM : Pénuries de pièces neuves ont dopé la demande de +40%"
+        }
+      },
+      "geopolitical": {
+        "h2": "Fracturation géopolitique : tensions US‑Chine & complexité ITAR",
+        "p1": "Tensions commerciales & contrôles export renforcés fragmentent les chaînes – surtout avionique & composants dual‑use.",
+        "usChina": {
+          "h3": "Impact US‑Chine sur l'aérien",
+          "tariffs": "Tarifs : 25% de droits sur composants aéronautiques chinois (Section 301)",
+          "entity": "Liste d'entités : COMAC et sociétés chinoises sur liste noire US",
+          "bifurcation": "Bifurcation supply chain : OEM occidentaux réorientent vers Japon, Corée, UE",
+          "rareEarth": "Terres rares : ~80% du raffinage mondial contrôlé par la Chine",
+          "costImpact": "Impact coût : +15–30% pour composants alternatifs/reshorés"
+        },
+        "itar": {
+          "h3": "Complexité ITAR & contrôles export",
+          "dualUse": "Technologies dual‑use : pièces à usages militaires nécessitent licences",
+          "endUser": "Restrictions utilisateur final : Destinations interdites (Russie, Iran, RPDC, Syrie)",
+          "reExport": "Règles de ré‑exportation : pièces d'origine US requièrent approbation pour transferts tiers pays",
+          "penalty": "Risque pénalités : amendes > 1 M$ et exposition pénale",
+          "delays": "Délais : approbations ITAR 45–90 j bloquent des expéditions AOG"
+        },
+        "p2": "Nécessité de screening automatisé, traçabilité d'origine et classification export pour éviter la paralysie."
+      },
+      "semiconductor": {
+        "h2": "Crise des semi‑conducteurs : avionique sous pression",
+        "p1": "La pénurie mondiale a touché l'avionique, les calculateurs de vol & la navigation – nœuds matures & certifications longues.",
+        "whyH3": "Pourquoi l'aérien a particulièrement souffert",
+        "why": {
+          "longQualification": "Longs cycles de qualification : DO‑254 18–36 mois",
+          "legacyNode": "Dépendance nœuds legacy : 28–180 nm vs 5 nm grand public prioritaires",
+          "lowVolume": "Économie faible volume : capacité allouée aux segments à haute marge",
+          "singleSource": "Risque single‑source : peu d'alternatives drop‑in pour LRUs certifiés"
+        },
+        "impactH3": "Impact sur disponibilité & prix",
+        "impact": {
+          "lead": {"value": "18–24m", "label": "Délais prolongés pour LRUs avionique"},
+          "price": {"value": "+45–80%", "label": "Hausses de prix pour composants à puces"},
+          "markup": {"value": "3–5x", "label": "Surcote semi‑conducteurs marché gris"},
+          "chipsAct": {"value": "$240B", "label": "Investissements CHIPS Act (relocalisation US)"}
+        },
+        "supplierStrategy": "Stratégie fournisseur : Buffers 6–12 m et allocations pré‑négociées."
+      },
+      "data": {
+        "h2": "Intégration des données & analytique prédictive : couche d'intelligence",
+        "p1": "La résilience dépend d'intégrer ERP, CMMS, WMS & finance — analytics unifiée pour décisions proactives.",
+        "integration": {
+          "h3": "Points d'intégration critiques",
+          "procurementMaintenance": "Achat ↔ Maintenance : aligner commandes avec checks C/D pour éviter AOG",
+          "inventoryFinance": "Inventaire ↔ Finance : capital immobilisé dans rotables",
+          "supplierPerformance": "Performance fournisseur ↔ Achat : fill rate, exactitude délais, qualité docs",
+          "fleetUtilization": "Utilisation flotte ↔ Planification : heures & cycles → prévisions 12–24 m",
+          "marketIntelligence": "Intelligence marché ↔ Sourcing : suivis retraits/expansions flottes"
+        },
+        "ml": {
+          "h3": "Applications de machine learning",
+          "failurePrediction": "Prédiction pannes : ACARS, vibration, températures → 3–6 m d'avance",
+          "leadTimeForecasting": "Prévision délais : fournisseur + marché → ETA ±3 j",
+          "pricingOptimization": "Optimisation prix : modèles dynamiques selon urgence & capacité",
+          "routeOptimization": "Optimisation routes : IA considère douanes, plannings, météo",
+          "anomalyDetection": "Détection anomalies : risques contrefaçon & irrégularités doc"
+        },
+        "images": {
+          "analyticsAlt": "Tableau de bord analytique performance supply chain",
+          "analyticsCaption": "Tableaux de délais & fill rate guident les décisions de stock.",
+          "apiAlt": "Schéma des connexions API",
+          "apiCaption": "Les APIs relient achats et maintenance pour l'alignement."
+        }
+      },
+      "orbiparts": {
+        "h2": "Comment ORBIPARTS apporte la résilience",
+        "intro": "Notre plateforme répond à la fragilité post‑pandémie via sourcing global, traçabilité digitale et analytics prédictive.",
+        "cards": {
+          "sourcing": {
+            "title": "Réseau de sourcing diversifié",
+            "multiRegion": "Stock multi‑régions : Miami (Amériques), expansion Europe/APAC",
+            "vettedSuppliers": "300+ fournisseurs vérifiés : OEM, PMA, démantèlement, stations de réparation",
+            "usmReserves": "Réserves USM stratégiques : composants legacy pré‑positionnés",
+            "dualSource": "Stratégie dual‑source : minimum deux fournisseurs + bascule auto"
+          },
+          "transparency": {
+            "title": "Transparence pilotée par la technologie",
+            "realTime": "Visibilité inventaire temps réel : MAJ toutes les 15 min",
+            "blockchain": "Documentation blockchain : 8130‑3 immuable & vérification instantanée",
+            "predictive": "Délais prédictifs : ETA IA précision 95%+",
+            "api": "Intégration API : REST pour réapprovisionnements automatisés"
+          }
+        },
+        "metricsH3": "Indicateurs de performance ORBIPARTS",
+        "metrics": {
+          "fillRate": {"value": "98.2%", "label": "Taux de service items en stock (moy. 85–90%)"},
+          "leadTime": {"value": "7.3 jours", "label": "Délai moyen expéditions globales (vs 14–21 j)"},
+          "docs": {"value": "99.8%", "label": "Exactitude documentaire (0 rejets douane YTD)"},
+          "rfq": {"value": "<2h", "label": "Temps de réponse devis AOG (24/7)"}
+        }
+      },
+      "takeaways": {
+        "h2": "Points clés : naviguer la complexité globale",
+        "items": {
+          "1": {"title": "COVID‑19 a transformé durablement la stratégie", "p": "JIT a cédé ; leaders ont accru stocks, dual‑sourcé & nearshoré."},
+          "2": {"title": "La géopolitique exige finesse export", "p": "Screening automatisé & classification préviennent paralysie & pénalités."},
+          "3": {"title": "La pénurie de semi‑conducteurs a exposé le risque bas volume", "p": "Allocations pré‑négociées & buffers désormais essentiels."},
+          "4": {"title": "La blockchain comble les lacunes de traçabilité", "p": "Registres immuables réduisent la vérification de heures à secondes & stoppent la contrefaçon."},
+          "5": {"title": "Intégration des données & ML = avantage", "p": "Systèmes unifiés permettent prévisions précises & maintenance proactive."}
+        }
+      },
+      "related": {
+        "h2": "Articles liés",
+        "card1": {"title": "Tendances technologiques de gestion des composants", "desc": "AI/ML, jumeaux numériques, IoT & blockchain transforment les chaînes."},
+        "card2": {"title": "Miami : hub logistique stratégique", "desc": "Avantages FTZ & connectivité LATAM renforcent la résilience."},
+        "card3": {"title": "Top fournisseurs de pièces 2025", "desc": "Qui domine et comment la différenciation technologique s'impose."}
+      },
+      "cta": {
+        "h2": "Construire une chaîne globale résiliente",
+        "p1": "ORBIPARTS combine sourcing diversifié, traçabilité blockchain et analytics prédictive pour une résilience durable.",
+        "p2": "Des pénuries de puces aux chocs géopolitiques, nos spécialistes adaptent les stratégies à votre flotte & votre tolérance au risque.",
+        "primary": "Planifier une évaluation supply chain",
+        "secondary": "Explorer le réseau d'inventaire global"
+      }
+    }
+    ,
+    "sustainable": {
+      "seo": {
+        "title": "Aviation durable : Commerce de composants & stratégies d'économie circulaire | ORBIPARTS",
+        "description": "Comment USM, révision, extension de cycle de vie & tracking digital réduisent déchets et carbone dans les chaînes aéronautiques.",
+        "articleHeadline": "Aviation durable : Le rôle du commerce de composants dans les initiatives vertes",
+        "articleDescription": "Leviers : conformité CORSIA, économie circulaire, comptabilité carbone, qualité & traçabilité.",
+        "author": "Équipe Durabilité",
+        "breadcrumb": "Aviation durable"
+      },
+      "hero": {
+        "imgAlt": "Avion au‑dessus des nuages – concept durabilité",
+        "h1": "Aviation durable : Le rôle du commerce de composants dans les initiatives vertes",
+        "subtitle": "Économie circulaire, évitement carbone & intégrité ESG pour composants"
+      },
+      "regulatoryIntro": "CORSIA et les engagements Net‑Zero 2050 instaurent une comptabilité carbone obligatoire. Le sourcing de composants influence directement coûts de conformité et trajectoire d'émissions.",
+      "regulatory": {
+        "h2": "Impératif réglementaire : CORSIA & Net‑Zero 2050",
+        "cards": {
+          "corsia": {"value": "2027", "title": "Phase obligatoire CORSIA", "desc": "Compensation carbone globale vols internationaux"},
+          "netZero": {"value": "2050", "title": "Objectif Net‑Zero", "desc": "Engagement sectoriel IATA"},
+          "safGrowth": {"value": "2‑5%", "title": "Croissance annuelle SAF", "desc": "Trajectoire d'industrialisation requise"}
+        },
+        "corsia": {
+          "h3": "Points clés ICAO CORSIA",
+          "baseline": "Baseline : émissions ajustées 2019‑2020",
+          "scope": "Périmètre : vols internationaux entre États participants",
+          "mechanism": "Mécanisme : offsets pour émissions au‑dessus de la baseline",
+          "monitoring": "Suivi : soumission annuelle CO₂ via registre ICAO",
+          "cost": "Impact coût : $5‑$40/tonne CO₂ (1‑3% opex)"
+        }
+      },
+      "netZero": {
+        "h2": "Feuille de route Net‑Zero : quatre piliers",
+        "intro": "Roadmap IATA : technologie, opérations, avions nouvelle génération & offsets + pratiques circulaires.",
+        "pillar1": {"title": "Pilier 1 : Carburant durable (SAF)", "points": ["Contribution 65%", "600M L aujourd'hui", "449B L requis 2050", "Multiples voies technologiques"]},
+        "pillar2": {"title": "Pilier 2 : Efficacité opérationnelle", "points": ["Flottes modernes", "Optimisation poids", "Optimisation trajectoires", "Réduction usage APU"]},
+        "pillar3": {"title": "Pilier 3 : Technologie next‑gen", "points": ["Concepts hydrogène", "Régional hybride‑électrique", "Blended wing body", "Moteurs open‑rotor"]},
+        "pillar4": {"title": "Pilier 4 : Offsets & retrait CO₂", "points": ["Direct air capture", "Solutions basées nature", "Standards qualité", "Vérification & audit"]}
+      },
+      "circular": {
+        "h2": "Économie circulaire : au‑delà du recyclage",
+        "p1": "L'aviation génère 5 M tonnes de déchets/an ; réutilisation & révision réduisent Scope 3.",
+        "p2": "Extraction USM + extension de durée de vie réduisent extraction matière & émissions fabrication.",
+        "numbers": {
+          "retirements": {"value": "18,930", "label": "Retraits projetés d'ici 2044"},
+          "usmMarket": {"value": "$45B+", "label": "Marché annuel USM"},
+          "carbon": {"value": "40‑70%", "label": "Réduction carbone vs neuf"},
+          "recoverable": {"value": "85‑90%", "label": "Poids récupérable aéronef"}
+        }
+      },
+      "levers": {
+        "h3": "Six leviers de durabilité",
+        "items": {
+          "1": {"title": "Extension de durée de vie", "p": "Réparations certifiées évitent carbone incorporé des pièces neuves."},
+          "2": {"title": "Démantèlement structuré", "p": "Démontage professionnel récupère matériaux réutilisables & recyclables."},
+          "3": {"title": "Dimensionnement optimal des stocks", "p": "Données réduisent achats spéculatifs & obsolescence."},
+          "4": {"title": "Révision & upgrades", "p": "Améliorations fiabilité réduisent émissions des pannes futures."},
+          "5": {"title": "Hubs de sourcing locaux", "p": "Entrepôts régionaux diminuent empreinte fret long‑courrier."},
+          "6": {"title": "Traçabilité digitale", "p": "Blockchain élimine inspections redondantes & gaspillage papier."}
+        }
+      },
+      "esg": {
+        "h2": "Mesure & reporting ESG",
+        "intro1": "Parties prenantes exigent comptabilité Scope 3 rigoureuse & données vérifiables.",
+        "intro2": "L'évitement carbone se quantifie via poids réutilisé & énergie fabrication économisée.",
+        "methodIntro": "Analyse cycle de vie compare neuf vs révisé sur extraction, fabrication et logistique.",
+        "method": {
+          "h3": "Phases de comptabilité carbone",
+          "extraction": "Extraction matières 40‑50%",
+          "extractionDetail": "Mines, raffinage, production alliages",
+          "manufacturing": "Fabrication composant 35‑45%",
+          "manufacturingDetail": "Fonderie, usinage, traitement thermique, revêtements",
+          "logistics": "Logistique & emballage 10‑15%",
+          "logisticsDetail": "Transport, matériaux d'emballage, stockage"
+        },
+        "example": {
+          "h4": "Exemple train d'atterrissage",
+          "component": "737 Train principal ~450 kg",
+          "new": "Empreinte neuf ~3.200 kg CO₂e",
+          "refurb": "Révision ~650 kg CO₂e",
+          "avoidance": "Évitement : 2.550 kg (79,7%)"
+        },
+        "trackingIntro": "Systèmes d'achat digitaux capturent données granulaires pour reporting ESG auditable.",
+        "tracking": {
+          "h3": "Points de données suivis",
+          "provenance": "Provenance composant & historique service",
+          "refurbishment": "Énergie & matériaux de révision",
+          "logistics": "Mode transport & distance",
+          "avoided": "Équivalence production neuve évitée",
+          "verification": "Vérification tierce & ISO 14064"
+        },
+        "images": {
+          "dashboardAlt": "Tableau de bord KPIs durabilité & métriques carbone",
+          "inspectionAlt": "Technicien inspectant composant pour révision",
+          "facilityAlt": "Couloir installation certifiée verte"
+        }
+      },
+      "risk": {
+        "h2": "Gestion du risque : durabilité sans compromis sur sécurité",
+        "intro": "Les composants réutilisés doivent respecter les mêmes standards de navigabilité; la QA évite les compromis.",
+        "qc": {
+          "h3": "Points de contrôle qualité",
+          "points": {
+            "1": {"title": "Documentation traçabilité", "p": "Chaîne 8130‑3 / EASA Form 1 ininterrompue."},
+            "2": {"title": "Conformité AD & SB", "p": "Vérifier l'incorporation avant installation."},
+            "3": {"title": "Stations de réparation certifiées", "p": "Capacité Part 145 & validité certificats."},
+            "4": {"title": "Évaluation vie restante", "p": "TSN/CSN & TSO/CSO documentés."},
+            "5": {"title": "Transparence OEM vs PMA", "p": "Désignation claire pour garantie & MEL."}
+          }
+        },
+        "images": {
+          "teardownAlt": "Démontage module moteur pour récupération USM",
+          "docAlt": "Revue laboratoire documentation composant",
+          "teardownCaption": "Démantèlement structuré convertit actifs en flux USM certifiés.",
+          "docCaption": "Intégrité documentaire soutient réutilisation sûre."
+        }
+      },
+      "orbiparts": {
+        "h2": "Comment ORBIPARTS permet l'approvisionnement durable",
+        "intro": "Principes circulaires + transparence digitale + qualité rigoureuse = impact mesurable.",
+        "cards": {
+          "circular": {
+            "title": "Réseau d'approvisionnement circulaire",
+            "teardown": "Partenariats de démantèlement sécurisent flux USM certifié.",
+            "repairNetwork": "40+ stations Part 145 pour overhaul & certification.",
+            "exchangePrograms": "Pools de rotables réduisent downtime pendant révision.",
+            "endOfLife": "Programmes rachat & recyclage responsable ferment le cycle."
+          },
+          "digital": {
+            "title": "Tracking digital de durabilité",
+            "carbonCalculator": "Calcul automatique CO₂e évité par transaction.",
+            "blockchain": "Historique de cycle de vie immuable.",
+            "esgIntegration": "Rapports ESG trimestriels (compatibles CDP/SASB/GRI).",
+            "apiFeeds": "Flux API pour suivi Scope 3 automatisé."
+          }
+        },
+        "metricsH3": "Métriques durabilité ORBIPARTS 2024",
+        "metrics": {
+          "co2Avoided": {"value": "12,400", "label": "Tonnes CO₂e évitées via USM"},
+          "circularPercent": {"value": "58%", "label": "Inventaire issu de sourcing circulaire"},
+          "landfillZero": {"value": "Zéro", "label": "Composants envoyés en décharge"},
+          "iso": {"value": "ISO 14001", "label": "Certification management environnemental"}
+        }
+      },
+      "takeaways": {
+        "h2": "Points clés : Commerce durable de composants",
+        "items": {
+          "1": {"title": "La régulation crée l'urgence", "p": "CORSIA & Net‑Zero exigent réductions quantifiables des émissions supply chain."},
+          "2": {"title": "Économie circulaire fournit 40‑70%", "p": "La révision évite extraction & fabrication énergivores."},
+          "3": {"title": "Tracking digital renforce ESG", "p": "Données granulaires carbone & provenance soutiennent audit."},
+          "4": {"title": "Sécurité & durabilité coexistent", "p": "Contrôles qualité garantissent standards identiques."},
+          "5": {"title": "Partenariat accélère transformation", "p": "Réseaux technologiques livrent rapidement un impact mesurable."}
+        }
+      },
+      "related": {
+        "h2": "Articles liés",
+        "card1": {"title": "Tendances technologiques gestion composants", "desc": "Jumeaux numériques, blockchain & IoT permettant mesure carbone."},
+        "card2": {"title": "Futur des composants d'aéronefs legacy", "desc": "Économie du marché USM & impacts durabilité."},
+        "card3": {"title": "Résilience supply chain globale", "desc": "Nearshoring & stratégies de sourcing durable."}
+      },
+      "cta": {
+        "h2": "Construire votre stratégie d'approvisionnement durable",
+        "p1": "ORBIPARTS aide à déployer sourcing circulaire & objectifs d'évitement carbone.",
+        "p2": "Guidance adaptée pour conformité, ESG investisseurs & objectifs opérationnels.",
+        "primary": "Planifier consultation durabilité",
+        "secondary": "Explorer inventaire USM certifié"
+      },
+      "faq": {
+        "1": {"q": "Qu'est‑ce que ICAO CORSIA ?", "a": "Schéma global imposant offsets pour émissions internationales au‑dessus de la baseline dès 2027."},
+        "2": {"q": "Réduction carbone pièces révisées ?", "a": "Typiquement 40‑70% CO₂e vs neuf ; exemple train 79,7%."},
+        "3": {"q": "Taille du marché USM ?", "a": "$45B+ annuel ; retraits alimentent sourcing circulaire."},
+        "4": {"q": "Comment mesurer ESG dans sourcing ?", "a": "Tracer provenance, énergie de révision, empreinte logistique, production évitée & métriques vérifiées."},
+        "5": {"q": "Le sourcing durable impacte la sécurité ?", "a": "Non — certification navigabilité, conformité AD/SB & supervision Part 145 préservent la sécurité."}
+      }
+    }
+    ,
+    "technology": {
+      "seo": {
+        "title": "Tendances technologiques façonnant la gestion des composants aéronautiques | ORBIPARTS",
+        "description": "Technologies émergentes transformant contrôle d'inventaire, maintenance prédictive, vitesse d'achat et transparence.",
+        "articleHeadline": "Tendances technologiques en gestion des composants",
+        "articleDescription": "Technologies émergentes transformant contrôle d'inventaire, maintenance prédictive, vitesse d'achat et transparence.",
+        "author": "Analyste Technologie",
+        "breadcrumb": "Tendances technologiques"
+      },
+      "hero": {
+        "imgAlt": "Interface digitale affichant l'analytique des composants aéronautiques",
+        "h1": "Tendances technologiques en gestion des composants",
+        "subtitle": "IA/ML, jumeaux numériques, capteurs IoT, blockchain, robotique & cybersécurité transforment les opérations"
+      },
+      "market": {
+        "h2": "Contexte de marché : essor des investissements technologiques",
+        "stats": {
+          "mroSoftwareValue": {"value": "$17.4B", "label": "Marché mondial des logiciels MRO d'ici 2028 (CAGR 7,8%)", "source": "Markets and Markets 2024"},
+          "aiAdoption": {"value": "62%", "label": "Compagnies aériennes adoptant la maintenance prédictive IA", "source": "Oliver Wyman Digital MRO Survey 2024"},
+          "unscheduledReduction": {"value": "30-40%", "label": "Réduction des maintenance non planifiées via analytique prédictive", "source": "McKinsey Aviation Analytics 2024"}
+        }
+      },
+      "predictive": {
+        "h2": "IA et Machine Learning en maintenance prédictive",
+        "intro": "L'IA transforme la prévision des pannes. Des algorithmes ML analysent historiques de maintenance, données de vol (ACARS/QAR) et environnement pour prédire 3–6 mois à l'avance – réduisant 30–40% des événements non planifiés.",
+        "implementationsH3": "Implémentations IA réelles",
+        "cases": {
+          "delta": {"title": "Maintenance propulsée par l'IA chez Delta TechOps", "p": "Modèles ML sur 18k+ lectures/jour et 900+ avions. 98,5% fiabilité technique à l'heure, $50M+ économies annuelles, alertes 6 mois avant pour 73% des pannes majeures."},
+          "afklm": {"title": "Plateforme Prognos d'Air France‑KLM", "p": "Skywise sur 550+ avions. 35% moins de retraits non planifiés (train & APU), 20% moins de coûts d'inventaire, précision 14 jours pour 89% des rotables critiques."},
+          "boeing": {"title": "Boeing Airplane Health Management (AHM)", "p": "Algorithmes surveillent 737 MAX et 787 en temps réel. 60% dépannage plus rapide, 25% moins de retraits LRU, $120k–$180k par avion/an économisés."}
+        },
+        "dataSourcesH3": "Sources de données alimentant les modèles ML",
+        "dataSources": [
+          "Données ACARS/HUMS : 300–500 paramètres/cycle (vibration, température, pression, charges)",
+          "Dossiers de maintenance : motifs d'échec historiques, MTBUR, constats d'atelier",
+          "Environnement : sel, humidité, extrêmes thermiques, poussière/sable",
+          "Stress opérationnel : cycles, heures de vol, décollages dératés, usage APU",
+          "Démographie flotte : âge, pratiques maintenance, statut modifications"
+        ],
+        "images": {
+          "predictiveAlt": "Interface analytique pour maintenance prédictive",
+          "predictiveCaption": "Modèles de fiabilité signalent les composants à risque avant panne.",
+          "mlAlt": "Visuel conceptuel de machine learning",
+          "mlCaption": "Pipelines ML corrèlent variables opérationnelles pour prévoir dégradation."
+        }
+      },
+      "twins": {
+        "h2": "Jumeaux numériques : simulation de flotte virtuelle",
+        "intro": "Les jumeaux numériques répliquent avions/composants en temps réel pour simuler maintenance, tester des changements et optimiser cycles de vie sans perturber les opérations. Marché : $16,8B en 2030 (CAGR 42,6%).",
+        "useCasesH3": "Cas d'usage des jumeaux numériques",
+        "useCases": {
+          "lifecycle": {"title": "Optimisation du cycle de vie des composants", "p": "Modèles GE simulent la dégradation APU. Extension TBO 12–18% via usage optimisé."},
+          "inventory": {"title": "Planification inventaire & prévision", "p": "AVIATAR anticipe la demande 6–12 mois (±3%), permettant 25–30% de réduction d'inventaire (fill rate >98%)."},
+          "training": {"title": "Simulation de tâches & formation", "p": "EngineWise permet des visites d'atelier virtuelles. 40% de durée en moins, 85% de retouches en moins."}
+        }
+      },
+      "iot": {
+        "h2": "IoT et suivi d'état en temps réel",
+        "intro": "Des capteurs IoT transmettent en continu les données de santé des composants. Marché IoT aéronautique : $51,3B en 2030 (CAGR 15,8%).",
+        "sensorH3": "Technologies de capteurs utilisées",
+        "sensors": [
+          "Capteurs de vibration : usure roulements, engrenages, déséquilibres (±0,001g)",
+          "Capteurs de température : stress thermique (±0,1°C)",
+          "Transducteurs de pression : hydraulique, carburant, fuites pneumatiques (±0,05% FS)",
+          "Émission acoustique : propagation de fissures (20kHz–1MHz)",
+          "Capteurs débris d'huile : particules métalliques (seuil 10μm)"
+        ],
+        "deploymentsH3": "Déploiements IoT réels",
+        "deployments": {
+          "rollsRoyce": {"title": "Rolls‑Royce TotalCare – gestion santé moteurs", "p": "13k+ moteurs, 25+ capteurs chacun. 99,9% fiabilité départ, 50% moins de visites, $200M+ économies annuelles."},
+          "collins": {"title": "Collins Aerospace HUMS", "p": "Sur 15k+ hélicos et jets. 75% d'échecs catastrophiques en moins, 35% coûts en moins, 95% précision 100+ h à l'avance."}
+        }
+      },
+      "blockchain": {
+        "h2": "Blockchain pour la documentation de navigabilité",
+        "intro": "Blockchain crée des historiques immuables, élimine la fraude et accélère la vérification. MRO blockchain : $4,0B d'ici 2030 (CAGR 41,3%).",
+        "appsH3": "Applications blockchain en gestion des pièces",
+        "apps": {
+          "certs": {"title": "8130‑3 digitaux & EASA Form 1", "p": "GoDirect Trade stocke les certificats sur blockchain. Vérification instantanée vs 2–5 jours ; 99,99% intégrité des données."},
+          "trace": {"title": "Traçabilité du cycle de vie", "p": "VeriPart de Moog suit de la fabrication au démontage. Audit de 20 ans en minutes ; 95% de rapprochement papier en moins."},
+          "counterfeit": {"title": "Prévention des contrefaçons", "p": "Certificats de naissance blockchain réduisent SUP ; 87% de baisse chez les pilotes selon Eurocontrol."}
+        },
+        "images": {
+          "procurementAlt": "Interface développeur alignant les APIs d'achat",
+          "procurementCaption": "Orchestration API standardise l'échange multi‑fournisseurs.",
+          "blockchainAlt": "Blocs conceptuels blockchain pour traçabilité",
+          "blockchainCaption": "Pilotes visent traçabilité sécurisée pour rotables de grande valeur."
+        }
+      },
+      "automation": {
+        "h2": "Robotique d'entrepôt et automatisation",
+        "intro": "La robotique accélère picking, packing et gestion d'inventaire. Marché à $14,2B en 2028 (CAGR 14,7%).",
+        "techH3": "Technologies d'automatisation",
+        "tech": {
+          "amr": {"title": "Robots mobiles autonomes (AMR)", "p": "+300% productivité, 99,7% précision de picking, opérations 24/7."},
+          "picking": {"title": "Systèmes de picking robotisés", "p": "Systèmes type Kiva amènent les étagères aux opérateurs. 5x débit, 75% espace, 40% coûts en moins."},
+          "vision": {"title": "Inspection qualité par vision", "p": "Caméras IA détectent défauts/corrosion/FOD. 99,9% détection, 10x plus rapide que manuel."},
+          "rfid": {"title": "RFID & suivi d'inventaire temps réel", "p": "RFID UHF offre visibilité instantanée. 99,5% exactitude, plus d'inventaire annuel."}
+        },
+        "images": {
+          "roboticsAlt": "Robotique d'entrepôt automatisée",
+          "stockAlt": "Tableau de bord de santé du stock",
+          "integrationAlt": "Schéma d'intégration des systèmes"
+        }
+      },
+      "cyber": {
+        "h2": "Cybersécurité : protéger la chaîne numérique",
+        "intro": "La numérisation amplifie les menaces. FAA : +300% incidents 2020–2024 ; attaques supply chain = 42% (Aviation ISAC 2024).",
+        "requirementsH3": "Exigences critiques de cybersécurité",
+        "requirements": [
+          "CMMC Niveau 2 : 110 pratiques pour contractants DoD",
+          "Conformité NIST 800‑171 pour données ITAR",
+          "Prévenir attaques supply chain (mises à jour/portails)",
+          "Résilience ransomware : $1,2M demandes moyennes",
+          "Souveraineté des données : GDPR & lois de localisation"
+        ],
+        "bestH3": "Bonnes pratiques pour une gestion cyber‑résiliente",
+        "bestPractices": [
+          "Architecture zero‑trust : vérifier chaque utilisateur/appareil",
+          "Authentification multi‑facteur : tokens/biométrie",
+          "Chiffrement bout‑à‑bout : AES‑256 au repos, TLS 1.3 en transit",
+          "Tests d'intrusion réguliers : trimestriels",
+          "Gestion du risque fournisseurs : audits",
+          "Plan de réponse aux incidents : playbook documenté",
+          "Sauvegardes isolées : copies hors‑ligne des données critiques"
+        ]
+      },
+      "orbiparts": {
+        "h2": "Capacités technologiques d'ORBIPARTS",
+        "intro": "Technologies de pointe pour des transactions plus rapides, transparentes et sécurisées :",
+        "capabilities": {
+          "ai": {"title": "Recherche & matching propulsés par IA", "items": ["Recherche PN en langage naturel","Moteur de références croisées (98%)","Alertes de disponibilité prédictive","Suggestions de substituts/interchange"]},
+          "docs": {"title": "Plateforme de documentation digitale", "items": ["8130‑3 & EASA Form 1 vérifiés blockchain","Récupération de documents <30s","Screening export automatisé","99,8% d'exactitude documentaire"]},
+          "inventory": {"title": "Visibilité d'inventaire en temps réel", "items": ["Stock en centres globaux","Suivi GPS en transit","Vérification de condition avec photos","Alertes de réapprovisionnement auto"]},
+          "security": {"title": "Cybersécurité & conformité", "items": ["Infrastructure SOC 2 Type II","Conformité NIST 800‑171","Chiffrement AES‑256","Tests d'intrusion annuels tiers"]}
+        },
+        "metricsH3": "Métriques technologiques 2024",
+        "metrics": {
+          "aog": {"value": "<2 heures", "label": "Temps moyen de réponse AOG"},
+          "fill": {"value": "98,2%", "label": "Fill rate première fois pour items en stock"},
+          "uptime": {"value": "99,9%", "label": "Disponibilité plateforme (SLA)"}
+        }
+      },
+      "takeaways": {
+        "h2": "Points clés : priorités d'investissement technologique",
+        "items": {
+          "1": {"title": "IA prédictive réduit 30–40% des retraits non planifiés", "p": "Résultats Delta & AF‑KLM justifient l'investissement."},
+          "2": {"title": "Jumeaux numériques optimisent avant les tests physiques", "p": "GE +12–18% TBO ; Lufthansa ±3% de prévision, 25–30% d'inventaire en moins."},
+          "3": {"title": "IoT remplace les inspections périodiques", "p": "RR 99,9% dispatch ; HUMS 75% d'échecs catastrophiques en moins."},
+          "4": {"title": "Blockchain élimine la contrefaçon & accélère la vérification", "p": "Validation instantanée des certificats & traçabilité immuable."},
+          "5": {"title": "Automatisation d'entrepôt : x5 de débit", "p": "AMR, vision & RFID augmentent l'exactitude ; cybersécurité critique."}
+        }
+      },
+      "related": {
+        "h2": "Articles liés",
+        "card1": {"title": "Résilience de la chaîne d'approvisionnement mondiale", "desc": "Distribution & blockchain surmontant les perturbations."},
+        "card2": {"title": "Aviation durable & conformité ESG", "desc": "Suivi digital & calculateurs carbone répondent à CORSIA."},
+        "card3": {"title": "Excellence de la réponse AOG", "desc": "Logistique d'urgence & 24/7 avec inventaire piloté par IA."}
+      },
+      "cta": {
+        "h2": "Feuille de route d'adoption technologique",
+        "p1": "Prioriser les investissements selon flotte, points de douleur & maturité data.",
+        "p2": "Évaluer l'existant → gains rapides → infrastructure de données → déploiements IA itératifs.",
+        "primary": "Planifier une évaluation technologique",
+        "secondary": "Explorer la plateforme d'inventaire digitale"
+      },
+      "faq": [
+        {"q": "Comment l'IA/ML réduit‑elle les retraits non planifiés ?", "a": "ML analyse ACARS, dossiers et environnement pour prévoir 3–6 mois (‑30–40%)."},
+        {"q": "Que sont les jumeaux numériques et comment optimisent‑ils ?", "a": "Répliques virtuelles pour simuler ; GE +12–18% TBO ; Lufthansa ±3% de prévision de demande."},
+        {"q": "Quel rôle joue la blockchain dans la traçabilité ?", "a": "Historique immuable permettant 8130‑3 instantané & anti‑contrefaçon."},
+        {"q": "Comment les capteurs IoT permettent le suivi en temps réel ?", "a": "Capteurs transmettent vibration, température & pression pour décisions prédictives."},
+        {"q": "Quelles exigences de cybersécurité s'appliquent ?", "a": "CMMC Niv.2, NIST 800‑171, zero‑trust, MFA, chiffrement & gestion des risques fournisseurs."}
+      ]
+    }
+  }
+}

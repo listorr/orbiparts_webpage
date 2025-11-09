@@ -1,0 +1,86 @@
+# robots.txt para ORBIPARTS - Global Aviation Supplier
+# Optimizado para máxima visibilidad mundial en buscadores y AI
+
+# Permitir todos los bots principales
+User-agent: *
+Allow: /
+Crawl-delay: 0
+
+# Bloquear solo áreas administrativas
+Disallow: /admin/
+Disallow: /login/
+Disallow: /api/private/
+Disallow: /*.json$
+
+# Permitir específicamente a Google (todos sus bots)
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Permitir a Bingbot (Microsoft)
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+# Permitir a Yandex (Rusia)
+User-agent: Yandex
+Allow: /
+Crawl-delay: 1
+
+# Permitir a Baidu (China)
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+# Permitir a DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 0
+
+# Permitir a ChatGPT Bot (OpenAI)
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 0
+
+# Permitir a Claude Bot (Anthropic)
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 0
+
+# Permitir a Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 0
+
+# Permitir a Common Crawl (usado por muchos AI)
+User-agent: CCBot
+Allow: /
+Crawl-delay: 1
+
+# Bloquear bots maliciosos y scrapers agresivos
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: Screaming Frog SEO Spider
+Disallow: /
+
+# Sitemap location (principal)
+Sitemap: https://www.orbiparts.com/sitemap.xml
+
+# Host preference (para evitar duplicados)
+Host: https://www.orbiparts.com

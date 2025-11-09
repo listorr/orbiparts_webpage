@@ -1,0 +1,664 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ORBIPARTS - Image Selection Preview</title>
+	<style>
+		* { margin: 0; padding: 0; box-sizing: border-box; }
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+			background: #f5f5f5;
+			padding: 20px;
+		}
+		.header {
+			background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+			color: white;
+			padding: 30px;
+			border-radius: 12px;
+			margin-bottom: 30px;
+			box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+		}
+		.header h1 { font-size: 28px; margin-bottom: 10px; }
+		.header p { opacity: 0.9; font-size: 16px; }
+		.blog-section {
+			background: white;
+			padding: 25px;
+			margin-bottom: 30px;
+			border-radius: 12px;
+			box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+		}
+		.blog-title {
+			font-size: 24px;
+			color: #1e40af;
+			margin-bottom: 20px;
+			padding-bottom: 15px;
+			border-bottom: 3px solid #3b82f6;
+		}
+		.image-slot {
+			margin-bottom: 40px;
+		}
+		.slot-header {
+			background: #f8fafc;
+			padding: 15px;
+			border-radius: 8px;
+			margin-bottom: 15px;
+		}
+		.slot-title {
+			font-size: 18px;
+			font-weight: 600;
+			color: #1e293b;
+			margin-bottom: 8px;
+		}
+		.slot-context {
+			font-size: 14px;
+			color: #64748b;
+			margin-bottom: 8px;
+		}
+		.slot-keywords {
+			font-size: 12px;
+			color: #94a3b8;
+		}
+		.keyword-tag {
+			display: inline-block;
+			background: #e0e7ff;
+			color: #3730a3;
+			padding: 4px 10px;
+			border-radius: 12px;
+			margin-right: 6px;
+			margin-bottom: 4px;
+		}
+		.images-grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+			gap: 20px;
+		}
+		.image-option {
+			border: 3px solid #e2e8f0;
+			border-radius: 8px;
+			overflow: hidden;
+			cursor: pointer;
+			transition: all 0.3s ease;
+			position: relative;
+		}
+		.image-option:hover {
+			border-color: #3b82f6;
+			box-shadow: 0 8px 16px rgba(59, 130, 246, 0.2);
+			transform: translateY(-4px);
+		}
+		.image-option.selected {
+			border-color: #10b981;
+			border-width: 4px;
+		}
+		.image-option img {
+			width: 100%;
+			height: 200px;
+			object-fit: cover;
+			display: block;
+		}
+		.image-info {
+			padding: 12px;
+			background: white;
+		}
+		.source-badge {
+			display: inline-block;
+			background: #10b981;
+			color: white;
+			padding: 4px 10px;
+			border-radius: 12px;
+			font-size: 11px;
+			font-weight: 600;
+		}
+		.select-btn {
+			background: #3b82f6;
+			color: white;
+			border: none;
+			padding: 8px 16px;
+			border-radius: 6px;
+			cursor: pointer;
+			font-size: 13px;
+			font-weight: 600;
+			margin-top: 8px;
+			width: 100%;
+		}
+		.select-btn:hover { background: #2563eb; }
+		.selected-badge {
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			background: #10b981;
+			color: white;
+			padding: 6px 12px;
+			border-radius: 20px;
+			font-size: 12px;
+			font-weight: 600;
+			box-shadow: 0 2px 8px rgba(16, 185, 129, 0.4);
+		}
+		.no-results {
+			padding: 40px;
+			text-align: center;
+			color: #64748b;
+			background: #f8fafc;
+			border-radius: 8px;
+		}
+		.download-btn {
+			position: fixed;
+			bottom: 30px;
+			right: 30px;
+			background: #10b981;
+			color: white;
+			border: none;
+			padding: 16px 32px;
+			border-radius: 30px;
+			font-size: 16px;
+			font-weight: 600;
+			cursor: pointer;
+			box-shadow: 0 8px 16px rgba(16, 185, 129, 0.3);
+			z-index: 1000;
+		}
+		.download-btn:hover { background: #059669; transform: scale(1.05); }
+		.stats {
+			background: #f0f9ff;
+			padding: 15px;
+			border-radius: 8px;
+			margin-top: 20px;
+			border-left: 4px solid #3b82f6;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1>🛫 ORBIPARTS - Selección de Imágenes</h1>
+		<p>Revisa y selecciona las mejores imágenes para cada sección del blog</p>
+		<div class="stats">
+			<strong>📊 Contexto ORBIPARTS:</strong> Distribuidor de partes de aeronaves, componentes de motores, 
+			servicios MRO, logística de aviación, trading de helicópteros, software de procurement
+		</div>
+	</div>
+<div class="blog-section"><h2 class="blog-title">Top 10 Aircraft Parts Suppliers 2025</h2>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 hero</div>
+					<div class="slot-context"><strong>Contexto:</strong> Almacén de partes de aviones, componentes aeronáuticos, inventario de aviación</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">aircraft parts</span><span class="keyword-tag">aviation warehouse</span><span class="keyword-tag">airplane components</span><span class="keyword-tag">aerospace inventory</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div></div><div class="blog-section"><h2 class="blog-title">Future Of Legacy Aircraft</h2>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 hero</div>
+					<div class="slot-context"><strong>Contexto:</strong> Boeing 737 clásico, avión comercial vintage, aeronaves antiguas en servicio</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">boeing 737</span><span class="keyword-tag">vintage aircraft</span><span class="keyword-tag">legacy airplane</span><span class="keyword-tag">old commercial jet</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 hangar</div>
+					<div class="slot-context"><strong>Contexto:</strong> Hangar de mantenimiento, instalaciones MRO, taller de aviones</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">aircraft hangar</span><span class="keyword-tag">MRO facility</span><span class="keyword-tag">maintenance hangar</span><span class="keyword-tag">airplane workshop</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 cockpit</div>
+					<div class="slot-context"><strong>Contexto:</strong> Cabina de avión comercial, controles de vuelo, instrumentos</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">aircraft cockpit</span><span class="keyword-tag">flight deck</span><span class="keyword-tag">airplane controls</span><span class="keyword-tag">pilot instruments</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 engineModule</div>
+					<div class="slot-context"><strong>Contexto:</strong> Motor de avión a reacción, turbofan, powerplant en mantenimiento</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">jet engine</span><span class="keyword-tag">turbofan</span><span class="keyword-tag">aircraft engine</span><span class="keyword-tag">airplane motor</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 turbine</div>
+					<div class="slot-context"><strong>Contexto:</strong> Álabes de turbina, compresor de motor jet, componentes internos</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">turbine blades</span><span class="keyword-tag">jet engine blades</span><span class="keyword-tag">compressor</span><span class="keyword-tag">engine internals</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 documentation</div>
+					<div class="slot-context"><strong>Contexto:</strong> Documentación técnica de aviación, logbook, papeles de mantenimiento</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">aircraft logbook</span><span class="keyword-tag">maintenance documents</span><span class="keyword-tag">aviation paperwork</span><span class="keyword-tag">technical records</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div></div><div class="blog-section"><h2 class="blog-title">Miami Aviation Logistics</h2>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 hero</div>
+					<div class="slot-context"><strong>Contexto:</strong> Terminal de carga de Miami, operaciones de carga aérea</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">miami airport</span><span class="keyword-tag">cargo terminal</span><span class="keyword-tag">freight operations</span><span class="keyword-tag">air cargo</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 ramp</div>
+					<div class="slot-context"><strong>Contexto:</strong> Rampa de aeropuerto, operaciones en tierra, carga de aviones</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">airport ramp</span><span class="keyword-tag">ground operations</span><span class="keyword-tag">aircraft loading</span><span class="keyword-tag">ramp operations</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 port</div>
+					<div class="slot-context"><strong>Contexto:</strong> Carga aérea, logística de aviación, transporte de mercancías</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">air freight</span><span class="keyword-tag">cargo aircraft</span><span class="keyword-tag">aviation logistics</span><span class="keyword-tag">air shipping</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 customs</div>
+					<div class="slot-context"><strong>Contexto:</strong> Aduana aeroportuaria, inspección de carga, despacho</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">customs inspection</span><span class="keyword-tag">cargo clearance</span><span class="keyword-tag">airport customs</span><span class="keyword-tag">freight inspection</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 warehouse</div>
+					<div class="slot-context"><strong>Contexto:</strong> Almacén de partes de aviones, componentes aeronáuticos</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">parts warehouse</span><span class="keyword-tag">aviation storage</span><span class="keyword-tag">aircraft components</span><span class="keyword-tag">spare parts</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 it</div>
+					<div class="slot-context"><strong>Contexto:</strong> Tecnología de aviación, sistemas digitales, operaciones</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">aviation tech</span><span class="keyword-tag">flight systems</span><span class="keyword-tag">aviation software</span><span class="keyword-tag">digital aviation</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 consolidation</div>
+					<div class="slot-context"><strong>Contexto:</strong> Centro de distribución logística, almacén de consolidación</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">distribution center</span><span class="keyword-tag">logistics warehouse</span><span class="keyword-tag">freight consolidation</span><span class="keyword-tag">shipping hub</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 energy</div>
+					<div class="slot-context"><strong>Contexto:</strong> Infraestructura aeroportuaria, instalaciones de aviación</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">airport infrastructure</span><span class="keyword-tag">aviation facility</span><span class="keyword-tag">airport terminal</span><span class="keyword-tag">aviation building</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div></div><div class="blog-section"><h2 class="blog-title">Aog Response Strategies</h2>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 hero</div>
+					<div class="slot-context"><strong>Contexto:</strong> Mantenimiento urgente de aeronave, reparación nocturna AOG</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">emergency maintenance</span><span class="keyword-tag">aircraft repair</span><span class="keyword-tag">urgent service</span><span class="keyword-tag">AOG response</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 nightShift</div>
+					<div class="slot-context"><strong>Contexto:</strong> Mecánico de aviación trabajando turno nocturno</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">aircraft mechanic</span><span class="keyword-tag">aviation technician</span><span class="keyword-tag">maintenance worker</span><span class="keyword-tag">airplane repair</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 checklist</div>
+					<div class="slot-context"><strong>Contexto:</strong> Checklist de aviación, inspección pre-vuelo</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">aviation checklist</span><span class="keyword-tag">pre-flight inspection</span><span class="keyword-tag">aircraft inspection</span><span class="keyword-tag">maintenance checklist</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 opsControl</div>
+					<div class="slot-context"><strong>Contexto:</strong> Centro de control de operaciones aéreas, despacho de vuelos</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">operations center</span><span class="keyword-tag">flight control</span><span class="keyword-tag">dispatch center</span><span class="keyword-tag">aviation operations</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 standup</div>
+					<div class="slot-context"><strong>Contexto:</strong> Reunión de equipo de aviación, briefing de operaciones</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">aviation meeting</span><span class="keyword-tag">team briefing</span><span class="keyword-tag">airport staff</span><span class="keyword-tag">operations meeting</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 dashboards</div>
+					<div class="slot-context"><strong>Contexto:</strong> Dashboard de operaciones de vuelo, monitoreo de aviación</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">flight dashboard</span><span class="keyword-tag">aviation analytics</span><span class="keyword-tag">operations monitoring</span><span class="keyword-tag">flight tracking</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 freight</div>
+					<div class="slot-context"><strong>Contexto:</strong> Carga aérea, cargando avión de carga, pallets</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">cargo loading</span><span class="keyword-tag">freight aircraft</span><span class="keyword-tag">air shipping</span><span class="keyword-tag">cargo pallets</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 rapidInstall</div>
+					<div class="slot-context"><strong>Contexto:</strong> Instalación de motor de avión, reemplazo de motor, hangar</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">engine installation</span><span class="keyword-tag">aircraft maintenance</span><span class="keyword-tag">engine replacement</span><span class="keyword-tag">powerplant change</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div></div><div class="blog-section"><h2 class="blog-title">Sustainable Aviation Component Trading</h2>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 hero</div>
+					<div class="slot-context"><strong>Contexto:</strong> Aviación sostenible, vuelo eco-amigable, verde</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">sustainable aviation</span><span class="keyword-tag">green flight</span><span class="keyword-tag">eco aviation</span><span class="keyword-tag">sustainable aircraft</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 dashboard</div>
+					<div class="slot-context"><strong>Contexto:</strong> Dashboard de métricas de sostenibilidad, datos ambientales</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">sustainability dashboard</span><span class="keyword-tag">environmental metrics</span><span class="keyword-tag">ESG data</span><span class="keyword-tag">green metrics</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 inspection</div>
+					<div class="slot-context"><strong>Contexto:</strong> Inspección de componentes de avión, control de calidad</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">component inspection</span><span class="keyword-tag">quality control</span><span class="keyword-tag">parts inspection</span><span class="keyword-tag">aircraft components</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 facility</div>
+					<div class="slot-context"><strong>Contexto:</strong> Instalación MRO, hangar de mantenimiento, taller</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">MRO facility</span><span class="keyword-tag">maintenance hangar</span><span class="keyword-tag">repair facility</span><span class="keyword-tag">aviation workshop</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 teardown</div>
+					<div class="slot-context"><strong>Contexto:</strong> Desmontaje de avión, reciclaje de partes, salvamento</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">aircraft teardown</span><span class="keyword-tag">plane disassembly</span><span class="keyword-tag">parts recycling</span><span class="keyword-tag">aircraft salvage</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 documentation</div>
+					<div class="slot-context"><strong>Contexto:</strong> Documentos de certificación de aviación, aeronavegabilidad</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">aviation certification</span><span class="keyword-tag">airworthiness</span><span class="keyword-tag">compliance documents</span><span class="keyword-tag">FAA certification</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div></div><div class="blog-section"><h2 class="blog-title">Global Aircraft Parts Supply Chains</h2>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 hero</div>
+					<div class="slot-context"><strong>Contexto:</strong> Red logística global, cadena de suministro de aviación mundial</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">global logistics</span><span class="keyword-tag">supply chain</span><span class="keyword-tag">worldwide network</span><span class="keyword-tag">aviation logistics</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 documentControl</div>
+					<div class="slot-context"><strong>Contexto:</strong> Documentos de aviación, papeleo de cumplimiento, certificados</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">aviation documents</span><span class="keyword-tag">compliance paperwork</span><span class="keyword-tag">certificates</span><span class="keyword-tag">aviation forms</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 cargoPallets</div>
+					<div class="slot-context"><strong>Contexto:</strong> Pallets de carga, envío de mercancías, carga de aviones</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">cargo pallets</span><span class="keyword-tag">freight pallets</span><span class="keyword-tag">shipping cargo</span><span class="keyword-tag">air freight</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 cloudInterface</div>
+					<div class="slot-context"><strong>Contexto:</strong> Tecnología cloud, interfaz digital para aviación</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">cloud technology</span><span class="keyword-tag">digital interface</span><span class="keyword-tag">aviation software</span><span class="keyword-tag">cloud computing</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 analytics</div>
+					<div class="slot-context"><strong>Contexto:</strong> Análisis de negocio, métricas de aviación, dashboard</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">business analytics</span><span class="keyword-tag">aviation metrics</span><span class="keyword-tag">data analysis</span><span class="keyword-tag">performance dashboard</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 apiDiagram</div>
+					<div class="slot-context"><strong>Contexto:</strong> Integración de sistemas tecnológicos, software de aviación</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">system integration</span><span class="keyword-tag">aviation software</span><span class="keyword-tag">API technology</span><span class="keyword-tag">software systems</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div></div><div class="blog-section"><h2 class="blog-title">Technology Trends Component Management</h2>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 hero</div>
+					<div class="slot-context"><strong>Contexto:</strong> Tecnología de aviación, cabina digital, sistemas modernos</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">aviation technology</span><span class="keyword-tag">digital cockpit</span><span class="keyword-tag">modern avionics</span><span class="keyword-tag">aircraft systems</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 predictive</div>
+					<div class="slot-context"><strong>Contexto:</strong> Analítica predictiva para mantenimiento de aviación</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">predictive analytics</span><span class="keyword-tag">aviation data</span><span class="keyword-tag">predictive maintenance</span><span class="keyword-tag">data science</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 machineLearning</div>
+					<div class="slot-context"><strong>Contexto:</strong> Inteligencia artificial aplicada a aviación</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">artificial intelligence</span><span class="keyword-tag">AI aviation</span><span class="keyword-tag">machine learning</span><span class="keyword-tag">aviation AI</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 robotics</div>
+					<div class="slot-context"><strong>Contexto:</strong> Robótica en mantenimiento de aviones, automatización</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">robotics aviation</span><span class="keyword-tag">automation</span><span class="keyword-tag">aircraft robotics</span><span class="keyword-tag">manufacturing automation</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 stockDashboard</div>
+					<div class="slot-context"><strong>Contexto:</strong> Dashboard de gestión de inventario de partes de avión</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">inventory dashboard</span><span class="keyword-tag">stock management</span><span class="keyword-tag">parts inventory</span><span class="keyword-tag">aviation stock</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 systemIntegration</div>
+					<div class="slot-context"><strong>Contexto:</strong> Integración de sistemas empresariales de aviación</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">system integration</span><span class="keyword-tag">aviation software</span><span class="keyword-tag">enterprise systems</span><span class="keyword-tag">software integration</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 procurementApi</div>
+					<div class="slot-context"><strong>Contexto:</strong> Software de procurement digital para aviación</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">procurement software</span><span class="keyword-tag">aviation purchasing</span><span class="keyword-tag">digital procurement</span><span class="keyword-tag">supply software</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div>
+			<div class="image-slot">
+				<div class="slot-header">
+					<div class="slot-title">📸 blockchain</div>
+					<div class="slot-context"><strong>Contexto:</strong> Blockchain para trazabilidad en cadena de suministro de aviación</div>
+					<div class="slot-keywords">
+						<strong>Keywords:</strong> 
+						<span class="keyword-tag">blockchain aviation</span><span class="keyword-tag">supply chain blockchain</span><span class="keyword-tag">traceability</span><span class="keyword-tag">blockchain supply</span>
+					</div>
+				</div>
+			<div class="no-results">⚠️ No se encontraron imágenes relevantes. Intenta con otros términos de búsqueda.</div></div></div>
+	<button class="download-btn" onclick="downloadSelected()">
+		⬇️ Descargar Seleccionadas (<span id="count">0</span>)
+	</button>
+	
+	<script>
+		const selections = {};
+		
+		function selectImage(element, blog, slot, url) {
+			// Deseleccionar otras en el mismo slot
+			const parent = element.parentElement;
+			parent.querySelectorAll('.image-option').forEach(img => {
+				img.classList.remove('selected');
+				const badge = img.querySelector('.selected-badge');
+				if (badge) badge.remove();
+			});
+			
+			// Seleccionar esta
+			element.classList.add('selected');
+			element.innerHTML += '<div class="selected-badge">✓ Seleccionada</div>';
+			
+			// Guardar selección
+			if (!selections[blog]) selections[blog] = {};
+			selections[blog][slot] = url;
+			
+			updateCount();
+		}
+		
+		function updateCount() {
+			let count = 0;
+			for (const blog in selections) {
+				count += Object.keys(selections[blog]).length;
+			}
+			document.getElementById('count').textContent = count;
+		}
+		
+		function downloadSelected() {
+			if (Object.keys(selections).length === 0) {
+				alert('⚠️ No has seleccionado ninguna imagen');
+				return;
+			}
+			
+			// Generar JSON con selecciones
+			const json = JSON.stringify(selections, null, 2);
+			const blob = new Blob([json], { type: 'application/json' });
+			const url = URL.createObjectURL(blob);
+			const a = document.createElement('a');
+			a.href = url;
+			a.download = 'image-selections.json';
+			a.click();
+			
+			alert('✅ Archivo de selecciones descargado. Ahora ejecuta:\nnode tools/download-selected.js');
+		}
+	</script>
+</body>
+</html>

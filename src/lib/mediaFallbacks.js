@@ -1,0 +1,61 @@
+export const BLOG_FALLBACKS = {
+	'top-10-aircraft-parts-suppliers-2025': {
+		hero: 'https://images.unsplash.com/photo-1584291527937-76e0d8bd5d08?auto=format&fit=crop&w=1920&q=80',
+	},
+	'future-of-legacy-aircraft': {
+		hero: 'https://images.pexels.com/photos/46148/airport-aircraft-planes-transportation-46148.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1600',
+		hangar: 'https://images.pexels.com/photos/3943876/pexels-photo-3943876.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1400',
+		cockpit: 'https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1400',
+		engineModule: 'https://images.pexels.com/photos/3943876/pexels-photo-3943876.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1400',
+		turbine: 'https://images.pexels.com/photos/3943882/pexels-photo-3943882.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1400',
+		documentation: 'https://images.pexels.com/photos/373547/pexels-photo-373547.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1400',
+	},
+	'miami-aviation-logistics': {
+		hero: 'https://images.pexels.com/photos/3807524/pexels-photo-3807524.jpeg?auto=format&fit=crop&w=1920&q=80',
+		ramp: 'https://images.pexels.com/photos/3807525/pexels-photo-3807525.jpeg?auto=format&fit=crop&w=1600&q=80',
+		port: 'https://cdn.pixabay.com/photo/2018/01/14/19/16/airport-3081393_960_720.jpg',
+		customs: 'https://images.pexels.com/photos/3807523/pexels-photo-3807523.jpeg?auto=format&fit=crop&w=1600&q=80',
+		warehouse: 'https://cdn.pixabay.com/photo/2017/08/06/17/15/shelves-2591874_960_720.jpg',
+		it: 'https://images.pexels.com/photos/3807522/pexels-photo-3807522.jpeg?auto=format&fit=crop&w=1600&q=80',
+		consolidation: 'https://cdn.pixabay.com/photo/2017/08/06/17/15/shelves-2591874_960_720.jpg',
+		energy: 'https://images.pexels.com/photos/3807521/pexels-photo-3807521.jpeg?auto=format&fit=crop&w=1600&q=80',
+	},
+	'aog-response-strategies': {
+		hero: 'https://images.unsplash.com/photo-1518551933037-444d37382372?auto=format&fit=crop&w=1920&q=80',
+		nightShift: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=1600&q=80',
+		checklist: 'https://images.unsplash.com/photo-1550355291-bbee04a92027?auto=format&fit=crop&w=1600&q=80',
+		opsControl: 'https://images.unsplash.com/photo-1487029752779-a0c17b1f5ec2?auto=format&fit=crop&w=1600&q=80',
+		standup: 'https://images.unsplash.com/photo-1531983412531-1f49a365ffed?auto=format&fit=crop&w=1600&q=80',
+		dashboards: 'https://images.unsplash.com/photo-1542744095-291d1f67b221?auto=format&fit=crop&w=1600&q=80',
+		freight: 'https://images.unsplash.com/photo-1465447142348-e9952c393450?auto=format&fit=crop&w=1600&q=80',
+		rapidInstall: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80',
+	},
+	'sustainable-aviation-component-trading': {
+		hero: 'https://images.unsplash.com/photo-1531973579168-c3b073c6779d?auto=format&fit=crop&w=1920&q=80',
+		dashboard: 'https://images.unsplash.com/photo-1543286386-2e659306cd6c?auto=format&fit=crop&w=1600&q=80',
+		inspection: 'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=1600&q=80',
+		facility: 'https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?auto=format&fit=crop&w=1600&q=80',
+		teardown: 'https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=1600&q=80',
+		documentation: 'https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?auto=format&fit=crop&w=1600&q=80',
+	},
+	'global-aircraft-parts-supply-chains': {
+		hero: 'https://images.unsplash.com/photo-1504196606672-aef5c9cefc92?auto=format&fit=crop&w=1920&q=80',
+		documentControl: 'https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?auto=format&fit=crop&w=1600&q=80',
+		cargoPallets: 'https://images.unsplash.com/photo-1559496417-e7f25cb247f2?auto=format&fit=crop&w=1600&q=80',
+		cloudInterface: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1600&q=80',
+		analytics: 'https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1600&q=80',
+		apiDiagram: 'https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=1600&q=80',
+	},
+	'technology-trends-component-management': {
+		hero: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1920&q=80',
+		predictive: 'https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1600&q=80',
+		machineLearning: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80',
+		robotics: 'https://images.unsplash.com/photo-1603791452906-c7c56c98ec5f?auto=format&fit=crop&w=1600&q=80',
+		stockDashboard: 'https://images.unsplash.com/photo-1581091012184-5c1d7b9e69f5?auto=format&fit=crop&w=1600&q=80',
+		systemIntegration: 'https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&w=1600&q=80',
+		procurementApi: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80',
+		blockchain: 'https://images.unsplash.com/photo-1581091215367-7f9b90cfbc4b?auto=format&fit=crop&w=1600&q=80',
+	},
+};
+
+export const getBlogFallback = (slug, key) => BLOG_FALLBACKS[slug]?.[key] ?? null;

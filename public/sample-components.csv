@@ -1,0 +1,11 @@
+part_number,description,category,condition,availability,aircraft,price,manufacturer,serial_number,location,notes
+"CFM56-7B24","Engine Assembly - Boeing 737-800","engines","oh","In Stock","B737-800","Request Quote","CFM International","SN123456","Miami FL","Overhauled 2023"
+"A320-214-32-23","Flight Management Computer","avionics","new","Available","A320","$75000","Thales","TH789012","Miami FL","Latest software version"
+"MLG-A330-001","Main Landing Gear Assembly","landing-gear","sv","In Stock","A330","Request Quote","Safran Landing Systems","SF345678","Miami FL","Serviceable condition"
+"B777-300ER-ENG","GE90-115B Engine","engines","new","Available","B777-300ER","Request Quote","General Electric","GE901234","Miami FL","Zero time engine"
+"EMB190-APU-01","Auxiliary Power Unit","engines","oh","In Stock","EMB190","$85000","Honeywell","HW567890","Miami FL","Recently overhauled"
+"MD80-WING-SEC","Wing Section Assembly","airframe","ar","Available","MD-80","Request Quote","Boeing","BG234567","Miami FL","As removed from aircraft"
+"A380-TIRE-SET","Landing Gear Tire Set","landing-gear","new","In Stock","A380","$25000","Michelin","MC890123","Miami FL","Complete set of 6 tires"
+"B737-IFE-SYS","In-Flight Entertainment System","avionics","sv","Available","B737-800","$45000","Panasonic","PN456789","Miami FL","Includes all screens"
+"CRJ900-ENG","CF34-8C5 Engine","engines","oh","On Order","CRJ900","Request Quote","General Electric","GE345678","Miami FL","Expected delivery Q2 2025"
+"A350-BRAKE-ASY","Carbon Brake Assembly","landing-gear","new","In Stock","A350","$95000","Safran","SF123890","Miami FL","Latest carbon brake technology"
