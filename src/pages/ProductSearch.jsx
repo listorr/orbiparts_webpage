@@ -95,19 +95,19 @@ const ProductSearch = () => {
     setParsedBulkTerms(parseBulkInput(bulkTerms));
   }, [bulkTerms, parseBulkInput]);
 
-  // Fetch inventory KPIs from Supabase (stock table from Quote Hub)
+  // Fetch inventory KPIs from Supabase (public_stock view from Quote Hub)
   useEffect(() => {
     const fetchInventoryMetrics = async () => {
       setInventoryMetrics(prev => ({ ...prev, loading: true }));
       try {
         // Fetch all stock items minimal fields to compute metrics
         const { data, error } = await supabase
-          .from('stock')
+          .from('public_stock')
           .select('id, part_number, trade_type, category');
         if (error) throw error;
         const totalItems = data.length;
-        // Count items available for sale
-        const inStockItems = data.filter(c => c.trade_type && c.trade_type.toLowerCase() === 'sale').length;
+        // Count items available for sale (all items in view are for sale)
+        const inStockItems = data.length;
         const distinctPartNumbers = new Set(data.map(c => c.part_number)).size;
         const categoriesCount = data.reduce((map, c) => {
           if (c.category) map[c.category] = (map[c.category] || 0) + 1;
@@ -250,7 +250,7 @@ const ProductSearch = () => {
 
     try {
       const { data, error } = await supabase
-        .from('stock')
+        .from('public_stock')
         .select('*')
         .in('part_number', termsToSearch.map(t => t.toUpperCase()));
 
