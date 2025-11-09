@@ -214,7 +214,7 @@ const Navbar = () => {
                   </Button>
                 ) : (
                   <>
-                    <Link to="/login" onClick={() => setIsOpen(false)}>
+                    <a href="https://quote.orbiparts.com" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>
                       <Button 
                         variant="outline"
                         className="w-full py-3 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-all"
@@ -222,7 +222,7 @@ const Navbar = () => {
                         <Lock className="mr-2 h-5 w-5" />
                         Employee Login
                       </Button>
-                    </Link>
+                    </a>
                     <Button 
                       onClick={handleAOGSupportClick} 
                       className="w-full py-3 bg-red-600 hover:bg-red-500 text-white font-semibold flex items-center gap-2 justify-center"
