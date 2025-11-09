@@ -1,4 +1,6 @@
 <IfModule mod_rewrite.c>
+  # Ensure Apache serves our SPA's index.html before any default index.php
+  DirectoryIndex index.html index.php
   RewriteEngine On
   RewriteBase /
   RewriteCond %{REQUEST_FILENAME} !-f
