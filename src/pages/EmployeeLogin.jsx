@@ -9,6 +9,7 @@ import { Label } from '@/components/ui/label';
 import { useAuth } from '@/contexts/SupabaseAuthContext';
 import { Loader2, Lock, Mail, ExternalLink } from 'lucide-react';
 import { useToast } from '@/components/ui/use-toast';
+import { supabase } from '@/lib/customSupabaseClient';
 
 const EmployeeLogin = () => {
   const [email, setEmail] = useState('');
@@ -51,9 +52,17 @@ const EmployeeLogin = () => {
           description: "Successfully logged in. Redirecting to Quote Hub...",
         });
         
+        // Get the session token to pass to Quote Hub
+        const { data: { session } } = await supabase.auth.getSession();
+        
         // Esperar un momento para que el toast sea visible
         setTimeout(() => {
-          window.location.href = 'https://quote.orbiparts.com';
+          if (session?.access_token) {
+            // Pass the access token as a hash parameter for Quote Hub to read
+            window.location.href = `https://quote.orbiparts.com#access_token=${session.access_token}&refresh_token=${session.refresh_token}`;
+          } else {
+            window.location.href = 'https://quote.orbiparts.com';
+          }
         }, 1500);
       }
     } catch (err) {
