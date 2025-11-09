@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { Menu, X, LogOut, AlertCircle } from 'lucide-react';
+import { Menu, X, LogOut, AlertCircle, Lock } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import BrandLogo from '@/components/BrandLogo';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
@@ -127,9 +127,9 @@ const Navbar = () => {
             ) : (
                 <>
                   <Link to="/login">
-                    <Button variant="outline" size="sm" className="border-blue-600 text-blue-600 hover:bg-blue-50">
-                      <LogOut className="mr-2 h-4 w-4 rotate-180" />
-                      Employee Login
+                    <Button variant="ghost" size="sm" className="text-sm font-medium transition-colors hover:text-primary">
+                      <Lock className="mr-1.5 h-4 w-4" />
+                      Login
                     </Button>
                   </Link>
                   <Button onClick={handleAOGSupportClick} className="rounded-md bg-blue-600 hover:bg-red-600 text-white font-semibold transition-colors duration-300 flex items-center gap-2">
@@ -218,9 +218,9 @@ const Navbar = () => {
                     <Link to="/login" onClick={() => setIsOpen(false)}>
                       <Button 
                         variant="outline"
-                        className="w-full py-3 border-blue-600 text-blue-600 hover:bg-blue-50"
+                        className="w-full py-3 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white transition-all"
                       >
-                        <LogOut className="mr-2 h-5 w-5 rotate-180" />
+                        <Lock className="mr-2 h-5 w-5" />
                         Employee Login
                       </Button>
                     </Link>
