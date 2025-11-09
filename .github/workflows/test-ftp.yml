@@ -1,0 +1,30 @@
+name: Test FTP Connection
+
+on:
+  workflow_dispatch:  # Permite ejecutar manualmente desde GitHub
+
+jobs:
+  test-connection:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test FTP credentials
+        run: |
+          echo "Testing FTP connection..."
+          echo "Server: ${{ secrets.HOSTINGER_FTP_SERVER }}"
+          echo "Username: ${{ secrets.HOSTINGER_FTP_USERNAME }}"
+          echo "Target Dir: ${{ secrets.HOSTINGER_FTP_TARGET_DIR }}"
+          
+          # Note: We don't echo the password for security
+          if [ -z "${{ secrets.HOSTINGER_FTP_PASSWORD }}" ]; then
+            echo "❌ ERROR: FTP password is not set!"
+            exit 1
+          else
+            echo "✅ FTP password is set"
+          fi
+          
+          if [ -z "${{ secrets.HOSTINGER_FTP_SERVER }}" ]; then
+            echo "❌ ERROR: FTP server is not set!"
+            exit 1
+          else
+            echo "✅ FTP server is set"
+          fi
