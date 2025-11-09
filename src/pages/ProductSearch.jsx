@@ -475,7 +475,8 @@ PART INFORMATION:
 P/N: ${wantedPart.part_number}
 Description: ${wantedPart.description}
 Your Requirement: ${wantedPart.quantity_needed} units
-Your Max Price: $${wantedPart.max_price}
+${wantedPart.min_cycles_remaining ? `Minimum Cycles Remaining: ${wantedPart.min_cycles_remaining} CR` : ''}
+${wantedPart.max_price ? `Your Max Price: $${wantedPart.max_price}` : ''}
 Accepted Conditions: ${wantedPart.condition_accepted.join(', ')}
 
 MY OFFER:
@@ -1235,8 +1236,18 @@ Best regards,`;
                               <div className="col-span-3">
                                 <div className="text-xs uppercase tracking-wide text-gray-500">{t('productSearch.wanted.need', 'Need')}</div>
                                 <div className="text-sm text-gray-900 font-semibold">{part.quantity_needed} {t('productSearch.wanted.units', 'units')}</div>
-                                <div className="mt-2 text-xs uppercase tracking-wide text-gray-500">{t('productSearch.wanted.max', 'Max')}</div>
-                                <div className="text-sm text-gray-900 font-semibold">{formatUSD(part.max_price)}</div>
+                                {part.min_cycles_remaining && (
+                                  <>
+                                    <div className="mt-2 text-xs uppercase tracking-wide text-gray-500">{t('productSearch.wanted.minCR', 'Min CR')}</div>
+                                    <div className="text-sm text-gray-900 font-semibold">{part.min_cycles_remaining.toLocaleString()} CR</div>
+                                  </>
+                                )}
+                                {part.max_price && (
+                                  <>
+                                    <div className="mt-2 text-xs uppercase tracking-wide text-gray-500">{t('productSearch.wanted.max', 'Max')}</div>
+                                    <div className="text-sm text-gray-900 font-semibold">{formatUSD(part.max_price)}</div>
+                                  </>
+                                )}
                                 <div className="mt-3">
                                   <div className="text-xs text-gray-500 mb-1">{t('productSearch.wanted.accepted')}</div>
                                   <div className="flex flex-wrap gap-1">
@@ -1284,10 +1295,18 @@ Best regards,`;
                                   <span className="text-gray-500">{t('productSearch.wanted.need', 'Need')}: </span>
                                   <span className="font-semibold text-gray-900">{part.quantity_needed} {t('productSearch.wanted.units', 'units')}</span>
                                 </div>
-                                <div>
-                                  <span className="text-gray-500">{t('productSearch.wanted.max', 'Max')}: </span>
-                                  <span className="font-semibold text-gray-900">{formatUSD(part.max_price)}</span>
-                                </div>
+                                {part.min_cycles_remaining && (
+                                  <div>
+                                    <span className="text-gray-500">{t('productSearch.wanted.minCR', 'Min CR')}: </span>
+                                    <span className="font-semibold text-gray-900">{part.min_cycles_remaining.toLocaleString()} CR</span>
+                                  </div>
+                                )}
+                                {part.max_price && (
+                                  <div>
+                                    <span className="text-gray-500">{t('productSearch.wanted.max', 'Max')}: </span>
+                                    <span className="font-semibold text-gray-900">{formatUSD(part.max_price)}</span>
+                                  </div>
+                                )}
                               </div>
                               <div>
                                 <div className="text-xs text-gray-500 mb-1">{t('productSearch.wanted.accepted')}</div>
