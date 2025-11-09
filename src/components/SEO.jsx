@@ -279,3 +279,23 @@ export function buildWebsiteSchema({
     }
   };
 }
+
+export function buildOrganizationSchema({
+  name = 'ORBIPARTS',
+  url = 'https://www.orbiparts.com',
+  logo = 'https://horizons-cdn.hostinger.com/2ef424c8-0ac1-4054-84ba-36e23eef1963/98d353c201a1ce1dfe4285c61d777c1b.png',
+  description = 'Global supplier of aircraft parts, engines, helicopters & consumables for Airbus, Boeing, general aviation, business jets.',
+  socialProfiles = [
+    'https://www.linkedin.com/company/orbiparts'
+  ]
+} = {}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name,
+    url,
+    logo,
+    description,
+    sameAs: socialProfiles
+  };
+}

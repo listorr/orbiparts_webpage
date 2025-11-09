@@ -253,8 +253,8 @@ const LogicalNetworkVisualization = () => {
         })}
       </svg>
 
-      {/* LEFT SIDE - YOUR REQUESTS */}
-      <div className="absolute left-8 top-1/2 -translate-y-1/2 space-y-4 z-10">
+      {/* LEFT SIDE - YOUR REQUESTS - Hidden on mobile */}
+      <div className="hidden md:block absolute left-4 lg:left-8 top-1/2 -translate-y-1/2 space-y-3 lg:space-y-4 z-10">
         {requesterTrail.map((style, index) => {
           const requester = requesters[index];
           const Icon = requester.Icon;
@@ -274,16 +274,16 @@ const LogicalNetworkVisualization = () => {
                   />
                 )}
                 
-                <div ref={(el) => (requesterRefs.current[index] = el)} className={`relative bg-white/10 backdrop-blur-md rounded-xl p-3 border transition-all duration-300 ${
+                <div ref={(el) => (requesterRefs.current[index] = el)} className={`relative bg-white/10 backdrop-blur-md rounded-xl p-2 lg:p-3 border transition-all duration-300 ${
                   isActive ? 'border-emerald-400/60 bg-white/20' : 'border-white/20'
                 } hover:border-emerald-400/60 hover:bg-white/20`}>
-                  <div className="flex items-center gap-3">
-                    <div className={`w-10 h-10 rounded-lg flex items-center justify-center transition-transform ${
+                  <div className="flex items-center gap-2 lg:gap-3">
+                    <div className={`w-8 h-8 lg:w-10 lg:h-10 rounded-lg flex items-center justify-center transition-transform ${
                       isActive ? 'scale-110' : ''
                     }`} style={{ backgroundColor: `${requester.color}20` }}>
-                      <Icon className="w-6 h-6" color={requester.color} />
+                      <Icon className="w-5 h-5 lg:w-6 lg:h-6" color={requester.color} />
                     </div>
-                    <div className="text-xs font-semibold text-white whitespace-nowrap">
+                    <div className="text-[10px] lg:text-xs font-semibold text-white whitespace-nowrap">
                       {requester.label}
                     </div>
                   </div>
@@ -314,14 +314,14 @@ const LogicalNetworkVisualization = () => {
             <div className="w-full h-full rounded-full border-2 border-dashed border-purple-400/30 animate-spin-slow" />
           </div>
 
-          {/* Main hub card */}
-          <div ref={hubRef} className="relative bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700 rounded-3xl shadow-2xl p-8 border-4 border-white/20 min-w-[220px]">
+          {/* Main hub card - Responsive */}
+          <div ref={hubRef} className="relative bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-700 rounded-2xl lg:rounded-3xl shadow-2xl p-6 lg:p-8 border-4 border-white/20 min-w-[180px] lg:min-w-[220px]">
             {/* Inner glow overlay */}
-            <div className="absolute inset-0 bg-gradient-to-tr from-blue-400/20 via-transparent to-purple-400/20 rounded-3xl" />
+            <div className="absolute inset-0 bg-gradient-to-tr from-blue-400/20 via-transparent to-purple-400/20 rounded-2xl lg:rounded-3xl" />
             
             <div className="relative text-center">
               {/* Logo container */}
-              <div className="w-16 h-16 mx-auto mb-3 bg-white/95 rounded-2xl flex items-center justify-center backdrop-blur-sm border border-white/30 shadow-lg p-2">
+              <div className="w-12 h-12 lg:w-16 lg:h-16 mx-auto mb-2 lg:mb-3 bg-white/95 rounded-xl lg:rounded-2xl flex items-center justify-center backdrop-blur-sm border border-white/30 shadow-lg p-1.5 lg:p-2">
                 <img 
                   src="https://fjhynjjirvcyeahmlopq.supabase.co/storage/v1/object/public/assets/b34bd64a-153f-4c75-9bed-1bba68cece2a/1756807193009.png" 
                   alt="ORBIPARTS Logo" 
@@ -331,51 +331,51 @@ const LogicalNetworkVisualization = () => {
 
               {/* Brand name */}
               <div className="mb-2">
-                <div className="text-3xl font-black text-white tracking-tight mb-1">
+                <div className="text-2xl lg:text-3xl font-black text-white tracking-tight mb-1">
                   ORBIPARTS
                 </div>
-                <div className="text-xs text-blue-100 font-semibold uppercase tracking-wider">
+                <div className="text-[10px] lg:text-xs text-blue-100 font-semibold uppercase tracking-wider">
                   Global Network Hub
                 </div>
               </div>
 
               {/* Stats */}
-              <div className="mt-4 grid grid-cols-2 gap-2">
+              <div className="mt-3 lg:mt-4 grid grid-cols-2 gap-2">
                 <div className="bg-white/15 backdrop-blur-sm rounded-lg p-2 border border-white/20">
-                  <div className="text-lg font-bold text-white">+1000</div>
-                  <div className="text-[8px] text-blue-100 uppercase tracking-wide">Suppliers</div>
+                  <div className="text-base lg:text-lg font-bold text-white">+1000</div>
+                  <div className="text-[7px] lg:text-[8px] text-blue-100 uppercase tracking-wide">Suppliers</div>
                 </div>
                 <div className="bg-white/15 backdrop-blur-sm rounded-lg p-2 border border-white/20">
-                  <div className="text-lg font-bold text-white flex items-center justify-center gap-1">
+                  <div className="text-base lg:text-lg font-bold text-white flex items-center justify-center gap-1">
                     <span>AI</span>
-                    <svg className="w-3 h-3" viewBox="0 0 24 24" fill="currentColor">
+                    <svg className="w-2.5 h-2.5 lg:w-3 lg:h-3" viewBox="0 0 24 24" fill="currentColor">
                       <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
                     </svg>
                   </div>
-                  <div className="text-[8px] text-blue-100 uppercase tracking-wide">Powered</div>
+                  <div className="text-[7px] lg:text-[8px] text-blue-100 uppercase tracking-wide">Powered</div>
                 </div>
               </div>
 
               {/* Status indicators removed per request */}
             </div>
 
-            {/* Flow indicators */}
-            <div ref={leftIndicatorRef} className={`absolute -left-4 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full flex items-center justify-center transition-all ${
+            {/* Flow indicators - Fixed vertical alignment */}
+            <div ref={leftIndicatorRef} className={`absolute -left-5 top-1/2 w-10 h-10 rounded-full flex items-center justify-center transition-all ${
               activeFlow === 0 ? 'bg-emerald-500 scale-110' : 'bg-emerald-500/50'
-            }`}>
-              <div className="w-4 h-4 bg-emerald-300 rounded-full animate-ping" />
+            }`} style={{ transform: 'translate(0, -50%)' }}>
+              <div className="w-5 h-5 bg-emerald-300 rounded-full animate-ping" />
             </div>
-            <div ref={rightIndicatorRef} className={`absolute -right-4 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full flex items-center justify-center transition-all ${
+            <div ref={rightIndicatorRef} className={`absolute -right-5 top-1/2 w-10 h-10 rounded-full flex items-center justify-center transition-all ${
               activeFlow === 2 ? 'bg-purple-500 scale-110' : 'bg-purple-500/50'
-            }`}>
-              <div className="w-4 h-4 bg-purple-300 rounded-full animate-ping" style={{ animationDelay: '500ms' }} />
+            }`} style={{ transform: 'translate(0, -50%)' }}>
+              <div className="w-5 h-5 bg-purple-300 rounded-full animate-ping" style={{ animationDelay: '500ms' }} />
             </div>
           </div>
         </div>
       </animated.div>
 
-      {/* RIGHT SIDE - AUTHORIZED SUPPLIERS */}
-      <div className="absolute right-8 top-1/2 -translate-y-1/2 space-y-3 z-10 max-w-[280px]">
+      {/* RIGHT SIDE - AUTHORIZED SUPPLIERS - Hidden on mobile */}
+      <div className="hidden md:block absolute right-4 lg:right-8 top-1/2 -translate-y-1/2 space-y-2 lg:space-y-3 z-10 max-w-[200px] lg:max-w-[280px]">
         {supplierTrail.map((style, index) => {
           const supplier = suppliers[index];
           const Icon = supplier.Icon;
@@ -395,20 +395,20 @@ const LogicalNetworkVisualization = () => {
                   />
                 )}
                 
-                <div ref={(el) => (supplierRefs.current[index] = el)} className={`relative bg-white/10 backdrop-blur-md rounded-xl p-3 border transition-all duration-300 ${
+                <div ref={(el) => (supplierRefs.current[index] = el)} className={`relative bg-white/10 backdrop-blur-md rounded-xl p-2 lg:p-3 border transition-all duration-300 ${
                   isActive ? 'border-purple-400/60 bg-white/20' : 'border-white/20'
                 } hover:border-purple-400/60 hover:bg-white/20 cursor-pointer`}>
-                  <div className="flex items-center gap-3">
-                    <div className={`w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 transition-transform ${
+                  <div className="flex items-center gap-2 lg:gap-3">
+                    <div className={`w-8 h-8 lg:w-10 lg:h-10 rounded-lg flex items-center justify-center flex-shrink-0 transition-transform ${
                       isActive ? 'scale-110' : ''
                     }`} style={{ backgroundColor: `${supplier.color}20` }}>
-                      <Icon className="w-6 h-6" color={supplier.color} />
+                      <Icon className="w-5 h-5 lg:w-6 lg:h-6" color={supplier.color} />
                     </div>
                     <div className="flex-1 min-w-0">
-                      <div className="text-xs font-semibold text-white truncate">
+                      <div className="text-[10px] lg:text-xs font-semibold text-white truncate">
                         {supplier.label}
                       </div>
-                      <div className="text-[10px] text-blue-200 truncate opacity-70">
+                      <div className="text-[8px] lg:text-[10px] text-blue-200 truncate opacity-70">
                         {supplier.desc}
                       </div>
                     </div>
@@ -420,30 +420,33 @@ const LogicalNetworkVisualization = () => {
         })}
       </div>
 
-      {/* TOP LABELS */}
-      <div className="absolute top-8 left-8 z-10">
-        <div className="bg-gradient-to-r from-emerald-600/90 to-teal-600/90 backdrop-blur-md text-white px-5 py-3 rounded-xl shadow-lg border border-white/20">
-          <div className="font-bold text-sm">Your Requests</div>
-          <div className="text-xs text-emerald-100">Airlines • Operators • MROs</div>
+      {/* TOP LABELS - Hidden on mobile */}
+      <div className="hidden md:block absolute top-4 lg:top-8 left-4 lg:left-8 z-10">
+        <div className="bg-gradient-to-r from-emerald-600/90 to-teal-600/90 backdrop-blur-md text-white px-3 py-2 lg:px-5 lg:py-3 rounded-lg lg:rounded-xl shadow-lg border border-white/20">
+          <div className="font-bold text-xs lg:text-sm">Your Requests</div>
+          <div className="hidden lg:block text-xs text-emerald-100">Airlines • Operators • MROs</div>
         </div>
       </div>
 
-      <div className="absolute top-8 right-8 z-10">
-        <div className="bg-gradient-to-r from-purple-600/90 to-indigo-600/90 backdrop-blur-md text-white px-5 py-3 rounded-xl shadow-lg border border-white/20">
-          <div className="font-bold text-sm">Authorized Suppliers</div>
-          <div className="text-xs text-purple-100">Worldwide Certified Network</div>
+      <div className="hidden md:block absolute top-4 lg:top-8 right-4 lg:right-8 z-10">
+        <div className="bg-gradient-to-r from-purple-600/90 to-indigo-600/90 backdrop-blur-md text-white px-3 py-2 lg:px-5 lg:py-3 rounded-lg lg:rounded-xl shadow-lg border border-white/20">
+          <div className="font-bold text-xs lg:text-sm">Authorized Suppliers</div>
+          <div className="hidden lg:block text-xs text-purple-100">Worldwide Certified Network</div>
         </div>
       </div>
 
-      {/* BOTTOM DESCRIPTION */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10">
-        <div className="bg-slate-900/70 backdrop-blur-md px-8 py-4 rounded-2xl border border-white/10 shadow-xl">
+      {/* BOTTOM DESCRIPTION - Simplified on mobile */}
+      <div className="absolute bottom-4 lg:bottom-8 left-1/2 -translate-x-1/2 z-10 px-4 max-w-full">
+        <div className="bg-slate-900/70 backdrop-blur-md px-4 py-3 lg:px-8 lg:py-4 rounded-xl lg:rounded-2xl border border-white/10 shadow-xl">
           <div className="text-center">
-            <div className="text-white font-bold text-base mb-1">
+            <div className="text-white font-bold text-sm lg:text-base mb-1">
               One Platform • Infinite Connections
             </div>
-            <div className="text-blue-200 text-sm">
+            <div className="hidden md:block text-blue-200 text-xs lg:text-sm">
               ORBIPARTS connects your requests with a global network of certified suppliers
+            </div>
+            <div className="md:hidden text-blue-200 text-xs">
+              Global certified suppliers network
             </div>
           </div>
         </div>

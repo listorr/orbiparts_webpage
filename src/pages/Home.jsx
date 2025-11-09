@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import LogicalNetworkVisualization from '@/components/LogicalNetworkVisualization';
 import { GlobalIcon, SpeedIcon, ShieldCheckIcon } from '@/components/icons/AviationIcons';
-import { SEO, buildProcurementPlatformSchema, buildWebsiteSchema } from '@/components/SEO';
+import { SEO, buildProcurementPlatformSchema, buildWebsiteSchema, buildOrganizationSchema } from '@/components/SEO';
 import SEOHead from '@/components/SEOHead';
 import SchemaOrg from '@/components/SchemaOrg';
 
@@ -58,7 +58,11 @@ const Home = () => {
         description="Global supplier of aircraft parts, engines and helicopter components with AI procurement platform. AOG support under 30 minutes. 1000+ certified suppliers worldwide."
         canonical="https://www.orbiparts.com/"
         breadcrumbs={[{ name: 'Home', url: 'https://www.orbiparts.com/' }]}
-        schemas={[buildProcurementPlatformSchema(), buildWebsiteSchema()]}
+        schemas={[
+          buildProcurementPlatformSchema(), 
+          buildWebsiteSchema(),
+          buildOrganizationSchema()
+        ]}
         ogImage="https://images.unsplash.com/photo-1578575437195-235a396d11b3?q=80&w=2070"
         ogType="website"
         siteName="ORBIPARTS"

@@ -116,14 +116,16 @@ const Navbar = () => {
 
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className={`lg:hidden p-2 rounded-md ${
-              finalIsTransparent ? 'text-white' : 'text-neutral-900'
+            className={`lg:hidden p-3 rounded-md transition-colors ${
+              finalIsTransparent 
+                ? 'text-white hover:bg-white/10' 
+                : 'text-neutral-900 hover:bg-black/5'
             }`}
             aria-expanded={isOpen}
             aria-controls="mobile-menu"
             aria-label={isOpen ? 'Close menu' : 'Open menu'}
           >
-            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {isOpen ? <X className="w-7 h-7" /> : <Menu className="w-7 h-7" />}
           </button>
         </div>
       </div>
@@ -134,37 +136,41 @@ const Navbar = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
+            transition={{ duration: 0.2 }}
             id="mobile-menu"
-            className="lg:hidden bg-background border-t border-border fixed inset-x-0 top-20 bottom-0 z-40 overflow-y-auto"
+            className="lg:hidden bg-white border-t border-gray-200 fixed inset-x-0 top-20 bottom-0 z-40 overflow-y-auto shadow-xl"
           >
-            <div className="px-4 py-4 space-y-2">
+            <div className="px-6 py-6 space-y-3">
               {navItems.map((item) => (
                 <Link
                   key={item.name}
                   to={item.path}
                   onClick={() => setIsOpen(false)}
-                  className={`block px-3 py-2 text-base font-medium rounded-md transition-colors ${
+                  className={`block px-4 py-3 text-lg font-medium rounded-lg transition-all ${
                     location.pathname === item.path
-                      ? 'text-primary bg-primary/10'
-                      : 'text-neutral-900 hover:text-primary hover:bg-black/5'
+                      ? 'text-white bg-blue-600 shadow-md'
+                      : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50'
                   }`}
                 >
                   {item.name}
                 </Link>
               ))}
-              <div className="pt-4 space-y-2">
+              <div className="pt-6 space-y-4 border-t border-gray-200">
                  {user ? (
-                    <Button onClick={handleSignOut} variant="outline" className="w-full">
-                      <LogOut className="mr-2 h-4 w-4" />
+                    <Button onClick={handleSignOut} variant="outline" className="w-full py-6 text-base">
+                      <LogOut className="mr-2 h-5 w-5" />
                       Sign Out
                     </Button>
                 ) : (
-                    <Button onClick={handleAOGSupportClick} className="w-full rounded-md bg-blue-600 hover:bg-red-600 text-white font-semibold transition-colors duration-300 flex items-center gap-2 justify-center">
-                      <AlertCircle className="w-4 h-4" />
+                    <Button 
+                      onClick={handleAOGSupportClick} 
+                      className="w-full py-6 text-base rounded-lg bg-blue-600 hover:bg-red-600 text-white font-semibold transition-colors duration-300 flex items-center gap-3 justify-center shadow-lg"
+                    >
+                      <AlertCircle className="w-5 h-5" />
                       AOG Support
                     </Button>
                 )}
-                <div className="flex justify-center pt-2">
+                <div className="flex justify-center pt-4">
                     <LanguageSwitcher />
                 </div>
               </div>
