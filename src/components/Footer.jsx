@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import BrandLogo from '@/components/BrandLogo';
-import { MapPin } from 'lucide-react';
+import { MapPin, Linkedin } from 'lucide-react';
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -45,6 +45,22 @@ const Footer = () => {
               <p>OEM Distributor</p>
               <p>Engine Trading & Leasing</p>
               <p>24/7 AOG Support</p>
+            </div>
+            
+            {/* Social Media - LinkedIn */}
+            <div className="pt-2">
+              <a 
+                href="https://www.linkedin.com/company/orbiparts" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-white hover:text-blue-400 transition-colors group"
+                aria-label="Visit ORBIPARTS on LinkedIn"
+              >
+                <div className="p-2 bg-white/10 rounded-lg group-hover:bg-blue-600 transition-colors">
+                  <Linkedin className="w-5 h-5" />
+                </div>
+                <span className="text-sm font-medium">Follow us on LinkedIn</span>
+              </a>
             </div>
           </div>
 

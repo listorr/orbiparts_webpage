@@ -130,48 +130,56 @@ const Navbar = () => {
         </div>
       </div>
 
+      {/* Mobile Menu - Simple dropdown */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.2 }}
             id="mobile-menu"
-            className="lg:hidden bg-white border-t border-gray-200 fixed inset-x-0 top-20 bottom-0 z-40 overflow-y-auto shadow-xl"
+            className="lg:hidden bg-white border-t border-gray-200 shadow-xl"
           >
-            <div className="px-6 py-6 space-y-3">
+            <div className="max-w-7xl mx-auto px-4 py-6 space-y-3">
+              {/* Navigation items */}
               {navItems.map((item) => (
                 <Link
                   key={item.name}
                   to={item.path}
                   onClick={() => setIsOpen(false)}
-                  className={`block px-4 py-3 text-lg font-medium rounded-lg transition-all ${
+                  className={`block px-4 py-3 rounded-lg font-medium transition-all ${
                     location.pathname === item.path
-                      ? 'text-white bg-blue-600 shadow-md'
-                      : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50'
+                      ? 'bg-blue-600 text-white shadow-md'
+                      : 'text-gray-700 hover:bg-blue-50 hover:text-blue-600'
                   }`}
                 >
                   {item.name}
                 </Link>
               ))}
-              <div className="pt-6 space-y-4 border-t border-gray-200">
-                 {user ? (
-                    <Button onClick={handleSignOut} variant="outline" className="w-full py-6 text-base">
-                      <LogOut className="mr-2 h-5 w-5" />
-                      Sign Out
-                    </Button>
+              
+              {/* Divider */}
+              <div className="border-t border-gray-200 pt-4 mt-4 space-y-3">
+                {user ? (
+                  <Button 
+                    onClick={handleSignOut} 
+                    variant="outline" 
+                    className="w-full py-3"
+                  >
+                    <LogOut className="mr-2 h-5 w-5" />
+                    Sign Out
+                  </Button>
                 ) : (
-                    <Button 
-                      onClick={handleAOGSupportClick} 
-                      className="w-full py-6 text-base rounded-lg bg-blue-600 hover:bg-red-600 text-white font-semibold transition-colors duration-300 flex items-center gap-3 justify-center shadow-lg"
-                    >
-                      <AlertCircle className="w-5 h-5" />
-                      AOG Support
-                    </Button>
+                  <Button 
+                    onClick={handleAOGSupportClick} 
+                    className="w-full py-3 bg-red-600 hover:bg-red-500 text-white font-semibold flex items-center gap-2 justify-center"
+                  >
+                    <AlertCircle className="w-5 h-5" />
+                    AOG Support
+                  </Button>
                 )}
-                <div className="flex justify-center pt-4">
-                    <LanguageSwitcher />
+                <div className="flex justify-center">
+                  <LanguageSwitcher />
                 </div>
               </div>
             </div>

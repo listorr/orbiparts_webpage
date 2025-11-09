@@ -115,15 +115,24 @@ const LogicalNetworkVisualization = () => {
       setSupLines(newSupLines);
     };
 
+    // Multiple recalculations to ensure lines are correct
     computeLines();
-    const handle = setTimeout(computeLines, 100);
+    const handle1 = setTimeout(computeLines, 50);
+    const handle2 = setTimeout(computeLines, 150);
+    const handle3 = setTimeout(computeLines, 300);
+    const handle4 = setTimeout(computeLines, 500);
+    
     const handleResize = () => computeLines();
     window.addEventListener('resize', handleResize);
+    
     return () => {
-      clearTimeout(handle);
+      clearTimeout(handle1);
+      clearTimeout(handle2);
+      clearTimeout(handle3);
+      clearTimeout(handle4);
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  }, [activeFlow]); // Recalculate when activeFlow changes
 
   const requesterTrail = useTrail(requesters.length, {
     from: { opacity: 0, x: -50 },
@@ -156,7 +165,7 @@ const LogicalNetworkVisualization = () => {
       {/* Radial gradient for depth */}
       <div className="absolute inset-0 bg-gradient-radial from-blue-900/20 via-transparent to-slate-900/80" />
 
-  <svg ref={svgRef} className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 100 100" preserveAspectRatio="none">
+  <svg ref={svgRef} className="absolute inset-0 w-full h-full pointer-events-none z-0" viewBox="0 0 100 100" preserveAspectRatio="none">
         <defs>
           {/* Gradient for request flow (green -> blue) */}
           <linearGradient id="requestGradient" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -359,16 +368,22 @@ const LogicalNetworkVisualization = () => {
               {/* Status indicators removed per request */}
             </div>
 
-            {/* Flow indicators - Fixed vertical alignment */}
-            <div ref={leftIndicatorRef} className={`absolute -left-5 top-1/2 w-10 h-10 rounded-full flex items-center justify-center transition-all ${
-              activeFlow === 0 ? 'bg-emerald-500 scale-110' : 'bg-emerald-500/50'
-            }`} style={{ transform: 'translate(0, -50%)' }}>
-              <div className="w-5 h-5 bg-emerald-300 rounded-full animate-ping" />
+            {/* Connection points - Fixed positions on hub edges */}
+            <div 
+              ref={leftIndicatorRef} 
+              className={`absolute left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full transition-all duration-300 z-10 flex items-center justify-center ${
+                activeFlow === 0 ? 'bg-emerald-500 scale-125 shadow-lg shadow-emerald-500/50' : 'bg-emerald-500/70'
+              }`}
+            >
+              <div className={`w-4 h-4 rounded-full bg-emerald-300 ${activeFlow === 0 ? 'animate-ping' : ''}`} />
             </div>
-            <div ref={rightIndicatorRef} className={`absolute -right-5 top-1/2 w-10 h-10 rounded-full flex items-center justify-center transition-all ${
-              activeFlow === 2 ? 'bg-purple-500 scale-110' : 'bg-purple-500/50'
-            }`} style={{ transform: 'translate(0, -50%)' }}>
-              <div className="w-5 h-5 bg-purple-300 rounded-full animate-ping" style={{ animationDelay: '500ms' }} />
+            <div 
+              ref={rightIndicatorRef} 
+              className={`absolute right-0 top-1/2 translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full transition-all duration-300 z-10 flex items-center justify-center ${
+                activeFlow === 2 ? 'bg-purple-500 scale-125 shadow-lg shadow-purple-500/50' : 'bg-purple-500/70'
+              }`}
+            >
+              <div className={`w-4 h-4 rounded-full bg-purple-300 ${activeFlow === 2 ? 'animate-ping' : ''}`} style={{ animationDelay: '500ms' }} />
             </div>
           </div>
         </div>
