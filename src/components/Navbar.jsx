@@ -127,8 +127,8 @@ const Navbar = () => {
             ) : (
                 <>
                   <Link to="/login">
-                    <Button variant="ghost" size="sm" className="text-sm font-medium transition-colors hover:text-primary">
-                      <Lock className="mr-1.5 h-4 w-4" />
+                    <Button size="sm" className="rounded-md bg-blue-600 hover:bg-blue-700 text-white font-semibold transition-colors duration-300 flex items-center gap-2">
+                      <Lock className="h-4 w-4" />
                       Login
                     </Button>
                   </Link>
