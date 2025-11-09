@@ -1,5 +1,7 @@
 ## ORBIPARTS Multilingual Blog & Platform
 
+> Deployment: initial run trigger commit (this line ensures GitHub Actions workflow runs to publish the first build).
+
 ### Tech Stack
 React + Vite SPA, TailwindCSS, react-i18next localization (EN/ES/DE/FR), structured SEO (Article + FAQ + Breadcrumb + hreflang + og:locale), performance enhancements (lazy sections, responsive hero images planned), and Apache SPA routing via `.htaccess`.
 
