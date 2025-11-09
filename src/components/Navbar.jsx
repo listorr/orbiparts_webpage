@@ -128,8 +128,8 @@ const Navbar = () => {
             ) : (
                 <>
                   <Link to="/login">
-                    <Button size="sm" className="h-8 px-3 rounded-md bg-blue-600 hover:bg-blue-700 text-white text-xs font-medium transition-colors duration-300 flex items-center gap-1.5">
-                      <Lock className="h-3 w-3" />
+                    <Button size="sm" className="h-8 px-3 rounded-md bg-blue-600 hover:bg-blue-700 text-white text-xs font-medium transition-colors duration-300 flex items-center gap-2">
+                      <Lock className="h-4 w-4" />
                       Login
                     </Button>
                   </Link>
