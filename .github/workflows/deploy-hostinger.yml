@@ -23,6 +23,13 @@ jobs:
       - name: Build site
         run: npm run build
 
+      - name: Verify build output
+        run: |
+          echo "📦 Build completed. Listing dist/ contents:"
+          ls -la dist/
+          echo "📄 Checking for index.html:"
+          test -f dist/index.html && echo "✅ index.html found" || echo "❌ index.html NOT found"
+
       - name: Upload dist artifact
         uses: actions/upload-artifact@v4
         with:
@@ -40,7 +47,8 @@ jobs:
           port: 21
           local-dir: dist/
           server-dir: ${{ secrets.HOSTINGER_FTP_TARGET_DIR }}
-          log-level: minimal
+          log-level: verbose
+          dangerous-clean-slate: false
 
       - name: Purge cache (optional curl call)
         if: success() && env.CACHE_PURGE_URL != ''
@@ -48,3 +56,10 @@ jobs:
           CACHE_PURGE_URL: ${{ secrets.CACHE_PURGE_URL }}
         run: |
           curl -X POST "$CACHE_PURGE_URL" || echo "Cache purge skipped"
+
+      - name: Deployment Complete
+        if: success()
+        run: |
+          echo "✅ Deployment to Hostinger completed successfully!"
+          echo "🌐 Site should be live at: https://orbiparts.com"
+          echo "⏰ Changes may take 1-2 minutes to propagate"
