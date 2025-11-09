@@ -125,12 +125,12 @@ const Navbar = () => {
                 </>
             ) : (
                 <>
-                  <Link to="/login">
+                  <a href="https://quote.orbiparts.com" target="_blank" rel="noopener noreferrer">
                     <Button size="sm" className="h-8 px-3 rounded-md bg-blue-600 hover:bg-blue-700 text-white text-xs font-medium transition-colors duration-300 flex items-center gap-2">
                       <Lock className="h-4 w-4" />
                       Login
                     </Button>
-                  </Link>
+                  </a>
                   <Button onClick={handleAOGSupportClick} size="sm" className="h-8 px-3 rounded-md bg-blue-600 hover:bg-red-600 text-white text-xs font-medium transition-colors duration-300 flex items-center gap-1.5">
                       <AlertCircle className="w-3 h-3" />
                       AOG Support

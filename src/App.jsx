@@ -15,7 +15,6 @@ import ModernFleets from '@/pages/ModernFleets';
 import LegacyAircraft from '@/pages/LegacyAircraft';
 import AogSupport from '@/pages/AogSupport';
 import GlobalReach from '@/pages/GlobalReach';
-import EmployeeLogin from '@/pages/EmployeeLogin';
 import Blog from '@/pages/Blog';
 import Top10AircraftPartsSuppliers2025 from '@/pages/blog/Top10AircraftPartsSuppliers2025';
 // New blog post components (to be created)
@@ -76,8 +75,6 @@ function AppContent() {
           <Route path="/blog/sustainable-aviation-component-trading" element={<SustainableAviationComponentTrading />} />
           <Route path="/blog/global-aircraft-parts-supply-chains" element={<GlobalAircraftPartsSupplyChains />} />
           <Route path="/blog/technology-trends-aircraft-component-management" element={<TechnologyTrendsComponentManagement />} />
-          
-          <Route path="/login" element={user ? <Navigate to="/" /> : <EmployeeLogin />} />
           
         </Routes>
       </main>
