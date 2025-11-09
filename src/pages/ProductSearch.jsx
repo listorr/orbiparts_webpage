@@ -99,16 +99,23 @@ const ProductSearch = () => {
     const fetchInventoryMetrics = async () => {
       setInventoryMetrics(prev => ({ ...prev, loading: true }));
       try {
-        // Fetch all stock items minimal fields to compute metrics
+        // Use count for total items (more efficient)
+        const { count: totalCount, error: countError } = await supabase
+          .from('public_stock')
+          .select('*', { count: 'exact', head: true });
+        
+        if (countError) throw countError;
+        
+        // Fetch only part_number and category for distinct count and categories
         const { data, error } = await supabase
           .from('public_stock')
-          .select('id, part_number, category');
+          .select('part_number, category');
         
-        console.log('📊 Inventory Metrics Query:', { data: data?.length, error });
+        console.log('📊 Inventory Metrics Query:', { totalCount, distinctData: data?.length, error });
         
         if (error) throw error;
         
-        const totalItems = data.length;
+        const totalItems = totalCount || 0;
         const distinctPartNumbers = new Set(data.map(c => c.part_number)).size;
         const categoriesCount = data.reduce((map, c) => {
           if (c.category) map[c.category] = (map[c.category] || 0) + 1;
@@ -118,7 +125,7 @@ const ProductSearch = () => {
           .sort((a,b) => b[1]-a[1])
           .map(([name, count]) => ({ name, count }));
         
-        console.log('✅ Metrics calculated:', { totalItems, distinctPartNumbers, categories: categoriesSorted.length });
+        console.log('✅ Metrics calculated:', { totalItems, distinctPartNumbers, categories: categoriesSorted.slice(0, 3) });
         
         setInventoryMetrics({
           totalItems,
