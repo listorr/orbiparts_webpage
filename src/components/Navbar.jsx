@@ -61,6 +61,7 @@ const Navbar = () => {
   
   if (user) {
     navItems.push(
+      { name: 'Quote Hub', path: 'https://quote.orbiparts.com', external: true },
       { name: 'Components Admin', path: '/admin/components' },
       { name: 'Asset Library', path: '/admin/asset-library' }
     );
@@ -85,21 +86,37 @@ const Navbar = () => {
           <BrandLogo theme={finalIsTransparent ? 'white' : 'blue'} includeText={true} />
 
           <div className="hidden lg:flex items-center space-x-6">
-            {navItems.map((item) => (
-              <Link
-                key={item.name}
-                to={item.path}
-                className={`text-sm font-medium transition-colors hover:text-primary ${
-                  location.pathname === item.path
-                    ? 'text-primary font-semibold'
-                    : finalIsTransparent
-                    ? 'text-gray-200'
-                    : 'text-neutral-600'
-                }`}
-              >
-                {item.name}
-              </Link>
-            ))}
+            {navItems.map((item) => {
+              const isExternal = item.external || item.path?.startsWith('http');
+              const isActive = location.pathname === item.path;
+              const linkClasses = `text-sm font-medium transition-colors hover:text-primary ${
+                isActive
+                  ? 'text-primary font-semibold'
+                  : finalIsTransparent
+                  ? 'text-gray-200'
+                  : 'text-neutral-600'
+              }`;
+
+              return isExternal ? (
+                <a
+                  key={item.name}
+                  href={item.path}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={linkClasses}
+                >
+                  {item.name}
+                </a>
+              ) : (
+                <Link
+                  key={item.name}
+                  to={item.path}
+                  className={linkClasses}
+                >
+                  {item.name}
+                </Link>
+              );
+            })}
             {user ? (
                 <Button onClick={handleSignOut} variant="outline" size="sm">
                   <LogOut className="mr-2 h-4 w-4" />
@@ -143,20 +160,37 @@ const Navbar = () => {
           >
             <div className="max-w-7xl mx-auto px-4 py-6 space-y-3">
               {/* Navigation items */}
-              {navItems.map((item) => (
-                <Link
-                  key={item.name}
-                  to={item.path}
-                  onClick={() => setIsOpen(false)}
-                  className={`block px-4 py-3 rounded-lg font-medium transition-all ${
-                    location.pathname === item.path
-                      ? 'bg-blue-600 text-white shadow-md'
-                      : 'text-gray-700 hover:bg-blue-50 hover:text-blue-600'
-                  }`}
-                >
-                  {item.name}
-                </Link>
-              ))}
+              {navItems.map((item) => {
+                const isExternal = item.external || item.path?.startsWith('http');
+                const isActive = location.pathname === item.path;
+                const linkClasses = `block px-4 py-3 rounded-lg font-medium transition-all ${
+                  isActive
+                    ? 'bg-blue-600 text-white shadow-md'
+                    : 'text-gray-700 hover:bg-blue-50 hover:text-blue-600'
+                }`;
+
+                return isExternal ? (
+                  <a
+                    key={item.name}
+                    href={item.path}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => setIsOpen(false)}
+                    className={linkClasses}
+                  >
+                    {item.name}
+                  </a>
+                ) : (
+                  <Link
+                    key={item.name}
+                    to={item.path}
+                    onClick={() => setIsOpen(false)}
+                    className={linkClasses}
+                  >
+                    {item.name}
+                  </Link>
+                );
+              })}
               
               {/* Divider */}
               <div className="border-t border-gray-200 pt-4 mt-4 space-y-3">
