@@ -103,6 +103,9 @@ const ProductSearch = () => {
         const { data, error } = await supabase
           .from('public_stock')
           .select('id, part_number, category');
+        
+        console.log('📊 Inventory Metrics Query:', { data: data?.length, error });
+        
         if (error) throw error;
         
         const totalItems = data.length;
@@ -115,6 +118,8 @@ const ProductSearch = () => {
           .sort((a,b) => b[1]-a[1])
           .map(([name, count]) => ({ name, count }));
         
+        console.log('✅ Metrics calculated:', { totalItems, distinctPartNumbers, categories: categoriesSorted.length });
+        
         setInventoryMetrics({
           totalItems,
           distinctPartNumbers,
@@ -123,6 +128,7 @@ const ProductSearch = () => {
           error: null
         });
       } catch (err) {
+        console.error('❌ Inventory Metrics Error:', err);
         setInventoryMetrics(prev => ({ ...prev, loading: false, error: err.message }));
       }
     };

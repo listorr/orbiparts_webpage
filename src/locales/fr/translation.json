@@ -6,6 +6,7 @@
     "products": "Produits",
     "industries": "Industries",
     "stock": "Stock",
+    "aogSupport": "Support AOG",
     "expertCorner": "Coin des Experts",
     "contact": "Contact",
     "about": "Orbiparts"
@@ -1705,6 +1706,92 @@
         {"q": "Comment les capteurs IoT permettent le suivi en temps réel ?", "a": "Capteurs transmettent vibration, température & pression pour décisions prédictives."},
         {"q": "Quelles exigences de cybersécurité s'appliquent ?", "a": "CMMC Niv.2, NIST 800‑171, zero‑trust, MFA, chiffrement & gestion des risques fournisseurs."}
       ]
+    }
+  },
+  "aogSupport": {
+    "seo": {
+      "title": "Support AOG | ORBIPARTS - Pièces d'urgence 24/7",
+      "description": "ORBIPARTS fournit un support AOG 24/7 avec approvisionnement mondial rapide et logistique accélérée pour remettre votre avion en vol. Contactez notre ligne d'urgence.",
+      "ogTitle": "Support AOG 24/7 | ORBIPARTS",
+      "ogDescription": "Minimisez les temps d'arrêt avec notre support dédié Aircraft on Ground. Réponse immédiate, approvisionnement mondial et livraison accélérée."
+    },
+    "hero": {
+      "title": "Support Aircraft on Ground (AOG)",
+      "subtitle": "Votre partenaire critique lorsque chaque seconde compte."
+    },
+    "immediate": {
+      "title": "L'assistance immédiate à un clic",
+      "description": "Pour un support AOG immédiat, veuillez utiliser notre ligne directe dédiée ou notre chat WhatsApp pour la réponse la plus rapide.",
+      "callButton": "Appeler la ligne AOG",
+      "chatButton": "Chat WhatsApp"
+    },
+    "form": {
+      "title": "🚨 Formulaire de demande d'urgence AOG",
+      "description": "Remplissez ce formulaire pour un support AOG complet. Notre équipe vous contactera dans les 15 minutes.",
+      "contact": {
+        "heading": "Informations de contact",
+        "name": "Nom",
+        "namePlaceholder": "Nom de la personne de contact",
+        "company": "Entreprise",
+        "companyPlaceholder": "Nom de la compagnie aérienne/entreprise",
+        "email": "E-mail",
+        "emailPlaceholder": "votre.email@entreprise.com",
+        "phone": "Téléphone",
+        "phonePlaceholder": "+33 X XX XX XX XX"
+      },
+      "aircraft": {
+        "heading": "Informations sur l'avion",
+        "airline": "Compagnie aérienne",
+        "airlinePlaceholder": "ex., Air France",
+        "aircraftType": "Type d'avion",
+        "aircraftTypePlaceholder": "ex., Boeing 737-800, Airbus A320",
+        "aircraftRegistration": "Immatriculation de l'avion",
+        "aircraftRegistrationPlaceholder": "ex., F-ABCD",
+        "location": "Aéroport/Localisation",
+        "locationPlaceholder": "ex., CDG, Paris Charles de Gaulle"
+      },
+      "parts": {
+        "heading": "Pièces et urgence",
+        "partNumbers": "Numéros de pièce (séparés par des virgules ou des sauts de ligne)",
+        "partNumbersPlaceholder": "ex., 123-45678, ABC-987654, DEF-111222...",
+        "urgencyLevel": "Niveau d'urgence",
+        "urgencyCritical": "🔴 Critique (Immédiat)",
+        "urgencyHigh": "🟡 Élevé (Dans les 4 heures)",
+        "urgencyMedium": "🟢 Moyen (Dans les 24 heures)",
+        "leadTime": "Délai de livraison requis",
+        "leadTimePlaceholder": "ex., ASAP, 2 heures, prochain vol",
+        "message": "Informations supplémentaires",
+        "messagePlaceholder": "Décrivez le problème, tout contexte supplémentaire ou exigences spéciales..."
+      },
+      "submit": "🚨 Envoyer la demande d'urgence AOG",
+      "submitting": "🚨 Envoi de la demande AOG..."
+    },
+    "validation": {
+      "nameRequired": "Le nom est requis pour le support AOG",
+      "companyRequired": "L'entreprise est requise",
+      "airlineRequired": "Les informations sur la compagnie aérienne sont requises",
+      "aircraftTypeRequired": "Le type d'avion est requis",
+      "locationRequired": "La localisation/aéroport est requise",
+      "emailRequired": "L'e-mail est requis",
+      "emailValid": "Un e-mail valide est requis",
+      "phoneRequired": "Le numéro de téléphone est requis",
+      "partNumbersRequired": "Veuillez spécifier au moins un numéro de pièce"
+    },
+    "services": {
+      "title": "Notre engagement de service AOG",
+      "subtitle": "Nous comprenons l'impact opérationnel et financier d'un événement AOG. Notre processus est conçu pour la vitesse, la fiabilité et une communication claire.",
+      "service1": {
+        "title": "Disponibilité 24/7/365",
+        "description": "Notre service AOG ne dort jamais. Nous sommes disponibles 24h/24, tous les jours de l'année, pour répondre à vos besoins urgents."
+      },
+      "service2": {
+        "title": "Approvisionnement mondial de pièces",
+        "description": "En exploitant notre vaste réseau mondial, nous pouvons localiser et sourcer des composants critiques de n'importe où dans le monde, rapidement."
+      },
+      "service3": {
+        "title": "Logistique accélérée",
+        "description": "Nous gérons toute la chaîne logistique, du dédouanement à l'expédition par le prochain vol, garantissant la livraison la plus rapide possible."
+      }
     }
   }
 }

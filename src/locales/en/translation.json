@@ -5,6 +5,7 @@
     "products": "Products",
     "industries": "Industries",
     "stock": "Stock",
+    "aogSupport": "AOG Support",
     "expertCorner": "Expert Corner",
     "contact": "Contact",
     "about": "Orbiparts"
@@ -1693,6 +1694,92 @@
         "card1": { "title": "Sustainable Aviation & Circular Economy", "desc": "See how USM parts deliver 40-70% carbon reduction vs new manufacturing—ICAO CORSIA compliant." },
         "card2": { "title": "Top Legacy Aircraft Suppliers", "desc": "Identify specialized distributors with deep USM inventories for B727, DC-10, MD-80, and B747 classic fleets." },
         "card3": { "title": "Technology for Legacy Fleets", "desc": "Discover how digital twins and predictive maintenance extend TBO for aging components and aircraft." }
+      }
+    }
+  },
+  "aogSupport": {
+    "seo": {
+      "title": "AOG Support | ORBIPARTS - 24/7 Emergency Aircraft Parts",
+      "description": "ORBIPARTS provides 24/7 AOG support with rapid global sourcing and expedited logistics to get your aircraft back in the air. Contact our emergency hotline.",
+      "ogTitle": "24/7 AOG Support | ORBIPARTS",
+      "ogDescription": "Minimize downtime with our dedicated Aircraft on Ground support. Immediate response, global sourcing, and expedited delivery."
+    },
+    "hero": {
+      "title": "Aircraft on Ground (AOG) Support",
+      "subtitle": "Your mission-critical partner when every second counts."
+    },
+    "immediate": {
+      "title": "Immediate Assistance is One Click Away",
+      "description": "For immediate AOG support, please use our dedicated hotline or WhatsApp chat for the fastest response.",
+      "callButton": "Call AOG Hotline",
+      "chatButton": "Chat on WhatsApp"
+    },
+    "form": {
+      "title": "🚨 AOG Emergency Request Form",
+      "description": "Complete this form for comprehensive AOG support. Our team will contact you within 15 minutes.",
+      "contact": {
+        "heading": "Contact Information",
+        "name": "Name",
+        "namePlaceholder": "Contact person name",
+        "company": "Company",
+        "companyPlaceholder": "Airline/Company name",
+        "email": "Email",
+        "emailPlaceholder": "your.email@company.com",
+        "phone": "Phone",
+        "phonePlaceholder": "+1 XXX XXX XXXX"
+      },
+      "aircraft": {
+        "heading": "Aircraft Information",
+        "airline": "Airline",
+        "airlinePlaceholder": "e.g., Delta Air Lines",
+        "aircraftType": "Aircraft Type",
+        "aircraftTypePlaceholder": "e.g., Boeing 737-800, Airbus A320",
+        "aircraftRegistration": "Aircraft Registration",
+        "aircraftRegistrationPlaceholder": "e.g., N123AB",
+        "location": "Airport/Location",
+        "locationPlaceholder": "e.g., JFK, Miami International"
+      },
+      "parts": {
+        "heading": "Parts & Urgency",
+        "partNumbers": "Part Numbers (separated by commas or line breaks)",
+        "partNumbersPlaceholder": "e.g., 123-45678, ABC-987654, DEF-111222...",
+        "urgencyLevel": "Urgency Level",
+        "urgencyCritical": "🔴 Critical (Immediate)",
+        "urgencyHigh": "🟡 High (Within 4 hours)",
+        "urgencyMedium": "🟢 Medium (Within 24 hours)",
+        "leadTime": "Required Lead Time",
+        "leadTimePlaceholder": "e.g., ASAP, 2 hours, next flight out",
+        "message": "Additional Information",
+        "messagePlaceholder": "Describe the problem, any additional context, or special requirements..."
+      },
+      "submit": "🚨 Send AOG Emergency Request",
+      "submitting": "🚨 Sending AOG Request..."
+    },
+    "validation": {
+      "nameRequired": "Name is required for AOG support",
+      "companyRequired": "Company is required",
+      "airlineRequired": "Airline information is required",
+      "aircraftTypeRequired": "Aircraft type is required",
+      "locationRequired": "Location/Airport is required",
+      "emailRequired": "Email is required",
+      "emailValid": "Valid email is required",
+      "phoneRequired": "Phone number is required",
+      "partNumbersRequired": "Please specify at least one part number"
+    },
+    "services": {
+      "title": "Our AOG Service Commitment",
+      "subtitle": "We understand the operational and financial impact of an AOG event. Our process is designed for speed, reliability, and clear communication.",
+      "service1": {
+        "title": "24/7/365 Availability",
+        "description": "Our AOG desk never sleeps. We are available around the clock, every day of the year, to respond to your urgent needs."
+      },
+      "service2": {
+        "title": "Global Parts Sourcing",
+        "description": "Leveraging our extensive global network, we can locate and source critical components from anywhere in the world, fast."
+      },
+      "service3": {
+        "title": "Expedited Logistics",
+        "description": "We manage the entire logistics chain, from customs clearance to next-flight-out shipping, ensuring the fastest possible delivery."
       }
     }
   }
