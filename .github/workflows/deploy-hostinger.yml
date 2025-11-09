@@ -38,7 +38,7 @@ jobs:
           password: ${{ secrets.HOSTINGER_FTP_PASSWORD }}
           protocol: ftps
           port: 21
-          local-dir: dist
+          local-dir: dist/
           server-dir: ${{ secrets.HOSTINGER_FTP_TARGET_DIR }}
           log-level: minimal
 
