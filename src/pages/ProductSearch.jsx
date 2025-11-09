@@ -57,7 +57,6 @@ const ProductSearch = () => {
   // Inventory KPI states (from Supabase)
   const [inventoryMetrics, setInventoryMetrics] = useState({
     totalItems: null,
-    inStockItems: null,
     distinctPartNumbers: null,
     categories: [],
     loading: false,
@@ -103,11 +102,10 @@ const ProductSearch = () => {
         // Fetch all stock items minimal fields to compute metrics
         const { data, error } = await supabase
           .from('public_stock')
-          .select('id, part_number, trade_type, category');
+          .select('id, part_number, category');
         if (error) throw error;
+        
         const totalItems = data.length;
-        // Count items available for sale (all items in view are for sale)
-        const inStockItems = data.length;
         const distinctPartNumbers = new Set(data.map(c => c.part_number)).size;
         const categoriesCount = data.reduce((map, c) => {
           if (c.category) map[c.category] = (map[c.category] || 0) + 1;
@@ -116,9 +114,9 @@ const ProductSearch = () => {
         const categoriesSorted = Object.entries(categoriesCount)
           .sort((a,b) => b[1]-a[1])
           .map(([name, count]) => ({ name, count }));
+        
         setInventoryMetrics({
           totalItems,
-          inStockItems,
           distinctPartNumbers,
           categories: categoriesSorted.slice(0,6),
           loading: false,
@@ -537,25 +535,14 @@ Best regards,`;
               <h1 className="text-3xl md:text-5xl font-extrabold text-gray-900 mb-4 tracking-tight">{t('productSearch.inventoryHeading', 'Aircraft Parts Inventory')}</h1>
               <p className="text-base md:text-lg text-gray-600 mb-6 max-w-3xl">{t('productSearch.inventorySubheading', 'Real-time searchable catalog of certified aircraft components and rotables. Bulk multi-part querying supported.')}</p>
               {/* KPI Metrics */}
-              <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
                 <div className="p-4 bg-gray-50 rounded-lg border">
                   <div className="text-xs uppercase tracking-wide text-gray-500 mb-1">{t('productSearch.kpi.totalRecords')}</div>
                   <div className="text-2xl font-bold text-gray-900">{inventoryMetrics.loading ? '—' : inventoryMetrics.totalItems ?? '—'}</div>
                 </div>
                 <div className="p-4 bg-gray-50 rounded-lg border">
-                  <div className="text-xs uppercase tracking-wide text-gray-500 mb-1">{t('productSearch.kpi.inStock')}</div>
-                  <div className="text-2xl font-bold text-green-700">{inventoryMetrics.loading ? '—' : inventoryMetrics.inStockItems ?? '—'}</div>
-                </div>
-                <div className="p-4 bg-gray-50 rounded-lg border">
                   <div className="text-xs uppercase tracking-wide text-gray-500 mb-1">{t('productSearch.kpi.distinctPN')}</div>
                   <div className="text-2xl font-bold text-blue-700">{inventoryMetrics.loading ? '—' : inventoryMetrics.distinctPartNumbers ?? '—'}</div>
-                </div>
-                <div className="p-4 bg-gray-50 rounded-lg border">
-                  <div className="text-xs uppercase tracking-wide text-gray-500 mb-1">{t('productSearch.kpi.inStockRate')}</div>
-                  <div className="text-2xl font-bold text-indigo-700">{
-                    inventoryMetrics.loading || !inventoryMetrics.totalItems ? '—' :
-                    `${Math.round((inventoryMetrics.inStockItems / Math.max(1, inventoryMetrics.totalItems)) * 100)}%`
-                  }</div>
                 </div>
                 <div className="p-4 bg-gray-50 rounded-lg border">
                   <div className="text-xs uppercase tracking-wide text-gray-500 mb-1">{t('productSearch.kpi.topCategories')}</div>
