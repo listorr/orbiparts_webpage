@@ -71,17 +71,32 @@ export const AuthProvider = ({ children }) => {
   }, [toast]);
 
   const signOut = useCallback(async () => {
-    const { error } = await supabase.auth.signOut();
+    try {
+      // Clear local session first
+      setUser(null);
+      setSession(null);
+      
+      // Then call Supabase signOut
+      const { error } = await supabase.auth.signOut();
 
-    if (error) {
-      toast({
-        variant: "destructive",
-        title: "Sign out Failed",
-        description: error.message || "Something went wrong",
-      });
+      if (error) {
+        // Log error but don't show to user if it's just a 403 (session already cleared)
+        if (error.status !== 403) {
+          console.error('Sign out error:', error);
+          toast({
+            variant: "destructive",
+            title: "Sign out Failed",
+            description: error.message || "Something went wrong",
+          });
+        }
+      }
+
+      return { error };
+    } catch (err) {
+      console.error('Sign out exception:', err);
+      // Even if there's an error, local session is cleared
+      return { error: err };
     }
-
-    return { error };
   }, [toast]);
 
   const value = useMemo(() => ({
