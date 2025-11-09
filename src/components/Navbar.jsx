@@ -83,14 +83,14 @@ const Navbar = () => {
       className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-16">
           <BrandLogo theme={finalIsTransparent ? 'white' : 'blue'} includeText={true} />
 
-          <div className="hidden lg:flex items-center space-x-6">
+          <div className="hidden lg:flex items-center space-x-3">
             {navItems.map((item) => {
               const isExternal = item.external || item.path?.startsWith('http');
               const isActive = location.pathname === item.path;
-              const linkClasses = `text-sm font-medium transition-colors hover:text-primary ${
+              const linkClasses = `text-xs font-medium transition-colors hover:text-primary ${
                 isActive
                   ? 'text-primary font-semibold'
                   : finalIsTransparent
@@ -128,13 +128,13 @@ const Navbar = () => {
             ) : (
                 <>
                   <Link to="/login">
-                    <Button size="sm" className="rounded-md bg-blue-600 hover:bg-blue-700 text-white font-semibold transition-colors duration-300 flex items-center gap-2">
-                      <Lock className="h-4 w-4" />
+                    <Button size="sm" className="h-8 px-3 rounded-md bg-blue-600 hover:bg-blue-700 text-white text-xs font-medium transition-colors duration-300 flex items-center gap-1.5">
+                      <Lock className="h-3 w-3" />
                       Login
                     </Button>
                   </Link>
-                  <Button onClick={handleAOGSupportClick} className="rounded-md bg-blue-600 hover:bg-red-600 text-white font-semibold transition-colors duration-300 flex items-center gap-2">
-                      <AlertCircle className="w-4 h-4" />
+                  <Button onClick={handleAOGSupportClick} size="sm" className="h-8 px-3 rounded-md bg-blue-600 hover:bg-red-600 text-white text-xs font-medium transition-colors duration-300 flex items-center gap-1.5">
+                      <AlertCircle className="w-3 h-3" />
                       AOG Support
                   </Button>
                 </>

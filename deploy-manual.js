@@ -10,7 +10,7 @@ const ftpDeploy = new FtpDeploy();
 // Estas son las credenciales que están en tus GitHub Secrets
 // Cámbialas aquí temporalmente para hacer el deployment manual
 const config = {
-  user: "u716620906.luist4", // Tu usuario FTP de Hostinger
+  user: "u774458741", // Tu usuario FTP de Hostinger (CORRECTO)
   password: "", // AÑADE TU CONTRASEÑA AQUÍ (NO LA COMMITEES)
   host: "82.25.113.198", // Tu servidor FTP
   port: 21,
