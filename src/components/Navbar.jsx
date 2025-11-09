@@ -62,9 +62,7 @@ const Navbar = () => {
   
   if (user) {
     navItems.push(
-      { name: 'Quote Hub', path: 'https://quote.orbiparts.com', external: true },
-      { name: 'Components Admin', path: '/admin/components' },
-      { name: 'Asset Library', path: '/admin/asset-library' }
+      { name: 'Quote Hub', path: 'https://quote.orbiparts.com', external: true }
     );
   }
 

@@ -15,9 +15,6 @@ import ModernFleets from '@/pages/ModernFleets';
 import LegacyAircraft from '@/pages/LegacyAircraft';
 import AogSupport from '@/pages/AogSupport';
 import GlobalReach from '@/pages/GlobalReach';
-import AssetLibrary from '@/pages/AssetLibrary';
-import ComponentsAdmin from '@/pages/ComponentsAdmin';
-import AdminLogin from '@/pages/AdminLogin';
 import EmployeeLogin from '@/pages/EmployeeLogin';
 import Blog from '@/pages/Blog';
 import Top10AircraftPartsSuppliers2025 from '@/pages/blog/Top10AircraftPartsSuppliers2025';
@@ -31,7 +28,6 @@ import TechnologyTrendsComponentManagement from '@/pages/blog/TechnologyTrendsCo
 import EngineTrading from '@/pages/EngineTrading';
 import AircraftTrading from '@/pages/AircraftTrading';
 import WhyOrbiparts from '@/pages/WhyOrbiparts';
-import PrivateRoute from '@/components/PrivateRoute';
 import { useAuth } from '@/contexts/SupabaseAuthContext';
 import Footer from '@/components/Footer';
 import i18n from '@/i18n';
@@ -82,25 +78,6 @@ function AppContent() {
           <Route path="/blog/technology-trends-aircraft-component-management" element={<TechnologyTrendsComponentManagement />} />
           
           <Route path="/login" element={user ? <Navigate to="/" /> : <EmployeeLogin />} />
-          <Route path="/admin/login" element={user ? <Navigate to="/admin/asset-library" /> : <AdminLogin />} />
-          <Route 
-            path="/admin/asset-library" 
-            element={
-              <PrivateRoute>
-                <AssetLibrary />
-              </PrivateRoute>
-            } 
-          />
-          <Route 
-            path="/admin/components" 
-            element={
-              <PrivateRoute>
-                <ComponentsAdmin />
-              </PrivateRoute>
-            } 
-          />
-          
-          <Route path="/asset-library" element={<Navigate to="/admin/login" replace />} />
           
         </Routes>
       </main>
