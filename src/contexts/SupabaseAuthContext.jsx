@@ -72,25 +72,28 @@ export const AuthProvider = ({ children }) => {
 
   const signOut = useCallback(async () => {
     try {
-      // Clear local session immediately
+      // Clear local session state immediately
       setUser(null);
       setSession(null);
       
-      // Clear localStorage manually to avoid 403 errors
-      localStorage.removeItem('sb-pibbqroawdvfsouronmn-auth-token');
+      // Clear ALL Supabase auth data from localStorage
+      Object.keys(localStorage).forEach(key => {
+        if (key.startsWith('sb-') && key.includes('auth')) {
+          localStorage.removeItem(key);
+        }
+      });
       
-      // Optional: Try to call Supabase signOut but don't care about errors
-      try {
-        await supabase.auth.signOut({ scope: 'local' });
-      } catch (error) {
-        // Silently ignore - local session is already cleared
-        console.log('Supabase signOut skipped (local only)');
-      }
+      // Also clear sessionStorage
+      Object.keys(sessionStorage).forEach(key => {
+        if (key.startsWith('sb-') && key.includes('auth')) {
+          sessionStorage.removeItem(key);
+        }
+      });
 
       return { error: null };
     } catch (err) {
       console.error('Sign out exception:', err);
-      return { error: null }; // Return null since local session is cleared anyway
+      return { error: null };
     }
   }, []);
 
