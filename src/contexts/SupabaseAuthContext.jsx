@@ -72,32 +72,27 @@ export const AuthProvider = ({ children }) => {
 
   const signOut = useCallback(async () => {
     try {
-      // Clear local session first
+      // Clear local session immediately
       setUser(null);
       setSession(null);
       
-      // Then call Supabase signOut
-      const { error } = await supabase.auth.signOut();
-
-      if (error) {
-        // Log error but don't show to user if it's just a 403 (session already cleared)
-        if (error.status !== 403) {
-          console.error('Sign out error:', error);
-          toast({
-            variant: "destructive",
-            title: "Sign out Failed",
-            description: error.message || "Something went wrong",
-          });
-        }
+      // Clear localStorage manually to avoid 403 errors
+      localStorage.removeItem('sb-pibbqroawdvfsouronmn-auth-token');
+      
+      // Optional: Try to call Supabase signOut but don't care about errors
+      try {
+        await supabase.auth.signOut({ scope: 'local' });
+      } catch (error) {
+        // Silently ignore - local session is already cleared
+        console.log('Supabase signOut skipped (local only)');
       }
 
-      return { error };
+      return { error: null };
     } catch (err) {
       console.error('Sign out exception:', err);
-      // Even if there's an error, local session is cleared
-      return { error: err };
+      return { error: null }; // Return null since local session is cleared anyway
     }
-  }, [toast]);
+  }, []);
 
   const value = useMemo(() => ({
     user,

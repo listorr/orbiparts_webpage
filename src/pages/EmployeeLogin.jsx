@@ -131,6 +131,7 @@ const EmployeeLogin = () => {
                       id="email"
                       type="email"
                       placeholder="employee@orbiparts.com"
+                      autoComplete="email"
                       required
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
@@ -150,6 +151,7 @@ const EmployeeLogin = () => {
                       id="password"
                       type="password"
                       placeholder="••••••••"
+                      autoComplete="current-password"
                       required
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
