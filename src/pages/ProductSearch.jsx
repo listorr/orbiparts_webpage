@@ -822,8 +822,8 @@ Best regards,`;
                       <div className="hidden md:grid grid-cols-12 gap-4 items-center py-3 px-4 bg-gray-100 rounded-lg mb-4 text-sm font-semibold text-gray-700">
                         <div className="col-span-1 text-center">{t('productSearch.table.select', 'Select')}</div>
                         <div className="col-span-3">{t('productSearch.table.partNumber', 'Part Number')}</div>
-                        <div className="col-span-4">{t('productSearch.table.description', 'Description')}</div>
-                        <div className="col-span-2">{t('productSearch.table.availableRequested', 'Available / Requested')}</div>
+                        <div className="col-span-5">{t('productSearch.table.description', 'Description')}</div>
+                        <div className="col-span-1 text-center">{t('productSearch.table.quantity', 'Quantity')}</div>
                         <div className="col-span-1">{t('productSearch.table.condition', 'Condition')}</div>
                         <div className="col-span-1 text-center">{t('productSearch.table.action', 'Action')}</div>
                       </div>
@@ -848,30 +848,11 @@ Best regards,`;
                                 <div className="col-span-3">
                                   <h3 className="text-lg font-bold text-green-600">{group.part_number}</h3>
                                 </div>
-                                <div className="col-span-4">
+                                <div className="col-span-5">
                                   <p className="text-gray-600 text-sm">{group.description}</p>
                                 </div>
-                                <div className="col-span-2">
-                                  <div className="flex flex-col gap-1">
-                                    <div className="text-xs text-gray-500">{t('productSearch.availableLabel', 'Available')}: {group.totalQuantity}</div>
-                                    <Input
-                                      type="number"
-                                      min="1"
-                                      max={group.totalQuantity}
-                                      placeholder={t('productSearch.qtyNeeded', 'Qty needed')}
-                                      className="h-8 text-xs"
-                                      value={selectedQuantities[group.items[0].id] || 1}
-                                      onChange={(e) => {
-                                        const qty = parseInt(e.target.value) || 1;
-                                        group.items.forEach(item => {
-                                          setSelectedQuantities(prev => ({
-                                            ...prev,
-                                            [item.id]: Math.min(qty, group.totalQuantity)
-                                          }));
-                                        });
-                                      }}
-                                    />
-                                  </div>
+                                <div className="col-span-1 text-center">
+                                  <span className="text-sm font-semibold text-gray-700">{group.totalQuantity}</span>
                                 </div>
                                 <div className="col-span-1">
                                   <Badge className="bg-green-100 text-green-800 text-xs">
