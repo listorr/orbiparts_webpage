@@ -5,6 +5,7 @@ import { getMediaSrc, createOnErrorHandler } from '@/lib/media';
 import { BLOG_FALLBACKS } from '@/lib/mediaFallbacks';
 import { buildAlternates, getOgLocale } from '@/lib/seoUtils';
 import { useTranslation } from 'react-i18next';
+import ResponsiveHeroImage from '@/components/ResponsiveHeroImage';
 
 export default function FutureOfLegacyAircraft() {
   const { t } = useTranslation();
@@ -59,15 +60,12 @@ export default function FutureOfLegacyAircraft() {
       <article className="min-h-screen pt-16 bg-white">
         {/* Hero */}
         <header className="relative overflow-hidden">
-          <img
+          <ResponsiveHeroImage
             src={heroImage}
-            srcSet={`${heroImage}?w=640 640w, ${heroImage}?w=960 960w, ${heroImage}?w=1280 1280w, ${heroImage}?w=1600 1600w`}
-            sizes="(max-width: 640px) 640px, (max-width: 1024px) 960px, (max-width: 1280px) 1280px, 1600px"
             alt={t('blog.legacy.hero.imgAlt')}
             className="w-full h-[320px] md:h-[420px] object-cover"
-            loading="eager"
-            decoding="async"
-            fetchpriority="high"
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 1600px"
+            priority={true}
             onError={handleHeroError}
           />
           <div className="absolute inset-0 bg-black/40" />

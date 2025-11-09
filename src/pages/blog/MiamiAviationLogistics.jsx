@@ -6,6 +6,7 @@ import { BLOG_FALLBACKS } from '@/lib/mediaFallbacks';
 import { buildAlternates, getOgLocale } from '@/lib/seoUtils';
 import LazySection from '@/components/LazySection';
 import { useTranslation } from 'react-i18next';
+import ResponsiveHeroImage from '@/components/ResponsiveHeroImage';
 
 const MiamiAviationLogistics = () => {
   const { t } = useTranslation();
@@ -74,14 +75,12 @@ const MiamiAviationLogistics = () => {
       />
       <article className="min-h-screen pt-16 bg-white">
         <header className="relative">
-          <img
+          <ResponsiveHeroImage
             src={heroImage}
-            srcSet={`${heroImage}?w=640 640w, ${heroImage}?w=960 960w, ${heroImage}?w=1280 1280w, ${heroImage}?w=1600 1600w`}
-            sizes="(max-width: 640px) 640px, (max-width: 1024px) 960px, (max-width: 1280px) 1280px, 1600px"
             alt={t('blog.miami.hero.imgAlt', 'Cargo aircraft operations at Miami logistics hub')}
             className="w-full h-[300px] md:h-[420px] object-cover"
-            loading="eager"
-            decoding="async"
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 100vw, 1600px"
+            priority={true}
             onError={handleHeroError}
           />
           <div className="absolute inset-0 bg-black/40" />
