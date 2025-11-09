@@ -51,7 +51,7 @@ jobs:
           protocol: ftps
           port: 21
           local-dir: dist/
-          server-dir: ${{ secrets.HOSTINGER_FTP_TARGET_DIR }}
+          server-dir: /domains/orbiparts.com/public_html/
           log-level: verbose
           dangerous-clean-slate: false
 
