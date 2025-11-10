@@ -11,7 +11,7 @@ const ftpDeploy = new FtpDeploy();
 // Cámbialas aquí temporalmente para hacer el deployment manual
 const config = {
   user: "u774458741", // Tu usuario FTP de Hostinger (CORRECTO)
-  password: "", // AÑADE TU CONTRASEÑA AQUÍ (NO LA COMMITEES)
+  password: "Orbiparts1.", // AÑADE TU CONTRASEÑA AQUÍ (NO LA COMMITEES)
   host: "82.25.113.198", // Tu servidor FTP
   port: 21,
   localRoot: __dirname + '/dist',
