@@ -54,7 +54,6 @@ const Navbar = () => {
     { name: t('nav.industries'), path: '/industries' },
     // Insert Stock link between Industries and Expert Corner
     { name: t('nav.stock') || 'Stock', path: '/stock' },
-    { name: t('nav.aogSupport') || 'AOG Support', path: '/aog-support' },
     { name: t('nav.expertCorner'), path: '/blog' },
     // Swap order: show Contact before Orbiparts (About)
     { name: t('nav.contact'), path: '/contact' },
