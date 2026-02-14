@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Building2, CheckCircle2, TrendingUp, Globe2, Zap, Shield, Star, MapPin, Sparkles } from 'lucide-react';
 import { SEO, buildArticleSchema } from '@/components/SEO';
 import { getMediaSrc } from '@/lib/media';
-import { BLOG_FALLBACKS } from '@/lib/mediaFallbacks';
+import { getBlogMedia } from '@/lib/blogMedia';
 import { useTranslation } from 'react-i18next';
 import { buildAlternates, getOgLocale } from '@/lib/seoUtils';
 
@@ -32,8 +32,8 @@ const EVALUATION = [
 
 export default function Top10AircraftPartsSuppliers2025() {
   const { t } = useTranslation();
-  const seoFallback = BLOG_FALLBACKS['top-10-aircraft-parts-suppliers-2025'].hero;
-  const seoImage = getMediaSrc('top-10-aircraft-parts-suppliers-2025-hero.jpg', seoFallback);
+  const media = getBlogMedia('top-10-aircraft-parts-suppliers-2025');
+  const seoImage = getMediaSrc(media?.hero);
 
   // Localized suppliers assembled from i18n keys
   const SUPPLIERS = React.useMemo(() =>

@@ -11,7 +11,7 @@ import PropTypes from 'prop-types';
  * - Maintains aspect ratio and prevents layout shift
  */
 const ResponsiveHeroImage = ({
-  src,
+  src = null,
   alt,
   className = '',
   sizes = '100vw',
@@ -47,19 +47,26 @@ const ResponsiveHeroImage = ({
     ].join(', ');
   };
 
+  if (!src) {
+    if (onError) {
+      onError();
+    }
+    return null;
+  }
+
   const srcSet = generateSrcSet(src);
 
   const handleError = (e) => {
     console.warn(`Failed to load hero image: ${src}`);
     if (onError) {
       onError(e);
-    } else {
-      // Fallback: try to load from /media-staging/ if it's a different path
-      const currentSrc = e.target.src;
-      if (!currentSrc.includes('/media-staging/')) {
-        const fileName = src.split('/').pop();
-        e.target.src = `/media-staging/${fileName}`;
-      }
+      return;
+    }
+
+    if (e?.currentTarget) {
+      const target = e.currentTarget;
+      target.onerror = null;
+      target.style.display = 'none';
     }
   };
 
@@ -83,7 +90,7 @@ const ResponsiveHeroImage = ({
 };
 
 ResponsiveHeroImage.propTypes = {
-  src: PropTypes.string.isRequired,
+  src: PropTypes.string,
   alt: PropTypes.string.isRequired,
   className: PropTypes.string,
   sizes: PropTypes.string,

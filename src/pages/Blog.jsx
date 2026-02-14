@@ -8,15 +8,16 @@ import { Button } from '@/components/ui/button';
 import { toast } from '@/components/ui/use-toast';
 import { SEO } from '@/components/SEO';
 import { getMediaSrc, createOnErrorHandler } from '@/lib/media';
-import { BLOG_FALLBACKS } from '@/lib/mediaFallbacks';
+import { getBlogMedia } from '@/lib/blogMedia';
 import { useTranslation } from 'react-i18next';
 
 const Blog = () => {
   const { t } = useTranslation();
   const blogPosts = useMemo(() => {
-    const card = (key, date, imageKey, link) => {
+    const card = (key, date, slug, link) => {
       const base = `blogLanding.cards.${key}`;
-      const fallback = BLOG_FALLBACKS[imageKey];
+      const media = getBlogMedia(slug);
+      const heroPath = media?.hero ?? null;
       return {
         id: key,
         title: t(`${base}.title`),
@@ -25,8 +26,8 @@ const Blog = () => {
         date,
         category: t(`blogLanding.${t(`${base}.categoryKey`)}`),
         image: t(`${base}.title`),
-        imageUrl: getMediaSrc(`${imageKey}-hero.jpg`, fallback.hero),
-        imageErrorHandler: createOnErrorHandler(fallback.hero),
+        imageUrl: getMediaSrc(heroPath),
+        imageErrorHandler: createOnErrorHandler(),
         link
       };
     };

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { SEO, buildArticleSchema, buildFAQSchema } from '@/components/SEO';
 import { getMediaSrc, createOnErrorHandler } from '@/lib/media';
-import { BLOG_FALLBACKS } from '@/lib/mediaFallbacks';
+import { getBlogMedia } from '@/lib/blogMedia';
 import { buildAlternates, getOgLocale } from '@/lib/seoUtils';
 import { useTranslation } from 'react-i18next';
 import LazySection from '@/components/LazySection';
@@ -19,18 +19,18 @@ const AogResponseStrategies = () => {
   const alternates = buildAlternates(canonical);
   const locale = getOgLocale();
 
-  const fallbacks = BLOG_FALLBACKS['aog-response-strategies'] || {};
-  const heroImage = getMediaSrc('aog-response-strategies-hero.jpg', fallbacks.hero);
-  const nightShiftImage = getMediaSrc('aog-response-night-shift.jpg', fallbacks.nightShift);
-  const opsRoomImage = getMediaSrc('aog-response-ops-room.jpg', fallbacks.opsControl);
-  const freightImage = getMediaSrc('aog-response-freight.jpg', fallbacks.freight);
-  const rapidInstallImage = getMediaSrc('aog-response-rapid-install.jpg', fallbacks.rapidInstall);
+  const media = getBlogMedia('aog-response-strategies');
+  const heroImage = getMediaSrc(media?.hero);
+  const nightShiftImage = getMediaSrc(media?.nightShift);
+  const opsRoomImage = getMediaSrc(media?.opsControl);
+  const freightImage = getMediaSrc(media?.freight);
+  const rapidInstallImage = getMediaSrc(media?.rapidInstall);
 
-  const handleHeroError = createOnErrorHandler(fallbacks.hero);
-  const handleNightShiftError = createOnErrorHandler(fallbacks.nightShift);
-  const handleOpsRoomError = createOnErrorHandler(fallbacks.opsControl);
-  const handleFreightError = createOnErrorHandler(fallbacks.freight);
-  const handleRapidInstallError = createOnErrorHandler(fallbacks.rapidInstall);
+  const handleHeroError = createOnErrorHandler();
+  const handleNightShiftError = createOnErrorHandler();
+  const handleOpsRoomError = createOnErrorHandler();
+  const handleFreightError = createOnErrorHandler();
+  const handleRapidInstallError = createOnErrorHandler();
   
   // Localized content collections
   const metrics = t('blog.aog.metrics.items', { returnObjects: true });
@@ -116,14 +116,16 @@ const AogResponseStrategies = () => {
               </div>
             </div>
             <div className="relative">
-              <img
-                src={nightShiftImage}
-                alt={t('blog.aog.stabilization.nightShiftAlt')}
-                className="rounded-3xl shadow-2xl h-full w-full object-cover aspect-video"
-                loading="lazy"
-                decoding="async"
-                onError={handleNightShiftError}
-              />
+              {nightShiftImage && (
+                <img
+                  src={nightShiftImage}
+                  alt={t('blog.aog.stabilization.nightShiftAlt')}
+                  className="rounded-3xl shadow-2xl h-full w-full object-cover aspect-video"
+                  loading="lazy"
+                  decoding="async"
+                  onError={handleNightShiftError}
+                />
+              )}
               <div className="absolute -right-6 -bottom-6 bg-white rounded-2xl shadow-xl p-5 w-56 sm:w-64 max-sm:right-2 max-sm:bottom-2">
                 <p className="text-xs uppercase tracking-[0.3em] text-gray-400">{t('blog.aog.stabilization.liveMetrics.badge')}</p>
                 <p className="text-3xl font-bold text-gray-900 mt-1">92%</p>
@@ -145,14 +147,16 @@ const AogResponseStrategies = () => {
               </ul>
             </div>
             <div className="space-y-6">
-              <img
-                src={opsRoomImage}
-                alt={t('blog.aog.operations.opsRoomAlt')}
-                className="rounded-3xl shadow-2xl w-full h-72 object-cover"
-                loading="lazy"
-                decoding="async"
-                onError={handleOpsRoomError}
-              />
+              {opsRoomImage && (
+                <img
+                  src={opsRoomImage}
+                  alt={t('blog.aog.operations.opsRoomAlt')}
+                  className="rounded-3xl shadow-2xl w-full h-72 object-cover"
+                  loading="lazy"
+                  decoding="async"
+                  onError={handleOpsRoomError}
+                />
+              )}
               <div className="grid sm:grid-cols-2 gap-4">
                 {riskControls.map((control) => (
                   <div key={control.title} className="border border-gray-200 rounded-2xl p-4">
@@ -166,14 +170,16 @@ const AogResponseStrategies = () => {
 
           <section className="grid gap-6 md:grid-cols-2">
             <div className="bg-white border border-gray-200 rounded-3xl overflow-hidden">
-              <img
-                src={freightImage}
-                alt={t('blog.aog.logistics.card.imgAlt')}
-                className="h-60 w-full object-cover"
-                loading="lazy"
-                decoding="async"
-                onError={handleFreightError}
-              />
+              {freightImage && (
+                <img
+                  src={freightImage}
+                  alt={t('blog.aog.logistics.card.imgAlt')}
+                  className="h-60 w-full object-cover"
+                  loading="lazy"
+                  decoding="async"
+                  onError={handleFreightError}
+                />
+              )}
               <div className="p-6 space-y-3">
                 <h3 className="text-2xl font-bold text-gray-900">{t('blog.aog.logistics.card.h3')}</h3>
                 <p className="text-gray-600">{t('blog.aog.logistics.card.p1')}</p>
@@ -181,14 +187,16 @@ const AogResponseStrategies = () => {
               </div>
             </div>
             <div className="bg-slate-900 text-white rounded-3xl overflow-hidden">
-              <img
-                src={rapidInstallImage}
-                alt={t('blog.aog.rts.card.imgAlt')}
-                className="h-60 w-full object-cover opacity-90"
-                loading="lazy"
-                decoding="async"
-                onError={handleRapidInstallError}
-              />
+              {rapidInstallImage && (
+                <img
+                  src={rapidInstallImage}
+                  alt={t('blog.aog.rts.card.imgAlt')}
+                  className="h-60 w-full object-cover opacity-90"
+                  loading="lazy"
+                  decoding="async"
+                  onError={handleRapidInstallError}
+                />
+              )}
               <div className="p-6 space-y-3">
                 <h3 className="text-2xl font-bold">{t('blog.aog.rts.card.h3')}</h3>
                 <p className="text-slate-200">{t('blog.aog.rts.card.p1')}</p>

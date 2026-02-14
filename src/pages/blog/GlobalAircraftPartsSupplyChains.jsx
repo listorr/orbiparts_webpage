@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { SEO, buildArticleSchema } from '@/components/SEO';
 import { getMediaSrc, createOnErrorHandler } from '@/lib/media';
-import { BLOG_FALLBACKS } from '@/lib/mediaFallbacks';
+import { getBlogMedia } from '@/lib/blogMedia';
 import { buildAlternates, getOgLocale } from '@/lib/seoUtils';
 import LazySection from '@/components/LazySection';
 import ResponsiveHeroImage from '@/components/ResponsiveHeroImage';
@@ -18,15 +18,20 @@ const GlobalAircraftPartsSupplyChains = () => {
   const alternates = buildAlternates(canonical);
   const locale = getOgLocale();
 
-  const fallbacks = BLOG_FALLBACKS['global-aircraft-parts-supply-chains'];
-  const heroImage = getMediaSrc('global-aircraft-parts-supply-chains-hero.jpg', fallbacks.hero);
+  const media = getBlogMedia('global-aircraft-parts-supply-chains');
+  const heroImage = getMediaSrc(media?.hero);
+  const documentControlImage = getMediaSrc(media?.documentControl);
+  const cargoPalletsImage = getMediaSrc(media?.cargoPallets);
+  const cloudInterfaceImage = getMediaSrc(media?.cloudInterface);
+  const analyticsImage = getMediaSrc(media?.analytics);
+  const apiDiagramImage = getMediaSrc(media?.apiDiagram);
   const image = heroImage;
-  const handleHeroError = createOnErrorHandler(fallbacks.hero);
-  const handleDocumentControlError = createOnErrorHandler(fallbacks.documentControl);
-  const handleCargoPalletsError = createOnErrorHandler(fallbacks.cargoPallets);
-  const handleCloudInterfaceError = createOnErrorHandler(fallbacks.cloudInterface);
-  const handleAnalyticsError = createOnErrorHandler(fallbacks.analytics);
-  const handleApiDiagramError = createOnErrorHandler(fallbacks.apiDiagram);
+  const handleHeroError = createOnErrorHandler();
+  const handleDocumentControlError = createOnErrorHandler();
+  const handleCargoPalletsError = createOnErrorHandler();
+  const handleCloudInterfaceError = createOnErrorHandler();
+  const handleAnalyticsError = createOnErrorHandler();
+  const handleApiDiagramError = createOnErrorHandler();
   const keywords = [
     t('blog.globalSupply.hero.h1'),
     t('blog.globalSupply.postCovid.h2'),
@@ -283,30 +288,36 @@ const GlobalAircraftPartsSupplyChains = () => {
               </ul>
             </div>
             <div className="mt-6 grid md:grid-cols-3 gap-4">
-              <img
-                src={getMediaSrc('global-aircraft-parts-supply-chains/document-control-room.jpg', fallbacks.documentControl)}
-                alt={t('blog.globalSupply.compliance.images.documentAlt', 'Document control shelves in a compliance room')}
-                className="rounded-lg w-full h-44 object-cover"
-                loading="lazy"
-                decoding="async"
-                onError={handleDocumentControlError}
-              />
-              <img
-                src={getMediaSrc('global-aircraft-parts-supply-chains-cargo-pallets.jpg', fallbacks.cargoPallets)}
-                alt={t('blog.globalSupply.compliance.images.cargoAlt', 'Air cargo pallets prepared for outbound flights')}
-                className="rounded-lg w-full h-44 object-cover"
-                loading="lazy"
-                decoding="async"
-                onError={handleCargoPalletsError}
-              />
-              <img
-                src={getMediaSrc('global-aircraft-parts-supply-chains/cloud-documentation-interface.jpg', fallbacks.cloudInterface)}
-                alt={t('blog.globalSupply.compliance.images.cloudAlt', 'Cloud-based documentation system interface')}
-                className="rounded-lg w-full h-44 object-cover"
-                loading="lazy"
-                decoding="async"
-                onError={handleCloudInterfaceError}
-              />
+              {documentControlImage && (
+                <img
+                  src={documentControlImage}
+                  alt={t('blog.globalSupply.compliance.images.documentAlt', 'Document control shelves in a compliance room')}
+                  className="rounded-lg w-full h-44 object-cover"
+                  loading="lazy"
+                  decoding="async"
+                  onError={handleDocumentControlError}
+                />
+              )}
+              {cargoPalletsImage && (
+                <img
+                  src={cargoPalletsImage}
+                  alt={t('blog.globalSupply.compliance.images.cargoAlt', 'Air cargo pallets prepared for outbound flights')}
+                  className="rounded-lg w-full h-44 object-cover"
+                  loading="lazy"
+                  decoding="async"
+                  onError={handleCargoPalletsError}
+                />
+              )}
+              {cloudInterfaceImage && (
+                <img
+                  src={cloudInterfaceImage}
+                  alt={t('blog.globalSupply.compliance.images.cloudAlt', 'Cloud-based documentation system interface')}
+                  className="rounded-lg w-full h-44 object-cover"
+                  loading="lazy"
+                  decoding="async"
+                  onError={handleCloudInterfaceError}
+                />
+              )}
             </div>
           </section>
           {/* Data Integration & Predictive Analytics */}
@@ -336,28 +347,32 @@ const GlobalAircraftPartsSupplyChains = () => {
               </div>
             </div>
             <div className="mt-4 grid md:grid-cols-2 gap-4">
-              <figure className="rounded-lg overflow-hidden">
-                <img
-                  src={getMediaSrc('global-aircraft-parts-supply-chains-analytics.jpg', fallbacks.analytics)}
-                  alt={t('blog.globalSupply.data.images.analyticsAlt')}
-                  className="w-full h-56 object-cover"
-                  loading="lazy"
-                  decoding="async"
-                  onError={handleAnalyticsError}
-                />
-                <figcaption className="text-sm text-gray-500 mt-2">{t('blog.globalSupply.data.images.analyticsCaption')}</figcaption>
-              </figure>
-              <figure className="rounded-lg overflow-hidden">
-                <img
-                  src={getMediaSrc('global-aircraft-parts-supply-chains/api-integration-diagram.jpg', fallbacks.apiDiagram)}
-                  alt={t('blog.globalSupply.data.images.apiAlt')}
-                  className="w-full h-56 object-cover"
-                  loading="lazy"
-                  decoding="async"
-                  onError={handleApiDiagramError}
-                />
-                <figcaption className="text-sm text-gray-500 mt-2">{t('blog.globalSupply.data.images.apiCaption')}</figcaption>
-              </figure>
+              {analyticsImage && (
+                <figure className="rounded-lg overflow-hidden">
+                  <img
+                    src={analyticsImage}
+                    alt={t('blog.globalSupply.data.images.analyticsAlt')}
+                    className="w-full h-56 object-cover"
+                    loading="lazy"
+                    decoding="async"
+                    onError={handleAnalyticsError}
+                  />
+                  <figcaption className="text-sm text-gray-500 mt-2">{t('blog.globalSupply.data.images.analyticsCaption')}</figcaption>
+                </figure>
+              )}
+              {apiDiagramImage && (
+                <figure className="rounded-lg overflow-hidden">
+                  <img
+                    src={apiDiagramImage}
+                    alt={t('blog.globalSupply.data.images.apiAlt')}
+                    className="w-full h-56 object-cover"
+                    loading="lazy"
+                    decoding="async"
+                    onError={handleApiDiagramError}
+                  />
+                  <figcaption className="text-sm text-gray-500 mt-2">{t('blog.globalSupply.data.images.apiCaption')}</figcaption>
+                </figure>
+              )}
             </div>
           </section>
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { SEO, buildArticleSchema } from '@/components/SEO';
 import { getMediaSrc, createOnErrorHandler } from '@/lib/media';
-import { BLOG_FALLBACKS } from '@/lib/mediaFallbacks';
+import { getBlogMedia } from '@/lib/blogMedia';
 import { buildAlternates, getOgLocale } from '@/lib/seoUtils';
 import LazySection from '@/components/LazySection';
 import { useTranslation } from 'react-i18next';
@@ -21,17 +21,21 @@ const MiamiAviationLogistics = () => {
   const alternates = buildAlternates(canonical);
   const locale = getOgLocale();
 
-  const fallbacks = BLOG_FALLBACKS['miami-aviation-logistics'];
-  const heroImage = getMediaSrc('miami-aviation-logistics-hero.jpg', fallbacks.hero);
+  const media = getBlogMedia('miami-aviation-logistics');
+  const heroImage = getMediaSrc(media?.hero);
+  const rampImage = getMediaSrc(media?.ramp);
+  const portImage = getMediaSrc(media?.port);
+  const customsImage = getMediaSrc(media?.customs);
+  const warehouseImage = getMediaSrc(media?.warehouse);
+  const itImage = getMediaSrc(media?.it);
+
   const image = heroImage;
-  const handleHeroError = createOnErrorHandler(fallbacks.hero);
-  const handleRampError = createOnErrorHandler(fallbacks.ramp);
-  const handlePortError = createOnErrorHandler(fallbacks.port);
-  const handleCustomsError = createOnErrorHandler(fallbacks.customs);
-  const handleWarehouseError = createOnErrorHandler(fallbacks.warehouse);
-  const handleItError = createOnErrorHandler(fallbacks.it);
-  const handleConsolidationError = createOnErrorHandler(fallbacks.consolidation);
-  const handleEnergyError = createOnErrorHandler(fallbacks.energy);
+  const handleHeroError = createOnErrorHandler();
+  const handleRampError = createOnErrorHandler();
+  const handlePortError = createOnErrorHandler();
+  const handleCustomsError = createOnErrorHandler();
+  const handleWarehouseError = createOnErrorHandler();
+  const handleItError = createOnErrorHandler();
 
   const keywords = [
     'Miami aviation logistics',
@@ -193,28 +197,32 @@ const MiamiAviationLogistics = () => {
               <p className="text-gray-700 text-sm mt-4 italic">{t('blog.miami.geostrategic.flightTable.aogImpact')}</p>
             </div>
             <div className="grid md:grid-cols-2 gap-4 mt-6">
-              <figure className="rounded-lg overflow-hidden">
-                <img
-                  src={getMediaSrc('miami-aviation-logistics-ramp.jpg', fallbacks.ramp)}
-                  alt={t('blog.miami.geostrategic.rampAlt', 'Cargo loaders operating at Miami ramp')}
-                  className="w-full h-56 object-cover"
-                  loading="lazy"
-                  decoding="async"
-                  onError={handleRampError}
-                />
-                <figcaption className="text-sm text-gray-500 mt-2">{t('blog.miami.geostrategic.rampCaption')}</figcaption>
-              </figure>
-              <figure className="rounded-lg overflow-hidden">
-                <img
-                  src={getMediaSrc('miami-aviation-logistics-port.jpg', fallbacks.port)}
-                  alt={t('blog.miami.geostrategic.portAlt', 'Aerial view of port and airport logistics convergence')}
-                  className="w-full h-56 object-cover"
-                  loading="lazy"
-                  decoding="async"
-                  onError={handlePortError}
-                />
-                <figcaption className="text-sm text-gray-500 mt-2">{t('blog.miami.geostrategic.portCaption')}</figcaption>
-              </figure>
+              {rampImage && (
+                <figure className="rounded-lg overflow-hidden">
+                  <img
+                    src={rampImage}
+                    alt={t('blog.miami.geostrategic.rampAlt', 'Cargo loaders operating at Miami ramp')}
+                    className="w-full h-56 object-cover"
+                    loading="lazy"
+                    decoding="async"
+                    onError={handleRampError}
+                  />
+                  <figcaption className="text-sm text-gray-500 mt-2">{t('blog.miami.geostrategic.rampCaption')}</figcaption>
+                </figure>
+              )}
+              {portImage && (
+                <figure className="rounded-lg overflow-hidden">
+                  <img
+                    src={portImage}
+                    alt={t('blog.miami.geostrategic.portAlt', 'Aerial view of port and airport logistics convergence')}
+                    className="w-full h-56 object-cover"
+                    loading="lazy"
+                    decoding="async"
+                    onError={handlePortError}
+                  />
+                  <figcaption className="text-sm text-gray-500 mt-2">{t('blog.miami.geostrategic.portCaption')}</figcaption>
+                </figure>
+              )}
             </div>
           </section>
           <section>
@@ -245,30 +253,36 @@ const MiamiAviationLogistics = () => {
             </div>
             <p className="text-gray-700 leading-relaxed mt-4">{t('blog.miami.customs.p2')}</p>
             <div className="mt-6 grid md:grid-cols-3 gap-4">
-              <img
-                src={getMediaSrc('miami-aviation-logistics/digital-customs-processing.jpg', fallbacks.customs)}
-                alt={t('blog.miami.customs.digitalAlt', 'Customs paperwork being processed digitally')}
-                className="rounded-lg w-full h-44 object-cover"
-                loading="lazy"
-                decoding="async"
-                onError={handleCustomsError}
-              />
-              <img
-                src={getMediaSrc('miami-aviation-logistics-warehouse.jpg', fallbacks.warehouse)}
-                alt={t('blog.miami.customs.warehouseAlt', 'Bonded warehouse storage racks')}
-                className="rounded-lg w-full h-44 object-cover"
-                loading="lazy"
-                decoding="async"
-                onError={handleWarehouseError}
-              />
-              <img
-                src={getMediaSrc('miami-aviation-logistics-it.jpg', fallbacks.it)}
-                alt={t('blog.miami.customs.itAlt', 'Secure logistics IT infrastructure')}
-                className="rounded-lg w-full h-44 object-cover"
-                loading="lazy"
-                decoding="async"
-                onError={handleItError}
-              />
+              {customsImage && (
+                <img
+                  src={customsImage}
+                  alt={t('blog.miami.customs.digitalAlt', 'Customs paperwork being processed digitally')}
+                  className="rounded-lg w-full h-44 object-cover"
+                  loading="lazy"
+                  decoding="async"
+                  onError={handleCustomsError}
+                />
+              )}
+              {warehouseImage && (
+                <img
+                  src={warehouseImage}
+                  alt={t('blog.miami.customs.warehouseAlt', 'Bonded warehouse storage racks')}
+                  className="rounded-lg w-full h-44 object-cover"
+                  loading="lazy"
+                  decoding="async"
+                  onError={handleWarehouseError}
+                />
+              )}
+              {itImage && (
+                <img
+                  src={itImage}
+                  alt={t('blog.miami.customs.itAlt', 'Secure logistics IT infrastructure')}
+                  className="rounded-lg w-full h-44 object-cover"
+                  loading="lazy"
+                  decoding="async"
+                  onError={handleItError}
+                />
+              )}
             </div>
           </section>
           {/* ORBIPARTS Miami Hub Positioning */}

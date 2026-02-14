@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { SEO, buildArticleSchema, buildFAQSchema } from '@/components/SEO';
 import { getMediaSrc, createOnErrorHandler } from '@/lib/media';
-import { BLOG_FALLBACKS } from '@/lib/mediaFallbacks';
+import { getBlogMedia } from '@/lib/blogMedia';
 import { buildAlternates, getOgLocale } from '@/lib/seoUtils';
 import ResponsiveHeroImage from '@/components/ResponsiveHeroImage';
 
@@ -17,17 +17,24 @@ const TechnologyTrendsComponentManagement = () => {
   const alternates = buildAlternates(canonical);
   const locale = getOgLocale();
 
-  const fallbacks = BLOG_FALLBACKS['technology-trends-component-management'];
-  const heroImage = getMediaSrc('technology-trends-component-management-hero.jpg', fallbacks.hero);
+  const media = getBlogMedia('technology-trends-component-management');
+  const heroImage = getMediaSrc(media?.hero);
+  const predictiveImage = getMediaSrc(media?.predictive);
+  const machineLearningImage = getMediaSrc(media?.machineLearning);
+  const roboticsImage = getMediaSrc(media?.robotics);
+  const stockDashboardImage = getMediaSrc(media?.stockDashboard);
+  const systemIntegrationImage = getMediaSrc(media?.systemIntegration);
+  const procurementApiImage = getMediaSrc(media?.procurementApi);
+  const blockchainImage = getMediaSrc(media?.blockchain);
   const image = heroImage;
-  const handleHeroError = createOnErrorHandler(fallbacks.hero);
-  const handlePredictiveError = createOnErrorHandler(fallbacks.predictive);
-  const handleMachineLearningError = createOnErrorHandler(fallbacks.machineLearning);
-  const handleRoboticsError = createOnErrorHandler(fallbacks.robotics);
-  const handleStockDashboardError = createOnErrorHandler(fallbacks.stockDashboard);
-  const handleSystemIntegrationError = createOnErrorHandler(fallbacks.systemIntegration);
-  const handleProcurementApiError = createOnErrorHandler(fallbacks.procurementApi);
-  const handleBlockchainError = createOnErrorHandler(fallbacks.blockchain);
+  const handleHeroError = createOnErrorHandler();
+  const handlePredictiveError = createOnErrorHandler();
+  const handleMachineLearningError = createOnErrorHandler();
+  const handleRoboticsError = createOnErrorHandler();
+  const handleStockDashboardError = createOnErrorHandler();
+  const handleSystemIntegrationError = createOnErrorHandler();
+  const handleProcurementApiError = createOnErrorHandler();
+  const handleBlockchainError = createOnErrorHandler();
   const keywords = [
     t('blog.technology.hero.h1'),
     t('blog.technology.predictive.h2'),
@@ -136,28 +143,32 @@ const TechnologyTrendsComponentManagement = () => {
             </ul>
 
             <div className="grid md:grid-cols-2 gap-4 mt-6">
-              <figure className="rounded-lg overflow-hidden">
-                <img
-                  src={getMediaSrc('technology-trends-component-management/predictive-maintenance-analytics.jpg', fallbacks.predictive)}
-                  alt={t('blog.technology.predictive.images.predictiveAlt')}
-                  className="w-full h-56 object-cover"
-                  loading="lazy"
-                  decoding="async"
-                  onError={handlePredictiveError}
-                />
-                <figcaption className="text-sm text-gray-500 mt-2">{t('blog.technology.predictive.images.predictiveCaption')}</figcaption>
-              </figure>
-              <figure className="rounded-lg overflow-hidden">
-                <img
-                  src={getMediaSrc('technology-trends-component-management-machine-learning.jpg', fallbacks.machineLearning)}
-                  alt={t('blog.technology.predictive.images.mlAlt')}
-                  className="w-full h-56 object-cover"
-                  loading="lazy"
-                  decoding="async"
-                  onError={handleMachineLearningError}
-                />
-                <figcaption className="text-sm text-gray-500 mt-2">{t('blog.technology.predictive.images.mlCaption')}</figcaption>
-              </figure>
+              {predictiveImage && (
+                <figure className="rounded-lg overflow-hidden">
+                  <img
+                    src={predictiveImage}
+                    alt={t('blog.technology.predictive.images.predictiveAlt')}
+                    className="w-full h-56 object-cover"
+                    loading="lazy"
+                    decoding="async"
+                    onError={handlePredictiveError}
+                  />
+                  <figcaption className="text-sm text-gray-500 mt-2">{t('blog.technology.predictive.images.predictiveCaption')}</figcaption>
+                </figure>
+              )}
+              {machineLearningImage && (
+                <figure className="rounded-lg overflow-hidden">
+                  <img
+                    src={machineLearningImage}
+                    alt={t('blog.technology.predictive.images.mlAlt')}
+                    className="w-full h-56 object-cover"
+                    loading="lazy"
+                    decoding="async"
+                    onError={handleMachineLearningError}
+                  />
+                  <figcaption className="text-sm text-gray-500 mt-2">{t('blog.technology.predictive.images.mlCaption')}</figcaption>
+                </figure>
+              )}
             </div>
           </section>
 
@@ -225,28 +236,32 @@ const TechnologyTrendsComponentManagement = () => {
             </div>
 
             <div className="grid md:grid-cols-2 gap-4 mt-6">
-              <figure className="rounded-lg overflow-hidden">
-                <img
-                  src={getMediaSrc('technology-trends-component-management/procurement-api-interface.jpg', fallbacks.procurementApi)}
-                  alt={t('blog.technology.blockchain.images.procurementAlt')}
-                  className="w-full h-56 object-cover"
-                  loading="lazy"
-                  decoding="async"
-                  onError={handleProcurementApiError}
-                />
-                <figcaption className="text-sm text-gray-500 mt-2">{t('blog.technology.blockchain.images.procurementCaption')}</figcaption>
-              </figure>
-              <figure className="rounded-lg overflow-hidden">
-                <img
-                  src={getMediaSrc('technology-trends-component-management/blockchain-traceability-concept.jpg', fallbacks.blockchain)}
-                  alt={t('blog.technology.blockchain.images.blockchainAlt')}
-                  className="w-full h-56 object-cover"
-                  loading="lazy"
-                  decoding="async"
-                  onError={handleBlockchainError}
-                />
-                <figcaption className="text-sm text-gray-500 mt-2">{t('blog.technology.blockchain.images.blockchainCaption')}</figcaption>
-              </figure>
+              {procurementApiImage && (
+                <figure className="rounded-lg overflow-hidden">
+                  <img
+                    src={procurementApiImage}
+                    alt={t('blog.technology.blockchain.images.procurementAlt')}
+                    className="w-full h-56 object-cover"
+                    loading="lazy"
+                    decoding="async"
+                    onError={handleProcurementApiError}
+                  />
+                  <figcaption className="text-sm text-gray-500 mt-2">{t('blog.technology.blockchain.images.procurementCaption')}</figcaption>
+                </figure>
+              )}
+              {blockchainImage && (
+                <figure className="rounded-lg overflow-hidden">
+                  <img
+                    src={blockchainImage}
+                    alt={t('blog.technology.blockchain.images.blockchainAlt')}
+                    className="w-full h-56 object-cover"
+                    loading="lazy"
+                    decoding="async"
+                    onError={handleBlockchainError}
+                  />
+                  <figcaption className="text-sm text-gray-500 mt-2">{t('blog.technology.blockchain.images.blockchainCaption')}</figcaption>
+                </figure>
+              )}
             </div>
           </section>
 
@@ -275,30 +290,36 @@ const TechnologyTrendsComponentManagement = () => {
             </div>
 
             <div className="mt-6 grid md:grid-cols-3 gap-4">
-              <img
-                src={getMediaSrc('technology-trends-component-management-robotics.jpg', fallbacks.robotics)}
-                alt={t('blog.technology.automation.images.roboticsAlt')}
-                className="rounded-lg w-full h-44 object-cover"
-                loading="lazy"
-                decoding="async"
-                onError={handleRoboticsError}
-              />
-              <img
-                src={getMediaSrc('technology-trends-component-management-stock-dashboard.jpg', fallbacks.stockDashboard)}
-                alt={t('blog.technology.automation.images.stockAlt')}
-                className="rounded-lg w-full h-44 object-cover"
-                loading="lazy"
-                decoding="async"
-                onError={handleStockDashboardError}
-              />
-              <img
-                src={getMediaSrc('technology-trends-component-management/system-integration-diagram.jpg', fallbacks.systemIntegration)}
-                alt={t('blog.technology.automation.images.integrationAlt')}
-                className="rounded-lg w-full h-44 object-cover"
-                loading="lazy"
-                decoding="async"
-                onError={handleSystemIntegrationError}
-              />
+              {roboticsImage && (
+                <img
+                  src={roboticsImage}
+                  alt={t('blog.technology.automation.images.roboticsAlt')}
+                  className="rounded-lg w-full h-44 object-cover"
+                  loading="lazy"
+                  decoding="async"
+                  onError={handleRoboticsError}
+                />
+              )}
+              {stockDashboardImage && (
+                <img
+                  src={stockDashboardImage}
+                  alt={t('blog.technology.automation.images.stockAlt')}
+                  className="rounded-lg w-full h-44 object-cover"
+                  loading="lazy"
+                  decoding="async"
+                  onError={handleStockDashboardError}
+                />
+              )}
+              {systemIntegrationImage && (
+                <img
+                  src={systemIntegrationImage}
+                  alt={t('blog.technology.automation.images.integrationAlt')}
+                  className="rounded-lg w-full h-44 object-cover"
+                  loading="lazy"
+                  decoding="async"
+                  onError={handleSystemIntegrationError}
+                />
+              )}
             </div>
           </section>
 

@@ -97,35 +97,68 @@ const ProductSearch = () => {
   // Fetch inventory KPIs from Supabase (public_stock view from Quote Hub)
   useEffect(() => {
     const fetchInventoryMetrics = async () => {
+      console.log('🔄 Starting inventory metrics fetch...');
       setInventoryMetrics(prev => ({ ...prev, loading: true }));
       try {
         // Use count for total items (more efficient)
+        console.log('📊 Fetching total count...');
         const { count: totalCount, error: countError } = await supabase
           .from('public_stock')
           .select('*', { count: 'exact', head: true });
         
-        if (countError) throw countError;
+        console.log('📊 Count result: totalCount=' + totalCount);
         
-        // Fetch only part_number and category for distinct count and categories
-        const { data, error } = await supabase
-          .from('public_stock')
-          .select('part_number, category');
+        if (countError) {
+          console.error('❌ Count error:', countError);
+          throw countError;
+        }
         
-        console.log('📊 Inventory Metrics Query:', { totalCount, distinctData: data?.length, error });
+        // Use RPC or fetch ALL data with pagination to get accurate distinct count
+        console.log('📊 Fetching ALL part_numbers for distinct count (this may take a moment)...');
+        let allPartNumbers = [];
+        let allCategories = [];
+        let from = 0;
+        const batchSize = 1000;
+        let hasMore = true;
         
-        if (error) throw error;
+        while (hasMore) {
+          const { data, error } = await supabase
+            .from('public_stock')
+            .select('part_number, category')
+            .range(from, from + batchSize - 1);
+          
+          if (error) throw error;
+          
+          if (data && data.length > 0) {
+            allPartNumbers.push(...data.map(d => d.part_number));
+            allCategories.push(...data.map(d => d.category).filter(c => c));
+            from += batchSize;
+            console.log('📊 Fetched batch: ' + data.length + ' records (total so far: ' + allPartNumbers.length + ')');
+          } else {
+            hasMore = false;
+          }
+          
+          // Safety check to prevent infinite loop
+          if (from > totalCount) {
+            hasMore = false;
+          }
+        }
+        
+        console.log('📊 Total records fetched: ' + allPartNumbers.length);
         
         const totalItems = totalCount || 0;
-        const distinctPartNumbers = new Set(data.map(c => c.part_number)).size;
-        const categoriesCount = data.reduce((map, c) => {
-          if (c.category) map[c.category] = (map[c.category] || 0) + 1;
+        const distinctPartNumbers = new Set(allPartNumbers).size;
+        
+        const categoriesCount = allCategories.reduce((map, category) => {
+          map[category] = (map[category] || 0) + 1;
           return map;
         }, {});
+        
         const categoriesSorted = Object.entries(categoriesCount)
           .sort((a,b) => b[1]-a[1])
           .map(([name, count]) => ({ name, count }));
         
-        console.log('✅ Metrics calculated:', { totalItems, distinctPartNumbers, categories: categoriesSorted.slice(0, 3) });
+        console.log('✅ Metrics calculated: totalItems=' + totalItems + ', distinctPartNumbers=' + distinctPartNumbers + ', topCategories:', categoriesSorted.slice(0, 3));
         
         setInventoryMetrics({
           totalItems,
@@ -135,7 +168,7 @@ const ProductSearch = () => {
           error: null
         });
       } catch (err) {
-        console.error('❌ Inventory Metrics Error:', err);
+        console.error('❌ Inventory Metrics Error:', err, 'Message:', err.message);
         setInventoryMetrics(prev => ({ ...prev, loading: false, error: err.message }));
       }
     };

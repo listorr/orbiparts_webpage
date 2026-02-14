@@ -11,6 +11,7 @@ import Products from '@/pages/Products';
 import ProductSearch from '@/pages/ProductSearch';
 import Industries from '@/pages/Industries';
 import Contact from '@/pages/Contact';
+import TermsAndConditions from '@/pages/TermsAndConditions';
 import ModernFleets from '@/pages/ModernFleets';
 import LegacyAircraft from '@/pages/LegacyAircraft';
 import AogSupport from '@/pages/AogSupport';
@@ -48,6 +49,7 @@ function AppContent() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/terms" element={<TermsAndConditions />} />
           <Route path="/services" element={<Services />} />
           <Route path="/products" element={<Products />} />
           <Route path="/search" element={<Navigate to="/stock" replace />} />

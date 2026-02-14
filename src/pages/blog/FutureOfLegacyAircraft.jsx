@@ -2,25 +2,32 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { SEO, buildArticleSchema } from '@/components/SEO';
 import { getMediaSrc, createOnErrorHandler } from '@/lib/media';
-import { BLOG_FALLBACKS } from '@/lib/mediaFallbacks';
 import { buildAlternates, getOgLocale } from '@/lib/seoUtils';
+import { getBlogMedia } from '@/lib/blogMedia';
 import { useTranslation } from 'react-i18next';
 import ResponsiveHeroImage from '@/components/ResponsiveHeroImage';
 
 export default function FutureOfLegacyAircraft() {
   const { t } = useTranslation();
   const canonicalUrl = 'https://www.orbiparts.com/blog/future-of-legacy-aircraft';
-  const fallbacks = BLOG_FALLBACKS['future-of-legacy-aircraft'];
   const title = t('blog.legacy.seo.articleHeadline');
   const description = t('blog.legacy.seo.articleDescription');
 
-  const heroImage = getMediaSrc('future-of-legacy-aircraft-hero.jpg', fallbacks.hero);
-  const handleHeroError = createOnErrorHandler(fallbacks.hero);
-  const handleHangarError = createOnErrorHandler(fallbacks.hangar);
-  const handleCockpitError = createOnErrorHandler(fallbacks.cockpit);
-  const handleEngineModuleError = createOnErrorHandler(fallbacks.engineModule);
-  const handleTurbineError = createOnErrorHandler(fallbacks.turbine);
-  const handleDocumentationError = createOnErrorHandler(fallbacks.documentation);
+  const media = getBlogMedia('future-of-legacy-aircraft');
+
+  const heroImage = getMediaSrc(media?.hero);
+  const hangarImage = getMediaSrc(media?.hangar);
+  const cockpitImage = getMediaSrc(media?.cockpit);
+  const engineModuleImage = getMediaSrc(media?.engineModule);
+  const turbineImage = getMediaSrc(media?.turbine);
+  const documentationImage = getMediaSrc(media?.documentation);
+
+  const handleHeroError = createOnErrorHandler();
+  const handleHangarError = createOnErrorHandler();
+  const handleCockpitError = createOnErrorHandler();
+  const handleEngineModuleError = createOnErrorHandler();
+  const handleTurbineError = createOnErrorHandler();
+  const handleDocumentationError = createOnErrorHandler();
 
   const keywords = t('blog.legacy.seo.keywords', { returnObjects: true });
   const datePublished = '2024-01-15';
@@ -114,14 +121,18 @@ export default function FutureOfLegacyAircraft() {
             <p className="text-gray-700 leading-relaxed">{t('blog.legacy.persistence.p1')}</p>
             <p className="text-gray-700 leading-relaxed mt-4">{t('blog.legacy.persistence.p2')}</p>
             <div className="grid md:grid-cols-2 gap-4 mt-6">
-              <figure className="rounded-lg overflow-hidden">
-                <img src={getMediaSrc('future-of-legacy-aircraft-hangar.jpg', fallbacks.hangar)} alt={t('blog.legacy.persistence.images.hangarAlt')} className="w-full h-56 object-cover" loading="lazy" decoding="async" onError={handleHangarError} />
-                <figcaption className="text-sm text-gray-500 mt-2">{t('blog.legacy.persistence.images.hangarCaption')}</figcaption>
-              </figure>
-              <figure className="rounded-lg overflow-hidden">
-                <img src={getMediaSrc('future-of-legacy-aircraft-cockpit.jpg', fallbacks.cockpit)} alt={t('blog.legacy.persistence.images.cockpitAlt')} className="w-full h-56 object-cover" loading="lazy" decoding="async" onError={handleCockpitError} />
-                <figcaption className="text-sm text-gray-500 mt-2">{t('blog.legacy.persistence.images.cockpitCaption')}</figcaption>
-              </figure>
+              {hangarImage && (
+                <figure className="rounded-lg overflow-hidden">
+                  <img src={hangarImage} alt={t('blog.legacy.persistence.images.hangarAlt')} className="w-full h-56 object-cover" loading="lazy" decoding="async" onError={handleHangarError} />
+                  <figcaption className="text-sm text-gray-500 mt-2">{t('blog.legacy.persistence.images.hangarCaption')}</figcaption>
+                </figure>
+              )}
+              {cockpitImage && (
+                <figure className="rounded-lg overflow-hidden">
+                  <img src={cockpitImage} alt={t('blog.legacy.persistence.images.cockpitAlt')} className="w-full h-56 object-cover" loading="lazy" decoding="async" onError={handleCockpitError} />
+                  <figcaption className="text-sm text-gray-500 mt-2">{t('blog.legacy.persistence.images.cockpitCaption')}</figcaption>
+                </figure>
+              )}
             </div>
           </section>
 
@@ -154,9 +165,15 @@ export default function FutureOfLegacyAircraft() {
               ))}
             </ul>
             <div className="mt-6 grid md:grid-cols-3 gap-4">
-              <img src={getMediaSrc('future-of-legacy-aircraft-engine-module.jpg', fallbacks.engineModule)} alt={t('blog.legacy.usmPma.images.engineModuleAlt')} className="rounded-lg w-full h-44 object-cover" loading="lazy" decoding="async" onError={handleEngineModuleError} />
-              <img src={getMediaSrc('future-of-legacy-aircraft-turbine.jpg', fallbacks.turbine)} alt={t('blog.legacy.usmPma.images.turbineAlt')} className="rounded-lg w-full h-44 object-cover" loading="lazy" decoding="async" onError={handleTurbineError} />
-              <img src={getMediaSrc('future-of-legacy-aircraft-documentation.jpg', fallbacks.documentation)} alt={t('blog.legacy.usmPma.images.documentationAlt')} className="rounded-lg w-full h-44 object-cover" loading="lazy" decoding="async" onError={handleDocumentationError} />
+              {engineModuleImage && (
+                <img src={engineModuleImage} alt={t('blog.legacy.usmPma.images.engineModuleAlt')} className="rounded-lg w-full h-44 object-cover" loading="lazy" decoding="async" onError={handleEngineModuleError} />
+              )}
+              {turbineImage && (
+                <img src={turbineImage} alt={t('blog.legacy.usmPma.images.turbineAlt')} className="rounded-lg w-full h-44 object-cover" loading="lazy" decoding="async" onError={handleTurbineError} />
+              )}
+              {documentationImage && (
+                <img src={documentationImage} alt={t('blog.legacy.usmPma.images.documentationAlt')} className="rounded-lg w-full h-44 object-cover" loading="lazy" decoding="async" onError={handleDocumentationError} />
+              )}
             </div>
           </section>
 

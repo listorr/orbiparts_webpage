@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { Menu, X, LogOut, AlertCircle, Lock } from 'lucide-react';
+import { Menu, X, LogOut, AlertCircle, Lock, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import BrandLogo from '@/components/BrandLogo';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
@@ -57,7 +57,14 @@ const Navbar = () => {
     { name: t('nav.expertCorner'), path: '/blog' },
     // Swap order: show Contact before Orbiparts (About)
     { name: t('nav.contact'), path: '/contact' },
-    { name: t('nav.about'), path: '/about' },
+    { 
+      name: t('nav.about'), 
+      path: '/about',
+      children: [
+        { name: 'About Us', path: '/about' },
+        { name: 'Terms & Conditions', path: '/terms' }
+      ]
+    },
   ];
   
   if (user) {
@@ -86,6 +93,41 @@ const Navbar = () => {
 
           <div className="hidden lg:flex items-center space-x-3">
             {navItems.map((item) => {
+              if (item.children) {
+                const isChildActive = item.children.some(child => location.pathname === child.path);
+                const parentLinkClasses = `flex items-center gap-1 text-xs font-medium transition-colors hover:text-primary cursor-pointer outline-none ${
+                  isChildActive
+                    ? 'text-primary font-semibold'
+                    : finalIsTransparent
+                    ? 'text-gray-200'
+                    : 'text-neutral-600'
+                }`;
+                
+                return (
+                  <div key={item.name} className="relative group">
+                    <button className={parentLinkClasses}>
+                      {item.name}
+                      <ChevronDown className="w-3 h-3 transition-transform duration-200 group-hover:rotate-180" />
+                    </button>
+                    <div className="absolute top-full right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 border border-gray-100 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform origin-top-right z-50 overflow-hidden">
+                      {item.children.map((child) => (
+                        <Link
+                          key={child.name}
+                          to={child.path}
+                          className={`block px-4 py-2 text-sm transition-colors hover:bg-gray-50 ${
+                            location.pathname === child.path
+                              ? 'text-primary font-medium bg-blue-50'
+                              : 'text-gray-700 hover:text-primary'
+                          }`}
+                        >
+                          {child.name}
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                );
+              }
+
               const isExternal = item.external || item.path?.startsWith('http');
               const isActive = location.pathname === item.path;
               const linkClasses = `text-xs font-medium transition-colors hover:text-primary ${
@@ -170,6 +212,33 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-4 py-6 space-y-3">
               {/* Navigation items */}
               {navItems.map((item) => {
+                if (item.children) {
+                  return (
+                    <div key={item.name} className="space-y-1 py-1">
+                      <div className="px-4 py-2 font-bold text-gray-900 flex items-center gap-2">
+                        {item.name}
+                        <ChevronDown className="w-4 h-4 text-gray-500" />
+                      </div>
+                      <div className="pl-4 space-y-1 border-l-2 border-gray-100 ml-4">
+                        {item.children.map((child) => (
+                          <Link
+                            key={child.name}
+                            to={child.path}
+                            onClick={() => setIsOpen(false)}
+                            className={`block px-4 py-2 rounded-lg font-medium transition-all ${
+                              location.pathname === child.path
+                                ? 'bg-blue-600 text-white shadow-md'
+                                : 'text-gray-600 hover:bg-blue-50 hover:text-blue-600'
+                            }`}
+                          >
+                            {child.name}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  );
+                }
+
                 const isExternal = item.external || item.path?.startsWith('http');
                 const isActive = location.pathname === item.path;
                 const linkClasses = `block px-4 py-3 rounded-lg font-medium transition-all ${

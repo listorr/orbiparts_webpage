@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { SEO, buildArticleSchema, buildFAQSchema } from '@/components/SEO';
 import { getMediaSrc, createOnErrorHandler } from '@/lib/media';
-import { BLOG_FALLBACKS } from '@/lib/mediaFallbacks';
+import { getBlogMedia } from '@/lib/blogMedia';
 import { buildAlternates, getOgLocale } from '@/lib/seoUtils';
 import LazySection from '@/components/LazySection';
 import ResponsiveHeroImage from '@/components/ResponsiveHeroImage';
@@ -18,15 +18,20 @@ const SustainableAviationComponentTrading = () => {
   const alternates = buildAlternates(canonical);
   const locale = getOgLocale();
 
-  const fallbacks = BLOG_FALLBACKS['sustainable-aviation-component-trading'];
-  const heroImage = getMediaSrc('sustainable-aviation-component-trading-hero.jpg', fallbacks.hero);
+  const media = getBlogMedia('sustainable-aviation-component-trading');
+  const heroImage = getMediaSrc(media?.hero);
+  const dashboardImage = getMediaSrc(media?.dashboard);
+  const inspectionImage = getMediaSrc(media?.inspection);
+  const facilityImage = getMediaSrc(media?.facility);
+  const teardownImage = getMediaSrc(media?.teardown);
+  const documentationImage = getMediaSrc(media?.documentation);
   const image = heroImage;
-  const handleHeroError = createOnErrorHandler(fallbacks.hero);
-  const handleDashboardError = createOnErrorHandler(fallbacks.dashboard);
-  const handleInspectionError = createOnErrorHandler(fallbacks.inspection);
-  const handleFacilityError = createOnErrorHandler(fallbacks.facility);
-  const handleTeardownError = createOnErrorHandler(fallbacks.teardown);
-  const handleDocumentationError = createOnErrorHandler(fallbacks.documentation);
+  const handleHeroError = createOnErrorHandler();
+  const handleDashboardError = createOnErrorHandler();
+  const handleInspectionError = createOnErrorHandler();
+  const handleFacilityError = createOnErrorHandler();
+  const handleTeardownError = createOnErrorHandler();
+  const handleDocumentationError = createOnErrorHandler();
   const keywords = [
     t('blog.sustainable.hero.h1'),
     t('blog.sustainable.regulatory.h2'),
@@ -287,30 +292,36 @@ const SustainableAviationComponentTrading = () => {
             </div>
 
             <div className="mt-6 grid md:grid-cols-3 gap-4">
-              <img
-                src={getMediaSrc('sustainable-aviation-component-trading/sustainability-kpi-dashboard.jpg', fallbacks.dashboard)}
-                alt={t('blog.sustainable.esg.images.dashboardAlt', 'Dashboard showing sustainability KPIs and carbon metrics')}
-                className="rounded-lg w-full h-44 object-cover"
-                loading="lazy"
-                decoding="async"
-                onError={handleDashboardError}
-              />
-              <img
-                src={getMediaSrc('sustainable-aviation-component-trading-inspection.jpg', fallbacks.inspection)}
-                alt={t('blog.sustainable.esg.images.inspectionAlt', 'Technician performing component inspection for refurbishment')}
-                className="rounded-lg w-full h-44 object-cover"
-                loading="lazy"
-                decoding="async"
-                onError={handleInspectionError}
-              />
-              <img
-                src={getMediaSrc('sustainable-aviation-component-trading-facility.jpg', fallbacks.facility)}
-                alt={t('blog.sustainable.esg.images.facilityAlt', 'Green-certified facility corridor')}
-                className="rounded-lg w-full h-44 object-cover"
-                loading="lazy"
-                decoding="async"
-                onError={handleFacilityError}
-              />
+              {dashboardImage && (
+                <img
+                  src={dashboardImage}
+                  alt={t('blog.sustainable.esg.images.dashboardAlt', 'Dashboard showing sustainability KPIs and carbon metrics')}
+                  className="rounded-lg w-full h-44 object-cover"
+                  loading="lazy"
+                  decoding="async"
+                  onError={handleDashboardError}
+                />
+              )}
+              {inspectionImage && (
+                <img
+                  src={inspectionImage}
+                  alt={t('blog.sustainable.esg.images.inspectionAlt', 'Technician performing component inspection for refurbishment')}
+                  className="rounded-lg w-full h-44 object-cover"
+                  loading="lazy"
+                  decoding="async"
+                  onError={handleInspectionError}
+                />
+              )}
+              {facilityImage && (
+                <img
+                  src={facilityImage}
+                  alt={t('blog.sustainable.esg.images.facilityAlt', 'Green-certified facility corridor')}
+                  className="rounded-lg w-full h-44 object-cover"
+                  loading="lazy"
+                  decoding="async"
+                  onError={handleFacilityError}
+                />
+              )}
             </div>
           </section>
           {/* Risk Management in Sustainable Component Trading */}
@@ -358,28 +369,32 @@ const SustainableAviationComponentTrading = () => {
               </div>
             </div>
             <div className="mt-4 grid md:grid-cols-2 gap-4">
-              <figure className="rounded-lg overflow-hidden">
-                <img
-                  src={getMediaSrc('sustainable-aviation-component-trading/engine-teardown-parts-harvest.jpg', fallbacks.teardown)}
-                  alt={t('blog.sustainable.risk.images.teardownAlt')}
-                  className="w-full h-56 object-cover"
-                  loading="lazy"
-                  decoding="async"
-                  onError={handleTeardownError}
-                />
-                <figcaption className="text-sm text-gray-500 mt-2">{t('blog.sustainable.risk.images.teardownCaption')}</figcaption>
-              </figure>
-              <figure className="rounded-lg overflow-hidden">
-                <img
-                  src={getMediaSrc('sustainable-aviation-component-trading/documentation-lab-review.jpg', fallbacks.documentation)}
-                  alt={t('blog.sustainable.risk.images.docAlt')}
-                  className="w-full h-56 object-cover"
-                  loading="lazy"
-                  decoding="async"
-                  onError={handleDocumentationError}
-                />
-                <figcaption className="text-sm text-gray-500 mt-2">{t('blog.sustainable.risk.images.docCaption')}</figcaption>
-              </figure>
+              {teardownImage && (
+                <figure className="rounded-lg overflow-hidden">
+                  <img
+                    src={teardownImage}
+                    alt={t('blog.sustainable.risk.images.teardownAlt')}
+                    className="w-full h-56 object-cover"
+                    loading="lazy"
+                    decoding="async"
+                    onError={handleTeardownError}
+                  />
+                  <figcaption className="text-sm text-gray-500 mt-2">{t('blog.sustainable.risk.images.teardownCaption')}</figcaption>
+                </figure>
+              )}
+              {documentationImage && (
+                <figure className="rounded-lg overflow-hidden">
+                  <img
+                    src={documentationImage}
+                    alt={t('blog.sustainable.risk.images.docAlt')}
+                    className="w-full h-56 object-cover"
+                    loading="lazy"
+                    decoding="async"
+                    onError={handleDocumentationError}
+                  />
+                  <figcaption className="text-sm text-gray-500 mt-2">{t('blog.sustainable.risk.images.docCaption')}</figcaption>
+                </figure>
+              )}
             </div>
           </section>
 
