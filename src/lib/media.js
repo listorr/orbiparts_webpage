@@ -1,15 +1,33 @@
 const SUPABASE_MEDIA_BASE_URL = 'https://fjhynjjirvcyeahmlopq.supabase.co/storage/v1/object/public/blog-media';
 
-const supabaseEnabled = typeof import.meta !== 'undefined'
-	&& import.meta.env
-	&& import.meta.env.VITE_USE_SUPABASE_MEDIA === 'true';
+// Always enable Supabase media (was previously conditional based on env var)
+const supabaseEnabled = true;
 
 export const supabaseImage = (path) => `${SUPABASE_MEDIA_BASE_URL}/${path}`;
 
-// Returns a string URL for the image when Supabase media is enabled.
-// If media is disabled or path is falsy, return null so React does not render a src attribute.
+// Returns a string URL for the image. First tries local public/, then Supabase.
+// If path is falsy, return null so React does not render a src attribute.
 export const getMediaSrc = (path/*, fallbackUrl intentionally ignored */) => {
-	if (supabaseEnabled && path) return supabaseImage(path);
+	if (!path) return null;
+	
+	// Blog hero images are stored locally in public/ folder
+	const blogHeroImages = [
+		'future-of-legacy-aircraft-hero.jpg',
+		'top-10-aircraft-parts-suppliers-2025-hero.jpg',
+		'miami-aviation-logistics-hero.jpg',
+		'aog-response-strategies-hero.jpg',
+		'sustainable-aviation-component-trading-hero.jpg',
+		'global-aircraft-parts-supply-chains-hero.jpg',
+		'technology-trends-component-management-hero.jpg'
+	];
+	
+	// Check if this is a blog hero image
+	if (blogHeroImages.includes(path)) {
+		return `/${path}`;
+	}
+	
+	// Otherwise use Supabase
+	if (supabaseEnabled) return supabaseImage(path);
 	return null;
 };
 
