@@ -120,14 +120,6 @@ const EastmanMarketplace = () => {
                   </div>
                 </div>
               </div>
-
-              <div className="bg-gradient-to-br from-blue-50 to-blue-100 border border-blue-200 rounded-lg p-4">
-                <div className="flex items-center gap-3 mb-2">
-                  <Award className="h-5 w-5 text-blue-600" />
-                  <span className="font-bold text-gray-900">EASTMAN</span>
-                </div>
-                <p className="text-xs text-gray-600">Proveedor certificado de lubricantes para aviación</p>
-              </div>
             </div>
           </motion.div>
 
