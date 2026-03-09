@@ -94,12 +94,12 @@ const FloatingCart = () => {
                         {item.image && (
                           <img
                             src={item.image}
-                            alt={item.name}
+                            alt={item.displayName || item.name}
                             className="w-16 h-16 object-cover rounded"
                           />
                         )}
                         <div className="flex-1 min-w-0">
-                          <h3 className="font-semibold text-sm line-clamp-2">{item.name}</h3>
+                          <h3 className="font-semibold text-sm line-clamp-2">{item.displayName || item.name}</h3>
                           <p className="text-xs text-gray-500 mt-1">
                             {item.partNumber || item.nsn || 'N/A'} • {item.units || 'Unit'}
                           </p>
