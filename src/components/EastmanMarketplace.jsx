@@ -2,11 +2,14 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
   Package, FileText, CheckCircle, Search, Filter, X, Download, 
-  ChevronRight, Award, Droplet, Layers
+  ChevronRight, Award, Droplet, Layers, ShoppingCart
 } from 'lucide-react';
 import lubricantsData from '../data/lubricants-data.json';
+import { useCart } from '@/contexts/CartContext';
+import FloatingCart from '@/components/FloatingCart';
 
 const EastmanMarketplace = () => {
+  const { addToCart } = useCart();
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [selectedBrand, setSelectedBrand] = useState('all');
@@ -175,16 +178,25 @@ const EastmanMarketplace = () => {
                         </div>
                       )}
 
-                      <div className="flex items-center justify-between pt-4 border-t border-gray-100">
-                        <div>
-                          {product.price > 0 ? (
-                            <p className="text-xl font-bold text-red-600">${product.price.toFixed(2)}</p>
-                          ) : (
-                            <p className="text-sm text-gray-500 font-medium">Consultar precio</p>
-                          )}
+                      <div className="pt-4 border-t border-gray-100 space-y-3">
+                        <div className="flex items-center justify-between">
+                          <div>
+                            {product.price > 0 ? (
+                              <p className="text-xl font-bold text-red-600">${product.price.toFixed(2)}</p>
+                            ) : (
+                              <p className="text-sm text-gray-500 font-medium">Consultar precio</p>
+                            )}
+                          </div>
+                          <button className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-4 py-2 rounded-lg hover:shadow-lg transition-all flex items-center gap-2">
+                            Ver detalles <ChevronRight className="h-4 w-4" />
+                          </button>
                         </div>
-                        <button className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-4 py-2 rounded-lg hover:shadow-lg transition-all flex items-center gap-2">
-                          Ver detalles <ChevronRight className="h-4 w-4" />
+                        <button 
+                          onClick={() => addToCart(product)}
+                          className="w-full bg-gradient-to-r from-green-600 to-green-700 text-white px-4 py-2 rounded-lg hover:shadow-lg transition-all flex items-center justify-center gap-2"
+                        >
+                          <ShoppingCart className="h-4 w-4" />
+                          Agregar a Cotización
                         </button>
                       </div>
                     </div>
@@ -426,6 +438,8 @@ const EastmanMarketplace = () => {
           </motion.div>
         )}
       </AnimatePresence>
+
+      <FloatingCart />
     </div>
   );
 };

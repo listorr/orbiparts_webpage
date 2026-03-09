@@ -69,8 +69,7 @@ function AppContent() {
           {/* Trading Services */}
           <Route path="/engine-trading" element={<EngineTrading />} />
           <Route path="/aircraft-trading" element={<AircraftTrading />} />
-          <Route path="/lubricants" element={<LubricantMarketplace />} />
-          <Route path="/eastman" element={<EastmanMarketplace />} />
+          <Route path="/lubricants" element={<EastmanMarketplace />} />
           
           {/* Blog Routes */}
           <Route path="/blog" element={<Blog />} />
