@@ -27,11 +27,12 @@ export const CartProvider = ({ children }) => {
   const addToCart = (product, quantity = 1) => {
     setCartItems(prevItems => {
       const existingItem = prevItems.find(item => item.id === product.id);
+      const productName = product.displayName || product.name;
       
       if (existingItem) {
         toast({
           title: "Quantity Updated",
-          description: `${product.name} quantity increased to ${existingItem.quantity + quantity}`,
+          description: `${productName} quantity increased to ${existingItem.quantity + quantity}`,
         });
         return prevItems.map(item =>
           item.id === product.id
@@ -41,7 +42,7 @@ export const CartProvider = ({ children }) => {
       } else {
         toast({
           title: "Added to Cart",
-          description: `${product.name} has been added to your quote request`,
+          description: `${productName} has been added to your quote request`,
         });
         return [...prevItems, { ...product, quantity }];
       }
@@ -52,9 +53,10 @@ export const CartProvider = ({ children }) => {
     setCartItems(prevItems => {
       const item = prevItems.find(item => item.id === productId);
       if (item) {
+        const productName = item.displayName || item.name;
         toast({
           title: "Removed from Cart",
-          description: `${item.name} has been removed from your quote request`,
+          description: `${productName} has been removed from your quote request`,
           variant: "destructive"
         });
       }
