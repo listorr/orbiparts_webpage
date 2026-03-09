@@ -1,0 +1,28 @@
+{
+  "url": "https://portal.skymart.aero/shop/part/17969",
+  "partNumber": "500B4-55GL",
+  "description": "",
+  "price": "",
+  "specifications": {},
+  "inventory": [],
+  "datasheets": [
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/924089/.PDF/P3410103_995724_SDSUS_Z8.PDF",
+      "filename": "17969_1.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/17969_1.pdf",
+      "size": 421260,
+      "realFilename": "P3410103_995724_SDSUS_Z8.PDF",
+      "docType": "Safety Data Sheet",
+      "language": "English",
+      "displayName": "Safety Data Sheet (English)"
+    }
+  ],
+  "productImage": {
+    "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/571992/.png/500B4-55GL-removebg-preview.png",
+    "filename": "17969.png",
+    "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/images/17969.png",
+    "size": 127105
+  },
+  "alternates": [],
+  "scrapedAt": "2026-03-08T18:45:05.230Z"
+}

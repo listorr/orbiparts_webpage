@@ -1,0 +1,916 @@
+[
+  {
+    "partNumber": "35914",
+    "productName": "2197-55GL",
+    "description": "TURBINE OIL (MIL-PRF-23699 HTS)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/571564/.png/2197-55GL-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1572291/.PDF/P3435805_1371923_SDSUS_Z8.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1925609/.pdf/SDS_2197.pdf",
+        "name": "SAFETY DATA SHEET SDS PORTUGUESE"
+      }
+    ],
+    "nationalStock": "9150-01-439-2070",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "TURBINE ENGINE OIL",
+    "units": "DRUM",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1095 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/35914"
+  },
+  {
+    "partNumber": "79614",
+    "productName": "2197-QT",
+    "description": "TURBINE OIL (MIL-PRF-23699 HTS)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/571571/.png/2197-QT-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/346446/.pdf/productcatalog_eastman_com_tds_ProdDatasheet_aspx_product_71097791.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1264029/.pdf/2197_spanish_sds.pdf",
+        "name": "SAFETY DATA SHEET 2197 spanish sds.pdf"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1572289/.PDF/P3435805_1371923_SDSUS_Z8.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1925611/.pdf/SDS_2197.pdf",
+        "name": "SAFETY DATA SHEET SDS PORTUGUESE"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1996877/.pdf/SDS.pdf",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "9150-01-439-0756",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "TURBINE ENGINE OIL",
+    "units": "Quart",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "3650 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/79614"
+  },
+  {
+    "partNumber": "19310",
+    "productName": "2380-55GL",
+    "description": "TURBINE OIL (MIL-PRF-23699G-STD)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/571576/.png/2380-55GL-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1272164/.PDF/P3435903_895002_SDSUS_Z8.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1925614/.pdf/SDS_2380.pdf",
+        "name": "SAFETY DATA SHEET SDS PORTUGUESE"
+      }
+    ],
+    "nationalStock": "9150-01-476-1083",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "TURBINE ENGINE OIL",
+    "units": "DRUM",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1095 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/19310"
+  },
+  {
+    "partNumber": "26526",
+    "productName": "2380-5GL",
+    "description": "TURBINE OIL (MIL-PRF-23699G-STD)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1067233/.png/image-removebg-preview - 2023-08-03T111611.421.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1272160/.PDF/P3435903_895002_SDSUS_Z8.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1925615/.pdf/SDS_2380.pdf",
+        "name": "SAFETY DATA SHEET SDS PORTUGUESE"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "TURBINE ENGINE OIL",
+    "units": "PAIL",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1095 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/26526"
+  },
+  {
+    "partNumber": "37935",
+    "productName": "2380-QT",
+    "description": "TURBINE OIL (MIL-PRF-23699G-STD)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/571509/.png/2380-QT-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/463941/.PDF/P3435903_895002_SDSUS_Z8.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1787280/.pdf/Eastman_Turbo_Oil_2380_Mexico.pdf",
+        "name": "SAFETY DATA SHEET SPANISH"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1925617/.pdf/SDS_2380.pdf",
+        "name": "SAFETY DATA SHEET SDS PORTUGUESE"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1972782/.pdf/SDS.pdf",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "9150-01-476-1074",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "TURBINE ENGINE OIL",
+    "units": "Quart",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1460 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/37935"
+  },
+  {
+    "partNumber": "67709",
+    "productName": "2389-55GL",
+    "description": "LUBRICATING OIL (MIL-PRF-7808L GR 3)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/598063/.png/2389-55GL-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1469264/.PDF/P3436001_1332182_SDSUS_Z8.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "9150-00-782-2679",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "TURBINE ENGINE OIL",
+    "units": "DRUM",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1095 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/67709"
+  },
+  {
+    "partNumber": "55983",
+    "productName": "2389-QT",
+    "description": "LUBRICATING OIL (MIL-PRF-7808L GR 3)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/571522/.png/2389-QT-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/270086/.pdf/productcatalog_eastman_com_tds_ProdDatasheet_aspx_product_71097796.pdf",
+        "name": "TECHNICAL DATA SHEET 2389"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1469263/.PDF/P3436001_1332182_SDSUS_Z8.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1854735/.pdf/EASTMAN_2389_SDS_Spanish_MX.pdf",
+        "name": "SAFETY DATA SHEET SDS_Spanish"
+      }
+    ],
+    "nationalStock": "9150-00-782-2627",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "TURBINE ENGINE OIL",
+    "units": "Quart",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "3661 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/55983"
+  },
+  {
+    "partNumber": "194462",
+    "productName": "25-QT",
+    "description": "TURBINE OIL",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/571550/.png/25-QT-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/267503/.PDF/P3435602_770473_SDSUS_Z8.PDF",
+        "name": "SAFETY DATA SHEET 25-QT"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/465483/.pdf/EASTMAN_25.pdf",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/765193/.pdf/EASTMAN_TURBINE_OIL_25_SDS.pdf",
+        "name": "SAFETY DATA SHEET EASTMAN TURBINE OIL 25 SDS.pdf"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/767712/.pdf/Eastman_Turbo_Oil_25_TDS.pdf",
+        "name": "TECHNICAL DATA SHEET Eastman Turbo Oil 25 TDS.pdf"
+      }
+    ],
+    "nationalStock": "9150-01-209-2684",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "TURBINE ENGINE OIL",
+    "units": "Quart",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1104 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/194462"
+  },
+  {
+    "partNumber": "17969",
+    "productName": "500B4-55GL",
+    "description": "SKYDROL HYD FLUID (10138724)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/571992/.png/500B4-55GL-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/924089/.PDF/P3410103_995724_SDSUS_Z8.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "HYDRAULIC FLUID",
+    "units": "DRUM",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "3650 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/17969"
+  },
+  {
+    "partNumber": "18330",
+    "productName": "500B4-5GL",
+    "description": "SKYDROL HYD. FLUID (10138707)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/572000/.png/500B4-5GL-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/924088/.PDF/P3410103_995724_SDSUS_Z8.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "HYDRAULIC FLUID",
+    "units": "PAIL",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "3650 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/18330"
+  },
+  {
+    "partNumber": "33646",
+    "productName": "500B4-GL",
+    "description": "SKYDROL HYD FLUID (10138721)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/774054/.png/image-removebg-preview - 2022-07-07T092848.895.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/924087/.PDF/P3410103_995724_SDSUS_Z8.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1939210/.pdf/500B4_SDS.pdf",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1939211/.pdf/Eastman_TDS___skydrol_500b_4__71093408_.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      }
+    ],
+    "nationalStock": "9150-00-857-9069",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "HYDRAULIC FLUID",
+    "units": "Gallon",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "3650 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/33646"
+  },
+  {
+    "partNumber": "18063",
+    "productName": "500B4-QT",
+    "description": "SKYDROL HYD FLUID (10138846)",
+    "productImage": "",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/430669/.pdf/Skydrol_500B_4.pdf",
+        "name": "TECHNICAL DATA SHEET Skydrol_500B_4.pdf"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/924086/.PDF/P3410103_995724_SDSUS_Z8.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "9150-01-056-4883",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "HYDRAULIC FLUID",
+    "units": "Quart",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "3650 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/18063"
+  },
+  {
+    "partNumber": "80646",
+    "productName": "724004B",
+    "description": "SKYDROL SAMPLING BOTTLE",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/572224/.png/724004B-removebg-preview.png/251/251",
+    "pdfs": [],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "HYDRAULIC FLUID",
+    "units": "Bottle",
+    "groupCode": "(NON AVIATION)",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "No",
+    "shelfLife": "0 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/80646"
+  },
+  {
+    "partNumber": "187581",
+    "productName": "EMN2380MC-1L",
+    "description": "EASTMAN 2380 DECAL (2.75\" X 4\")",
+    "productImage": "",
+    "pdfs": [],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "EXPENDABLES",
+    "units": "Each",
+    "groupCode": "PART",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "730 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/187581"
+  },
+  {
+    "partNumber": "187580",
+    "productName": "EMN2380MC-1S",
+    "description": "EASTMAN 2380 DECAL (1.25\" WIDE X 2\" LONG)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/598072/.png/EMN2380MC-1S-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1305708/.pdf/3M_Adhesive_Transfer_Tape_467MP.pdf",
+        "name": "TECHNICAL DATA SHEET TDS467MP ADHESIVE"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "EXPENDABLES",
+    "units": "Each",
+    "groupCode": "PART",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "No",
+    "shelfLife": "0 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/187580"
+  },
+  {
+    "partNumber": "19311",
+    "productName": "LD4-55GL",
+    "description": "SKYDROL HYD. FLUID (10138730)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/572243/.png/LD4-55GL-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/290782/.pdf/productcatalog_eastman_com_tds_ProdDatasheet_aspx_product_71093409_pn_Skydrol_LD_4.pdf",
+        "name": "TECHNICAL DATA SHEET productcatalog_eastman_com_tds_ProdDatasheet_aspx_product_71093409_pn_Skydrol_LD_4.pdf"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1999487/.PDF/P3410204_1420460_SDSUS_Z8.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "HYDRAULIC FLUID",
+    "units": "DRUM",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "3650 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/19311"
+  },
+  {
+    "partNumber": "18993",
+    "productName": "LD4-5GL",
+    "description": "SKYDROL HYD FLUID (10138733)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/580925/.png/LD4-5GL-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1999484/.PDF/P3410204_1420460_SDSUS_Z8.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "9150-01-641-1075",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "HYDRAULIC FLUID",
+    "units": "PAIL",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "3652 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/18993"
+  },
+  {
+    "partNumber": "28839",
+    "productName": "LD4-GL",
+    "description": "SKYDROL HYD. FLUID (10138727)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/572303/.png/LD4-GL-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/857786/.pdf/LD_4_TDS__1_.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1939216/.pdf/LD4_SDS.pdf",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "9150-01-096-6497",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "HYDRAULIC FLUID",
+    "units": "Gallon",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "3650 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/28839"
+  },
+  {
+    "partNumber": "28800",
+    "productName": "MCS352B-5.4OZ",
+    "description": "ASSEMBLY FLUID",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/572313/.png/MCS352B-5.4OZ-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/261660/.pdf/163829.pdf",
+        "name": "TECHNICAL DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/577635/.pdf/612670_ScanTemp.pdf",
+        "name": "SAFETY DATA SHEET MCS-352B Spanish.pdf MEX"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/846619/.pdf/MCS_352B_Spanish.pdf",
+        "name": "SAFETY DATA SHEET MCS-352B French_CAN"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1826267/.pdf/MCS_352B_SDS_CAN_FR.pdf",
+        "name": "SAFETY DATA SHEET MCS-352B_CAN_EN"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1826270/.pdf/MCS_352B_SDS_CAN_EN.pdf",
+        "name": "SAFETY DATA SHEET"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "SPECIALTY",
+    "units": "TUBE",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "3650 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/28800"
+  },
+  {
+    "partNumber": "26412",
+    "productName": "MCS352B-QT",
+    "description": "HYDRAULIC FLUID",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/572323/.png/MCS352B-QT-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/482360/.pdf/SDS.pdf",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "HYDRAULIC FLUID",
+    "units": "Quart",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "3653 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/26412"
+  },
+  {
+    "partNumber": "163380",
+    "productName": "PE5-55GL",
+    "description": "HYDRAULIC FLUID",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/574810/.png/PE5-55GL-removebg-preview (1).png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/942049/.PDF/P3410305_998894_SDSUS_Z8.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "HYDRAULIC FLUID",
+    "units": "DRUM",
+    "groupCode": "FLUID",
+    "class": "9",
+    "un": "9",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "3650 days",
+    "hazardousMaterial": "Yes",
+    "url": "https://portal.skymart.aero/shop/part/163380"
+  },
+  {
+    "partNumber": "79958",
+    "productName": "PE5-5GL",
+    "description": "HYDRAULIC FLUID (10376576)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/662215/.png/image-removebg-preview - 2022-01-03T160824.033.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/942048/.PDF/P3410305_998894_SDSUS_Z8.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "HYDRAULIC FLUID",
+    "units": "PAIL",
+    "groupCode": "FLUID",
+    "class": "9",
+    "un": "9",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "3650 days",
+    "hazardousMaterial": "Yes",
+    "url": "https://portal.skymart.aero/shop/part/79958"
+  },
+  {
+    "partNumber": "81697",
+    "productName": "PE5-GL",
+    "description": "HYDRAULIC FLUID (10336384)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/574820/.png/PE5-GL-removebg-preview (1).png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/942047/.PDF/P3410305_998894_SDSUS_Z8.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "9150-01-654-6741",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "HYDRAULIC FLUID",
+    "units": "CAN",
+    "groupCode": "FLUID",
+    "class": "9",
+    "un": "9",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "3652 days",
+    "hazardousMaterial": "Yes",
+    "url": "https://portal.skymart.aero/shop/part/81697"
+  },
+  {
+    "partNumber": "121335",
+    "productName": "PE5-QT",
+    "description": "HYDRAULIC FLUID (10325240)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/571913/.png/PE5-QT-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/727203/.pdf/productcatalog_eastman_com_tds_ProdDatasheet_aspx_product_71093410_pn_Skydrol_PE_5__ga_2_63098287_12",
+        "name": "TECHNICAL DATA SHEET TDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/942046/.PDF/P3410305_998894_SDSUS_Z8.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1899070/.pdf/download.pdf",
+        "name": "SAFETY DATA SHEET SDS SPANISH"
+      }
+    ],
+    "nationalStock": "9150016547558",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "HYDRAULIC FLUID",
+    "units": "Quart",
+    "groupCode": "FLUID",
+    "class": "9",
+    "un": "9",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "3652 days",
+    "hazardousMaterial": "Yes",
+    "url": "https://portal.skymart.aero/shop/part/121335"
+  },
+  {
+    "partNumber": "60598",
+    "productName": "REFERENCE OIL 300-GL",
+    "description": "SYNTHETIC LUBRICANT",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/574823/.png/REFERENCE_OIL_300-GL-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/461205/.pdf/report.jsp.pdf",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/477198/.pdf/504760_ScanTemp.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "NON-AVIATION",
+    "units": "Gallon",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1095 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/60598"
+  },
+  {
+    "partNumber": "33461",
+    "productName": "SK1000-16OZ",
+    "description": "SKYKLEEN AVIATION SOLVENT (10138670)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/571917/.png/SK1000-16OZ-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1566029/.PDF/P3410404_1371181_SDSUS_Z8.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "6850-01-442-0527",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "SPECIALTY",
+    "units": "Bottle",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1826 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/33461"
+  },
+  {
+    "partNumber": "30311",
+    "productName": "SK1000-5GL",
+    "description": "SKYKLEEN 1000 (10138691)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/571930/.png/SK1000-5GL-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/161844/.pdf/temp.pdf",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "6850-01-442-0769",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "SPECIALTY",
+    "units": "PAIL",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1825 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/30311"
+  },
+  {
+    "partNumber": "171867",
+    "productName": "SK2000-QT",
+    "description": "AVIATION SOLVENT",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/580930/.png/SK2000-QT-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/71643/.pdf/SKYKLEEN_2000.pdf",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "6850-01-456-7458",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "SPECIALTY",
+    "units": "CAN",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1825 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/171867"
+  },
+  {
+    "partNumber": "27952",
+    "productName": "SKY5-5GL",
+    "description": "HYDRAULIC FLUID (10138698)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/598085/.png/SKY5-5GL-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/648145/.pdf/skydrol_5_hydraulic_fluid_gallon.pdf",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1829605/.pdf/Eastman_TDS___skydrol_5__71093407_.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "HYDRAULIC FLUID",
+    "units": "PAIL",
+    "groupCode": "FLUID",
+    "class": "9",
+    "un": "9",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "3650 days",
+    "hazardousMaterial": "Yes",
+    "url": "https://portal.skymart.aero/shop/part/27952"
+  },
+  {
+    "partNumber": "57217",
+    "productName": "SKY5-GL",
+    "description": "HYDRAULIC FLUID (10138692)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/571905/.png/SKY5-GL-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1566044/.PDF/P3410004_1371181_SDSUS_Z8.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "HYDRAULIC FLUID",
+    "units": "CAN",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "3650 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/57217"
+  },
+  {
+    "partNumber": "190037",
+    "productName": "SKY5-QT",
+    "description": "HYDRAULIC FLUID",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/571898/.png/SKY5-QT-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/184509/.pdf/SKYDROL_5_TDS.pdf",
+        "name": "TECHNICAL DATA SHEET SKYDROL 5 TDS.pdf"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1566041/.PDF/P3410002_1371181_SDSUS_Z8.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/2042246/.pdf/Sky5_SDS.pdf",
+        "name": "SAFETY DATA SHEET Sky5 SDS.pdf"
+      }
+    ],
+    "nationalStock": "9150-01-473-2172",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "HYDRAULIC FLUID",
+    "units": "Quart",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "3650 days",
+    "hazardousMaterial": "Yes",
+    "url": "https://portal.skymart.aero/shop/part/190037"
+  },
+  {
+    "partNumber": "21797",
+    "productName": "LD4-QT",
+    "description": "SKYDROL HYD. FLUID (10138849)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/571772/.png/LD4-QT-removebg-preview.png/251/251",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/637225/.pdf/productcatalog_eastman_com_tds_ProdDatasheet_aspx_product_71093409_pn_Skydrol_LD_4__ga_2_103941952_1",
+        "name": "TECHNICAL DATA SHEET TDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1999483/.PDF/P3410204_1420460_SDSUS_Z8.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "9150-01-056-4883",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "EASTMAN",
+    "partType": "HYDRAULIC FLUID",
+    "units": "Quart",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "3650 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/21797"
+  }
+]

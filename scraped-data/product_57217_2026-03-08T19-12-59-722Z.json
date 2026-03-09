@@ -1,0 +1,24 @@
+{
+  "url": "https://portal.skymart.aero/shop/part/57217",
+  "partNumber": "57217",
+  "description": "",
+  "price": "",
+  "specifications": {},
+  "inventory": [],
+  "datasheets": [
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1566044/.PDF/P3410004_1371181_SDSUS_Z8.PDF",
+      "filename": "57217_1.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/57217_1.pdf",
+      "size": 393465
+    }
+  ],
+  "productImage": {
+    "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/571905/.png/SKY5-GL-removebg-preview.png",
+    "filename": "57217.png",
+    "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/images/57217.png",
+    "size": 197638
+  },
+  "alternates": [],
+  "scrapedAt": "2026-03-08T19:14:33.213Z"
+}

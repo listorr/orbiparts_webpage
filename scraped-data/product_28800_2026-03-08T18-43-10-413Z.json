@@ -1,0 +1,68 @@
+{
+  "url": "https://portal.skymart.aero/shop/part/28800",
+  "partNumber": "28800",
+  "description": "",
+  "price": "",
+  "specifications": {},
+  "inventory": [],
+  "datasheets": [
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/261660/.pdf/163829.pdf",
+      "filename": "28800_1.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/28800_1.pdf",
+      "size": 56777,
+      "realFilename": "163829.pdf",
+      "docType": "Technical Document",
+      "language": "English",
+      "displayName": "Technical Document (English)"
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/577635/.pdf/612670_ScanTemp.pdf",
+      "filename": "28800_2.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/28800_2.pdf",
+      "size": 395181,
+      "realFilename": "612670_ScanTemp.pdf",
+      "docType": "Technical Document",
+      "language": "English",
+      "displayName": "Technical Document (English)"
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/846619/.pdf/MCS_352B_Spanish.pdf",
+      "filename": "28800_3.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/28800_3.pdf",
+      "size": 290716,
+      "realFilename": "MCS_352B_Spanish.pdf",
+      "docType": "Technical Document",
+      "language": "Spanish",
+      "displayName": "Technical Document (Spanish)"
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1826267/.pdf/MCS_352B_SDS_CAN_FR.pdf",
+      "filename": "28800_4.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/28800_4.pdf",
+      "size": 420807,
+      "realFilename": "MCS_352B_SDS_CAN_FR.pdf",
+      "docType": "Safety Data Sheet",
+      "language": "English",
+      "displayName": "Safety Data Sheet (English)"
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1826270/.pdf/MCS_352B_SDS_CAN_EN.pdf",
+      "filename": "28800_5.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/28800_5.pdf",
+      "size": 148762,
+      "realFilename": "MCS_352B_SDS_CAN_EN.pdf",
+      "docType": "Safety Data Sheet",
+      "language": "English",
+      "displayName": "Safety Data Sheet (English)"
+    }
+  ],
+  "productImage": {
+    "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/16556/.JPG/IMG_4450.JPG",
+    "filename": "28800.JPG",
+    "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/images/28800.JPG",
+    "size": 150882
+  },
+  "alternates": [],
+  "scrapedAt": "2026-03-08T18:47:08.008Z"
+}

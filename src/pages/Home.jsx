@@ -79,7 +79,7 @@ const Home = () => {
       {/* SEO Component - Mantener componente existente */}
       <SEO
         title="ORBIPARTS | Global Aircraft Parts & AI Procurement Platform"
-        description="Global supplier of aircraft parts, engines and helicopter components with AI procurement platform. AOG support under 30 minutes. 1000+ certified suppliers worldwide."
+        description="Global supplier of aircraft parts, engines and helicopter components with AI procurement platform. AOG support under 30 minutes. 2000+ certified suppliers worldwide."
         canonical="https://www.orbiparts.com/"
         breadcrumbs={[{ name: 'Home', url: 'https://www.orbiparts.com/' }]}
         schemas={[
@@ -230,7 +230,7 @@ const Home = () => {
                 {[
                   { value: '100+', label: 'Countries' },
                   { value: '24/7', label: 'Support' },
-                  { value: '1000+', label: 'Suppliers' }
+                  { value: '2000+', label: 'Suppliers' }
                 ].map((stat, i) => (
                   <div key={i} className="px-6 py-3 bg-white/10 backdrop-blur-md border border-white/20 rounded-full">
                     <span className="text-white font-bold text-lg">{stat.value}</span>

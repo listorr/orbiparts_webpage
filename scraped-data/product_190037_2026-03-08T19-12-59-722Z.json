@@ -1,0 +1,36 @@
+{
+  "url": "https://portal.skymart.aero/shop/part/190037",
+  "partNumber": "190037",
+  "description": "",
+  "price": "",
+  "specifications": {},
+  "inventory": [],
+  "datasheets": [
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/184509/.pdf/SKYDROL_5_TDS.pdf",
+      "filename": "190037_1.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/190037_1.pdf",
+      "size": 99917
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1566041/.PDF/P3410002_1371181_SDSUS_Z8.PDF",
+      "filename": "190037_2.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/190037_2.pdf",
+      "size": 393465
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/2042246/.pdf/Sky5_SDS.pdf",
+      "filename": "190037_3.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/190037_3.pdf",
+      "size": 389875
+    }
+  ],
+  "productImage": {
+    "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/571898/.png/SKY5-QT-removebg-preview.png",
+    "filename": "190037.png",
+    "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/images/190037.png",
+    "size": 77951
+  },
+  "alternates": [],
+  "scrapedAt": "2026-03-08T19:14:46.942Z"
+}

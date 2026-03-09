@@ -1,0 +1,58 @@
+{
+  "url": "https://portal.skymart.aero/shop/part/37935",
+  "partNumber": "2380-QT",
+  "description": "TURBINE OIL (MIL-PRF-23699G-STD)",
+  "price": "",
+  "specifications": {},
+  "inventory": [],
+  "datasheets": [
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/463941/.PDF/P3435903_895002_SDSUS_Z8.PDF",
+      "filename": "37935_1.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/37935_1.pdf",
+      "size": 298605,
+      "realFilename": "P3435903_895002_SDSUS_Z8.PDF",
+      "docType": "Safety Data Sheet",
+      "language": "English",
+      "displayName": "Safety Data Sheet (English)"
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1787280/.pdf/Eastman_Turbo_Oil_2380_Mexico.pdf",
+      "filename": "37935_2.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/37935_2.pdf",
+      "size": 292741,
+      "realFilename": "Eastman_Turbo_Oil_2380_Mexico.pdf",
+      "docType": "Technical Document",
+      "language": "Spanish",
+      "displayName": "Technical Document (Spanish)"
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1925617/.pdf/SDS_2380.pdf",
+      "filename": "37935_3.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/37935_3.pdf",
+      "size": 365525,
+      "realFilename": "SDS_2380.pdf",
+      "docType": "Safety Data Sheet",
+      "language": "English",
+      "displayName": "Safety Data Sheet (English)"
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1972782/.pdf/SDS.pdf",
+      "filename": "37935_4.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/37935_4.pdf",
+      "size": 337606,
+      "realFilename": "SDS.pdf",
+      "docType": "Safety Data Sheet",
+      "language": "English",
+      "displayName": "Safety Data Sheet (English)"
+    }
+  ],
+  "productImage": {
+    "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/571509/.png/2380-QT-removebg-preview.png",
+    "filename": "37935.png",
+    "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/images/37935.png",
+    "size": 179996
+  },
+  "alternates": [],
+  "scrapedAt": "2026-03-08T18:44:14.742Z"
+}

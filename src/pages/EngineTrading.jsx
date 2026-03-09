@@ -338,7 +338,7 @@ const EngineTrading = () => {
                   </div>
                   <div>
                     <h3 className="text-white font-semibold mb-2">Global Supplier Network</h3>
-                    <p className="text-gray-300 text-sm">Access to 1000+ authorized engine suppliers and lessors worldwide.</p>
+                    <p className="text-gray-300 text-sm">Access to 2000+ authorized engine suppliers and lessors worldwide.</p>
                   </div>
                 </div>
                 

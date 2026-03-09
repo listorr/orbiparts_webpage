@@ -1,0 +1,1 @@
+{"err":{"locId":"none.none.l1077","code":"ERR_ENDPOINT_NOT_FOUND","message":"The information, page, or resource you are trying to access was not found","detail":"<pre>GET http://192.168.27.3:4020/api/docServ/doc/c1094/637225/.pdf</pre>","endPoint":{"host":"192.168.27.3","url":"/api/docServ/doc/c1094/637225/.pdf"}}}

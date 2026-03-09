@@ -1,0 +1,28 @@
+{
+  "url": "https://portal.skymart.aero/shop/part/187580",
+  "partNumber": "EMN2380MC-1S",
+  "description": "",
+  "price": "",
+  "specifications": {},
+  "inventory": [],
+  "datasheets": [
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1305708/.pdf/3M_Adhesive_Transfer_Tape_467MP.pdf",
+      "filename": "187580_1.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/187580_1.pdf",
+      "size": 105277,
+      "realFilename": "3M_Adhesive_Transfer_Tape_467MP.pdf",
+      "docType": "Technical Document",
+      "language": "English",
+      "displayName": "Technical Document (English)"
+    }
+  ],
+  "productImage": {
+    "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/598072/.png/EMN2380MC-1S-removebg-preview.png",
+    "filename": "187580.png",
+    "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/images/187580.png",
+    "size": 275883
+  },
+  "alternates": [],
+  "scrapedAt": "2026-03-08T18:46:16.724Z"
+}

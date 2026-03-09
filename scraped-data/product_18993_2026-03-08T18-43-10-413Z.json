@@ -1,0 +1,28 @@
+{
+  "url": "https://portal.skymart.aero/shop/part/18993",
+  "partNumber": "LD4-5GL",
+  "description": "",
+  "price": "",
+  "specifications": {},
+  "inventory": [],
+  "datasheets": [
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1999484/.PDF/P3410204_1420460_SDSUS_Z8.PDF",
+      "filename": "18993_1.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/18993_1.pdf",
+      "size": 447015,
+      "realFilename": "P3410204_1420460_SDSUS_Z8.PDF",
+      "docType": "Safety Data Sheet",
+      "language": "English",
+      "displayName": "Safety Data Sheet (English)"
+    }
+  ],
+  "productImage": {
+    "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/580925/.png/LD4-5GL-removebg-preview.png",
+    "filename": "18993.png",
+    "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/images/18993.png",
+    "size": 239291
+  },
+  "alternates": [],
+  "scrapedAt": "2026-03-08T18:46:39.281Z"
+}

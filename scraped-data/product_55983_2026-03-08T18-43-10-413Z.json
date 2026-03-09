@@ -1,0 +1,48 @@
+{
+  "url": "https://portal.skymart.aero/shop/part/55983",
+  "partNumber": "2389-QT",
+  "description": "",
+  "price": "",
+  "specifications": {},
+  "inventory": [],
+  "datasheets": [
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/270086/.pdf/productcatalog_eastman_com_tds_ProdDatasheet_aspx_product_71097796.pdf",
+      "filename": "55983_1.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/55983_1.pdf",
+      "size": 104801,
+      "realFilename": "productcatalog_eastman_com_tds_ProdDatasheet_aspx_product_71097796.pdf",
+      "docType": "Technical Document",
+      "language": "English",
+      "displayName": "Technical Document (English)"
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1469263/.PDF/P3436001_1332182_SDSUS_Z8.PDF",
+      "filename": "55983_2.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/55983_2.pdf",
+      "size": 340935,
+      "realFilename": "P3436001_1332182_SDSUS_Z8.PDF",
+      "docType": "Safety Data Sheet",
+      "language": "English",
+      "displayName": "Safety Data Sheet (English)"
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1854735/.pdf/EASTMAN_2389_SDS_Spanish_MX.pdf",
+      "filename": "55983_3.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/55983_3.pdf",
+      "size": 235442,
+      "realFilename": "EASTMAN_2389_SDS_Spanish_MX.pdf",
+      "docType": "Safety Data Sheet",
+      "language": "Spanish",
+      "displayName": "Safety Data Sheet (Spanish)"
+    }
+  ],
+  "productImage": {
+    "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/571522/.png/2389-QT-removebg-preview.png",
+    "filename": "55983.png",
+    "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/images/55983.png",
+    "size": 69096
+  },
+  "alternates": [],
+  "scrapedAt": "2026-03-08T18:44:38.870Z"
+}

@@ -1,0 +1,58 @@
+{
+  "url": "https://portal.skymart.aero/shop/part/194462",
+  "partNumber": "25-QT",
+  "description": "",
+  "price": "",
+  "specifications": {},
+  "inventory": [],
+  "datasheets": [
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/267503/.PDF/P3435602_770473_SDSUS_Z8.PDF",
+      "filename": "194462_1.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/194462_1.pdf",
+      "size": 339915,
+      "realFilename": "P3435602_770473_SDSUS_Z8.PDF",
+      "docType": "Safety Data Sheet",
+      "language": "English",
+      "displayName": "Safety Data Sheet (English)"
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/465483/.pdf/EASTMAN_25.pdf",
+      "filename": "194462_2.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/194462_2.pdf",
+      "size": 271238,
+      "realFilename": "EASTMAN_25.pdf",
+      "docType": "Technical Document",
+      "language": "English",
+      "displayName": "Technical Document (English)"
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/765193/.pdf/EASTMAN_TURBINE_OIL_25_SDS.pdf",
+      "filename": "194462_3.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/194462_3.pdf",
+      "size": 345314,
+      "realFilename": "EASTMAN_TURBINE_OIL_25_SDS.pdf",
+      "docType": "Safety Data Sheet",
+      "language": "English",
+      "displayName": "Safety Data Sheet (English)"
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/767712/.pdf/Eastman_Turbo_Oil_25_TDS.pdf",
+      "filename": "194462_4.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/194462_4.pdf",
+      "size": 79779,
+      "realFilename": "Eastman_Turbo_Oil_25_TDS.pdf",
+      "docType": "Technical Document",
+      "language": "English",
+      "displayName": "Technical Document (English)"
+    }
+  ],
+  "productImage": {
+    "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/571550/.png/25-QT-removebg-preview.png",
+    "filename": "194462.png",
+    "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/images/194462.png",
+    "size": 70487
+  },
+  "alternates": [],
+  "scrapedAt": "2026-03-08T18:44:53.318Z"
+}

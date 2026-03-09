@@ -1,0 +1,28 @@
+{
+  "url": "https://portal.skymart.aero/shop/part/26412",
+  "partNumber": "MCS352B-QT",
+  "description": "",
+  "price": "",
+  "specifications": {},
+  "inventory": [],
+  "datasheets": [
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/482360/.pdf/SDS.pdf",
+      "filename": "26412_1.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/26412_1.pdf",
+      "size": 176071,
+      "realFilename": "SDS.pdf",
+      "docType": "Safety Data Sheet",
+      "language": "English",
+      "displayName": "Safety Data Sheet (English)"
+    }
+  ],
+  "productImage": {
+    "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/572323/.png/MCS352B-QT-removebg-preview.png",
+    "filename": "26412.png",
+    "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/images/26412.png",
+    "size": 168949
+  },
+  "alternates": [],
+  "scrapedAt": "2026-03-08T18:47:19.160Z"
+}

@@ -1,0 +1,38 @@
+{
+  "url": "https://portal.skymart.aero/shop/part/28839",
+  "partNumber": "LD4-GL",
+  "description": "",
+  "price": "",
+  "specifications": {},
+  "inventory": [],
+  "datasheets": [
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/857786/.pdf/LD_4_TDS__1_.pdf",
+      "filename": "28839_1.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/28839_1.pdf",
+      "size": 60542,
+      "realFilename": "LD_4_TDS__1_.pdf",
+      "docType": "Technical Document",
+      "language": "English",
+      "displayName": "Technical Document (English)"
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1939216/.pdf/LD4_SDS.pdf",
+      "filename": "28839_2.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/28839_2.pdf",
+      "size": 427045,
+      "realFilename": "LD4_SDS.pdf",
+      "docType": "Safety Data Sheet",
+      "language": "English",
+      "displayName": "Safety Data Sheet (English)"
+    }
+  ],
+  "productImage": {
+    "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/572303/.png/LD4-GL-removebg-preview.png",
+    "filename": "28839.png",
+    "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/images/28839.png",
+    "size": 109073
+  },
+  "alternates": [],
+  "scrapedAt": "2026-03-08T18:46:51.645Z"
+}

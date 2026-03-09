@@ -27,6 +27,7 @@ import GlobalAircraftPartsSupplyChains from '@/pages/blog/GlobalAircraftPartsSup
 import TechnologyTrendsComponentManagement from '@/pages/blog/TechnologyTrendsComponentManagement';
 import EngineTrading from '@/pages/EngineTrading';
 import AircraftTrading from '@/pages/AircraftTrading';
+import EastmanMarketplace from '@/components/EastmanMarketplace';
 import WhyOrbiparts from '@/pages/WhyOrbiparts';
 import { useAuth } from '@/contexts/SupabaseAuthContext';
 import Footer from '@/components/Footer';
@@ -67,6 +68,7 @@ function AppContent() {
           {/* Trading Services */}
           <Route path="/engine-trading" element={<EngineTrading />} />
           <Route path="/aircraft-trading" element={<AircraftTrading />} />
+          <Route path="/lubricants" element={<EastmanMarketplace />} />
           
           {/* Blog Routes */}
           <Route path="/blog" element={<Blog />} />

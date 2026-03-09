@@ -1,0 +1,30 @@
+{
+  "url": "https://portal.skymart.aero/shop/part/27952",
+  "partNumber": "27952",
+  "description": "",
+  "price": "",
+  "specifications": {},
+  "inventory": [],
+  "datasheets": [
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/648145/.pdf/skydrol_5_hydraulic_fluid_gallon.pdf",
+      "filename": "27952_1.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/27952_1.pdf",
+      "size": 329741
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1829605/.pdf/Eastman_TDS___skydrol_5__71093407_.pdf",
+      "filename": "27952_2.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/27952_2.pdf",
+      "size": 83055
+    }
+  ],
+  "productImage": {
+    "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/41937/.JPG",
+    "filename": "27952.png",
+    "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/images/27952.png",
+    "size": 314
+  },
+  "alternates": [],
+  "scrapedAt": "2026-03-08T19:14:21.880Z"
+}

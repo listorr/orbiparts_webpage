@@ -1,0 +1,36 @@
+{
+  "url": "https://portal.skymart.aero/shop/part/121335",
+  "partNumber": "121335",
+  "description": "",
+  "price": "",
+  "specifications": {},
+  "inventory": [],
+  "datasheets": [
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/727203/.pdf",
+      "filename": "121335_1.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/121335_1.pdf",
+      "size": 316
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/942046/.PDF/P3410305_998894_SDSUS_Z8.PDF",
+      "filename": "121335_2.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/121335_2.pdf",
+      "size": 438345
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1899070/.pdf/download.pdf",
+      "filename": "121335_3.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/121335_3.pdf",
+      "size": 398750
+    }
+  ],
+  "productImage": {
+    "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/571913/.png/PE5-QT-removebg-preview.png",
+    "filename": "121335.png",
+    "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/images/121335.png",
+    "size": 66120
+  },
+  "alternates": [],
+  "scrapedAt": "2026-03-08T19:13:24.885Z"
+}

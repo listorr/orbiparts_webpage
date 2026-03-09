@@ -1,0 +1,38 @@
+{
+  "url": "https://portal.skymart.aero/shop/part/19311",
+  "partNumber": "LD4-55GL",
+  "description": "",
+  "price": "",
+  "specifications": {},
+  "inventory": [],
+  "datasheets": [
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/290782/.pdf/productcatalog_eastman_com_tds_ProdDatasheet_aspx_product_71093409_pn_Skydrol_LD_4.pdf",
+      "filename": "19311_1.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/19311_1.pdf",
+      "size": 100350,
+      "realFilename": "productcatalog_eastman_com_tds_ProdDatasheet_aspx_product_71093409_pn_Skydrol_LD_4.pdf",
+      "docType": "Technical Document",
+      "language": "English",
+      "displayName": "Technical Document (English)"
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1999487/.PDF/P3410204_1420460_SDSUS_Z8.PDF",
+      "filename": "19311_2.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/19311_2.pdf",
+      "size": 447015,
+      "realFilename": "P3410204_1420460_SDSUS_Z8.PDF",
+      "docType": "Safety Data Sheet",
+      "language": "English",
+      "displayName": "Safety Data Sheet (English)"
+    }
+  ],
+  "productImage": {
+    "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/572243/.png/LD4-55GL-removebg-preview.png",
+    "filename": "19311.png",
+    "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/images/19311.png",
+    "size": 177161
+  },
+  "alternates": [],
+  "scrapedAt": "2026-03-08T18:46:27.321Z"
+}

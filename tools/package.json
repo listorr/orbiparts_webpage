@@ -1,0 +1,22 @@
+{
+  "name": "skymart-scraper",
+  "version": "1.0.0",
+  "description": "Web scraper for SkyMart aviation lubricants",
+  "type": "module",
+  "main": "skymart-scraper.js",
+  "scripts": {
+    "test": "node skymart-scraper.js --test",
+    "scrape": "node skymart-scraper.js",
+    "scrape:eastman": "node skymart-scraper.js --manufacturer eastman",
+    "scrape:aeroshell": "node skymart-scraper.js --manufacturer aeroshell",
+    "scrape:castrol": "node skymart-scraper.js --manufacturer castrol",
+    "import": "node import-scraped-data.js",
+    "view": "node view-data.js",
+    "full-pipeline": "npm run scrape && npm run import && npm run view",
+    "test-pipeline": "npm test && npm run import && npm run view"
+  },
+  "dependencies": {
+    "puppeteer": "^21.9.0"
+  },
+  "devDependencies": {}
+}

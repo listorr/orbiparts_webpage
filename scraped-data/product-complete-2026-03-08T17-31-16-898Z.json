@@ -1,0 +1,25 @@
+{
+  "url": "https://portal.skymart.aero/shop/part/37935",
+  "scrapedAt": "2026-03-08T17:31:13.811Z",
+  "specifications": {
+    "Location": "Available",
+    "INDIANAPOLIS": "369",
+    "MIAMI": "6361",
+    "SAN ANTONIO": "713",
+    "Condition": "New",
+    "Warehouse": "SAN ANTONIO",
+    "Qty Available": "713",
+    "Qty On Order": "960\n                    details",
+    "Shelf-life Remaining": "37 - 98%",
+    "Requested Qty": "Requested Qty",
+    "Unit Price / Quart$ 29.09": "Unit Price / Quart",
+    "Ship QtyX": "Ship Qty",
+    "Item Total (USD)$ 0.00": "Item Total (USD)"
+  },
+  "inventory": [],
+  "datasheets": [],
+  "alternates": [],
+  "partNumber": null,
+  "description": null,
+  "price": 29.09
+}

@@ -61,7 +61,7 @@ const WhyChooseUs = () => {
     <>
       <SEO
         title="Why Choose ORBIPARTS | Global Aircraft Parts & AI Sourcing"
-        description="Why leading airlines, operators and MROs choose ORBIPARTS: <30min AOG, 1000+ certified suppliers, AI procurement, modern & legacy fleet expertise."
+        description="Why leading airlines, operators and MROs choose ORBIPARTS: <30min AOG, 2000+ certified suppliers, AI procurement, modern & legacy fleet expertise."
         canonical="https://www.orbiparts.com/why-choose-us"
         breadcrumbs={[
           { name: 'Home', url: 'https://www.orbiparts.com/' },

@@ -1,0 +1,48 @@
+{
+  "url": "https://portal.skymart.aero/shop/part/33646",
+  "partNumber": "33646",
+  "description": "",
+  "price": "",
+  "specifications": {},
+  "inventory": [],
+  "datasheets": [
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/924087/.PDF/P3410103_995724_SDSUS_Z8.PDF",
+      "filename": "33646_1.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/33646_1.pdf",
+      "size": 421260,
+      "realFilename": "P3410103_995724_SDSUS_Z8.PDF",
+      "docType": "Safety Data Sheet",
+      "language": "English",
+      "displayName": "Safety Data Sheet (English)"
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1939210/.pdf/500B4_SDS.pdf",
+      "filename": "33646_2.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/33646_2.pdf",
+      "size": 420378,
+      "realFilename": "500B4_SDS.pdf",
+      "docType": "Safety Data Sheet",
+      "language": "English",
+      "displayName": "Safety Data Sheet (English)"
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1939211/.pdf/Eastman_TDS___skydrol_500b_4__71093408_.pdf",
+      "filename": "33646_3.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/33646_3.pdf",
+      "size": 85713,
+      "realFilename": "Eastman_TDS___skydrol_500b_4__71093408_.pdf",
+      "docType": "Technical Document",
+      "language": "English",
+      "displayName": "Technical Document (English)"
+    }
+  ],
+  "productImage": {
+    "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/774054/.png",
+    "filename": "33646.png",
+    "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/images/33646.png",
+    "size": 316
+  },
+  "alternates": [],
+  "scrapedAt": "2026-03-08T18:45:30.685Z"
+}

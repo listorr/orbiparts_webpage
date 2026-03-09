@@ -1,0 +1,1472 @@
+[
+  {
+    "partNumber": "29616",
+    "productName": "100-55GL",
+    "description": "ENGINE OIL (SAE J-1966 GRADE 50)(550041131)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/566437/.png/W100PLUS-55GL-removebg-preview.png",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1694437/.pdf/GSAP_msds_02564126.pdf",
+        "name": "SAFETY DATA SHEET PRODUCT SDS"
+      }
+    ],
+    "nationalStock": "9150-00-235-9059",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "PISTON ENGINE OIL",
+    "units": "DRUM",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1460 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/29616"
+  },
+  {
+    "partNumber": "39603",
+    "productName": "100-QT",
+    "description": "MINERAL OIL SAE J-1966 GRADE 50 (550069886)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/339614/.jpg/100_carton.jpg",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/345358/.pdf/tds_oil_100_eng.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1131889/.PDF/ASO100_1_55ugl_A1WJ.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "9150-01-007-9134",
+    "productCode": "550050799",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "PISTON ENGINE OIL",
+    "units": "Quart",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1460 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/39603"
+  },
+  {
+    "partNumber": "19185",
+    "productName": "120-55GL",
+    "description": "ENGINE OIL (SAE J-1966 GRADE 60)(550041188)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/161309/.jpg/1.jpg",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1408110/.PDF/ASO120_1_55ugl_A1WJ.PDF",
+        "name": "SAFETY DATA SHEET ASO120_1_55ugl_A1WJ.PDF"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "PISTON ENGINE OIL",
+    "units": "DRUM",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1460 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/19185"
+  },
+  {
+    "partNumber": "19150",
+    "productName": "14-37.5LB",
+    "description": "HELICOPTER GREASE MIL-G-25537  550043625",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/42102/.JPG/IMG_6988.JPG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/154540/.pdf/GPCDOC_Local_TDS_United_Kingdom_AeroShell_Grease_14__en_GB__TDS.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/696785/.PDF/GSAP_msds_02281344.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1537956/.PDF/GSAP_msds_02642283__1_.PDF",
+        "name": "SAFETY DATA SHEET SDS ESPA"
+      }
+    ],
+    "nationalStock": "9150-00-721-8581",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "GREASES",
+    "units": "PAIL",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/19150"
+  },
+  {
+    "partNumber": "19149",
+    "productName": "14-6.6LB",
+    "description": "HELICOPTER GREASE (MIL-G-25537) 550043631",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/50452/.JPG/SAM_7442.JPG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/154538/.pdf/GPCDOC_Local_TDS_United_Kingdom_AeroShell_Grease_14__en_GB__TDS.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/657909/.pdf/ASG_14_ESPANOL.pdf",
+        "name": "SAFETY DATA SHEET SDS - SPANISH"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/696795/.PDF/GSAP_msds_02281344.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "9150-00-721-8570",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "GREASES",
+    "units": "CAN",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/19149"
+  },
+  {
+    "partNumber": "23969",
+    "productName": "14-CTG",
+    "description": "GREASE MIL-G-25537 550063163",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562735/.PNG/14-CTG.PNG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/696797/.PDF/GSAP_msds_02281344.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1429474/.PDF/GSAP_msds_02642283.PDF",
+        "name": "SAFETY DATA SHEET SDS EN ESPA"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "GREASES",
+    "units": "CARTRIDGE",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/23969"
+  },
+  {
+    "partNumber": "22646",
+    "productName": "15W50-55GL",
+    "description": "MULTI GRADE OIL (550050888)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/566451/.png/W100PLUS-55GL-removebg-preview.png",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1425605/.pdf/msds_550050888.pdf",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "PISTON ENGINE OIL",
+    "units": "DRUM",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1461 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/22646"
+  },
+  {
+    "partNumber": "54365",
+    "productName": "15W50-QT",
+    "description": "PISTON OIL 550050835",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562754/.PNG/15W50-QT.PNG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/262930/.pdf/190906072827_0001.pdf",
+        "name": "SAFETY DATA SHEET SDS 15W50"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/262931/.pdf/190906072827_0001.pdf",
+        "name": "SAFETY DATA SHEET SDS 15W50"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/430671/.pdf/AeroShell_Oil_W_15W_50__en_GB__TDS__1_.pdf",
+        "name": "TECHNICAL DATA SHEET AeroShell_Oil_W_15W-50_(en-GB)_TDS (1).pdf"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "PISTON ENGINE OIL",
+    "units": "Quart",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1460 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/54365"
+  },
+  {
+    "partNumber": "8921",
+    "productName": "22-37.5LB",
+    "description": "GREASE (MIL-PRF-81322G) (550043616)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/566504/.png/22-37.5LB.png",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/696805/.PDF/GSAP_msds_02184997__1_.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/696807/.pdf/ASG22_TDS.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      }
+    ],
+    "nationalStock": "9150-00-935-5851",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "GREASES",
+    "units": "PAIL",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/8921"
+  },
+  {
+    "partNumber": "34779",
+    "productName": "22-55GL",
+    "description": "ADVANCED GENERAL PURPOSE GREASE (MIL-PRF-81322G)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/656763/.png/image-removebg-preview (53).png",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1741328/.pdf/msds_550043620.pdf",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "GREASES",
+    "units": "DRUM",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/34779"
+  },
+  {
+    "partNumber": "21610",
+    "productName": "22-6.6LB",
+    "description": "MIL-PRF-81322G GREASE 550043633",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/42047/.JPG/SAM_2349.JPG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/293086/.pdf/ASG22_TDS.pdf",
+        "name": "TECHNICAL DATA SHEET ASG22 TDS.pdf"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/696804/.PDF/GSAP_msds_02184997__1_.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "9150-01-117-2928",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "GREASES",
+    "units": "CAN",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/21610"
+  },
+  {
+    "partNumber": "124734",
+    "productName": "22-CTG",
+    "description": "ADVANCED GENERAL PURPOSE GREASE (MIL-PRF-81322G)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562765/.PNG/22-CTG.PNG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/416269/.pdf/ASG_22_TDS.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/696799/.PDF/GSAP_msds_02184997__1_.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1854711/.pdf/AEROSHELL_GREASE_22_SDS_SPANISH_MX.pdf",
+        "name": "SAFETY DATA SHEET Aeroshell 22_SDS_ Spanish"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1854725/.pdf/AEROSHELL_GREASE_22_SDS_EN.pdf",
+        "name": "SAFETY DATA SHEET Aeroshell 22_SDS_EN"
+      }
+    ],
+    "nationalStock": "9150-00-181-7724",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "GREASES",
+    "units": "TUBE",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/124734"
+  },
+  {
+    "partNumber": "201366",
+    "productName": "33-1KG",
+    "description": "GREASE BMS 3-33 MIL-PRF-23827C",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/726926/.png/image-removebg-preview - 2022-04-21T143559.754.png",
+    "pdfs": [],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "GREASES",
+    "units": "KILOGRAM",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/201366"
+  },
+  {
+    "partNumber": "28091",
+    "productName": "33-37.5LB",
+    "description": "GREASE BMS 3-33 & MIL-PRF-23827C    550043623",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/566512/.png/33.png",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/261466/.pdf/154471.pdf",
+        "name": "SAFETY DATA SHEET ESP"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1516601/.pdf/msds_550043623.pdf",
+        "name": "SAFETY DATA SHEET SDS ENGLISH"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "GREASES",
+    "units": "PAIL",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/28091"
+  },
+  {
+    "partNumber": "35519",
+    "productName": "33-6.6LB",
+    "description": "GREASE (BMS 3-33 & MIL-PRF-23827C) (550043635)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562767/.PNG/33-6.6LB.PNG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/345345/.pdf/AeroShell_Grease_33__en_GB__TDS.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1294743/.pdf/msds_550043635.pdf",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1854808/.pdf/AEROSHELL_GREASE_33_SDS_SPANISH_MX.pdf",
+        "name": "SAFETY DATA SHEET SDS_Spanish"
+      }
+    ],
+    "nationalStock": "9150-01-491-8032",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "GREASES",
+    "units": "CAN",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/35519"
+  },
+  {
+    "partNumber": "9300",
+    "productName": "5-37.5LB",
+    "description": "HIGH TEMP. GREASE (MIL-G-3545C)(550043617)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/566417/.png/5-37.5LB-removebg-preview.png",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/160897/.pdf/tds_grease_5_eng__1_.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/283211/.PDF/ASG_5_SDS_rev_Oct_2019.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "GREASES",
+    "units": "PAIL",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/9300"
+  },
+  {
+    "partNumber": "19104",
+    "productName": "5-6.6LB",
+    "description": "HIGH TEMP. GREASE (MIL-G-3545C)(550043619)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562774/.PNG/5-6.6LB.PNG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/72358/.pdf/AeroShell_Grease_5_TDS.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/283210/.PDF/ASG_5_SDS_rev_Oct_2019.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/595358/.PDF/GSAP_msds_02252042.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "9150-99-756-1746",
+    "productCode": "550043619",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "GREASES",
+    "units": "CAN",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/19104"
+  },
+  {
+    "partNumber": "204829",
+    "productName": "58-CTG",
+    "description": "GENERAL PURPOSE & WHEEL BEARING GREASE 550063164",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/814746/.png/image-removebg-preview - 2022-09-06T161713.914.png",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/699202/.PDF/GSAP_msds_02037178.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/699203/.pdf/ASG58_TDS.pdf",
+        "name": "TECHNICAL DATA SHEET ASG58 TDS.pdf"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "GREASES",
+    "units": "Each",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/204829"
+  },
+  {
+    "partNumber": "73937",
+    "productName": "5-CTG",
+    "description": "HIGH TEMP. GREASE (MIL-G-3545) 550043641",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562782/.PNG/5-CTG.PNG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/154005/.pdf/tds_grease_5_eng.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1570882/.pdf/msds_550043641.pdf",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "GREASES",
+    "units": "TUBE",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/73937"
+  },
+  {
+    "partNumber": "1805",
+    "productName": "6-37.5LB",
+    "description": "AIRFRAME GREASE (MIL-PRF-24139B)(550043621)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/566611/.png/6-37.5lb.png",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/862185/.PDF/GSAP_msds_02275895.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/862188/.pdf/34cb6d73_abf8_4be3_afd9_295be816364f.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      }
+    ],
+    "nationalStock": "9150-00-180-6383",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "GREASES",
+    "units": "PAIL",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/1805"
+  },
+  {
+    "partNumber": "188792",
+    "productName": "64-37.5LB",
+    "description": "EXTREME PRESSURE GREASE MIL-G-21164D (550043636)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/566405/.png/64-37.5LB-removebg-preview.png",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/934601/.PDF/ASG64_1_17kg_A1WJ.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "PAINTS",
+    "units": "PAIL",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/188792"
+  },
+  {
+    "partNumber": "188791",
+    "productName": "64-6.6LB",
+    "description": "EXTREME PRESSURE GREASE MIL-G-21164D (550043632)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562820/.PNG/64-6.6LB.PNG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/538297/.pdf/AeroShell_Grease_64_datasheet.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/934589/.PDF/ASG64_1_17kg_A1WJ.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "9150-00-223-4004",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "GREASES",
+    "units": "CAN",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/188791"
+  },
+  {
+    "partNumber": "190814",
+    "productName": "64-CTG",
+    "description": "EXTREME PRESSURE GREASE MIL-G-21164D 550072760",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562821/.PNG/64-CTG.PNG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/934588/.PDF/ASG64_1_17kg_A1WJ.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1955828/.pdf/68a5d740_ba98_4955_9b3c_507d8a3ddeea.pdf",
+        "name": "TECHNICAL DATA SHEET 68a5d740-ba98-4955-9b3c-507d8a3ddeea.pdf"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "GREASES",
+    "units": "TUBE",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/190814"
+  },
+  {
+    "partNumber": "175168",
+    "productName": "65-QT",
+    "description": "MINERAL OIL (J-1966 SAE GRADE 30) 550041159",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/688550/.png/shell1-removebg-preview (1).png",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/216111/.pdf/GPCDOC_X_cbe_24855_key_140008139011_201407231016.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/216112/.PDF/GSAP_msds_01661856.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "9150-01-007-9134",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "PISTON ENGINE OIL",
+    "units": "Quart",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1460 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/175168"
+  },
+  {
+    "partNumber": "18987",
+    "productName": "6-6.6LB",
+    "description": "AIRFRAME GREASE (MIL-PRF-24139B)(550043630)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562822/.PNG/6-6.6LB.PNG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/72357/.pdf/AEROSHELL_6_TDS.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/261481/.pdf/154355.pdf",
+        "name": "SAFETY DATA SHEET ASG6_4_3kg_A1WJ.PDF"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1964865/.PDF/ASG6_4_3kg_A1WJ.PDF",
+        "name": "SAFETY DATA SHEET"
+      }
+    ],
+    "nationalStock": "9150-00-180-6382",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "GREASES",
+    "units": "CAN",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/18987"
+  },
+  {
+    "partNumber": "173688",
+    "productName": "6-CTG",
+    "description": "AIRFRAME GREASE MIL-PRF-24139B 550067090",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562823/.PNG/6-CTG.PNG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/135718/.PDF/GSAP_msds_01264264.PDF",
+        "name": "SAFETY DATA SHEET GSAP_msds_01264264.PDF"
+      }
+    ],
+    "nationalStock": "9150-01-491-0907",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "GREASES",
+    "units": "TUBE",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/173688"
+  },
+  {
+    "partNumber": "10210",
+    "productName": "7-37.5LB",
+    "description": "GREASE (MIL-PRF-23827C)(550043646)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/566618/.png/7-37.5LB.png",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/696840/.PDF/GSAP_msds_02262848.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/696849/.pdf/ASG7_TDS.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      }
+    ],
+    "nationalStock": "9150-00-985-7248",
+    "productCode": "550043646",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "GREASES",
+    "units": "PAIL",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/10210"
+  },
+  {
+    "partNumber": "19883",
+    "productName": "7-6.6LB",
+    "description": "ADVANCED AIRFRAME GREASE MIL-PRF-23827 550067480",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562824/.PNG/7-6.6LB.PNG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/696838/.PDF/GSAP_msds_02262848.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/696853/.pdf/ASG7_TDS.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1390483/.PDF/ASG7_4_3kg_AER8.PDF",
+        "name": "SAFETY DATA SHEET ASG7_4_3kg_AER8.PDF"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "9150-00-935-4017",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "GREASES",
+    "units": "CAN",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/19883"
+  },
+  {
+    "partNumber": "175650",
+    "productName": "7-CTG",
+    "description": "ADVANCED AIRFRAME GREASE MIL-PRF-23827C 550066860",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562825/.PNG/7-CTG.PNG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/306635/.pdf/Aeroshell_7.pdf",
+        "name": "SAFETY DATA SHEET Aeroshell 7.pdf SPANISH"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/696837/.PDF/GSAP_msds_02262848.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/696847/.pdf/ASG7_TDS.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      }
+    ],
+    "nationalStock": "9150-01-527-1093",
+    "productCode": "550066860",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "GREASES",
+    "units": "CARTRIDGE",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/175650"
+  },
+  {
+    "partNumber": "169450",
+    "productName": "AEROSHELL308-QT",
+    "description": "MIL-PRF-7808L TURBINE OIL ( 550050174 )",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1516215/.png/ASTO308_1qt tin pack image.png",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/211930/.PDF/GSAP_msds_01625142__1_.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/261498/.pdf/160647.pdf",
+        "name": "TECHNICAL DATA SHEET ASTO308_24_1qt_AMAP.PDF"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1484085/.PDF/ASTO308_24_1qt_AMAP.PDF",
+        "name": "SAFETY DATA SHEET"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "TURBINE ENGINE OIL",
+    "units": "Quart",
+    "groupCode": "FLUID",
+    "class": "9 PG III",
+    "un": "9 PG III",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "Yes",
+    "url": "https://portal.skymart.aero/shop/part/169450"
+  },
+  {
+    "partNumber": "42603",
+    "productName": "AEROSHELL #33MS (37.5 LB PAIL)",
+    "description": "GREASE (MIL-G-21164D)(550011309)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1508908/.png/aeroshell.png",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/183094/.pdf/Document__1_.pdf",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "9150-00-965-2003",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "GREASES",
+    "units": "PAIL",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1095 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/42603"
+  },
+  {
+    "partNumber": "38143",
+    "productName": "AEROSHELL500-55GL",
+    "description": "TURBINE OIL (MIL-PRF-23699G) (550042548)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/566652/.png/W100PLUS-55GL-removebg-preview.png",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/182537/.pdf/Document__1_.pdf",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/465531/.pdf/AeroShell_Turbine_Oil_500.pdf",
+        "name": "SAFETY DATA SHEET SDS SPANISH"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1009681/.pdf/ASTO_500_tds.pdf",
+        "name": "TECHNICAL DATA SHEET ASTO 500 tds.pdf"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1063105/.PDF/ASTO500_24_1qt_AER3.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "9150-01-476-1083",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "TURBINE ENGINE OIL",
+    "units": "DRUM",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/38143"
+  },
+  {
+    "partNumber": "71895",
+    "productName": "AEROSHELL500-QT",
+    "description": "TURBINE OIL MIL-PRF-23699G STD 550063909",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562834/.PNG/AEROSHELL500-QT.PNG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/206787/.pdf/tds_turbine_oil_500_eng.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1063104/.PDF/ASTO500_24_1qt_AER3.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "9150-00-985-7099",
+    "productCode": "550050177",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "TURBINE ENGINE OIL",
+    "units": "Quart",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/71895"
+  },
+  {
+    "partNumber": "51250",
+    "productName": "AEROSHELL555-QT",
+    "description": "TURBINE OIL (DOD-PRF-85734)(550050220)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/175534/.JPG/IMG_7305.JPG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/209356/.pdf/Document__1_.pdf",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/209399/.pdf/AEROSHELL_555_TDS.pdf",
+        "name": "TECHNICAL DATA SHEET AEROSHELL 555"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1271663/.pdf/tds_550050220.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1271667/.PDF/GSAP_msds_02563469.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1490958/.PDF/ASTO555_24_1qt_AMAP.PDF",
+        "name": "SAFETY DATA SHEET ASTO555_24_1qt_AMAP.PDF"
+      }
+    ],
+    "nationalStock": "9150-01-209-2684",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "TURBINE ENGINE OIL",
+    "units": "Quart",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/51250"
+  },
+  {
+    "partNumber": "171527",
+    "productName": "AEROSHELL560-QT",
+    "description": "TURBINE OIL MIL-PRF-23699G CLASS HTS 550050223",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/563331/.PNG/AEROSHELL560-QT.PNG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1819607/.PDF/ASTO560_24_1qt_AMAP.PDF",
+        "name": "SAFETY DATA SHEET ASTO560_24_1qt_AMAP.PDF"
+      }
+    ],
+    "nationalStock": "9150-01-439-0756",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "TURBINE ENGINE OIL",
+    "units": "Quart",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/171527"
+  },
+  {
+    "partNumber": "189141",
+    "productName": "AEROSHELL 750-QT",
+    "description": "TURBINE OIL (550049744)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562826/.PNG/AEROSHELL 750-QT.PNG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/123769/.PDF/AEROSHELL_750.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1390475/.PDF/ASTO750_24_1qt_AMAP.PDF",
+        "name": "SAFETY DATA SHEET ASTO750_24_1qt_AMAP.PDF"
+      }
+    ],
+    "nationalStock": "9150-01-152-7060",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "TURBINE ENGINE OIL",
+    "units": "Quart",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/189141"
+  },
+  {
+    "partNumber": "37657",
+    "productName": "AEROSHELL COMPOUND 07 (20 LITER)",
+    "description": "DE-ICING FLUID (550066756)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/751217/.png/image-removebg-preview - 2022-05-27T165535.303.png",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/984560/.PDF/GSAP_msds_02393533__2_.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "ETHANOL SOLUTION",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "TURBINE ENGINE OIL",
+    "units": "Each",
+    "groupCode": "FLUID",
+    "class": "3, PG III.",
+    "un": "3, PG III.",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "730 days",
+    "hazardousMaterial": "Yes",
+    "url": "https://portal.skymart.aero/shop/part/37657"
+  },
+  {
+    "partNumber": "194795",
+    "productName": "AEROSHELL DIESEL ULTRA-LT",
+    "description": "DIESEL OIL (550041177)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/140037/.jpg/SAM_3074.jpg",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/140329/.PDF/GSAP_msds_01264922.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/741900/.PDF/GSAP_msds_02156636_CHINESE.PDF",
+        "name": "SAFETY DATA SHEET SDS Chinese"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1820168/.pdf/5ba98e73e7e34326a2baed03f6421a6d.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "PISTON ENGINE OIL",
+    "units": "Liter",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1460 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/194795"
+  },
+  {
+    "partNumber": "166178",
+    "productName": "ASF2XN-5GL",
+    "description": "CORROSION PREVENTATIVE CONCENTRATE (MIL-C-6529)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/563336/.PNG/ASF2XN-5GL.PNG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/125834/.PDF/GSAP_msds_01090555__1_.PDF",
+        "name": "SAFETY DATA SHEET GSAP_msds_01090555 (1).PDF"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/189939/.PDF/GSAP_msds_01090555__1_.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/199405/.PDF/GSAP_msds_01090555.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1361155/.PDF/ASF2XN_1_5ugl_A1WJ.PDF",
+        "name": "SAFETY DATA SHEET ASF2XN_1_5ugl_A1WJ.PDF"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "SPECIALTY",
+    "units": "PAIL",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1460 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/166178"
+  },
+  {
+    "partNumber": "190941",
+    "productCode": "190941",
+    "error": "allImages is not defined",
+    "url": "https://portal.skymart.aero/shop/part/190941"
+  },
+  {
+    "partNumber": "23664",
+    "productName": "ASF41-203LT",
+    "description": "HYDRAULIC OIL (MIL-PRF-5606)(550072526)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/660070/.png/image-removebg-preview (53).png",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/210490/.PDF/GSAP_msds_01624455.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "HYDRAULIC FLUID",
+    "units": "DRUM",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1095 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/23664"
+  },
+  {
+    "partNumber": "129235",
+    "productName": "ASF41-GL",
+    "description": "HYDRAULIC OIL (MIL-PRF-5606) 550043667",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/563360/.PNG/ASF41-GL.PNG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/175853/.pdf/GPCDOC_X_cbe_24855_key_140008284476_201504141143__2_.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/752231/.PDF/GSAP_msds_01883992.PDF",
+        "name": "SAFETY DATA SHEET SDS NORTH AMERICA"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/810315/.PDF/ASF41_EU_SDS.PDF",
+        "name": "SAFETY DATA SHEET SDS EUROPE"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1899030/.pdf/ASF41_GL_IN_SPANISH.pdf",
+        "name": "SAFETY DATA SHEET ASF41-GL IN SPANISH"
+      }
+    ],
+    "nationalStock": "9150-01-515-7826",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "HYDRAULIC FLUID",
+    "units": "Gallon",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1095 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/129235"
+  },
+  {
+    "partNumber": "174674",
+    "productName": "ASF41-QT",
+    "description": "HYDRAULIC OIL (MIL-PRF-5606) 550043663",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/563361/.PNG/ASF41-QT.PNG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/261535/.pdf/153066.pdf",
+        "name": "TECHNICAL DATA SHEET TDS SPANISH"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/268795/.PDF/GSAP_msds_01375778.PDF",
+        "name": "TECHNICAL DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/841636/.PDF/ASF41_EU_SDS.PDF",
+        "name": "SAFETY DATA SHEET SDS NORTH AMERICA"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1316349/.PDF/ASF41_NA__24_1qt_A532.PDF",
+        "name": "SAFETY DATA SHEET"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "HYDRAULIC FLUID",
+    "units": "Quart",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1095 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/174674"
+  },
+  {
+    "partNumber": "200745",
+    "productName": "ASTO390-QT",
+    "description": "TURBINE OIL (550049742)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1516260/.png/ASTO390_1qt tin pack image.png",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/590749/.PDF/ASTO390_24_1qt_AMAP.PDF",
+        "name": "SAFETY DATA SHEET ASTO390_24_1qt_AMAP.PDF"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "TURBINE ENGINE OIL",
+    "units": "Quart",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "2190 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/200745"
+  },
+  {
+    "partNumber": "194045",
+    "productName": "SPORTPLUS4-LT",
+    "description": "PISTON ENGINE OIL 550069042",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/563637/.PNG/SPORTPLUS4-LT.PNG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/171902/.pdf/SPORTPLUS4.pdf",
+        "name": "SAFETY DATA SHEET SPORTPLUS4"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1267082/.PDF/ASO_SPlus4_12_1L_AE11.PDF",
+        "name": "SAFETY DATA SHEET ASO SPlus4_12_1L_AE11.PDF"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "PISTON ENGINE OIL",
+    "units": "Liter",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1460 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/194045"
+  },
+  {
+    "partNumber": "23509",
+    "productName": "W100-55GL",
+    "description": "PISTON ENGINE OIL (SAE J-1899 GRADE 50) 550041163",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/161314/.jpg/2.jpg",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/114958/.PDF/AEROSHELL_W_100.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/262188/.pdf/155637.pdf",
+        "name": "SAFETY DATA SHEET TDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/346449/.pdf/GPCDOC_Local_TDS_United_Kingdom_AeroShell_Oil_W100__en_GB__TDS.pdf",
+        "name": "TECHNICAL DATA SHEET"
+      }
+    ],
+    "nationalStock": "9150-00-753-4937",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "PISTON ENGINE OIL",
+    "units": "DRUM",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1460 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/23509"
+  },
+  {
+    "partNumber": "194240",
+    "productName": "W100-5LT",
+    "description": "ENGINE OIL SAE-J-1899 GRADE 50 (550045829)",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/758984/.png/image-removebg-preview - 2022-06-09T153412.945.png",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/139854/.PDF/AEROSHELL_W_100.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/262189/.pdf/155636.pdf",
+        "name": "SAFETY DATA SHEET"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "PISTON ENGINE OIL",
+    "units": "Each",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1460 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/194240"
+  },
+  {
+    "partNumber": "35651",
+    "productName": "W100PLUS-55GL",
+    "description": "ENGINE OIL SAE J-1899 GRADE 50 550050970",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/161312/.JPG/IMG_7248.JPG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/258664/.pdf/W100_PLUS.pdf",
+        "name": "SAFETY DATA SHEET W100 PLUS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/258668/.pdf/W100_PLUS.pdf",
+        "name": "SAFETY DATA SHEET W100 PLUS"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "PISTON ENGINE OIL",
+    "units": "DRUM",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1460 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/35651"
+  },
+  {
+    "partNumber": "194037",
+    "productName": "W120-5LT",
+    "description": "ENGINE OIL (SAE J-1899 GRADE 60) 550045828",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/563619/.PNG/W100-5LT.PNG",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/126108/.PDF/AEROSHELL_W120.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/152154/.PDF/GSAP_msds_01660438.PDF",
+        "name": "SAFETY DATA SHEET SDS"
+      },
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/154015/.pdf/A17_3276_FT_AEROSHELL_OIL_W_120.pdf",
+        "name": "TECHNICAL DATA SHEET TDS"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "PISTON ENGINE OIL",
+    "units": "CAN",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1460 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/194037"
+  },
+  {
+    "partNumber": "196894",
+    "productName": "W120-QT",
+    "description": "ENGINE PISTON OIL (SAE J-1899 GRADE 60)  550050833",
+    "productImage": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/339622/.jpg/W120_carton.jpg",
+    "pdfs": [
+      {
+        "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/216976/.pdf/AeroShell_Oil_W120_MSDS.pdf",
+        "name": "SAFETY DATA SHEET SDS"
+      }
+    ],
+    "nationalStock": "",
+    "productCode": "",
+    "application": "No Application Specified",
+    "manufacturer": "AEROSHELL",
+    "partType": "PISTON ENGINE OIL",
+    "units": "Each",
+    "groupCode": "FLUID",
+    "class": "",
+    "un": "",
+    "limitedShelfLife": "Yes",
+    "shelfLife": "1460 days",
+    "hazardousMaterial": "No",
+    "url": "https://portal.skymart.aero/shop/part/196894"
+  }
+]

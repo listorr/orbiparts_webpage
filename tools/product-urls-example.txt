@@ -1,0 +1,10 @@
+# Lista de URLs de productos SkyMart para scrapear
+# Una URL por línea
+# Las líneas que comienzan con # son comentarios y se ignoran
+
+# Ejemplo - Eastman Turbine Oil 2380-QT (ya scrapeado)
+https://portal.skymart.aero/shop/part/37935
+
+# Añade aquí más URLs de productos, una por línea:
+# https://portal.skymart.aero/shop/part/12345
+# https://portal.skymart.aero/shop/part/67890

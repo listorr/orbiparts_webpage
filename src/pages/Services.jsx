@@ -532,6 +532,80 @@ const Services = () => {
                   </Card>
                 </a>
               </motion.div>
+
+              {/* Lubricant Marketplace Card */}
+              <motion.div
+                initial={{ opacity: 0, x: 50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+              >
+                <a href="/lubricants" className="block group">
+                  <Card className="hover-lift h-full rounded-3xl overflow-hidden border-0 shadow-xl hover:shadow-2xl transition-all duration-500 relative">
+                    {/* Gradient Overlay on Hover */}
+                    <div className="absolute inset-0 bg-gradient-to-br from-orange-600/0 to-amber-600/0 group-hover:from-orange-600/5 group-hover:to-amber-600/5 transition-all duration-500 pointer-events-none"></div>
+                    
+                    {/* Header with Icon */}
+                    <div className="relative h-56 bg-gradient-to-br from-orange-500 via-orange-600 to-amber-600 flex items-center justify-center overflow-hidden">
+                      {/* Animated Background Pattern */}
+                      <div className="absolute inset-0 opacity-10">
+                        <div className="absolute inset-0" style={{
+                          backgroundImage: `repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,255,255,0.1) 10px, rgba(255,255,255,0.1) 20px)`
+                        }}></div>
+                      </div>
+                      
+                      {/* Icon Container */}
+                      <div className="relative z-10 transform group-hover:scale-110 group-hover:rotate-6 transition-all duration-500">
+                        <div className="w-24 h-24 bg-white/20 rounded-3xl border-2 border-white/40 backdrop-blur-md flex items-center justify-center shadow-2xl">
+                          <Package className="w-12 h-12 text-white" />
+                        </div>
+                      </div>
+                      
+                      {/* Floating Orbs */}
+                      <div className="absolute top-10 right-10 w-20 h-20 bg-white/20 rounded-full blur-xl animate-pulse"></div>
+                      <div className="absolute bottom-10 left-10 w-32 h-32 bg-white/10 rounded-full blur-2xl"></div>
+                    </div>
+
+                    <CardContent className="p-8">
+                      <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-orange-600 transition-colors">
+                        Lubricants & Fluids Marketplace
+                      </h3>
+                      <p className="text-gray-600 mb-6 leading-relaxed">
+                        Premium aviation lubricants, hydraulic fluids, and specialty products from Eastman. Turbine oils, Skydrol, and aviation solvents available.
+                      </p>
+                      
+                      <div className="grid grid-cols-2 gap-3 mb-6">
+                        {[
+                          'Turbine Engine Oils',
+                          'Hydraulic Fluids',
+                          'Aviation Solvents',
+                          '32 Products Available'
+                        ].map((item, i) => (
+                          <div key={i} className="flex items-start gap-2 group/item">
+                            <div className="mt-1 flex-shrink-0">
+                              <div className="w-5 h-5 rounded-lg bg-orange-100 group-hover/item:bg-orange-600 flex items-center justify-center transition-all duration-300">
+                                <svg className="w-3 h-3 text-orange-600 group-hover/item:text-white transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                                </svg>
+                              </div>
+                            </div>
+                            <span className="text-sm text-gray-700 font-medium">{item}</span>
+                          </div>
+                        ))}
+                      </div>
+                      
+                      <div className="flex items-center justify-between pt-4 border-t border-gray-100">
+                        <div className="text-orange-700 font-bold group-hover:text-orange-900 transition-colors flex items-center gap-2">
+                          <span>Browse Lubricants</span>
+                          <svg className="w-5 h-5 transform group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                          </svg>
+                        </div>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </a>
+              </motion.div>
             </div>
           </div>
         </section>

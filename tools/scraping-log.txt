@@ -1,0 +1,810 @@
+🚀 Iniciando scraping de productos AEROSHELL...
+
+📊 Total de productos: 50
+
+🔧 Lanzando navegador...
+✓ Navegador lanzado exitosamente
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 1/50
+
+[29616] Cargando página...
+[29616] ✓ Página cargada
+[29616] ⏳ Esperando carga dinámica de imágenes...
+[29616] ✓ Datos extraídos:
+   Nombre: 100-55GL
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/566437/.png/W100PLUS-55GL-removebg-preview.png
+   Manufacturer: AEROSHELL
+   Part Type: PISTON ENGINE OIL
+   Units: DRUM
+   PDFs: 1 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 2/50
+
+[39603] Cargando página...
+[39603] ✓ Página cargada
+[39603] ⏳ Esperando carga dinámica de imágenes...
+[39603] ✓ Datos extraídos:
+   Nombre: 100-QT
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/339614/.jpg/100_carton.jpg
+   Manufacturer: AEROSHELL
+   Part Type: PISTON ENGINE OIL
+   Units: Quart
+   PDFs: 2 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 3/50
+
+[19185] Cargando página...
+[19185] ✓ Página cargada
+[19185] ⏳ Esperando carga dinámica de imágenes...
+[19185] ✓ Datos extraídos:
+   Nombre: 120-55GL
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/161309/.jpg/1.jpg
+   Manufacturer: AEROSHELL
+   Part Type: PISTON ENGINE OIL
+   Units: DRUM
+   PDFs: 1 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 4/50
+
+[19150] Cargando página...
+[19150] ✓ Página cargada
+[19150] ⏳ Esperando carga dinámica de imágenes...
+[19150] ✓ Datos extraídos:
+   Nombre: 14-37.5LB
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/42102/.JPG/IMG_6988.JPG
+   Manufacturer: AEROSHELL
+   Part Type: GREASES
+   Units: PAIL
+   PDFs: 3 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 5/50
+
+[19149] Cargando página...
+[19149] ✓ Página cargada
+[19149] ⏳ Esperando carga dinámica de imágenes...
+[19149] ✓ Datos extraídos:
+   Nombre: 14-6.6LB
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/50452/.JPG/SAM_7442.JPG
+   Manufacturer: AEROSHELL
+   Part Type: GREASES
+   Units: CAN
+   PDFs: 3 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 6/50
+
+[23969] Cargando página...
+[23969] ✓ Página cargada
+[23969] ⏳ Esperando carga dinámica de imágenes...
+[23969] ✓ Datos extraídos:
+   Nombre: 14-CTG
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562735/.PNG/14-CTG.PNG
+   Manufacturer: AEROSHELL
+   Part Type: GREASES
+   Units: CARTRIDGE
+   PDFs: 2 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 7/50
+
+[22646] Cargando página...
+[22646] ✓ Página cargada
+[22646] ⏳ Esperando carga dinámica de imágenes...
+[22646] ✓ Datos extraídos:
+   Nombre: 15W50-55GL
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/566451/.png/W100PLUS-55GL-removebg-preview.png
+   Manufacturer: AEROSHELL
+   Part Type: PISTON ENGINE OIL
+   Units: DRUM
+   PDFs: 1 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 8/50
+
+[54365] Cargando página...
+[54365] ✓ Página cargada
+[54365] ⏳ Esperando carga dinámica de imágenes...
+[54365] ✓ Datos extraídos:
+   Nombre: 15W50-QT
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562754/.PNG/15W50-QT.PNG
+   Manufacturer: AEROSHELL
+   Part Type: PISTON ENGINE OIL
+   Units: Quart
+   PDFs: 3 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 9/50
+
+[8921] Cargando página...
+[8921] ✓ Página cargada
+[8921] ⏳ Esperando carga dinámica de imágenes...
+[8921] ✓ Datos extraídos:
+   Nombre: 22-37.5LB
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/566504/.png/22-37.5LB.png
+   Manufacturer: AEROSHELL
+   Part Type: GREASES
+   Units: PAIL
+   PDFs: 2 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 10/50
+
+[34779] Cargando página...
+[34779] ✓ Página cargada
+[34779] ⏳ Esperando carga dinámica de imágenes...
+[34779] ✓ Datos extraídos:
+   Nombre: 22-55GL
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/656763/.png/image-removebg-preview (53).png
+   Manufacturer: AEROSHELL
+   Part Type: GREASES
+   Units: DRUM
+   PDFs: 1 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 11/50
+
+[21610] Cargando página...
+[21610] ✓ Página cargada
+[21610] ⏳ Esperando carga dinámica de imágenes...
+[21610] ✓ Datos extraídos:
+   Nombre: 22-6.6LB
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/42047/.JPG/SAM_2349.JPG
+   Manufacturer: AEROSHELL
+   Part Type: GREASES
+   Units: CAN
+   PDFs: 2 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 12/50
+
+[124734] Cargando página...
+[124734] ✓ Página cargada
+[124734] ⏳ Esperando carga dinámica de imágenes...
+[124734] ✓ Datos extraídos:
+   Nombre: 22-CTG
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562765/.PNG/22-CTG.PNG
+   Manufacturer: AEROSHELL
+   Part Type: GREASES
+   Units: TUBE
+   PDFs: 4 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 13/50
+
+[201366] Cargando página...
+[201366] ✓ Página cargada
+[201366] ⏳ Esperando carga dinámica de imágenes...
+[201366] ✓ Datos extraídos:
+   Nombre: 33-1KG
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/726926/.png/image-removebg-preview - 2022-04-21T143559.754.png
+   Manufacturer: AEROSHELL
+   Part Type: GREASES
+   Units: KILOGRAM
+   PDFs: 0 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 14/50
+
+[28091] Cargando página...
+[28091] ✓ Página cargada
+[28091] ⏳ Esperando carga dinámica de imágenes...
+[28091] ✓ Datos extraídos:
+   Nombre: 33-37.5LB
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/566512/.png/33.png
+   Manufacturer: AEROSHELL
+   Part Type: GREASES
+   Units: PAIL
+   PDFs: 2 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 15/50
+
+[35519] Cargando página...
+[35519] ✓ Página cargada
+[35519] ⏳ Esperando carga dinámica de imágenes...
+[35519] ✓ Datos extraídos:
+   Nombre: 33-6.6LB
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562767/.PNG/33-6.6LB.PNG
+   Manufacturer: AEROSHELL
+   Part Type: GREASES
+   Units: CAN
+   PDFs: 3 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 16/50
+
+[9300] Cargando página...
+[9300] ✓ Página cargada
+[9300] ⏳ Esperando carga dinámica de imágenes...
+[9300] ✓ Datos extraídos:
+   Nombre: 5-37.5LB
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/566417/.png/5-37.5LB-removebg-preview.png
+   Manufacturer: AEROSHELL
+   Part Type: GREASES
+   Units: PAIL
+   PDFs: 2 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 17/50
+
+[19104] Cargando página...
+[19104] ✓ Página cargada
+[19104] ⏳ Esperando carga dinámica de imágenes...
+[19104] ✓ Datos extraídos:
+   Nombre: 5-6.6LB
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562774/.PNG/5-6.6LB.PNG
+   Manufacturer: AEROSHELL
+   Part Type: GREASES
+   Units: CAN
+   PDFs: 3 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 18/50
+
+[204829] Cargando página...
+[204829] ✓ Página cargada
+[204829] ⏳ Esperando carga dinámica de imágenes...
+[204829] ✓ Datos extraídos:
+   Nombre: 58-CTG
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/814746/.png/image-removebg-preview - 2022-09-06T161713.914.png
+   Manufacturer: AEROSHELL
+   Part Type: GREASES
+   Units: Each
+   PDFs: 2 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 19/50
+
+[73937] Cargando página...
+[73937] ✓ Página cargada
+[73937] ⏳ Esperando carga dinámica de imágenes...
+[73937] ✓ Datos extraídos:
+   Nombre: 5-CTG
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562782/.PNG/5-CTG.PNG
+   Manufacturer: AEROSHELL
+   Part Type: GREASES
+   Units: TUBE
+   PDFs: 2 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 20/50
+
+[1805] Cargando página...
+[1805] ✓ Página cargada
+[1805] ⏳ Esperando carga dinámica de imágenes...
+[1805] ✓ Datos extraídos:
+   Nombre: 6-37.5LB
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/566611/.png/6-37.5lb.png
+   Manufacturer: AEROSHELL
+   Part Type: GREASES
+   Units: PAIL
+   PDFs: 2 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 21/50
+
+[188792] Cargando página...
+[188792] ✓ Página cargada
+[188792] ⏳ Esperando carga dinámica de imágenes...
+[188792] ✓ Datos extraídos:
+   Nombre: 64-37.5LB
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/566405/.png/64-37.5LB-removebg-preview.png
+   Manufacturer: AEROSHELL
+   Part Type: PAINTS
+   Units: PAIL
+   PDFs: 1 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 22/50
+
+[188791] Cargando página...
+[188791] ✓ Página cargada
+[188791] ⏳ Esperando carga dinámica de imágenes...
+[188791] ✓ Datos extraídos:
+   Nombre: 64-6.6LB
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562820/.PNG/64-6.6LB.PNG
+   Manufacturer: AEROSHELL
+   Part Type: GREASES
+   Units: CAN
+   PDFs: 2 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 23/50
+
+[190814] Cargando página...
+[190814] ✓ Página cargada
+[190814] ⏳ Esperando carga dinámica de imágenes...
+[190814] ✓ Datos extraídos:
+   Nombre: 64-CTG
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562821/.PNG/64-CTG.PNG
+   Manufacturer: AEROSHELL
+   Part Type: GREASES
+   Units: TUBE
+   PDFs: 2 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 24/50
+
+[175168] Cargando página...
+[175168] ✓ Página cargada
+[175168] ⏳ Esperando carga dinámica de imágenes...
+[175168] ✓ Datos extraídos:
+   Nombre: 65-QT
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/688550/.png/shell1-removebg-preview (1).png
+   Manufacturer: AEROSHELL
+   Part Type: PISTON ENGINE OIL
+   Units: Quart
+   PDFs: 2 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 25/50
+
+[18987] Cargando página...
+[18987] ✓ Página cargada
+[18987] ⏳ Esperando carga dinámica de imágenes...
+[18987] ✓ Datos extraídos:
+   Nombre: 6-6.6LB
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562822/.PNG/6-6.6LB.PNG
+   Manufacturer: AEROSHELL
+   Part Type: GREASES
+   Units: CAN
+   PDFs: 3 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 26/50
+
+[173688] Cargando página...
+[173688] ✓ Página cargada
+[173688] ⏳ Esperando carga dinámica de imágenes...
+[173688] ✓ Datos extraídos:
+   Nombre: 6-CTG
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562823/.PNG/6-CTG.PNG
+   Manufacturer: AEROSHELL
+   Part Type: GREASES
+   Units: TUBE
+   PDFs: 1 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 27/50
+
+[10210] Cargando página...
+[10210] ✓ Página cargada
+[10210] ⏳ Esperando carga dinámica de imágenes...
+[10210] ✓ Datos extraídos:
+   Nombre: 7-37.5LB
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/566618/.png/7-37.5LB.png
+   Manufacturer: AEROSHELL
+   Part Type: GREASES
+   Units: PAIL
+   PDFs: 2 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 28/50
+
+[19883] Cargando página...
+[19883] ✓ Página cargada
+[19883] ⏳ Esperando carga dinámica de imágenes...
+[19883] ✓ Datos extraídos:
+   Nombre: 7-6.6LB
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562824/.PNG/7-6.6LB.PNG
+   Manufacturer: AEROSHELL
+   Part Type: GREASES
+   Units: CAN
+   PDFs: 3 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 29/50
+
+[175650] Cargando página...
+[175650] ✓ Página cargada
+[175650] ⏳ Esperando carga dinámica de imágenes...
+[175650] ✓ Datos extraídos:
+   Nombre: 7-CTG
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562825/.PNG/7-CTG.PNG
+   Manufacturer: AEROSHELL
+   Part Type: GREASES
+   Units: CARTRIDGE
+   PDFs: 3 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 30/50
+
+[169450] Cargando página...
+[169450] ✓ Página cargada
+[169450] ⏳ Esperando carga dinámica de imágenes...
+[169450] ✓ Datos extraídos:
+   Nombre: AEROSHELL308-QT
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1516215/.png/ASTO308_1qt tin pack image.png
+   Manufacturer: AEROSHELL
+   Part Type: TURBINE ENGINE OIL
+   Units: Quart
+   PDFs: 3 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 31/50
+
+[42603] Cargando página...
+[42603] ✓ Página cargada
+[42603] ⏳ Esperando carga dinámica de imágenes...
+[42603] ✓ Datos extraídos:
+   Nombre: AEROSHELL #33MS (37.5 LB PAIL)
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1508908/.png/aeroshell.png
+   Manufacturer: AEROSHELL
+   Part Type: GREASES
+   Units: PAIL
+   PDFs: 1 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 32/50
+
+[38143] Cargando página...
+[38143] ✓ Página cargada
+[38143] ⏳ Esperando carga dinámica de imágenes...
+[38143] ✓ Datos extraídos:
+   Nombre: AEROSHELL500-55GL
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/566652/.png/W100PLUS-55GL-removebg-preview.png
+   Manufacturer: AEROSHELL
+   Part Type: TURBINE ENGINE OIL
+   Units: DRUM
+   PDFs: 4 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 33/50
+
+[71895] Cargando página...
+[71895] ✓ Página cargada
+[71895] ⏳ Esperando carga dinámica de imágenes...
+[71895] ✓ Datos extraídos:
+   Nombre: AEROSHELL500-QT
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562834/.PNG/AEROSHELL500-QT.PNG
+   Manufacturer: AEROSHELL
+   Part Type: TURBINE ENGINE OIL
+   Units: Quart
+   PDFs: 2 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 34/50
+
+[51250] Cargando página...
+[51250] ✓ Página cargada
+[51250] ⏳ Esperando carga dinámica de imágenes...
+[51250] ✓ Datos extraídos:
+   Nombre: AEROSHELL555-QT
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/175534/.JPG/IMG_7305.JPG
+   Manufacturer: AEROSHELL
+   Part Type: TURBINE ENGINE OIL
+   Units: Quart
+   PDFs: 5 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 35/50
+
+[171527] Cargando página...
+[171527] ✓ Página cargada
+[171527] ⏳ Esperando carga dinámica de imágenes...
+[171527] ✓ Datos extraídos:
+   Nombre: AEROSHELL560-QT
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/563331/.PNG/AEROSHELL560-QT.PNG
+   Manufacturer: AEROSHELL
+   Part Type: TURBINE ENGINE OIL
+   Units: Quart
+   PDFs: 1 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 36/50
+
+[189141] Cargando página...
+[189141] ✓ Página cargada
+[189141] ⏳ Esperando carga dinámica de imágenes...
+[189141] ✓ Datos extraídos:
+   Nombre: AEROSHELL 750-QT
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/562826/.PNG/AEROSHELL 750-QT.PNG
+   Manufacturer: AEROSHELL
+   Part Type: TURBINE ENGINE OIL
+   Units: Quart
+   PDFs: 2 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 37/50
+
+[37657] Cargando página...
+[37657] ✓ Página cargada
+[37657] ⏳ Esperando carga dinámica de imágenes...
+[37657] ✓ Datos extraídos:
+   Nombre: AEROSHELL COMPOUND 07 (20 LITER)
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/751217/.png/image-removebg-preview - 2022-05-27T165535.303.png
+   Manufacturer: AEROSHELL
+   Part Type: TURBINE ENGINE OIL
+   Units: Each
+   PDFs: 1 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 38/50
+
+[194795] Cargando página...
+[194795] ✓ Página cargada
+[194795] ⏳ Esperando carga dinámica de imágenes...
+[194795] ✓ Datos extraídos:
+   Nombre: AEROSHELL DIESEL ULTRA-LT
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/140037/.jpg/SAM_3074.jpg
+   Manufacturer: AEROSHELL
+   Part Type: PISTON ENGINE OIL
+   Units: Liter
+   PDFs: 3 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 39/50
+
+[166178] Cargando página...
+[166178] ✓ Página cargada
+[166178] ⏳ Esperando carga dinámica de imágenes...
+[166178] ✓ Datos extraídos:
+   Nombre: ASF2XN-5GL
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/563336/.PNG/ASF2XN-5GL.PNG
+   Manufacturer: AEROSHELL
+   Part Type: SPECIALTY
+   Units: PAIL
+   PDFs: 4 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 40/50
+
+[190941] Cargando página...
+[190941] ✓ Página cargada
+[190941] ⏳ Esperando carga dinámica de imágenes...
+[190941] ✗ Error: allImages is not defined
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 41/50
+
+[23664] Cargando página...
+[23664] ✓ Página cargada
+[23664] ⏳ Esperando carga dinámica de imágenes...
+[23664] ✓ Datos extraídos:
+   Nombre: ASF41-203LT
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/660070/.png/image-removebg-preview (53).png
+   Manufacturer: AEROSHELL
+   Part Type: HYDRAULIC FLUID
+   Units: DRUM
+   PDFs: 1 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 42/50
+
+[129235] Cargando página...
+[129235] ✓ Página cargada
+[129235] ⏳ Esperando carga dinámica de imágenes...
+[129235] ✓ Datos extraídos:
+   Nombre: ASF41-GL
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/563360/.PNG/ASF41-GL.PNG
+   Manufacturer: AEROSHELL
+   Part Type: HYDRAULIC FLUID
+   Units: Gallon
+   PDFs: 4 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 43/50
+
+[174674] Cargando página...
+[174674] ✓ Página cargada
+[174674] ⏳ Esperando carga dinámica de imágenes...
+[174674] ✓ Datos extraídos:
+   Nombre: ASF41-QT
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/563361/.PNG/ASF41-QT.PNG
+   Manufacturer: AEROSHELL
+   Part Type: HYDRAULIC FLUID
+   Units: Quart
+   PDFs: 4 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 44/50
+
+[200745] Cargando página...
+[200745] ✓ Página cargada
+[200745] ⏳ Esperando carga dinámica de imágenes...
+[200745] ✓ Datos extraídos:
+   Nombre: ASTO390-QT
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1516260/.png/ASTO390_1qt tin pack image.png
+   Manufacturer: AEROSHELL
+   Part Type: TURBINE ENGINE OIL
+   Units: Quart
+   PDFs: 1 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 45/50
+
+[194045] Cargando página...
+[194045] ✓ Página cargada
+[194045] ⏳ Esperando carga dinámica de imágenes...
+[194045] ✓ Datos extraídos:
+   Nombre: SPORTPLUS4-LT
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/563637/.PNG/SPORTPLUS4-LT.PNG
+   Manufacturer: AEROSHELL
+   Part Type: PISTON ENGINE OIL
+   Units: Liter
+   PDFs: 2 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 46/50
+
+[23509] Cargando página...
+[23509] ✓ Página cargada
+[23509] ⏳ Esperando carga dinámica de imágenes...
+[23509] ✓ Datos extraídos:
+   Nombre: W100-55GL
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/161314/.jpg/2.jpg
+   Manufacturer: AEROSHELL
+   Part Type: PISTON ENGINE OIL
+   Units: DRUM
+   PDFs: 3 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 47/50
+
+[194240] Cargando página...
+[194240] ✓ Página cargada
+[194240] ⏳ Esperando carga dinámica de imágenes...
+[194240] ✓ Datos extraídos:
+   Nombre: W100-5LT
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/758984/.png/image-removebg-preview - 2022-06-09T153412.945.png
+   Manufacturer: AEROSHELL
+   Part Type: PISTON ENGINE OIL
+   Units: Each
+   PDFs: 2 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 48/50
+
+[35651] Cargando página...
+[35651] ✓ Página cargada
+[35651] ⏳ Esperando carga dinámica de imágenes...
+[35651] ✓ Datos extraídos:
+   Nombre: W100PLUS-55GL
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/161312/.JPG/IMG_7248.JPG
+   Manufacturer: AEROSHELL
+   Part Type: PISTON ENGINE OIL
+   Units: DRUM
+   PDFs: 2 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 49/50
+
+[194037] Cargando página...
+[194037] ✓ Página cargada
+[194037] ⏳ Esperando carga dinámica de imágenes...
+[194037] ✓ Datos extraídos:
+   Nombre: W120-5LT
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/563619/.PNG/W100-5LT.PNG
+   Manufacturer: AEROSHELL
+   Part Type: PISTON ENGINE OIL
+   Units: CAN
+   PDFs: 3 archivos
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Producto 50/50
+
+[196894] Cargando página...
+[196894] ✓ Página cargada
+[196894] ⏳ Esperando carga dinámica de imágenes...
+[196894] ✓ Datos extraídos:
+   Nombre: W120-QT
+   Imagen: ✓ SI
+   URL Imagen: https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/339622/.jpg/W120_carton.jpg
+   Manufacturer: AEROSHELL
+   Part Type: PISTON ENGINE OIL
+   Units: Each
+   PDFs: 1 archivos
+
+
+✅ SCRAPING COMPLETADO!
+📄 Archivo: /Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/tools/aeroshell-scraped-data.json
+📊 Total: 50 productos
+
+📋 RESUMEN FINAL:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Part#      | Nombre Producto           | Manufacturer    | PDFs 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+29616      | 100-55GL                  | AEROSHELL       | 1
+39603      | 100-QT                    | AEROSHELL       | 2
+19185      | 120-55GL                  | AEROSHELL       | 1
+19150      | 14-37.5LB                 | AEROSHELL       | 3
+19149      | 14-6.6LB                  | AEROSHELL       | 3
+23969      | 14-CTG                    | AEROSHELL       | 2
+22646      | 15W50-55GL                | AEROSHELL       | 1
+54365      | 15W50-QT                  | AEROSHELL       | 3
+8921       | 22-37.5LB                 | AEROSHELL       | 2
+34779      | 22-55GL                   | AEROSHELL       | 1
+21610      | 22-6.6LB                  | AEROSHELL       | 2
+124734     | 22-CTG                    | AEROSHELL       | 4
+201366     | 33-1KG                    | AEROSHELL       | 0
+28091      | 33-37.5LB                 | AEROSHELL       | 2
+35519      | 33-6.6LB                  | AEROSHELL       | 3
+9300       | 5-37.5LB                  | AEROSHELL       | 2
+19104      | 5-6.6LB                   | AEROSHELL       | 3
+204829     | 58-CTG                    | AEROSHELL       | 2
+73937      | 5-CTG                     | AEROSHELL       | 2
+1805       | 6-37.5LB                  | AEROSHELL       | 2
+188792     | 64-37.5LB                 | AEROSHELL       | 1
+188791     | 64-6.6LB                  | AEROSHELL       | 2
+190814     | 64-CTG                    | AEROSHELL       | 2
+175168     | 65-QT                     | AEROSHELL       | 2
+18987      | 6-6.6LB                   | AEROSHELL       | 3
+173688     | 6-CTG                     | AEROSHELL       | 1
+10210      | 7-37.5LB                  | AEROSHELL       | 2
+19883      | 7-6.6LB                   | AEROSHELL       | 3
+175650     | 7-CTG                     | AEROSHELL       | 3
+169450     | AEROSHELL308-QT           | AEROSHELL       | 3
+42603      | AEROSHELL #33MS (37.5 LB  | AEROSHELL       | 1
+38143      | AEROSHELL500-55GL         | AEROSHELL       | 4
+71895      | AEROSHELL500-QT           | AEROSHELL       | 2
+51250      | AEROSHELL555-QT           | AEROSHELL       | 5
+171527     | AEROSHELL560-QT           | AEROSHELL       | 1
+189141     | AEROSHELL 750-QT          | AEROSHELL       | 2
+37657      | AEROSHELL COMPOUND 07 (20 | AEROSHELL       | 1
+194795     | AEROSHELL DIESEL ULTRA-LT | AEROSHELL       | 3
+166178     | ASF2XN-5GL                | AEROSHELL       | 4
+190941     | 190941                    | N/A             | 0
+23664      | ASF41-203LT               | AEROSHELL       | 1
+129235     | ASF41-GL                  | AEROSHELL       | 4
+174674     | ASF41-QT                  | AEROSHELL       | 4
+200745     | ASTO390-QT                | AEROSHELL       | 1
+194045     | SPORTPLUS4-LT             | AEROSHELL       | 2
+23509      | W100-55GL                 | AEROSHELL       | 3
+194240     | W100-5LT                  | AEROSHELL       | 2
+35651      | W100PLUS-55GL             | AEROSHELL       | 2
+194037     | W120-5LT                  | AEROSHELL       | 3
+196894     | W120-QT                   | AEROSHELL       | 1
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

@@ -1,0 +1,24 @@
+{
+  "url": "https://portal.skymart.aero/shop/part/81697",
+  "partNumber": "81697",
+  "description": "",
+  "price": "",
+  "specifications": {},
+  "inventory": [],
+  "datasheets": [
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/942047/.PDF/P3410305_998894_SDSUS_Z8.PDF",
+      "filename": "81697_1.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/81697_1.pdf",
+      "size": 438345
+    }
+  ],
+  "productImage": {
+    "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/574820/.png",
+    "filename": "81697.png",
+    "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/images/81697.png",
+    "size": 316
+  },
+  "alternates": [],
+  "scrapedAt": "2026-03-08T19:13:11.953Z"
+}

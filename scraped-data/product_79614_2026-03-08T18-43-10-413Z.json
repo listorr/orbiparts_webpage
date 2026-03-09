@@ -1,0 +1,68 @@
+{
+  "url": "https://portal.skymart.aero/shop/part/79614",
+  "partNumber": "2197-QT",
+  "description": "",
+  "price": "",
+  "specifications": {},
+  "inventory": [],
+  "datasheets": [
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/346446/.pdf/productcatalog_eastman_com_tds_ProdDatasheet_aspx_product_71097791.pdf",
+      "filename": "79614_1.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/79614_1.pdf",
+      "size": 103237,
+      "realFilename": "productcatalog_eastman_com_tds_ProdDatasheet_aspx_product_71097791.pdf",
+      "docType": "Technical Document",
+      "language": "English",
+      "displayName": "Technical Document (English)"
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1264029/.pdf/2197_spanish_sds.pdf",
+      "filename": "79614_2.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/79614_2.pdf",
+      "size": 176591,
+      "realFilename": "2197_spanish_sds.pdf",
+      "docType": "Safety Data Sheet",
+      "language": "Spanish",
+      "displayName": "Safety Data Sheet (Spanish)"
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1572289/.PDF/P3435805_1371923_SDSUS_Z8.PDF",
+      "filename": "79614_3.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/79614_3.pdf",
+      "size": 227460,
+      "realFilename": "P3435805_1371923_SDSUS_Z8.PDF",
+      "docType": "Safety Data Sheet",
+      "language": "English",
+      "displayName": "Safety Data Sheet (English)"
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1925611/.pdf/SDS_2197.pdf",
+      "filename": "79614_4.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/79614_4.pdf",
+      "size": 244604,
+      "realFilename": "SDS_2197.pdf",
+      "docType": "Safety Data Sheet",
+      "language": "English",
+      "displayName": "Safety Data Sheet (English)"
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1996877/.pdf/SDS.pdf",
+      "filename": "79614_5.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/79614_5.pdf",
+      "size": 222926,
+      "realFilename": "SDS.pdf",
+      "docType": "Safety Data Sheet",
+      "language": "English",
+      "displayName": "Safety Data Sheet (English)"
+    }
+  ],
+  "productImage": {
+    "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/571571/.png/2197-QT-removebg-preview.png",
+    "filename": "79614.png",
+    "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/images/79614.png",
+    "size": 67094
+  },
+  "alternates": [],
+  "scrapedAt": "2026-03-08T18:43:36.845Z"
+}

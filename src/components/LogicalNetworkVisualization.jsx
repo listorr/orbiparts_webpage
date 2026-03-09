@@ -351,7 +351,7 @@ const LogicalNetworkVisualization = () => {
               {/* Stats */}
               <div className="mt-3 lg:mt-4 grid grid-cols-2 gap-2">
                 <div className="bg-white/15 backdrop-blur-sm rounded-lg p-2 border border-white/20">
-                  <div className="text-base lg:text-lg font-bold text-white">+1000</div>
+                  <div className="text-base lg:text-lg font-bold text-white">+2000</div>
                   <div className="text-[7px] lg:text-[8px] text-blue-100 uppercase tracking-wide">Suppliers</div>
                 </div>
                 <div className="bg-white/15 backdrop-blur-sm rounded-lg p-2 border border-white/20">

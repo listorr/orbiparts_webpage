@@ -1,0 +1,30 @@
+{
+  "url": "https://portal.skymart.aero/shop/part/21797",
+  "partNumber": "21797",
+  "description": "",
+  "price": "",
+  "specifications": {},
+  "inventory": [],
+  "datasheets": [
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/637225/.pdf",
+      "filename": "21797_1.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/21797_1.pdf",
+      "size": 316
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/1999483/.PDF/P3410204_1420460_SDSUS_Z8.PDF",
+      "filename": "21797_2.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/21797_2.pdf",
+      "size": 447015
+    }
+  ],
+  "productImage": {
+    "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/571772/.png/LD4-QT-removebg-preview.png",
+    "filename": "21797.png",
+    "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/images/21797.png",
+    "size": 66753
+  },
+  "alternates": [],
+  "scrapedAt": "2026-03-08T19:14:59.183Z"
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://portal.skymart.aero/shop/part/60598",
+  "partNumber": "60598",
+  "description": "",
+  "price": "",
+  "specifications": {},
+  "inventory": [],
+  "datasheets": [
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/461205/.pdf/report.jsp.pdf",
+      "filename": "60598_1.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/60598_1.pdf",
+      "size": 299028
+    },
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/477198/.pdf/504760_ScanTemp.pdf",
+      "filename": "60598_2.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/60598_2.pdf",
+      "size": 354941
+    }
+  ],
+  "productImage": {
+    "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/574823/.png/REFERENCE_OIL_300-GL-removebg-preview.png",
+    "filename": "60598.png",
+    "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/images/60598.png",
+    "size": 319873
+  },
+  "alternates": [],
+  "scrapedAt": "2026-03-08T19:13:37.073Z"
+}

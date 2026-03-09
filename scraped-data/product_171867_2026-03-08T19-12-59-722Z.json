@@ -1,0 +1,24 @@
+{
+  "url": "https://portal.skymart.aero/shop/part/171867",
+  "partNumber": "171867",
+  "description": "",
+  "price": "",
+  "specifications": {},
+  "inventory": [],
+  "datasheets": [
+    {
+      "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/71643/.pdf/SKYKLEEN_2000.pdf",
+      "filename": "171867_1.pdf",
+      "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/pdfs/171867_1.pdf",
+      "size": 264859
+    }
+  ],
+  "productImage": {
+    "url": "https://portal.skymart.aero/api/docServ/doc/c1094/skymart_shopQC/shopQC/580930/.png/SK2000-QT-removebg-preview.png",
+    "filename": "171867.png",
+    "localPath": "/Users/luistorrentenaveira/Downloads/horizons-export-2ef424c8-0ac1-4054-84ba-36e23eef1963 (7)/scraped-data/images/171867.png",
+    "size": 69539
+  },
+  "alternates": [],
+  "scrapedAt": "2026-03-08T19:14:10.192Z"
+}
