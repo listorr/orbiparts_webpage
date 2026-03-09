@@ -193,9 +193,9 @@ const EastmanMarketplace = () => {
                         </div>
                         <button 
                           onClick={() => addToCart(product)}
-                          className="w-full bg-gradient-to-r from-green-600 to-green-700 text-white px-4 py-2 rounded-lg hover:shadow-lg transition-all flex items-center justify-center gap-2"
+                          className="w-full bg-gradient-to-r from-green-600 to-green-700 text-white px-3 py-1.5 text-sm rounded-lg hover:shadow-lg transition-all flex items-center justify-center gap-1.5"
                         >
-                          <ShoppingCart className="h-4 w-4" />
+                          <ShoppingCart className="h-3.5 w-3.5" />
                           Agregar a Cotización
                         </button>
                       </div>

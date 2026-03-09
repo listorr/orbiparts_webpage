@@ -19,6 +19,7 @@ const QuoteRequestModal = ({ isOpen, onClose, cartItems, onSuccess }) => {
     position: '',
     country: '',
     city: '',
+    destination: '',
     comments: ''
   });
 
@@ -48,6 +49,14 @@ const QuoteRequestModal = ({ isOpen, onClose, cartItems, onSuccess }) => {
       toast({
         title: "Validation Error",
         description: "Please enter your company name",
+        variant: "destructive"
+      });
+      return false;
+    }
+    if (!formData.destination.trim()) {
+      toast({
+        title: "Validation Error",
+        description: "Please enter the shipping destination",
         variant: "destructive"
       });
       return false;
@@ -137,6 +146,10 @@ const QuoteRequestModal = ({ isOpen, onClose, cartItems, onSuccess }) => {
                 <td style="padding: 8px 0;">${formData.city}</td>
               </tr>
               ` : ''}
+              <tr>
+                <td style="padding: 8px 0; font-weight: bold;">🚚 Shipping Destination:</td>
+                <td style="padding: 8px 0; color: #dc2626; font-weight: 600;">${formData.destination}</td>
+              </tr>
             </table>
 
             <h2 style="color: #dc2626; margin-top: 30px; border-bottom: 2px solid #dc2626; padding-bottom: 10px;">📦 Requested Products (${cartItems.length} items)</h2>
@@ -205,6 +218,7 @@ const QuoteRequestModal = ({ isOpen, onClose, cartItems, onSuccess }) => {
         position: '',
         country: '',
         city: '',
+        destination: '',
         comments: ''
       });
 
@@ -334,6 +348,18 @@ const QuoteRequestModal = ({ isOpen, onClose, cartItems, onSuccess }) => {
                   value={formData.city}
                   onChange={handleChange}
                   placeholder="Miami"
+                />
+              </div>
+
+              <div className="space-y-2 md:col-span-2">
+                <Label htmlFor="destination">Shipping Destination *</Label>
+                <Input
+                  id="destination"
+                  name="destination"
+                  value={formData.destination}
+                  onChange={handleChange}
+                  placeholder="Airport, City, Country (e.g., MIA - Miami International Airport, USA)"
+                  required
                 />
               </div>
             </div>
