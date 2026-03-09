@@ -59,9 +59,9 @@ const EastmanMarketplace = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
-      <div className="max-w-[1600px] mx-auto px-6 py-8 pt-28">
-        <div className="flex gap-8">
-          <motion.div initial={{ x: -20, opacity: 0 }} animate={{ x: 0, opacity: 1 }} className="w-80 flex-shrink-0">
+      <div className="max-w-[1600px] mx-auto px-3 sm:px-4 lg:px-6 py-4 sm:py-6 lg:py-8 pt-24 sm:pt-26 lg:pt-28">
+        <div className="flex gap-4 lg:gap-8">
+          <motion.div initial={{ x: -20, opacity: 0 }} animate={{ x: 0, opacity: 1 }} className="hidden lg:block w-80 flex-shrink-0">
             <div className="bg-white rounded-xl shadow-lg p-6 sticky top-24 space-y-6 max-h-[calc(100vh-7rem)] overflow-y-auto">
               <div>
                 <label className="text-sm font-semibold text-gray-700 mb-2 block">Buscar Producto</label>
@@ -142,50 +142,66 @@ const EastmanMarketplace = () => {
           </motion.div>
 
           <div className="flex-1">
+            {/* Búsqueda móvil - solo visible en móvil */}
+            <div className="lg:hidden mb-4">
+              <div className="bg-white rounded-lg shadow-md p-3">
+                <div className="relative">
+                  <Search className="absolute left-3 top-3 h-4 w-4 text-gray-400" />
+                  <input 
+                    type="text" 
+                    placeholder="Buscar productos..." 
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                    className="w-full pl-10 pr-4 py-2 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" 
+                  />
+                </div>
+              </div>
+            </div>
+            
             {filteredProducts.length > 0 ? (
-              <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+              <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-3 sm:gap-4 lg:gap-6">
                 {filteredProducts.map((product, index) => (
                   <motion.div key={product.id} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: index * 0.03 }}
-                    className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl transition-all group">
+                    transition={{ delay: index * 0.02 }}
+                    className="bg-white rounded-lg sm:rounded-xl shadow-md overflow-hidden hover:shadow-2xl transition-all group">
                     <div 
                       onClick={() => setSelectedProduct(product)}
-                      className="relative h-48 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden cursor-pointer">
+                      className="relative h-36 sm:h-40 lg:h-48 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden cursor-pointer">
                       <img src={getProductImage(product)} alt={product.displayName || product.name}
-                        className="w-full h-full object-contain p-4 group-hover:scale-110 transition-transform duration-300"
+                        className="w-full h-full object-contain p-2 sm:p-3 lg:p-4 group-hover:scale-110 transition-transform duration-300"
                         onError={(e) => { 
-                          e.target.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'%3E%3Crect fill='%23f3f4f6' width='400' height='300'/%3E%3Cg transform='translate(200,120)'%3E%3Ccircle cx='0' cy='0' r='50' fill='%239ca3af' opacity='0.3'/%3E%3Cpath d='M-20,-40 L-20,40 L20,40 L20,-40 Z' fill='%239ca3af' opacity='0.5'/%3E%3Ccircle cx='0' cy='-30' r='8' fill='%236b7280'/%3E%3C/g%3E%3Ctext fill='%236b7280' font-family='Arial' font-size='14' font-weight='600' x='50%25' y='85%25' text-anchor='middle'%3E${encodeURIComponent(product.displayName || product.name)}%3C/text%3E%3C/svg%3E`; 
+                          e.target.src = `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 200 200'%3E%3Crect fill='%23f3f4f6' width='200' height='200'/%3E%3Cg transform='translate(100,80)'%3E%3Ccircle cx='0' cy='0' r='30' fill='%239ca3af' opacity='0.3'/%3E%3Cpath d='M-15,-25 L-15,25 L15,25 L15,-25 Z' fill='%239ca3af' opacity='0.5'/%3E%3C/g%3E%3C/svg%3E`; 
                         }} />
                       {product.inStock && (
-                        <div className="absolute top-3 right-3 bg-green-500 text-white text-xs px-3 py-1 rounded-full flex items-center gap-1 shadow-lg">
-                          <CheckCircle className="h-3 w-3" /> En Stock
+                        <div className="absolute top-2 right-2 bg-green-500 text-white text-[10px] sm:text-xs px-2 py-0.5 sm:py-1 rounded-full flex items-center gap-0.5 sm:gap-1 shadow-lg">
+                          <CheckCircle className="h-2.5 w-2.5 sm:h-3 sm:w-3" /> <span className="hidden sm:inline">En Stock</span><span className="sm:hidden">Stock</span>
                         </div>
                       )}
                       {product.datasheets?.length > 0 && (
-                        <div className="absolute top-3 left-3 bg-blue-500 text-white text-xs px-3 py-1 rounded-full flex items-center gap-1 shadow-lg">
-                          <FileText className="h-3 w-3" /> {product.datasheets.length} docs
+                        <div className="absolute top-2 left-2 bg-blue-500 text-white text-[10px] sm:text-xs px-2 py-0.5 sm:py-1 rounded-full flex items-center gap-0.5 sm:gap-1 shadow-lg">
+                          <FileText className="h-2.5 w-2.5 sm:h-3 sm:w-3" /> {product.datasheets.length}
                         </div>
                       )}
                     </div>
 
-                    <div className="p-5">
-                      <div className="mb-3">
+                    <div className="p-3 sm:p-4 lg:p-5">
+                      <div className="mb-2 sm:mb-3">
                         <h3 
                           onClick={() => setSelectedProduct(product)}
-                          className="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors cursor-pointer">
+                          className="text-xs sm:text-sm lg:text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors cursor-pointer line-clamp-2 min-h-[2rem] sm:min-h-0">
                           {product.displayName || product.name}
                         </h3>
-                        <div className="flex items-center gap-2 mt-1">
-                          <p className="text-xs text-gray-500 uppercase tracking-wide">{product.brand}</p>
-                          <span className="text-gray-300">•</span>
-                          <p className="text-xs text-blue-600 font-medium">{product.category}</p>
+                        <div className="flex items-center gap-1 sm:gap-2 mt-1">
+                          <p className="text-[10px] sm:text-xs text-gray-500 uppercase tracking-wide truncate">{product.brand}</p>
+                          <span className="text-gray-300 hidden sm:inline">•</span>
+                          <p className="text-[10px] sm:text-xs text-blue-600 font-medium truncate hidden sm:block">{product.category}</p>
                         </div>
                       </div>
 
-                      <p className="text-sm text-gray-600 mb-4 line-clamp-2">{product.description}</p>
+                      <p className="text-xs sm:text-sm text-gray-600 mb-2 sm:mb-3 lg:mb-4 line-clamp-2 hidden sm:block">{product.description}</p>
 
                       {product.specifications?.length > 0 && (
-                        <div className="flex flex-wrap gap-2 mb-4">
+                        <div className="hidden lg:flex flex-wrap gap-1 sm:gap-2 mb-2 sm:mb-3 lg:mb-4">
                           {product.specifications.slice(0, 2).map((spec, idx) => (
                             <span key={idx} className="bg-blue-50 text-blue-700 text-xs px-2 py-1 rounded-full">{spec}</span>
                           ))}
@@ -197,20 +213,20 @@ const EastmanMarketplace = () => {
                         </div>
                       )}
 
-                      <div className="pt-4 border-t border-gray-100 space-y-2">
+                      <div className="pt-2 sm:pt-3 lg:pt-4 border-t border-gray-100 space-y-1.5 sm:space-y-2">
                         {/* Precio y contador de unidades */}
-                        <div className="flex items-center justify-between">
-                          <div className="flex items-center gap-3">
+                        <div className="flex items-center justify-between mb-2">
+                          <div className="flex items-center gap-2 sm:gap-3">
                             {product.price > 0 && (
-                              <p className="text-lg font-bold text-red-600">${product.price.toFixed(2)}</p>
+                              <p className="text-sm sm:text-base lg:text-lg font-bold text-red-600">${product.price.toFixed(2)}</p>
                             )}
-                            <div className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded">
+                            <div className="text-[10px] sm:text-xs text-gray-500 bg-gray-100 px-1.5 sm:px-2 py-0.5 sm:py-1 rounded">
                               {product.units || 'Unit'}
                             </div>
                           </div>
                           
-                          {/* Contador de cantidad */}
-                          <div className="flex items-center gap-2 bg-gray-100 rounded-lg px-2 py-1">
+                          {/* Contador de cantidad - oculto en móvil muy pequeño */}
+                          <div className="hidden sm:flex items-center gap-2 bg-gray-100 rounded-lg px-2 py-1">
                             <button
                               onClick={(e) => {
                                 e.stopPropagation();
@@ -236,25 +252,28 @@ const EastmanMarketplace = () => {
                         </div>
 
                         {/* Botones de acción en una línea */}
-                        <div className="flex items-center gap-2">
+                        <div className="flex items-center gap-1.5 sm:gap-2">
                           <button 
                             onClick={(e) => {
                               e.stopPropagation();
                               setSelectedProduct(product);
                             }}
-                            className="flex-1 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-3 py-1.5 text-xs rounded-lg hover:shadow-lg transition-all flex items-center justify-center gap-1"
+                            className="flex-1 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-2 sm:px-3 py-1.5 sm:py-2 text-[11px] sm:text-xs rounded-lg hover:shadow-lg transition-all flex items-center justify-center gap-0.5 sm:gap-1"
                           >
-                            Ver detalles <ChevronRight className="h-3 w-3" />
+                            <span className="hidden sm:inline">Ver detalles</span>
+                            <span className="sm:hidden">Detalles</span>
+                            <ChevronRight className="h-3 w-3" />
                           </button>
                           <button 
                             onClick={(e) => {
                               e.stopPropagation();
                               handleAddToCart(product);
                             }}
-                            className="flex-1 bg-gradient-to-r from-green-600 to-green-700 text-white px-3 py-1.5 text-xs rounded-lg hover:shadow-lg transition-all flex items-center justify-center gap-1"
+                            className="flex-1 bg-gradient-to-r from-green-600 to-green-700 text-white px-2 sm:px-3 py-1.5 sm:py-2 text-[11px] sm:text-xs rounded-lg hover:shadow-lg transition-all flex items-center justify-center gap-0.5 sm:gap-1"
                           >
                             <ShoppingCart className="h-3 w-3" />
-                            Agregar
+                            <span className="hidden sm:inline">Agregar</span>
+                            <span className="sm:hidden">+</span>
                           </button>
                         </div>
                       </div>
