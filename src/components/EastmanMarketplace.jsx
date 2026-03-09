@@ -146,9 +146,11 @@ const EastmanMarketplace = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
                 {filteredProducts.map((product, index) => (
                   <motion.div key={product.id} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: index * 0.03 }} onClick={() => setSelectedProduct(product)}
-                    className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl transition-all cursor-pointer group">
-                    <div className="relative h-48 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
+                    transition={{ delay: index * 0.03 }}
+                    className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl transition-all group">
+                    <div 
+                      onClick={() => setSelectedProduct(product)}
+                      className="relative h-48 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden cursor-pointer">
                       <img src={getProductImage(product)} alt={product.displayName || product.name}
                         className="w-full h-full object-contain p-4 group-hover:scale-110 transition-transform duration-300"
                         onError={(e) => { 
@@ -168,7 +170,9 @@ const EastmanMarketplace = () => {
 
                     <div className="p-5">
                       <div className="mb-3">
-                        <h3 className="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
+                        <h3 
+                          onClick={() => setSelectedProduct(product)}
+                          className="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors cursor-pointer">
                           {product.displayName || product.name}
                         </h3>
                         <div className="flex items-center gap-2 mt-1">
@@ -208,7 +212,10 @@ const EastmanMarketplace = () => {
                           {/* Contador de cantidad */}
                           <div className="flex items-center gap-2 bg-gray-100 rounded-lg px-2 py-1">
                             <button
-                              onClick={() => updateQuantity(product.id, -1)}
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                updateQuantity(product.id, -1);
+                              }}
                               className="text-gray-600 hover:text-red-600 transition-colors"
                             >
                               <Minus className="h-3.5 w-3.5" />
@@ -217,7 +224,10 @@ const EastmanMarketplace = () => {
                               {getQuantity(product.id)}
                             </span>
                             <button
-                              onClick={() => updateQuantity(product.id, 1)}
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                updateQuantity(product.id, 1);
+                              }}
                               className="text-gray-600 hover:text-green-600 transition-colors"
                             >
                               <Plus className="h-3.5 w-3.5" />
@@ -228,12 +238,19 @@ const EastmanMarketplace = () => {
                         {/* Botones de acción en una línea */}
                         <div className="flex items-center gap-2">
                           <button 
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              setSelectedProduct(product);
+                            }}
                             className="flex-1 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-3 py-1.5 text-xs rounded-lg hover:shadow-lg transition-all flex items-center justify-center gap-1"
                           >
                             Ver detalles <ChevronRight className="h-3 w-3" />
                           </button>
                           <button 
-                            onClick={() => handleAddToCart(product)}
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              handleAddToCart(product);
+                            }}
                             className="flex-1 bg-gradient-to-r from-green-600 to-green-700 text-white px-3 py-1.5 text-xs rounded-lg hover:shadow-lg transition-all flex items-center justify-center gap-1"
                           >
                             <ShoppingCart className="h-3 w-3" />
