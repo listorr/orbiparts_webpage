@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
   Package, FileText, CheckCircle, Search, Filter, X, Download, 
-  ChevronRight, Award, Droplet, Layers, ShoppingCart
+  ChevronRight, Award, Droplet, Layers, ShoppingCart, Plus, Minus
 } from 'lucide-react';
 import lubricantsData from '../data/lubricants-data.json';
 import { useCart } from '@/contexts/CartContext';
@@ -15,6 +15,7 @@ const EastmanMarketplace = () => {
   const [selectedBrand, setSelectedBrand] = useState('all');
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [inStockOnly, setInStockOnly] = useState(false);
+  const [quantities, setQuantities] = useState({});
   
   const products = lubricantsData.products;
   
@@ -40,6 +41,20 @@ const EastmanMarketplace = () => {
     totalProducts: products.length,
     inStock: products.filter(p => p.inStock).length,
     withDocs: products.filter(p => p.datasheets?.length > 0).length
+  };
+
+  const getQuantity = (productId) => quantities[productId] || 1;
+
+  const updateQuantity = (productId, delta) => {
+    setQuantities(prev => ({
+      ...prev,
+      [productId]: Math.max(1, (prev[productId] || 1) + delta)
+    }));
+  };
+
+  const handleAddToCart = (product) => {
+    const quantity = getQuantity(product.id);
+    addToCart({ ...product, quantity });
   };
 
   return (
@@ -178,26 +193,53 @@ const EastmanMarketplace = () => {
                         </div>
                       )}
 
-                      <div className="pt-4 border-t border-gray-100 space-y-3">
+                      <div className="pt-4 border-t border-gray-100 space-y-2">
+                        {/* Precio y contador de unidades */}
                         <div className="flex items-center justify-between">
-                          <div>
-                            {product.price > 0 ? (
-                              <p className="text-xl font-bold text-red-600">${product.price.toFixed(2)}</p>
-                            ) : (
-                              <p className="text-sm text-gray-500 font-medium">Consultar precio</p>
+                          <div className="flex items-center gap-3">
+                            {product.price > 0 && (
+                              <p className="text-lg font-bold text-red-600">${product.price.toFixed(2)}</p>
                             )}
+                            <div className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded">
+                              {product.units || 'Unit'}
+                            </div>
                           </div>
-                          <button className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-4 py-2 rounded-lg hover:shadow-lg transition-all flex items-center gap-2">
-                            Ver detalles <ChevronRight className="h-4 w-4" />
+                          
+                          {/* Contador de cantidad */}
+                          <div className="flex items-center gap-2 bg-gray-100 rounded-lg px-2 py-1">
+                            <button
+                              onClick={() => updateQuantity(product.id, -1)}
+                              className="text-gray-600 hover:text-red-600 transition-colors"
+                            >
+                              <Minus className="h-3.5 w-3.5" />
+                            </button>
+                            <span className="text-sm font-semibold min-w-[20px] text-center">
+                              {getQuantity(product.id)}
+                            </span>
+                            <button
+                              onClick={() => updateQuantity(product.id, 1)}
+                              className="text-gray-600 hover:text-green-600 transition-colors"
+                            >
+                              <Plus className="h-3.5 w-3.5" />
+                            </button>
+                          </div>
+                        </div>
+
+                        {/* Botones de acción en una línea */}
+                        <div className="flex items-center gap-2">
+                          <button 
+                            className="flex-1 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-3 py-1.5 text-xs rounded-lg hover:shadow-lg transition-all flex items-center justify-center gap-1"
+                          >
+                            Ver detalles <ChevronRight className="h-3 w-3" />
+                          </button>
+                          <button 
+                            onClick={() => handleAddToCart(product)}
+                            className="flex-1 bg-gradient-to-r from-green-600 to-green-700 text-white px-3 py-1.5 text-xs rounded-lg hover:shadow-lg transition-all flex items-center justify-center gap-1"
+                          >
+                            <ShoppingCart className="h-3 w-3" />
+                            Agregar
                           </button>
                         </div>
-                        <button 
-                          onClick={() => addToCart(product)}
-                          className="w-full bg-gradient-to-r from-green-600 to-green-700 text-white px-3 py-1.5 text-sm rounded-lg hover:shadow-lg transition-all flex items-center justify-center gap-1.5"
-                        >
-                          <ShoppingCart className="h-3.5 w-3.5" />
-                          Agregar a Cotización
-                        </button>
                       </div>
                     </div>
                   </motion.div>
