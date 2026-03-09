@@ -3,8 +3,11 @@ import { Helmet } from 'react-helmet-async';
 import { Filter, Package, ShoppingCart, AlertCircle, CheckCircle2, Calendar, ChevronDown, Search, X, Droplet, Zap, Shield, TrendingUp, Star, Clock, Box } from 'lucide-react';
 import { SEO } from '@/components/SEO';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useCart } from '@/contexts/CartContext';
+import FloatingCart from '@/components/FloatingCart';
 
 const LubricantMarketplace = () => {
+  const { addToCart } = useCart();
   const [selectedFilters, setSelectedFilters] = useState({
     inStock: false,
     partType: [],
@@ -1864,9 +1867,12 @@ const LubricantMarketplace = () => {
                           ) : null}
                         </div>
 
-                        <button className="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold rounded-xl transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+                        <button 
+                          onClick={() => addToCart(product, 1)}
+                          className="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold rounded-xl transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                        >
                           <ShoppingCart className="w-5 h-5" />
-                          Request Quote
+                          Add to Quote
                         </button>
                       </div>
                     </div>
@@ -1896,6 +1902,9 @@ const LubricantMarketplace = () => {
           )}
         </div>
       </div>
+
+      {/* Floating Cart */}
+      <FloatingCart />
     </>
   );
 };

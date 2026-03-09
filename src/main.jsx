@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import App from './App';
 import { AuthProvider } from '@/contexts/SupabaseAuthContext';
+import { CartProvider } from '@/contexts/CartContext';
 import '@/i18n';
 import '@/index.css';
 
@@ -13,7 +14,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Suspense fallback={<div></div>}>
         <Router>
           <AuthProvider>
-            <App />
+            <CartProvider>
+              <App />
+            </CartProvider>
           </AuthProvider>
         </Router>
       </Suspense>
