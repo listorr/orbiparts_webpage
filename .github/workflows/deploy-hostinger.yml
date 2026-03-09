@@ -36,7 +36,7 @@ jobs:
           name: site-dist
           path: dist
 
-      - name: Deploy via FTP to Hostinger (Clean Slate)
+      - name: Deploy via FTP to Hostinger (Incremental)
         if: success()
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
@@ -48,7 +48,6 @@ jobs:
           local-dir: dist/
           server-dir: /domains/orbiparts.com/public_html/
           log-level: standard
-          dangerous-clean-slate: true
 
       - name: Purge cache (optional curl call)
         if: success() && env.CACHE_PURGE_URL != ''
