@@ -62,7 +62,7 @@ const EastmanMarketplace = () => {
       <div className="max-w-[1600px] mx-auto px-6 py-8 pt-28">
         <div className="flex gap-8">
           <motion.div initial={{ x: -20, opacity: 0 }} animate={{ x: 0, opacity: 1 }} className="w-80 flex-shrink-0">
-            <div className="bg-white rounded-xl shadow-lg p-6 sticky top-24 space-y-6">
+            <div className="bg-white rounded-xl shadow-lg p-6 sticky top-24 space-y-6 max-h-[calc(100vh-7rem)] overflow-y-auto">
               <div>
                 <label className="text-sm font-semibold text-gray-700 mb-2 block">Buscar Producto</label>
                 <div className="relative">
